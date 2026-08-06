@@ -18,27 +18,55 @@ jobs:
       - name: Run Test Script
         env:
           SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
-          GEMINI_API_KEY: "fake-invalid-key-to-trigger-fallback"
         run: |
-          cat << 'PY_EOF' > test_chain.py
+          cat << 'PY_EOF' > test_sf.py
 import asyncio
+import os
 import json
 import logging
 import traceback
-from src.models import Config
-from src.ai.client import create_ai_client
+from openai import AsyncOpenAI
+
 logging.basicConfig(level=logging.INFO)
-with open("data/config.json", "r") as f:
-    config_dict = json.load(f)
-config = Config(**config_dict)
-client = create_ai_client(config.ai)
+
 async def main():
+    api_key = os.getenv("SILICONFLOW_API_KEY")
+    client = AsyncOpenAI(api_key=api_key, base_url="https://api.siliconflow.cn/v1")
+    
     try:
-        res = await client.complete("System", "User")
-        print("RESULT:", res)
+        response = await client.chat.completions.create(
+            model="deepseek-ai/DeepSeek-V3",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant. Output JSON."},
+                {"role": "user", "content": "Say hello in JSON format: {'msg': 'hello'}"}
+            ],
+            temperature=0.3,
+            max_tokens=2048,
+            response_format={"type": "json_object"}
+        )
+        print("WITH JSON_OBJECT:")
+        print(response.choices[0].message.content)
     except Exception as e:
-        print("EXCEPTION:", repr(e))
+        print("EXCEPTION WITH JSON_OBJECT:")
         traceback.print_exc()
+
+    try:
+        response = await client.chat.completions.create(
+            model="deepseek-ai/DeepSeek-V3",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant. Output JSON."},
+                {"role": "user", "content": "Say hello in JSON format: {'msg': 'hello'}"}
+            ],
+            temperature=0.3,
+            max_tokens=2048
+        )
+        print("WITHOUT JSON_OBJECT:")
+        print(response.choices[0].message.content)
+    except Exception as e:
+        print("EXCEPTION WITHOUT JSON_OBJECT:")
+        traceback.print_exc()
+
 asyncio.run(main())
 PY_EOF
-          uv run python test_chain.py
+          uv run pip install openai
+          uv run python test_sf.py
