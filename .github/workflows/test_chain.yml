@@ -1,0 +1,39 @@
+name: Test Chain
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+      - name: Run Test Script
+        env:
+          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
+          GEMINI_API_KEY: "fake-invalid-key-to-trigger-fallback"
+        run: |
+          cat << 'PY_EOF' > test_chain.py
+import asyncio
+import json
+import logging
+from src.models import Config
+from src.ai.client import create_ai_client
+logging.basicConfig(level=logging.INFO)
+with open("data/config.json", "r") as f:
+    config_dict = json.load(f)
+config = Config(**config_dict)
+client = create_ai_client(config.ai)
+async def main():
+    try:
+        res = await client.complete("System", "User")
+        print("RESULT:", res)
+    except Exception as e:
+        print("EXCEPTION:", repr(e))
+asyncio.run(main())
+PY_EOF
+          uv run python test_chain.py
