@@ -62,6 +62,9 @@ class GitHubScraper(BaseScraper):
             elif source.type == "repo_releases" and source.owner and source.repo:
                 release_items = await self._fetch_repo_releases(source, since)
                 items.extend(release_items)
+            elif source.type in ("trending_curriculum", "trending"):
+                trending_items = await self._fetch_trending_curriculum(source, since)
+                items.extend(trending_items)
 
         return items
 
@@ -220,5 +223,89 @@ class GitHubScraper(BaseScraper):
 
         except httpx.HTTPError as e:
             logger.warning("Error fetching releases for %s/%s: %s", owner, repo, e)
+
+        return items
+
+    async def _fetch_trending_curriculum(
+        self,
+        source: GitHubSourceConfig,
+        since: datetime,
+    ) -> List[ContentItem]:
+        """Fetch trending & curriculum GitHub repositories."""
+        items: List[ContentItem] = []
+        since_str = since.strftime("%Y-%m-%d")
+
+        # 1. Search for trending repositories created or updated recently
+        limit = getattr(source, "trending_limit", 10) or 10
+        url = f"{self.base_url}/search/repositories?q=pushed:>{since_str}&sort=stars&order=desc&per_page={limit}"
+        try:
+            response = await self.client.get(url, headers=self._get_headers(), follow_redirects=True)
+            if response.status_code == 200:
+                data = response.json()
+                for repo in data.get("items", []):
+                    pushed_at_str = repo.get("pushed_at") or repo.get("created_at")
+                    published_at = (
+                        datetime.fromisoformat(pushed_at_str.replace("Z", "+00:00"))
+                        if pushed_at_str
+                        else since
+                    )
+                    description = repo.get("description") or "GitHub Trending Repository"
+                    lang = repo.get("language") or "General"
+                    stars = repo.get("stargazers_count", 0)
+
+                    item = ContentItem(
+                        id=self._generate_id("github", "repo", str(repo["id"])),
+                        source_type=SourceType.GITHUB,
+                        title=f"GitHub Trending: {repo['full_name']} (⭐️ {stars})",
+                        url=repo["html_url"],
+                        content=f"{description}\n\nLanguage: {lang} | Stars: {stars} | Owner: {repo['owner']['login']}",
+                        author=repo["owner"]["login"],
+                        published_at=published_at,
+                        profile=source.profile,
+                        metadata={
+                            "repo": repo["full_name"],
+                            "stars": stars,
+                            "language": lang,
+                            "category": source.category,
+                        },
+                    )
+                    items.append(item)
+            else:
+                logger.warning("GitHub search API returned status %d", response.status_code)
+        except httpx.HTTPError as e:
+            logger.warning("Error searching GitHub trending: %s", e)
+
+        # 2. Fetch curated curriculum repos if configured
+        curriculum_batches = getattr(source, "curriculum_batches", []) or []
+        for batch in curriculum_batches[:3]:  # limit to top batches per run
+            for repo_name in batch:
+                if not repo_name or "/" not in repo_name:
+                    continue
+                repo_url = f"{self.base_url}/repos/{repo_name}"
+                try:
+                    res = await self.client.get(repo_url, headers=self._get_headers(), follow_redirects=True)
+                    if res.status_code == 200:
+                        repo = res.json()
+                        stars = repo.get("stargazers_count", 0)
+                        description = repo.get("description") or "Classic GitHub Curriculum Repository"
+                        lang = repo.get("language") or "General"
+                        item = ContentItem(
+                            id=self._generate_id("github", "curriculum", str(repo["id"])),
+                            source_type=SourceType.GITHUB,
+                            title=f"GitHub 经典名库: {repo['full_name']} (⭐️ {stars})",
+                            url=repo["html_url"],
+                            content=f"{description}\n\nLanguage: {lang} | Stars: {stars}",
+                            author=repo["owner"]["login"],
+                            published_at=since,
+                            profile=source.profile,
+                            metadata={
+                                "repo": repo["full_name"],
+                                "stars": stars,
+                                "category": source.category,
+                            },
+                        )
+                        items.append(item)
+                except httpx.HTTPError as e:
+                    logger.warning("Error fetching curriculum repo %s: %s", repo_name, e)
 
         return items
