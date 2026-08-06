@@ -5,14 +5,51 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
       - name: Install uv
-        uses: astral-sh/setup-uv@v6
+        uses: astral-sh/setup-uv@v3
       - name: Test Env
         env:
           SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
-        run: uv run python -c "import os; print('KEY IN ENV?', 'SILICONFLOW_API_KEY' in os.environ)"
+        run: |
+          cat << 'PY_EOF' > test_sf.py
+import asyncio
+import os
+import traceback
+from openai import AsyncOpenAI
+async def main():
+    api_key = os.getenv("SILICONFLOW_API_KEY")
+    client = AsyncOpenAI(api_key=api_key, base_url="https://api.siliconflow.cn/v1")
+    
+    try:
+        response = await client.chat.completions.create(
+            model="deepseek-ai/DeepSeek-V3",
+            messages=[{"role": "user", "content": "hi"}],
+            temperature=0.3,
+            max_tokens=2048,
+            response_format={"type": "json_object"}
+        )
+        print("WITH JSON_OBJECT:", response.choices[0].message.content)
+    except Exception as e:
+        print("EXCEPTION WITH JSON_OBJECT:")
+        traceback.print_exc()
+
+    try:
+        response = await client.chat.completions.create(
+            model="deepseek-ai/DeepSeek-V3",
+            messages=[{"role": "user", "content": "hi"}],
+            temperature=0.3,
+            max_tokens=2048
+        )
+        print("WITHOUT JSON_OBJECT:", response.choices[0].message.content)
+    except Exception as e:
+        print("EXCEPTION WITHOUT JSON_OBJECT:")
+        traceback.print_exc()
+asyncio.run(main())
+PY_EOF
+          uv run pip install openai
+          uv run python test_sf.py
