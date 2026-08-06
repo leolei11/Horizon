@@ -685,6 +685,13 @@ class WebhookNotifier:
             return None
 
         platform = (self.config.platform or "").lower()
+        if platform == "bark" or (data.get("code") == 200 and "message" in data):
+            code = data.get("code")
+            if code is not None and code != 200:
+                msg = data.get("message") or ""
+                return f"Bark error (code={code}): {msg}"
+            return None
+
         check_all = platform in ("", "generic")
 
         if platform in ("feishu", "lark") or check_all:

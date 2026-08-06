@@ -134,7 +134,7 @@
     "enabled": true,
     "url_env": "BARK_URL",
     "delivery": "summary",
-    "platform": "generic",
+    "platform": "bark",
     "layout": "markdown",
     "request_body": {
       "title": "Horizon 日报 (#{date})",
