@@ -226,6 +226,7 @@ class OpenAIClient(AIClient):
         # Some newer models (e.g. Claude Opus 4.7 on Bedrock Converse) reject
         # `temperature`. We learn this on first 400 and stop sending it.
         self._supports_temperature = True
+        self._supports_response_format = True
         self._use_max_completion_tokens = any(
             config.model.startswith(prefix)
             for prefix in self._MODELS_REQUIRING_MAX_COMPLETION_TOKENS
@@ -301,6 +302,16 @@ class OpenAIClient(AIClient):
                     include_temperature=self._supports_temperature,
                     use_max_completion_tokens=True,
                 )
+            elif self._supports_response_format:
+                self._supports_response_format = False
+                response = await self._do_request(
+                    system=system,
+                    user=user,
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                    include_temperature=self._supports_temperature,
+                    use_max_completion_tokens=self._use_max_completion_tokens,
+                )
             else:
                 raise
         usage = getattr(response, "usage", None)
@@ -333,7 +344,7 @@ class OpenAIClient(AIClient):
         request_kwargs[token_param] = max_tokens
         if include_temperature:
             request_kwargs["temperature"] = temperature
-        if self.provider not in self._NO_RESPONSE_FORMAT:
+        if self.provider not in self._NO_RESPONSE_FORMAT and self._supports_response_format:
             request_kwargs["response_format"] = {"type": "json_object"}
         return await self.client.chat.completions.create(**request_kwargs)
 
@@ -634,6 +645,8 @@ class ChainedAIClient(AIClient):
             return True
         if "401" in msg or "403" in msg or "quota" in msg or "exceeded" in msg:
             return True
+        if "404" in msg or "not found" in msg:
+            return True
         if "502" in msg or "503" in msg or "service unavailable" in msg:
             return True
         if "empty response" in msg:
@@ -656,11 +669,19 @@ def _create_chained_client(config: AIConfig) -> ChainedAIClient:
             raise ValueError(f"Unsupported AI provider in chain: {name}")
 
         defaults = AI_PROVIDER_DEFAULTS.get(provider, {})
-        base_url = config.base_url if provider == config.provider else defaults.get("base_url")
+        if provider == config.provider:
+            base_url = config.base_url
+            model = config.model
+            api_key_env = config.api_key_env
+        else:
+            base_url = config.fallback_base_url or defaults.get("base_url")
+            model = config.fallback_model or defaults.get("model", config.model)
+            api_key_env = config.fallback_api_key_env or defaults.get("api_key_env", config.api_key_env)
+
         cfg = AIConfig(
             provider=provider,
-            model=defaults.get("model", config.model),
-            api_key_env=defaults.get("api_key_env", config.api_key_env),
+            model=model,
+            api_key_env=api_key_env,
             base_url=base_url,
             temperature=config.temperature,
             max_tokens=config.max_tokens,

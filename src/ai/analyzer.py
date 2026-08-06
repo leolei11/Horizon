@@ -156,7 +156,7 @@ class ContentAnalyzer:
             system=analysis_system_prompt(profile),
             user=user_prompt,
         )
-
+        logger.info("Raw analysis response: %s", response)
         result, failure = self._validate_analysis_response(response)
         if result is None:
             repair_response = await self.client.complete(
