@@ -490,7 +490,7 @@ class WebhookConfig(BaseModel):
     @field_validator("platform")
     @classmethod
     def validate_platform(cls, v: str) -> str:
-        allowed = {"generic", "feishu", "lark", "dingtalk", "slack", "discord"}
+        allowed = {"generic", "feishu", "lark", "dingtalk", "slack", "discord", "bark"}
         if v not in allowed:
             raise ValueError(f"webhook.platform must be one of {allowed}, got '{v}'")
         return v
