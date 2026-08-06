@@ -1,0 +1,145 @@
+{
+  "ai": {
+    "provider": "antigravity",
+    "model": "gemini-2.5-flash",
+    "api_key_env": "GEMINI_API_KEY",
+    "temperature": 0.3,
+    "max_tokens": 8192,
+    "throttle_sec": 4.0,
+    "analysis_concurrency": 1,
+    "analysis_batch_size": 5,
+    "enrichment_concurrency": 2,
+    "enrichment_batch_size": 5,
+    "enrichment_search_mode": "targeted",
+    "enrichment_search_results": 2,
+    "enrichment_search_timeout_sec": 10,
+    "enrichment_min_content_chars": 800,
+    "enrichment_content_max_chars": 2000,
+    "enrichment_comments_max_chars": 800,
+    "enrichment_search_snippet_max_chars": 600,
+    "enrichment_output_detail": "full",
+    "enrichment_retry_attempts": 1,
+    "enrichment_failure_fallback": "summary",
+    "enrichment_cache_ttl_days": 30,
+    "enrichment_cache_path": "data/enrichment-cache.json",
+    "enrichment_cache_scope": "all",
+    "languages": [
+      "zh"
+    ],
+    "interest_profile": "聚焦三大核心板块：1. AI / 大模型前沿与应用落地（LLM、Agent 工作流、开源大模型、实用工具）；2. 系统与基础设施（Linux 内核、容器、Kubernetes、分布式系统、高性能存储与网络）；3. 安全与隐私（重大漏洞、网络安全、密码学、隐私保护）。挑选最具应用价值、深度和社群热度的资讯。",
+    "reader_profile": "面向中文技术学习者撰写深度总结。针对每一条高分资讯，必须提供全面翔实的背景说明、核心技术原理解析、实际应用场景、项目使用门槛与优缺点评估。单篇条目摘要要求内容丰富充实，字数控制在 300 字左右。",
+    "deprioritized_topics": []
+  },
+  "sources": {
+    "github": [
+      {
+        "type": "repo_releases",
+        "owner": "vllm-project",
+        "repo": "vllm",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "ollama",
+        "repo": "ollama",
+        "enabled": true
+      }
+    ],
+    "hackernews": {
+      "enabled": true,
+      "fetch_top_stories": 25,
+      "min_score": 60
+    },
+    "rss": [
+      {
+        "name": "Simon Willison (AI)",
+        "url": "https://simonwillison.net/atom/everything/",
+        "enabled": true,
+        "category": "ai-ml"
+      },
+      {
+        "name": "Google DeepMind Blog",
+        "url": "https://deepmind.google/blog/rss.xml",
+        "enabled": true,
+        "category": "ai-ml"
+      },
+      {
+        "name": "LWN.net (Systems)",
+        "url": "https://lwn.net/headlines/rss",
+        "enabled": true,
+        "category": "systems"
+      },
+      {
+        "name": "Brendan Gregg (Systems & Perf)",
+        "url": "https://www.brendangregg.com/blog/rss.xml",
+        "enabled": true,
+        "category": "systems"
+      },
+      {
+        "name": "The Hacker News (Security)",
+        "url": "https://feeds.feedburner.com/TheHackersNews",
+        "enabled": true,
+        "category": "security"
+      }
+    ],
+    "reddit": {
+      "enabled": false,
+      "subreddits": [],
+      "users": [],
+      "fetch_comments": 0
+    },
+    "ossinsight": {
+      "enabled": true,
+      "period": "past_24_hours",
+      "languages": [
+        "All",
+        "Python",
+        "Go",
+        "Rust",
+        "C++"
+      ],
+      "keywords": [
+        "agent",
+        "ai",
+        "llm",
+        "kernel",
+        "linux",
+        "security",
+        "vulnerability",
+        "container",
+        "kubernetes"
+      ],
+      "min_stars": 10,
+      "max_items": 20
+    }
+  },
+  "processing": {
+    "profiles_dir": "profiles",
+    "default_profile": "tech-news",
+    "profile_settings": {
+      "tech-news": {
+        "threshold": 4.5,
+        "topic_dedup": true
+      }
+    }
+  },
+  "collection": {
+    "time_window_hours": 72
+  },
+  "digest": {
+    "max_items": 10,
+    "default_group": "other"
+  },
+  "webhook": {
+    "enabled": true,
+    "url_env": "BARK_URL",
+    "delivery": "summary",
+    "platform": "generic",
+    "layout": "markdown",
+    "request_body": {
+      "title": "Horizon 日报 (#{date})",
+      "body": "#{summary}",
+      "group": "Horizon"
+    }
+  }
+}
