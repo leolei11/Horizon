@@ -121,6 +121,7 @@ class ContentItem(BaseModel):
 class AIProvider(str, Enum):
     """Supported AI providers."""
 
+    ANTIGRAVITY = "antigravity"
     ANTHROPIC = "anthropic"
     OPENAI = "openai"
     AZURE = "azure"
@@ -134,6 +135,11 @@ class AIProvider(str, Enum):
 
 # Provider-specific defaults used by setup and provider-chain expansion.
 AI_PROVIDER_DEFAULTS = {
+    AIProvider.ANTIGRAVITY: {
+        "model": "gemini-2.5-flash",
+        "api_key_env": "GEMINI_API_KEY",
+        "base_url": None,
+    },
     AIProvider.ANTHROPIC: {
         "model": "claude-3-5-sonnet-20241022",
         "api_key_env": "ANTHROPIC_API_KEY",

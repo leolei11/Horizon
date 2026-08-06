@@ -28,6 +28,7 @@ _SECRET_PREFIXES = (
     "hf_",
 )
 _DEFAULT_API_KEY_ENVS = {
+    AIProvider.ANTIGRAVITY: "GEMINI_API_KEY",
     AIProvider.ANTHROPIC: "ANTHROPIC_API_KEY",
     AIProvider.OPENAI: "OPENAI_API_KEY",
     AIProvider.AZURE: "AZURE_OPENAI_API_KEY",
@@ -40,9 +41,15 @@ _DEFAULT_API_KEY_ENVS = {
 
 
 def _resolve_api_key(config: AIConfig, *, fallback: Optional[str] = None) -> str:
-    api_key = os.getenv(config.api_key_env)
-    if api_key:
-        return api_key
+    if config.api_key_env:
+        api_key = os.getenv(config.api_key_env)
+        if api_key:
+            return api_key
+    if config.provider in (AIProvider.ANTIGRAVITY, AIProvider.GEMINI):
+        for env_name in ("GEMINI_API_KEY", "GOOGLE_API_KEY"):
+            val = os.getenv(env_name)
+            if val:
+                return val
     if fallback is not None:
         return fallback
     raise ValueError(_missing_api_key_message(config))
@@ -548,7 +555,7 @@ def _create_single_client(config: AIConfig) -> AIClient:
         return AnthropicClient(config)
     elif config.provider == AIProvider.AZURE:
         return AzureOpenAIClient(config)
-    elif config.provider == AIProvider.GEMINI:
+    elif config.provider in (AIProvider.GEMINI, AIProvider.ANTIGRAVITY):
         return GeminiClient(config)
     elif config.provider in {
         AIProvider.OPENAI,

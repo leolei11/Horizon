@@ -70,6 +70,9 @@ async def validate_public_http_url(url: str) -> str:
             ip = ipaddress.ip_address(address.split("%", 1)[0])
         except ValueError as exc:
             raise UnsafeURLError(f"Resolver returned an invalid address: {address}") from exc
+        # Allow Clash / Surge / VPN transparent proxy fake IP range (198.18.0.0/15)
+        if ip in ipaddress.ip_network("198.18.0.0/15"):
+            continue
         if (
             not ip.is_global
             or ip.is_loopback
