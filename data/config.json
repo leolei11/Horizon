@@ -30,7 +30,7 @@
     "languages": [
       "zh"
     ],
-    "interest_profile": "聚焦 6 大综合技术领域：1. AI 前沿与 Agent 工作流（LLM 应用开发、RAG 落地、Agent 设计模式、Cursor/Copilot 高级技巧、AI 提效工具）；2. 现代前端与 CSS 特效（现代 CSS 布局/动画、React/Next.js/Vue 实战、跨端/桌面应用开发）；3. 后端开发与系统架构（Python/Node.js/Go/Java 后端技巧、API 设计、高并发/微服务架构模式）；4. 数据库与存储（PostgreSQL 进阶/索引优化、Redis 缓存策略、向量数据库应用、数据持久化）；5. 简历优化、求职投递与面试实战（开源项目亮点包装、简历高光点打造、技术面试硬核 Q&A、职场成长）；6. GitHub 热门开源与经典名库（每天总榜按顺序顺延 1 个经典名库，每天 2 个 GitHub Trending 热门新神器）。遴选兼具技术深度与落地实用价值的资讯，严格去重，不推送重复内容。",
+    "interest_profile": "聚焦综合技术与 SaaS 创作领域：1. AI 前沿与 Agent 工作流（LLM 应用开发、RAG 落地、Agent 设计模式、codex antigravity高级技巧、AI 提效工具）；2. SaaS 创作与独立开发（SaaS 商业化变现、MVP 快速构建、开发者工具产出、产品打磨与增长）；3. 现代前端与 CSS 特效（现代 CSS 布局/动画、React/Next.js/Vue 实战、跨端/桌面应用开发）；4. 后端开发与系统架构（Python/Node.js/Go/Java 后端技巧、API 设计、高并发/微服务架构模式）；5. 数据库与存储（PostgreSQL 进阶/索引优化、Redis 缓存策略、向量数据库应用、数据持久化）；6. 简历优化与求职实战（开源项目亮点包装、简历高光点打造、面试 Q&A）；7. GitHub 热门开源与经典名库（每天总榜按顺序顺延 1 个经典名库，每天 2 个 GitHub Trending 热门新神器）。遴选兼具技术深度与落地实用价值的资讯，严格去重，不推送重复内容。",
     "reader_profile": "面向具备一定技术基础的全栈/应用开发者与 AI 使用者。精炼拆解核心技术原理、代码/架构亮点、实际落地应用场景、使用门槛与技术选型建议。单篇摘要字数保持在 300 字左右，专业干练，直击干货，拒绝过分幼稚的比喻或无意义的学术堆砌。",
     "deprioritized_topics": []
   },

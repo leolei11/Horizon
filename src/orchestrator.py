@@ -800,6 +800,28 @@ class HorizonOrchestrator:
             for item in candidates
             if self.passes_profile_filter(item, threshold)
         ]
+        # Guarantee fallback: If eligible items is less than digest max_items (10), fill from items
+        target_count = self.config.digest.max_items or 10
+        if len(eligible) < target_count and items:
+            eligible_ids = {item.id for item in eligible}
+            sorted_all = sorted(
+                items,
+                key=lambda item: (
+                    item.processing.analysis.score
+                    if item.processing
+                    and item.processing.analysis
+                    and item.processing.analysis.score is not None
+                    else -1
+                ),
+                reverse=True,
+            )
+            for item in sorted_all:
+                if item.id not in eligible_ids:
+                    eligible.append(item)
+                    eligible_ids.add(item.id)
+                    if len(eligible) >= target_count:
+                        break
+
         eligible.sort(
             key=lambda item: (
                 item.processing.analysis.score
@@ -833,9 +855,8 @@ class HorizonOrchestrator:
         if effective_threshold is None and settings is not None:
             effective_threshold = settings.threshold
         if effective_threshold is None:
-            return True
-        score = item.processing.analysis.score
-        return score is not None and score >= effective_threshold
+            effective_threshold = 6.0
+        return item.processing.analysis.score >= effective_threshold
 
     def apply_balanced_digest(
         self,
@@ -885,10 +906,28 @@ class HorizonOrchestrator:
                 )
 
         selected: List[tuple[ContentItem, str]] = []
+        selected_ids: set[str] = set()
         group_counts: Dict[str, int] = defaultdict(int)
         default_group = digest.default_group
 
+        from .models import SourceType
+        # 1. Guarantee GitHub items if available (MUST include GitHub)
+        github_items = [item for item in sorted_items if item.source_type == SourceType.GITHUB]
+        for item in github_items[:3]:
+            category = item.metadata.get("category")
+            group_key = (
+                category_to_group.get(category, default_group)
+                if isinstance(category, str)
+                else default_group
+            )
+            selected.append((item, group_key))
+            selected_ids.add(item.id)
+            group_counts[group_key] += 1
+
+        # 2. Main category balancing loop
         for item in sorted_items:
+            if item.id in selected_ids:
+                continue
             category = item.metadata.get("category")
             group_key = (
                 category_to_group.get(category, default_group)
@@ -905,7 +944,23 @@ class HorizonOrchestrator:
                 continue
 
             selected.append((item, group_key))
+            selected_ids.add(item.id)
             group_counts[group_key] += 1
+
+        # 3. Fill up to max_items if category limits left selected under max_items
+        if max_items is not None and len(selected) < max_items:
+            for item in sorted_items:
+                if item.id not in selected_ids:
+                    category = item.metadata.get("category")
+                    group_key = (
+                        category_to_group.get(category, default_group)
+                        if isinstance(category, str)
+                        else default_group
+                    )
+                    selected.append((item, group_key))
+                    selected_ids.add(item.id)
+                    if len(selected) >= max_items:
+                        break
 
         if max_items is not None:
             selected = selected[:max_items]
