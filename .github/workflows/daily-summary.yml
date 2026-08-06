@@ -30,6 +30,7 @@ jobs:
       - name: Run Horizon
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
           BARK_URL: ${{ secrets.BARK_URL }}
           GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: uv run horizon --hours 24
