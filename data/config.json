@@ -25,8 +25,8 @@
     "languages": [
       "zh"
     ],
-    "interest_profile": "聚焦 6 大核心领域：1. AI 前沿与实用 AI 工具（LLM、Agent 工作流、Cursor/Copilot、实用 AI 效率工具）；2. 前端 / CSS 实用技巧与现代 Web & 应用开发（现代 CSS 动画与布局、Web 交互特效、Josh Comeau/Codrops 技巧、React/Next.js/Vue 实战、应用重构）；3. 简历优化、求职投递与面试实战（简历亮点、开源项目包装、求职投递策略、技术面试真题、职场成长）；4. GitHub 热门开源神器与开发者效率工具（每日 2 个 GitHub Trending 飙升项目、效率神器、UI组件库）；5. GitHub 经典老牌仓库（每天总榜按顺序顺延 1 个经典项目）；6. 高质量教学内容与深度教程（freeCodeCamp 教程、全栈指南、知名技术博客教学长文）。挑选最具有应用价值与实操性的资讯，严格去重，不推送重复内容。",
-    "reader_profile": "面向 AI 使用者与全栈/应用开发者撰写翔实充实的中文总结。针对每一条精选资讯，提供清晰的核心亮点说明、具体应用场景、核心技巧/代码思路、使用门槛与优缺点评估。单篇摘要字数保持在 300 字左右，注重实用落地。",
+    "interest_profile": "聚焦 6 大综合技术领域：1. AI 前沿与 Agent 工作流（LLM 应用开发、RAG 落地、Agent 设计模式、Cursor/Copilot 高级技巧、AI 提效工具）；2. 现代前端与 CSS 特效（现代 CSS 布局/动画、React/Next.js/Vue 实战、跨端/桌面应用开发）；3. 后端开发与系统架构（Python/Node.js/Go/Java 后端技巧、API 设计、高并发/微服务架构模式）；4. 数据库与存储（PostgreSQL 进阶/索引优化、Redis 缓存策略、向量数据库应用、数据持久化）；5. 简历优化、求职投递与面试实战（开源项目亮点包装、简历高光点打造、技术面试硬核 Q&A、职场成长）；6. GitHub 热门开源与经典名库（每天总榜按顺序顺延 1 个经典名库，每天 2 个 GitHub Trending 热门新神器）。遴选兼具技术深度与落地实用价值的资讯，严格去重，不推送重复内容。",
+    "reader_profile": "面向具备一定技术基础的全栈/应用开发者与 AI 使用者。精炼拆解核心技术原理、代码/架构亮点、实际落地应用场景、使用门槛与技术选型建议。单篇摘要字数保持在 300 字左右，专业干练，直击干货，拒绝过分幼稚的比喻或无意义的学术堆砌。",
     "deprioritized_topics": []
   },
   "sources": {
@@ -118,16 +118,28 @@
         "category": "frontend-css"
       },
       {
-        "name": "Smashing Magazine (Web Dev & Design)",
-        "url": "https://www.smashingmagazine.com/feed/",
-        "enabled": true,
-        "category": "web-dev"
-      },
-      {
         "name": "Web.dev (Modern Web Standards)",
         "url": "https://web.dev/feed.xml",
         "enabled": true,
         "category": "web-dev"
+      },
+      {
+        "name": "ByteByteGo (System Design & Architecture)",
+        "url": "https://blog.bytebytego.com/feed",
+        "enabled": true,
+        "category": "backend-architecture"
+      },
+      {
+        "name": "Real Python (Python & Backend)",
+        "url": "https://realpython.com/atom.xml",
+        "enabled": true,
+        "category": "backend-python"
+      },
+      {
+        "name": "PostgreSQL Weekly (Databases & Storage)",
+        "url": "https://postgresweekly.com/rss/",
+        "enabled": true,
+        "category": "database-storage"
       },
       {
         "name": "freeCodeCamp News (Tutorials & Career)",
@@ -168,6 +180,7 @@
         "JavaScript",
         "TypeScript",
         "Python",
+        "Go",
         "CSS",
         "HTML"
       ],
@@ -177,9 +190,10 @@
         "llm",
         "css",
         "frontend",
-        "react",
-        "vue",
-        "nextjs",
+        "backend",
+        "database",
+        "postgres",
+        "system-design",
         "resume",
         "interview",
         "tutorial"
