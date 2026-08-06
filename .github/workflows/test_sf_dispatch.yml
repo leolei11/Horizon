@@ -1,0 +1,46 @@
+name: Test SF
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+      - name: Test
+        env:
+          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
+        run: |
+          cat << 'PY_EOF' > run.py
+import asyncio
+import os
+import traceback
+from openai import AsyncOpenAI
+async def main():
+    client = AsyncOpenAI(api_key=os.getenv("SILICONFLOW_API_KEY"), base_url="https://api.siliconflow.cn/v1")
+    try:
+        response = await client.chat.completions.create(
+            model="deepseek-ai/DeepSeek-V3",
+            messages=[{"role": "user", "content": "Return {}"}],
+            response_format={"type": "json_object"}
+        )
+        print("WITH JSON:", repr(response.choices[0].message.content))
+    except Exception as e:
+        print("EXCEPTION WITH JSON:", type(e).__name__, str(e))
+    try:
+        response = await client.chat.completions.create(
+            model="deepseek-ai/DeepSeek-V3",
+            messages=[{"role": "user", "content": "Return {}"}]
+        )
+        print("WITHOUT JSON:", repr(response.choices[0].message.content))
+    except Exception as e:
+        print("EXCEPTION WITHOUT JSON:", type(e).__name__, str(e))
+asyncio.run(main())
+PY_EOF
+          uv run pip install openai
+          uv run python run.py
