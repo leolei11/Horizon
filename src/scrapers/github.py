@@ -26,6 +26,19 @@ class GitHubScraper(BaseScraper):
         self.token = os.getenv("GITHUB_TOKEN")
         self.base_url = "https://api.github.com"
 
+    async def _fetch_readme(self, owner: str, repo: str) -> str:
+        """Fetch raw README excerpt from main or master branch."""
+        branches = ["main", "master"]
+        for branch in branches:
+            url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/README.md"
+            try:
+                response = await self.client.get(url, follow_redirects=True, timeout=5.0)
+                if response.status_code == 200 and len(response.text.strip()) > 30:
+                    return response.text.strip()[:1200]
+            except Exception:
+                continue
+        return ""
+
     def _get_headers(self) -> dict:
         """Get request headers with optional authentication.
 
@@ -253,13 +266,21 @@ class GitHubScraper(BaseScraper):
                     lang = repo.get("language") or "General"
                     stars = repo.get("stargazers_count", 0)
 
+                    owner_login = repo["owner"]["login"]
+                    repo_name_only = repo["name"]
+                    readme_text = await self._fetch_readme(owner_login, repo_name_only)
+                    
+                    content_parts = [description, f"Language: {lang} | Stars: {stars} | Owner: {owner_login}"]
+                    if readme_text:
+                        content_parts.append(f"\n--- README Excerpt ---\n{readme_text}")
+
                     item = ContentItem(
                         id=self._generate_id("github", "repo", str(repo["id"])),
                         source_type=SourceType.GITHUB,
                         title=f"GitHub Trending: {repo['full_name']} (⭐️ {stars})",
                         url=repo["html_url"],
-                        content=f"{description}\n\nLanguage: {lang} | Stars: {stars} | Owner: {repo['owner']['login']}",
-                        author=repo["owner"]["login"],
+                        content="\n\n".join(content_parts),
+                        author=owner_login,
                         published_at=published_at,
                         profile=source.profile,
                         metadata={
