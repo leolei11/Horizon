@@ -57,32 +57,26 @@ _SENSITIVE_HEADER_RE = re.compile(
 
 
 def _truncate(value: str, limit: int, split: str) -> str:
-    """Truncate a string to at most *limit* characters by splitting on *split*.
-
-    Segments are accumulated in order until adding the next one would
-    exceed *limit* characters.  Remaining segments are dropped.
-
-    Args:
-        value: The full text to truncate
-        limit: Maximum number of characters allowed
-        split: Delimiter to split value into segments
-
-    Returns:
-        Truncated text
-    """
+    """Truncate a string to at most *limit* characters by splitting on *split*."""
+    if len(value) <= limit:
+        return value
     segments = value.split(split)
     kept: list[str] = []
     current_chars = 0
 
     for seg in segments:
-        # +len(split) for the delimiter that will be re-joined
         seg_chars = len(seg) + (len(split) if kept else 0)
         if kept and current_chars + seg_chars > limit:
             break
         kept.append(seg)
         current_chars += seg_chars
 
-    return split.join(kept)
+    res = split.join(kept)
+    if not res:
+        res = value[:limit]
+    if len(res) < len(value):
+        res += "\n\n...(内容较长已截断，点击查看完整网页)"
+    return res
 
 
 def _render(
@@ -131,7 +125,7 @@ def _render(
                     params[k] = v
 
             limit = int(params.get("limit", "0")) if "limit" in params else 0
-            split_delim = params.get("split", "---")
+            split_delim = params.get("split", "---").replace("\\n", "\n")
 
             if limit and split_delim:
                 return _truncate(str(value), limit, split_delim)

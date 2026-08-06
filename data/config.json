@@ -1,16 +1,17 @@
 {
   "ai": {
-    "provider": "antigravity",
-    "provider_chain": "antigravity,openai",
-    "model": "gemini-2.5-flash",
-    "api_key_env": "GEMINI_API_KEY",
+    "provider": "openai",
+    "provider_chain": "openai",
+    "model": "deepseek-ai/DeepSeek-V3",
+    "base_url": "https://api.siliconflow.cn/v1",
+    "api_key_env": "SILICONFLOW_API_KEY",
     "fallback_model": "deepseek-ai/DeepSeek-V3",
     "fallback_base_url": "https://api.siliconflow.cn/v1",
     "fallback_api_key_env": "SILICONFLOW_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
-    "throttle_sec": 4.0,
-    "analysis_concurrency": 1,
+    "throttle_sec": 0.0,
+    "analysis_concurrency": 3,
     "analysis_batch_size": 5,
     "enrichment_concurrency": 2,
     "enrichment_batch_size": 5,
@@ -213,6 +214,14 @@
       "tech-news": {
         "threshold": 1.0,
         "topic_dedup": true
+      },
+      "tech-blog": {
+        "threshold": 1.0,
+        "topic_dedup": true
+      },
+      "finance-news": {
+        "threshold": 1.0,
+        "topic_dedup": true
       }
     }
   },
@@ -231,9 +240,10 @@
     "platform": "bark",
     "layout": "markdown",
     "request_body": {
-      "title": "Horizon 日报 (#{date})",
-      "body": "#{summary}",
+      "title": "#{message_title}",
+      "body": "#{summary?limit=800&split=\\n}",
       "group": "Horizon",
+      "url": "https://leolei11.github.io/Horizon/",
       "isArchive": "1"
     }
   }
