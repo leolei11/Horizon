@@ -65,12 +65,21 @@ class ContentAnalyzer:
                     await self._analyze_item(item)
                 except Exception as e:
                     logger.error("Error analyzing item %s: %s", item.id, e)
-                    if item.processing:
-                        item.processing.analysis = ContentAnalysis(
-                            score=None,
-                            reason="Analysis failed",
-                            summary=item.title,
+                    if not item.processing:
+                        from ..models import ProcessingResult, ClassificationResult
+                        item.processing = ProcessingResult(
+                            classification=ClassificationResult(
+                                profile="tech-news",
+                                category=item.metadata.get("category", "tech-news"),
+                                rationale="Fallback due to analysis exception",
+                                method="source_override"
+                            )
                         )
+                    item.processing.analysis = ContentAnalysis(
+                        score=0.0,
+                        reason="Analysis failed",
+                        summary=item.title,
+                    )
                 if throttle_sec > 0 and index < len(items) - 1:
                     await asyncio.sleep(throttle_sec)
             progress.advance(progress_task)
@@ -176,12 +185,21 @@ class ContentAnalyzer:
                 item.id,
                 failure,
             )
-            if item.processing:
-                item.processing.analysis = ContentAnalysis(
-                    score=None,
-                    reason="Analysis response parse failed",
-                    summary=item.title,
+            if not item.processing:
+                from ..models import ProcessingResult, ClassificationResult
+                item.processing = ProcessingResult(
+                    classification=ClassificationResult(
+                        profile="tech-news",
+                        category=item.metadata.get("category", "tech-news"),
+                        rationale="Fallback due to analysis parse failure",
+                        method="source_override"
+                    )
                 )
+            item.processing.analysis = ContentAnalysis(
+                score=0.0,
+                reason="Analysis response parse failed",
+                summary=item.title,
+            )
             return
 
         if item.processing:

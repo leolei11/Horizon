@@ -37,6 +37,7 @@ def print_banner():
 
 def main():
     """Main CLI entry point."""
+    load_dotenv()
     configure_logging(console)
     print_banner()
     icons = get_icons()
