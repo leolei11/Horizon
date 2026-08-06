@@ -16,7 +16,6 @@
     "enrichment_min_content_chars": 800,
     "enrichment_content_max_chars": 2000,
     "enrichment_comments_max_chars": 800,
-    "enrichment_search_snippet_max_chars": 600,
     "enrichment_output_detail": "full",
     "enrichment_retry_attempts": 1,
     "enrichment_failure_fallback": "summary",
@@ -26,7 +25,7 @@
     "languages": [
       "zh"
     ],
-    "interest_profile": "聚焦 6 大核心领域：1. AI 前沿与实用 AI 工具（LLM、Agent 工作流、Cursor/Copilot、实用 AI 效率工具）；2. 前端 / CSS 实用技巧与现代 Web & 应用开发（现代 CSS 动画与布局、Web 交互、React/Next.js/Vue 实战、应用重构）；3. 简历优化、求职投递与面试实战（简历亮点、开源项目包装、求职投递策略、技术面试真题、职场成长）；4. GitHub 热门开源神器与开发者效率工具（GitHub Trending 飙升项目、效率神器、UI组件库）；5. GitHub 经典老牌仓库（每天总榜按顺序顺延 2 个经典项目）；6. 高质量教学内容与深度教程（优质开源教程、全栈指南、知名技术博客教学长文）。挑选最具有应用价值与实操性的资讯。",
+    "interest_profile": "聚焦 6 大核心领域：1. AI 前沿与实用 AI 工具（LLM、Agent 工作流、Cursor/Copilot、实用 AI 效率工具）；2. 前端 / CSS 实用技巧与现代 Web & 应用开发（现代 CSS 动画与布局、Web 交互特效、Josh Comeau/Codrops 技巧、React/Next.js/Vue 实战、应用重构）；3. 简历优化、求职投递与面试实战（简历亮点、开源项目包装、求职投递策略、技术面试真题、职场成长）；4. GitHub 热门开源神器与开发者效率工具（每日 2 个 GitHub Trending 飙升项目、效率神器、UI组件库）；5. GitHub 经典老牌仓库（每天总榜按顺序顺延 1 个经典项目）；6. 高质量教学内容与深度教程（freeCodeCamp 教程、全栈指南、知名技术博客教学长文）。挑选最具有应用价值与实操性的资讯，严格去重，不推送重复内容。",
     "reader_profile": "面向 AI 使用者与全栈/应用开发者撰写翔实充实的中文总结。针对每一条精选资讯，提供清晰的核心亮点说明、具体应用场景、核心技巧/代码思路、使用门槛与优缺点评估。单篇摘要字数保持在 300 字左右，注重实用落地。",
     "deprioritized_topics": []
   },
@@ -39,38 +38,54 @@
           "weekly"
         ],
         "trending_limit": 15,
-        "curriculum_items_per_day": 2,
+        "curriculum_items_per_day": 1,
         "curriculum_batches": [
           [
-            "freeCodeCamp/freeCodeCamp",
+            "freeCodeCamp/freeCodeCamp"
+          ],
+          [
             "EbookFoundation/free-programming-books"
           ],
           [
-            "sindresorhus/awesome",
+            "sindresorhus/awesome"
+          ],
+          [
             "jwasham/coding-interview-university"
           ],
           [
-            "donnemartin/system-design-primer",
+            "donnemartin/system-design-primer"
+          ],
+          [
             "kamranahmedse/developer-roadmap"
           ],
           [
-            "vinta/awesome-python",
+            "vinta/awesome-python"
+          ],
+          [
             "public-apis/public-apis"
           ],
           [
-            "codecrafters-io/build-your-own-x",
+            "codecrafters-io/build-your-own-x"
+          ],
+          [
             "getify/You-Dont-Know-JS"
           ],
           [
-            "trekhleb/javascript-algorithms",
+            "trekhleb/javascript-algorithms"
+          ],
+          [
             "labuladong/fucking-algorithm"
           ],
           [
-            "facebook/react",
+            "facebook/react"
+          ],
+          [
             "vuejs/core"
           ],
           [
-            "vercel/next.js",
+            "vercel/next.js"
+          ],
+          [
             "microsoft/vscode"
           ]
         ],
@@ -85,16 +100,40 @@
     },
     "rss": [
       {
+        "name": "Josh W. Comeau (CSS & Frontend)",
+        "url": "https://www.joshwcomeau.com/rss.xml",
+        "enabled": true,
+        "category": "frontend-css"
+      },
+      {
+        "name": "Codrops (CSS Animations & Design)",
+        "url": "https://tympanus.net/codrops/feed/",
+        "enabled": true,
+        "category": "frontend-css"
+      },
+      {
         "name": "CSS-Tricks (Frontend & CSS)",
         "url": "https://css-tricks.com/feed/",
         "enabled": true,
         "category": "frontend-css"
       },
       {
-        "name": "Web.dev (Modern Web)",
+        "name": "Smashing Magazine (Web Dev & Design)",
+        "url": "https://www.smashingmagazine.com/feed/",
+        "enabled": true,
+        "category": "web-dev"
+      },
+      {
+        "name": "Web.dev (Modern Web Standards)",
         "url": "https://web.dev/feed.xml",
         "enabled": true,
         "category": "web-dev"
+      },
+      {
+        "name": "freeCodeCamp News (Tutorials & Career)",
+        "url": "https://www.freecodecamp.org/news/rss/",
+        "enabled": true,
+        "category": "tutorials-career"
       },
       {
         "name": "Simon Willison (AI & Tools)",
@@ -103,7 +142,13 @@
         "category": "ai-tools"
       },
       {
-        "name": "Dev.to Career (Resume & Career)",
+        "name": "Hugging Face Blog (Open-Source AI)",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "enabled": true,
+        "category": "ai-tools"
+      },
+      {
+        "name": "Dev.to Career (Resume & Interview)",
         "url": "https://dev.to/feed/tag/career",
         "enabled": true,
         "category": "career-resume"
