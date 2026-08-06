@@ -198,12 +198,19 @@ class AIConfig(BaseModel):
     model: str
     base_url: Optional[str] = None
     api_key_env: str
+    fallback_model: Optional[str] = None
+    fallback_base_url: Optional[str] = None
+    fallback_api_key_env: Optional[str] = None
     temperature: float = 0.3
     max_tokens: int = 4096
     throttle_sec: float = 0.0
     analysis_concurrency: int = 1
     enrichment_concurrency: int = 1
     languages: List[str] = Field(default_factory=lambda: ["en"])
+    # Fallback configuration when provider_chain is used
+    fallback_model: Optional[str] = None
+    fallback_base_url: Optional[str] = None
+    fallback_api_key_env: Optional[str] = None
     # Azure OpenAI specific; required when provider == AZURE
     azure_endpoint_env: Optional[str] = None
     api_version: Optional[str] = None
