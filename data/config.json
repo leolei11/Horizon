@@ -172,10 +172,52 @@
       }
     ],
     "reddit": {
-      "enabled": false,
-      "subreddits": [],
+      "enabled": true,
+      "subreddits": [
+        {
+          "subreddit": "LocalLLaMA",
+          "enabled": true,
+          "sort": "hot",
+          "fetch_limit": 10,
+          "min_score": 10,
+          "category": "ai-tools"
+        },
+        {
+          "subreddit": "webdev",
+          "enabled": true,
+          "sort": "hot",
+          "fetch_limit": 10,
+          "min_score": 10,
+          "category": "frontend-css"
+        },
+        {
+          "subreddit": "Python",
+          "enabled": true,
+          "sort": "hot",
+          "fetch_limit": 10,
+          "min_score": 10,
+          "category": "backend-python"
+        }
+      ],
       "users": [],
-      "fetch_comments": 0
+      "fetch_comments": 3
+    },
+    "telegram": {
+      "enabled": true,
+      "channels": [
+        {
+          "channel": "durov",
+          "enabled": true,
+          "fetch_limit": 5,
+          "category": "tech-news"
+        },
+        {
+          "channel": "techcrunch",
+          "enabled": true,
+          "fetch_limit": 5,
+          "category": "tech-news"
+        }
+      ]
     },
     "ossinsight": {
       "enabled": true,
@@ -203,7 +245,7 @@
         "interview",
         "tutorial"
       ],
-      "min_stars": 10,
+      "min_stars": 1,
       "max_items": 20
     }
   },
