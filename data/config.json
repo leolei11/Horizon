@@ -139,7 +139,8 @@
     "request_body": {
       "title": "Horizon 日报 (#{date})",
       "body": "#{summary}",
-      "group": "Horizon"
+      "group": "Horizon",
+      "isArchive": "1"
     }
   }
 }
