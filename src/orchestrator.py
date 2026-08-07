@@ -13,6 +13,7 @@ from rich.console import Console
 from .console_icons import get_icons
 from .models import Config, ContentItem
 from .storage.manager import StorageManager, safe_output_path
+from .storage.dedup import HistoryDeduplicator
 from .services.email import EmailManager
 from .services.webhook import WebhookNotifier
 from .scrapers.github import GitHubScraper
@@ -259,7 +260,7 @@ class HorizonOrchestrator:
                 self.console.print("[yellow]No new content found. Exiting.[/yellow]")
                 return
 
-            # 3. Merge cross-source duplicates (same URL from different sources)
+            # 3. Merge cross-source duplicates and filter historical duplicates (365-day repo / 90-day URL)
             merged_items = self.merge_cross_source_duplicates(all_items)
             if len(merged_items) < len(all_items):
                 self.console.print(
@@ -268,8 +269,17 @@ class HorizonOrchestrator:
                     f"→ {len(merged_items)} unique items\n"
                 )
 
+            history_dedup = HistoryDeduplicator(self.storage.data_dir)
+            fresh_items = history_dedup.filter_items(merged_items)
+            if len(fresh_items) < len(merged_items):
+                self.console.print(
+                    f"{self.icons['filter']} Filtered "
+                    f"{len(merged_items) - len(fresh_items)} items already pushed in historical window "
+                    f"→ {len(fresh_items)} fresh items remaining\n"
+                )
+
             # 4. Analyze with AI
-            analyzed_items = await self.analyze_items(merged_items)
+            analyzed_items = await self.analyze_items(fresh_items)
             self.console.print(
                 f"{self.icons['ai']} Analyzed {len(analyzed_items)} items with AI\n"
             )
@@ -291,6 +301,9 @@ class HorizonOrchestrator:
 
             # 6. Search related stories + enrich with background knowledge (2nd AI pass)
             await self.enrich_items(important_items)
+
+            # Record final pushed items into historical deduplication memory
+            history_dedup.record_pushed_items(important_items)
 
             # 7. Generate and save daily summaries for each configured language
             today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
