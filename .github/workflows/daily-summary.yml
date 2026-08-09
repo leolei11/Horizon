@@ -38,6 +38,13 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: uv run horizon --hours 24
 
+      - name: Commit and push deduplication history
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/pushed_history.json
+          git diff --staged --quiet || (git commit -m "chore: update pushed deduplication history [skip ci]" && git push origin main)
+
       - name: Set current date as environment variable
         run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
