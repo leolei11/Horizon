@@ -5,9 +5,6 @@ on:
     # 20:00 UTC is 04:00 AM Asia/Shanghai
     - cron: '0 20 * * *'
   workflow_dispatch:      # Allow manual trigger from GitHub Actions tab
-  push:
-    branches:
-      - main
 
 jobs:
   daily-summary:

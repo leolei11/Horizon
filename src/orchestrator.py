@@ -305,8 +305,9 @@ class HorizonOrchestrator:
             # Record final pushed items into historical deduplication memory
             history_dedup.record_pushed_items(important_items)
 
-            # 7. Generate and save daily summaries for each configured language
-            today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            # 7. Generate and save daily summaries for each configured language (using Asia/Shanghai timezone)
+            beijing_tz = timezone(timedelta(hours=8))
+            today = datetime.now(beijing_tz).strftime("%Y-%m-%d")
             for lang in self.config.ai.languages:
                 summarizer = DailySummarizer(
                     profile_names=self.profiles.names,
