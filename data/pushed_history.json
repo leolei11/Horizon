@@ -147,5 +147,149 @@
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj18h4/showoff_saturday_local_4x_6000_pro_multiyear/",
     "url_hash": "9736c15f0f09ddb373b37582261250bb",
     "source_type": "reddit"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "GitHub Trending: tensorflow/tensorflow (⭐️ 196945)",
+    "url": "https://github.com/tensorflow/tensorflow",
+    "url_hash": "bcbc01455962f1340068cab6081135e5",
+    "source_type": "github",
+    "repo": "tensorflow/tensorflow"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "GitHub Trending: react/react (⭐️ 247125)",
+    "url": "https://github.com/react/react",
+    "url_hash": "7d96f7c53b45a7caedc669af28845fbb",
+    "source_type": "github",
+    "repo": "react/react"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "GitHub Trending: freeCodeCamp/freeCodeCamp (⭐️ 453709)",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "url_hash": "52e5d1d72c1088d2f924294e4c328726",
+    "source_type": "github",
+    "repo": "freecodecamp/freecodecamp"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "Open Model: Google Weather Next 2",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjwwrs/open_model_google_weather_next_2/",
+    "url_hash": "0888ee14e44c47590f1c0cf5723e0ac1",
+    "source_type": "reddit"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1 in an independent public-harness run (445 trials)",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/",
+    "url_hash": "3c7f8c922d879f18953863ed0cc3aeb9",
+    "source_type": "reddit"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "Cool URIs Don't Change (1998)",
+    "url": "https://www.w3.org/Provider/Style/URI",
+    "url_hash": "eb5cbeebc7423c53176498a732225ea1",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "There Are Magic Hexagons of Every Order",
+    "url": "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+    "url_hash": "b2996abe5e1d8bf74cf8c27bf0cb792e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "The AI-native junior can't debug and we're pretending that's fine",
+    "url": "https://dev.to/adioof/the-ai-native-junior-cant-debug-and-were-pretending-thats-fine-4f8j",
+    "url_hash": "9c9177d7590f20f8c827cbf889297b62",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "GTM engineering is a systems design job. Most people doing it are building the wrong system.",
+    "url": "https://dev.to/dovzhikova/gtm-engineering-is-a-systems-design-job-most-people-doing-it-are-building-the-wrong-system-368k",
+    "url_hash": "b3a33104da6e76ed01b0f49bf947886c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "The STAR Method for Behavioral Interviews",
+    "url": "https://dev.to/datanestdigital/the-star-method-for-behavioral-interviews-2c6h",
+    "url_hash": "d53b8dd0f181f60a942988a4b3e2d3b7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "FCC moves to ban Lidar-equipped foreign drones from US",
+    "url": "https://www.tomshardware.com/tech-industry/drones/fcc-moves-to-ban-lidar-equipped-foreign-drones-from-us-classifies-the-technology-as-military-grade-in-a-proposal-that-could-also-hit-thermal-models-and-the-swarms-used-drone-light-shows",
+    "url_hash": "d1f20e5db696e52ce699515979f7d179",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "Tom Stanton's supersonic trebuchet breaks sound barrier with gravity alone",
+    "url": "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/",
+    "url_hash": "b265b20764eadd049b7f734abbcca7d0",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "Speculative decoding in a tools call",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjxhof/speculative_decoding_in_a_tools_call/",
+    "url_hash": "e0fc3d16c0df73fd9384ca9b3de94b9f",
+    "source_type": "reddit"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "Two flags took the official Ling-3.0-flash INT4 from 20.8 to 38.7 tok/s on one DGX Spark",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjttcc/two_flags_took_the_official_ling30flash_int4_from/",
+    "url_hash": "5708c4eb9ece1ee14744b0fba7870571",
+    "source_type": "reddit"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "Pathway's BDH(post-transformer arch) matches GPT2 scaling from 10M to 1B params trained from scratch. runs on Normal GPUs",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjwqpf/pathways_bdhposttransformer_arch_matches_gpt2/",
+    "url_hash": "19d71255d27a1b97d52b17b59347d6f8",
+    "source_type": "reddit"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "Show HN: A Project Oberon System version running on RISC-V instead of RISC-5",
+    "url": "https://github.com/rochus-keller/OberonSystem/tree/op2-rv32",
+    "url_hash": "e37c02510c70e7368dc4fa948b052b0b",
+    "source_type": "hackernews",
+    "repo": "rochus-keller/oberonsystem"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "How I Turned My Resume Into a Jedi Resume: The One Trick That Got Me Interviews",
+    "url": "https://dev.to/timevolt/how-i-turned-my-resume-into-a-jedi-resume-the-one-trick-that-got-me-interviews-3e20",
+    "url_hash": "be1796b1f3456c624df703496a0f4277",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "What 5 years of teaching gave me that no coding course could",
+    "url": "https://dev.to/shannonianthe/what-5-years-of-teaching-gave-me-that-no-coding-course-could-4i8a",
+    "url_hash": "713418c24ad258c703b03dfa6b256a1f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "How to Price Freelance Work (Without Undercharging)",
+    "url": "https://dev.to/datanestdigital/how-to-price-freelance-work-without-undercharging-3ma7",
+    "url_hash": "8b14f28c71051f77804c9a4d8e1510df",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-09T20:43:37.459879+00:00",
+    "title": "Lophius: A workbench for language model research, from the creator of Heretic",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjt4vi/lophius_a_workbench_for_language_model_research/",
+    "url_hash": "2f4f58d612996df39ee12d82f336e1b4",
+    "source_type": "reddit"
   }
 ]
