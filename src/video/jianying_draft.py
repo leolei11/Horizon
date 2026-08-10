@@ -231,6 +231,8 @@ class JianyingDraftGenerator:
 
         # Initialize Jianying ScriptFile (1920x1080 16:9 30fps)
         script = self.draft_folder.create_draft(draft_name, 1920, 1080, fps=30, allow_replace=True)
+        script.content["platform"] = {"app_id": 3704, "app_source": "mac", "app_version": "6.0.0", "os": "mac"}
+        script.content["last_modified_platform"] = {"app_id": 3704, "app_source": "mac", "app_version": "6.0.0", "os": "mac"}
 
         # Append multi-tracks with distinct track names
         track_bg_video = script.append_track(TrackSpec(TrackType.video, name="bg_video"))
@@ -321,6 +323,24 @@ class JianyingDraftGenerator:
         import shutil
         draft_info_file = os.path.join(draft_dir, "draft_info.json")
         shutil.copyfile(draft_json_file, draft_info_file)
+
+        # Ensure standard JianyingPro subdirectories exist
+        for sd in ["Resources", "Timelines", "common_attachment", "subdraft", "matting", "adjust_mask"]:
+            os.makedirs(os.path.join(draft_dir, sd), exist_ok=True)
+
+        # Standard minimal JianyingPro config templates
+        default_configs = {
+            "draft_virtual_store.json": '{"draft_materials":[],"draft_virtual_store":[]}',
+            "draft_agency_config.json": '{"is_auto_agency_enabled":false}',
+            "draft_biz_config.json": '{\n    "timeline_settings": {\n        "resolution": "1080P"\n    }\n}',
+            "attachment_editing.json": '{"editing_draft":{}}',
+            "timeline_layout.json": '{"activeTimeline":""}'
+        }
+        for cfg_name, cfg_val in default_configs.items():
+            cfg_p = os.path.join(draft_dir, cfg_name)
+            if not os.path.exists(cfg_p):
+                with open(cfg_p, "w", encoding="utf-8") as f:
+                    f.write(cfg_val)
 
         # Update draft_meta_info.json in subfolder
         meta_json_file = os.path.join(draft_dir, "draft_meta_info.json")
