@@ -321,6 +321,19 @@ class HorizonOrchestrator:
                     f"{self.icons['save']} Saved {lang.upper()} summary to: {summary_path}\n"
                 )
 
+                # Export automatic Jianying Pro draft project for Chinese summary
+                if lang == "zh":
+                    try:
+                        from src.video.jianying_draft import JianyingDraftGenerator
+                        jy_gen = JianyingDraftGenerator()
+                        draft_name = f"HORIZON_{today}"
+                        jy_draft_dir = await jy_gen.build_draft_project(summary_path, draft_name)
+                        self.console.print(
+                            f"{self.icons['sparkles']} [bold green]Exported Jianying Pro draft project to: {jy_draft_dir}[/bold green]\n"
+                        )
+                    except Exception as ex:
+                        logger.warning("Could not export Jianying draft project: %s", ex)
+
                 # Copy to docs/ for GitHub Pages
                 try:
                     from pathlib import Path
