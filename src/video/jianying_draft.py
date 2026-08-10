@@ -7,6 +7,8 @@ official brand logos, and stock video background clips.
 
 import os
 import re
+import json
+import shutil
 import asyncio
 import logging
 import hashlib
@@ -313,65 +315,74 @@ class JianyingDraftGenerator:
 
             current_time_us += duration_us
 
-        # Save draft JSON into user Jianying Projects folder
-        draft_dir = os.path.join(self.draft_base_dir, draft_name)
-        os.makedirs(draft_dir, exist_ok=True)
-        draft_json_file = os.path.join(draft_dir, "draft_content.json")
-        script.dump(draft_json_file)
+        # Save draft JSON into user CapCut & Jianying Projects folders
+        target_base_dirs = [
+            self.draft_base_dir,
+            os.path.expanduser("~/Movies/CapCut/User Data/Projects/com.lveditor.draft/"),
+            os.path.expanduser("~/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/")
+        ]
 
-        # macOS JianyingPro requires draft_info.json
-        import shutil
-        draft_info_file = os.path.join(draft_dir, "draft_info.json")
-        shutil.copyfile(draft_json_file, draft_info_file)
+        main_draft_dir = None
 
-        # Ensure standard JianyingPro subdirectories exist
-        for sd in ["Resources", "Timelines", "common_attachment", "subdraft", "matting", "adjust_mask"]:
-            os.makedirs(os.path.join(draft_dir, sd), exist_ok=True)
-
-        # Standard minimal JianyingPro config templates
-        default_configs = {
-            "draft_virtual_store.json": '{"draft_materials":[],"draft_virtual_store":[]}',
-            "draft_agency_config.json": '{"is_auto_agency_enabled":false}',
-            "draft_biz_config.json": '{\n    "timeline_settings": {\n        "resolution": "1080P"\n    }\n}',
-            "attachment_editing.json": '{"editing_draft":{}}',
-            "timeline_layout.json": '{"activeTimeline":""}'
-        }
-        for cfg_name, cfg_val in default_configs.items():
-            cfg_p = os.path.join(draft_dir, cfg_name)
-            if not os.path.exists(cfg_p):
-                with open(cfg_p, "w", encoding="utf-8") as f:
-                    f.write(cfg_val)
-
-        # Update draft_meta_info.json in subfolder
-        meta_json_file = os.path.join(draft_dir, "draft_meta_info.json")
-        if os.path.exists(meta_json_file):
+        for b_dir in target_base_dirs:
             try:
-                import json
-                with open(meta_json_file, "r", encoding="utf-8") as f:
-                    meta_data = json.load(f)
-                meta_data["tm_duration"] = current_time_us
-                meta_data["draft_timeline_materials_size_"] = 25000000
-                with open(meta_json_file, "w", encoding="utf-8") as f:
-                    json.dump(meta_data, f, indent=2, ensure_ascii=False)
-            except Exception as e:
-                logger.warning("Could not update draft_meta_info.json: %s", e)
+                os.makedirs(b_dir, exist_ok=True)
+                d_dir = os.path.join(b_dir, draft_name)
+                os.makedirs(d_dir, exist_ok=True)
+                if not main_draft_dir:
+                    main_draft_dir = d_dir
 
-        # Update root_meta_info.json in root Projects folder for JianyingPro App index
-        root_meta_file = os.path.join(self.draft_base_dir, "root_meta_info.json")
-        if os.path.exists(root_meta_file):
-            try:
-                import json
-                with open(root_meta_file, "r", encoding="utf-8") as f:
-                    root_meta = json.load(f)
-                for item in root_meta.get("all_draft_store", []):
-                    if item.get("draft_name") == draft_name or item.get("draft_fold_path") == draft_dir:
-                        item["tm_duration"] = current_time_us
-                        item["draft_timeline_materials_size"] = 25000000
-                        item["draft_json_file"] = draft_info_file
-                with open(root_meta_file, "w", encoding="utf-8") as f:
-                    json.dump(root_meta, f, indent=2, ensure_ascii=False)
-            except Exception as e:
-                logger.warning("Could not update root_meta_info.json: %s", e)
+                # 1. Standard draft_content.json (Native CapCut format)
+                d_json_file = os.path.join(d_dir, "draft_content.json")
+                script.dump(d_json_file)
 
-        logger.info("Successfully exported Jianying draft project: %s", draft_dir)
-        return draft_dir
+                # 2. Duplicate to draft_info.json (Jianying compatibility)
+                import shutil
+                d_info_file = os.path.join(d_dir, "draft_info.json")
+                shutil.copyfile(d_json_file, d_info_file)
+
+                # 3. Subdirectories & Configs
+                for sd in ["Resources", "Timelines", "common_attachment", "subdraft", "matting", "adjust_mask"]:
+                    os.makedirs(os.path.join(d_dir, sd), exist_ok=True)
+
+                default_configs = {
+                    "draft_virtual_store.json": '{"draft_materials":[],"draft_virtual_store":[]}',
+                    "draft_agency_config.json": '{"is_auto_agency_enabled":false}',
+                    "draft_biz_config.json": '{\n    "timeline_settings": {\n        "resolution": "1080P"\n    }\n}',
+                    "attachment_editing.json": '{"editing_draft":{}}',
+                    "timeline_layout.json": '{"activeTimeline":""}'
+                }
+                for cfg_name, cfg_val in default_configs.items():
+                    cfg_p = os.path.join(d_dir, cfg_name)
+                    if not os.path.exists(cfg_p):
+                        with open(cfg_p, "w", encoding="utf-8") as f:
+                            f.write(cfg_val)
+
+                # 4. Subfolder draft_meta_info.json
+                meta_json_file = os.path.join(d_dir, "draft_meta_info.json")
+                if os.path.exists(meta_json_file):
+                    with open(meta_json_file, "r", encoding="utf-8") as f:
+                        meta_data = json.load(f)
+                    meta_data["tm_duration"] = current_time_us
+                    meta_data["draft_timeline_materials_size_"] = 25000000
+                    with open(meta_json_file, "w", encoding="utf-8") as f:
+                        json.dump(meta_data, f, indent=2, ensure_ascii=False)
+
+                # 5. Root root_meta_info.json
+                root_meta_file = os.path.join(b_dir, "root_meta_info.json")
+                if os.path.exists(root_meta_file):
+                    with open(root_meta_file, "r", encoding="utf-8") as f:
+                        root_meta = json.load(f)
+                    for item in root_meta.get("all_draft_store", []):
+                        if item.get("draft_name") == draft_name or item.get("draft_fold_path") == d_dir:
+                            item["tm_duration"] = current_time_us
+                            item["draft_timeline_materials_size"] = 25000000
+                            item["draft_json_file"] = d_info_file
+                    with open(root_meta_file, "w", encoding="utf-8") as f:
+                        json.dump(root_meta, f, indent=2, ensure_ascii=False)
+
+            except Exception as ex:
+                logger.warning("Could not sync draft to %s: %s", b_dir, ex)
+
+        logger.info("Successfully exported CapCut & Jianying draft project: %s", main_draft_dir)
+        return main_draft_dir
