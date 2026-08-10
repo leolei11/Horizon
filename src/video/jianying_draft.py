@@ -317,7 +317,12 @@ class JianyingDraftGenerator:
         draft_json_file = os.path.join(draft_dir, "draft_content.json")
         script.dump(draft_json_file)
 
-        # Update draft_meta_info.json with total duration & timeline size
+        # macOS JianyingPro requires draft_info.json
+        import shutil
+        draft_info_file = os.path.join(draft_dir, "draft_info.json")
+        shutil.copyfile(draft_json_file, draft_info_file)
+
+        # Update draft_meta_info.json in subfolder
         meta_json_file = os.path.join(draft_dir, "draft_meta_info.json")
         if os.path.exists(meta_json_file):
             try:
@@ -330,6 +335,23 @@ class JianyingDraftGenerator:
                     json.dump(meta_data, f, indent=2, ensure_ascii=False)
             except Exception as e:
                 logger.warning("Could not update draft_meta_info.json: %s", e)
+
+        # Update root_meta_info.json in root Projects folder for JianyingPro App index
+        root_meta_file = os.path.join(self.draft_base_dir, "root_meta_info.json")
+        if os.path.exists(root_meta_file):
+            try:
+                import json
+                with open(root_meta_file, "r", encoding="utf-8") as f:
+                    root_meta = json.load(f)
+                for item in root_meta.get("all_draft_store", []):
+                    if item.get("draft_name") == draft_name or item.get("draft_fold_path") == draft_dir:
+                        item["tm_duration"] = current_time_us
+                        item["draft_timeline_materials_size"] = 25000000
+                        item["draft_json_file"] = draft_info_file
+                with open(root_meta_file, "w", encoding="utf-8") as f:
+                    json.dump(root_meta, f, indent=2, ensure_ascii=False)
+            except Exception as e:
+                logger.warning("Could not update root_meta_info.json: %s", e)
 
         logger.info("Successfully exported Jianying draft project: %s", draft_dir)
         return draft_dir
