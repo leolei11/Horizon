@@ -28,6 +28,12 @@
         "id": "takeaway",
         "type": "section",
         "tools": []
+      },
+      {
+        "id": "next_step",
+        "type": "section",
+        "tools": [],
+        "optional": true
       }
     ]
   }

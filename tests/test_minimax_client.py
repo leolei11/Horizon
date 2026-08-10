@@ -46,6 +46,15 @@ class TestOpenAIClientInit:
         assert client.max_tokens == 4096
         assert client.provider == "minimax"
 
+    def test_applies_bounded_timeout_and_sdk_retries(self, monkeypatch):
+        monkeypatch.setenv("MINIMAX_API_KEY", "test-key")
+        client = OpenAIClient(
+            _make_config(request_timeout_sec=12, max_retries=0)
+        )
+
+        assert client.client.timeout == 12
+        assert client.client.max_retries == 0
+
     def test_raises_when_api_key_missing(self, monkeypatch):
         monkeypatch.delenv("MINIMAX_API_KEY", raising=False)
         with pytest.raises(ValueError, match="Missing API key"):

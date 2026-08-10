@@ -134,7 +134,11 @@ class AnthropicClient(AIClient):
 
         api_key = _resolve_api_key(config)
 
-        kwargs = {"api_key": api_key}
+        kwargs = {
+            "api_key": api_key,
+            "timeout": config.request_timeout_sec,
+            "max_retries": config.max_retries,
+        }
         if config.base_url:
             kwargs["base_url"] = config.base_url
 
@@ -213,7 +217,11 @@ class OpenAIClient(AIClient):
         fallback = "no_key" if config.provider == AIProvider.OLLAMA else None
         api_key = _resolve_api_key(config, fallback=fallback)
 
-        kwargs = {"api_key": api_key}
+        kwargs = {
+            "api_key": api_key,
+            "timeout": config.request_timeout_sec,
+            "max_retries": config.max_retries,
+        }
         base_url = self._resolve_base_url(config)
         if base_url:
             kwargs["base_url"] = base_url
@@ -302,7 +310,10 @@ class OpenAIClient(AIClient):
                     include_temperature=self._supports_temperature,
                     use_max_completion_tokens=True,
                 )
-            elif self._supports_response_format:
+            elif (
+                self._supports_response_format
+                and self._is_response_format_unsupported(str(exc))
+            ):
                 self._supports_response_format = False
                 response = await self._do_request(
                     system=system,
@@ -362,6 +373,17 @@ class OpenAIClient(AIClient):
         lowered = message.lower()
         return "max_tokens" in lowered and "max_completion_tokens" in lowered
 
+    @staticmethod
+    def _is_response_format_unsupported(message: str) -> bool:
+        lowered = message.lower()
+        return ("response_format" in lowered or "json_object" in lowered) and (
+            "deprecated" in lowered
+            or "not support" in lowered
+            or "unsupported" in lowered
+            or "unknown" in lowered
+            or "invalid" in lowered
+        )
+
 
 class AzureOpenAIClient(AIClient):
     """Client for Azure OpenAI deployments.
@@ -397,6 +419,8 @@ class AzureOpenAIClient(AIClient):
             api_key=api_key,
             azure_endpoint=azure_endpoint,
             api_version=config.api_version,
+            timeout=config.request_timeout_sec,
+            max_retries=config.max_retries,
         )
         self.model = config.model
         self.temperature = config.temperature
@@ -688,6 +712,8 @@ def _create_chained_client(config: AIConfig) -> ChainedAIClient:
             throttle_sec=config.throttle_sec,
             analysis_concurrency=config.analysis_concurrency,
             enrichment_concurrency=config.enrichment_concurrency,
+            request_timeout_sec=config.request_timeout_sec,
+            max_retries=config.max_retries,
             languages=config.languages,
             azure_endpoint_env=(
                 config.azure_endpoint_env or defaults.get("azure_endpoint_env")

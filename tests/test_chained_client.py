@@ -175,8 +175,8 @@ def test_create_chained_client_parses_chain():
     assert chained.configs[1].api_key_env == ""
 
 
-def test_create_chained_client_uses_provider_defaults_without_leaking_base_url():
-    """Every heterogeneous entry gets its own connection defaults."""
+def test_create_chained_client_preserves_primary_and_isolates_fallback_defaults():
+    """The configured primary stays custom; heterogeneous fallbacks use defaults."""
     providers = list(AIProvider)
     config = AIConfig(
         provider=AIProvider.OPENAI,
@@ -197,8 +197,18 @@ def test_create_chained_client_uses_provider_defaults_without_leaking_base_url()
     assert [entry.provider for entry in chained.configs] == providers
     for entry in chained.configs:
         defaults = AI_PROVIDER_DEFAULTS[entry.provider]
-        assert entry.model == defaults["model"]
-        assert entry.api_key_env == defaults["api_key_env"]
+        expected_model = (
+            config.model
+            if entry.provider == config.provider
+            else defaults["model"]
+        )
+        expected_api_key_env = (
+            config.api_key_env
+            if entry.provider == config.provider
+            else defaults["api_key_env"]
+        )
+        assert entry.model == expected_model
+        assert entry.api_key_env == expected_api_key_env
         expected_base_url = (
             config.base_url
             if entry.provider == config.provider

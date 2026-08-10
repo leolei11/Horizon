@@ -6,7 +6,6 @@ from typing import List, Optional
 from pydantic import ValidationError
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, BarColumn, TextColumn, MofNCompleteColumn
-from tenacity import retry, stop_after_attempt, wait_exponential
 
 logger = logging.getLogger(__name__)
 
@@ -14,7 +13,7 @@ from .client import AIClient
 from .classifier import ContentClassifier
 from .prompting.analysis import analysis_system_prompt, analysis_user_prompt
 from .utils import parse_json_response
-from ..models import ContentAnalysis, ContentItem
+from ..models import ContentAnalysis, ContentItem, InterestConfig
 from ..processing.content import select_content, split_content
 from ..processing.profiles import ProfileRegistry
 
@@ -28,11 +27,13 @@ class ContentAnalyzer:
         ai_client: AIClient,
         profiles: ProfileRegistry,
         console: Optional[Console] = None,
+        interests: InterestConfig | None = None,
     ):
         self.client = ai_client
         self.profiles = profiles
         self.classifier = ContentClassifier(ai_client, profiles)
         self.console = console or Console(stderr=True)
+        self.interests = interests or InterestConfig()
 
     @staticmethod
     def _parse_json_response(response: str) -> Optional[dict]:
@@ -58,8 +59,11 @@ class ContentAnalyzer:
         throttle_sec = self._get_throttle_sec()
         concurrency = self._get_concurrency()
         semaphore = asyncio.Semaphore(concurrency)
+        completed_count = 0
+        completed_lock = asyncio.Lock()
 
         async def _process(item: ContentItem, index: int, progress_task) -> ContentItem:
+            nonlocal completed_count
             async with semaphore:
                 try:
                     await self._analyze_item(item)
@@ -70,19 +74,23 @@ class ContentAnalyzer:
                         item.processing = ProcessingResult(
                             classification=ClassificationResult(
                                 profile="tech-news",
-                                category=item.metadata.get("category", "tech-news"),
-                                rationale="Fallback due to analysis exception",
                                 method="source_override"
                             )
                         )
                     item.processing.analysis = ContentAnalysis(
-                        score=0.0,
+                        score=None,
                         reason="Analysis failed",
                         summary=item.title,
                     )
                 if throttle_sec > 0 and index < len(items) - 1:
                     await asyncio.sleep(throttle_sec)
             progress.advance(progress_task)
+            async with completed_lock:
+                completed_count += 1
+                if completed_count % 10 == 0 or completed_count == len(items):
+                    self.console.print(
+                        f"      Analysis progress: {completed_count}/{len(items)}"
+                    )
             return item
 
         with Progress(
@@ -101,10 +109,6 @@ class ContentAnalyzer:
 
         return analyzed_items
 
-    @retry(
-        stop=stop_after_attempt(3),
-        wait=wait_exponential(min=2, max=10)
-    )
     async def _analyze_item(self, item: ContentItem) -> None:
         """Analyze a single content item.
 
@@ -162,14 +166,14 @@ class ContentAnalyzer:
 
         # Get AI completion
         response = await self.client.complete(
-            system=analysis_system_prompt(profile),
+            system=analysis_system_prompt(profile, self.interests),
             user=user_prompt,
         )
         logger.info("Raw analysis response: %s", response)
         result, failure = self._validate_analysis_response(response)
         if result is None:
             repair_response = await self.client.complete(
-                system=analysis_system_prompt(profile),
+                system=analysis_system_prompt(profile, self.interests),
                 user=(
                     user_prompt
                     + "\n\nYour previous response did not satisfy the output contract "
@@ -190,13 +194,11 @@ class ContentAnalyzer:
                 item.processing = ProcessingResult(
                     classification=ClassificationResult(
                         profile="tech-news",
-                        category=item.metadata.get("category", "tech-news"),
-                        rationale="Fallback due to analysis parse failure",
                         method="source_override"
                     )
                 )
             item.processing.analysis = ContentAnalysis(
-                score=0.0,
+                score=None,
                 reason="Analysis response parse failed",
                 summary=item.title,
             )
@@ -205,12 +207,11 @@ class ContentAnalyzer:
         if item.processing:
             item.processing.analysis = result
 
-    @classmethod
     def _validate_analysis_response(
-        cls,
+        self,
         response: str,
     ) -> tuple[Optional[ContentAnalysis], str]:
-        parsed = cls._parse_json_response(response)
+        parsed = self._parse_json_response(response)
         if not isinstance(parsed, dict):
             return None, "response was not a JSON object"
         try:
@@ -221,4 +222,18 @@ class ContentAnalyzer:
             return None, f"invalid field {location or '<root>'}: {first_error['type']}"
         if result.score is None:
             return None, "score is required by the analysis contract"
+        if self.interests.enabled:
+            required_scores = {
+                "relevance_score": result.relevance_score,
+                "actionability_score": result.actionability_score,
+                "video_score": result.video_score,
+            }
+            for field_name, value in required_scores.items():
+                if value is None:
+                    return None, f"{field_name} is required by the interest contract"
+            if result.rejection_reason:
+                if result.interest_bucket is not None:
+                    return None, "rejected items must use a null interest_bucket"
+            elif result.interest_bucket not in self.interests.buckets:
+                return None, "interest_bucket must be one configured bucket ID"
         return result, ""

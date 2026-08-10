@@ -422,8 +422,15 @@ class JianyingDraftGenerator:
         logger.info("Successfully exported CapCut & Jianying draft project: %s", main_draft_dir)
         return main_draft_dir
 
-    def export_fcpxml(self, items: List[Dict[str, str]], total_dur_us: int, draft_name: str) -> Path:
-        """Export standard Final Cut Pro XML (FCPXML) project for CapCut/Jianying/Premiere import."""
+    def export_fcpxml(
+        self,
+        items: List[Dict[str, str]],
+        total_dur_us: int,
+        draft_name: str,
+        *,
+        open_after_export: bool = False,
+    ) -> Path:
+        """Export FCPXML without claiming or attempting editor automation."""
         out_dir = Path("data/videos/exports")
         out_dir.mkdir(parents=True, exist_ok=True)
         fcpxml_path = out_dir / f"{draft_name}.fcpxml"
@@ -484,12 +491,10 @@ class JianyingDraftGenerator:
         with open(fcpxml_path, "w", encoding="utf-8") as f:
             f.write(fcpxml_content)
 
-        # Trigger automatic macOS app invocation with FCPXML
-        try:
-            import subprocess
-            subprocess.run(["open", "-a", "CapCut", str(fcpxml_path.resolve())], check=False)
-            logger.info("Automatically triggered CapCut FCPXML import for: %s", fcpxml_path)
-        except Exception as e:
-            logger.warning("Could not auto-open FCPXML in CapCut: %s", e)
+        if open_after_export:
+            logger.warning(
+                "open_after_export is intentionally unsupported: FCPXML export "
+                "does not imply that CapCut can import or control the project."
+            )
 
         return fcpxml_path

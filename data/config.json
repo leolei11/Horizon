@@ -12,36 +12,71 @@
     "max_tokens": 8192,
     "throttle_sec": 0.2,
     "analysis_concurrency": 2,
-    "analysis_batch_size": 5,
     "enrichment_concurrency": 2,
-    "enrichment_batch_size": 5,
-    "enrichment_search_mode": "targeted",
-    "enrichment_search_results": 2,
-    "enrichment_search_timeout_sec": 10,
-    "enrichment_min_content_chars": 800,
-    "enrichment_content_max_chars": 2000,
-    "enrichment_comments_max_chars": 800,
-    "enrichment_output_detail": "full",
-    "enrichment_retry_attempts": 1,
-    "enrichment_failure_fallback": "summary",
-    "enrichment_cache_ttl_days": 30,
-    "enrichment_cache_path": "data/enrichment-cache.json",
-    "enrichment_cache_scope": "all",
+    "request_timeout_sec": 45,
+    "max_retries": 1,
     "languages": [
       "zh"
+    ]
+  },
+  "interests": {
+    "enabled": true,
+    "audience": "Neo：实操导向的全栈与独立开发者，同时关注 AI 产品编辑、AI 求职和 AI 视频剪辑。日报应帮助他当天决定值得试用、学习、写作或做成视频的内容。",
+    "include_topics": [
+      "可直接安装或试用的 AI 应用",
+      "Agent 工作流与 API 集成",
+      "Codex 与 Antigravity 提效技巧",
+      "AI 视频剪辑与内容生产",
+      "AI 产品编辑与求职机会",
+      "GitHub 开源项目",
+      "SaaS 架构与独立开发",
+      "现代前端、后端与数据库实战"
     ],
-    "interest_profile": "聚焦综合技术与 SaaS 创作领域（每日总数 20 条）：前 10 条精选 GitHub 热门开源、SaaS 架构、现代 CSS 特效、后端实战；后 10 条为【AI 落地应用与提效工具】专属配额，100% 聚焦具备直接使用与落地价值的 AI 产物（开源 AI 桌面/Web 应用、Agent 工作流框架、Codex/Antigravity 提效技巧与插件、API 极简集成库）。一票否决纯学术论文与模型对比，摘要第一句用平实大白话说明‘这是一个干什么用的 AI 应用/工具’。遴选兼具技术深度与落地实用价值的资讯，严格去重，不推送重复内容。",
-    "reader_profile": "面向实操落地导向的全栈开发者、独立开发者与 AI 工具使用者。摒弃抽象高深的学术理论与算法推导，摘要第一句必须用最平实无门槛的大白话说明‘这是一个干什么用的工具/框架/软件’。重点呈现：1. 实际应用场景与能解决的具体痛点；2. 核心功能亮点与落地提效价值（如省时、省显存、免配置开箱即用）；3. 上手门槛、具体使用步骤与适用人群。严禁无意义的学术名词堆砌与套话。",
-    "deprioritized_topics": []
+    "exclude_topics": [
+      "Claude Code"
+    ],
+    "hard_reject_rules": [
+      "纯学术论文、模型跑分或参数对比，且没有近期可使用的产品、代码或明确开发者行动",
+      "泛科技社会新闻，与 AI 应用、软件开发、内容生产或求职没有直接关系",
+      "纯宣传、重复报道、缺少可验证来源或无法说明读者能拿它做什么",
+      "标题或正文的核心主题是 Claude Code"
+    ],
+    "min_relevance_score": 7.0,
+    "min_actionability_score": 6.0,
+    "buckets": {
+      "applied-ai": {
+        "name": "AI 落地与提效",
+        "target_count": 10,
+        "description": "能直接试用、集成或转化为内容的 AI 产品、Agent、工作流、视频工具、求职与编辑机会。",
+        "priority_topics": [
+          "AI 应用",
+          "Agent",
+          "Codex",
+          "Antigravity",
+          "AI 剪辑",
+          "AI 求职",
+          "API 集成"
+        ]
+      },
+      "builder-stack": {
+        "name": "开发与 SaaS 实战",
+        "target_count": 10,
+        "description": "对全栈、独立开发和 SaaS 产品构建有直接复用价值的开源项目与工程实践。",
+        "priority_topics": [
+          "GitHub 开源",
+          "SaaS 架构",
+          "现代 CSS",
+          "后端",
+          "数据库",
+          "系统设计"
+        ]
+      }
+    }
   },
   "sources": {
     "github": [
       {
         "type": "trending_curriculum",
-        "trending_periods": [
-          "daily",
-          "weekly"
-        ],
         "trending_limit": 15,
         "curriculum_items_per_day": 1,
         "curriculum_batches": [
@@ -93,86 +128,127 @@
           [
             "microsoft/vscode"
           ]
-        ],
-        "enabled": true,
-        "category": "github-trending-and-classics"
+      ],
+      "enabled": true,
+      "category": "github-trending-and-classics",
+      "profile": "tech-news"
       }
     ],
     "hackernews": {
-      "enabled": true,
-      "fetch_top_stories": 25,
-      "min_score": 50
+    "enabled": true,
+    "fetch_top_stories": 25,
+    "min_score": 50,
+    "profile": "tech-news"
     },
     "rss": [
       {
         "name": "Josh W. Comeau (CSS & Frontend)",
-        "url": "https://www.joshwcomeau.com/rss.xml",
-        "enabled": true,
-        "category": "frontend-css"
+      "url": "https://www.joshwcomeau.com/rss.xml",
+      "enabled": true,
+      "category": "frontend-css",
+      "profile": "tech-blog"
       },
       {
         "name": "Codrops (CSS Animations & Design)",
-        "url": "https://tympanus.net/codrops/feed/",
-        "enabled": true,
-        "category": "frontend-css"
+      "url": "https://tympanus.net/codrops/feed/",
+      "enabled": true,
+      "category": "frontend-css",
+      "profile": "tech-blog"
       },
       {
         "name": "CSS-Tricks (Frontend & CSS)",
-        "url": "https://css-tricks.com/feed/",
-        "enabled": true,
-        "category": "frontend-css"
+      "url": "https://css-tricks.com/feed/",
+      "enabled": true,
+      "category": "frontend-css",
+      "profile": "tech-blog"
       },
       {
         "name": "Web.dev (Modern Web Standards)",
-        "url": "https://web.dev/feed.xml",
-        "enabled": true,
-        "category": "web-dev"
+      "url": "https://web.dev/feed.xml",
+      "enabled": true,
+      "category": "web-dev",
+      "profile": "tech-blog"
       },
       {
         "name": "ByteByteGo (System Design & Architecture)",
-        "url": "https://blog.bytebytego.com/feed",
-        "enabled": true,
-        "category": "backend-architecture"
+      "url": "https://blog.bytebytego.com/feed",
+      "enabled": true,
+      "category": "backend-architecture",
+      "profile": "tech-blog"
       },
       {
         "name": "Real Python (Python & Backend)",
-        "url": "https://realpython.com/atom.xml",
-        "enabled": true,
-        "category": "backend-python"
+      "url": "https://realpython.com/atom.xml",
+      "enabled": true,
+      "category": "backend-python",
+      "profile": "tech-blog"
       },
       {
         "name": "PostgreSQL Weekly (Databases & Storage)",
-        "url": "https://postgresweekly.com/rss/",
-        "enabled": true,
-        "category": "database-storage"
+      "url": "https://postgresweekly.com/rss/",
+      "enabled": true,
+      "category": "database-storage",
+      "profile": "tech-blog"
       },
       {
         "name": "freeCodeCamp News (Tutorials & Career)",
-        "url": "https://www.freecodecamp.org/news/rss/",
-        "enabled": true,
-        "category": "tutorials-career"
+      "url": "https://www.freecodecamp.org/news/rss/",
+      "enabled": true,
+      "category": "tutorials-career",
+      "profile": "tech-blog"
       },
       {
         "name": "Simon Willison (AI & Tools)",
-        "url": "https://simonwillison.net/atom/everything/",
-        "enabled": true,
-        "category": "ai-tools"
+      "url": "https://simonwillison.net/atom/everything/",
+      "enabled": true,
+      "category": "ai-tools",
+      "profile": "tech-blog"
       },
       {
         "name": "Hugging Face Blog (Open-Source AI)",
-        "url": "https://huggingface.co/blog/feed.xml",
-        "enabled": true,
-        "category": "ai-tools"
+      "url": "https://huggingface.co/blog/feed.xml",
+      "enabled": true,
+      "category": "ai-tools",
+      "profile": "tech-blog"
+      },
+      {
+        "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "enabled": true,
+      "category": "ai-tools",
+      "profile": "tech-news"
+      },
+      {
+        "name": "Ollama Releases",
+      "url": "https://github.com/ollama/ollama/releases.atom",
+      "enabled": true,
+      "category": "ai-tools",
+      "profile": "tech-news"
+      },
+      {
+        "name": "ComfyUI Releases",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases.atom",
+      "enabled": true,
+      "category": "ai-video-editing",
+      "profile": "tech-news"
+      },
+      {
+        "name": "Remotion Releases",
+      "url": "https://github.com/remotion-dev/remotion/releases.atom",
+      "enabled": true,
+      "category": "ai-video-editing",
+      "profile": "tech-news"
       },
       {
         "name": "Dev.to Career (Resume & Interview)",
-        "url": "https://dev.to/feed/tag/career",
-        "enabled": true,
-        "category": "career-resume"
+      "url": "https://dev.to/feed/tag/career",
+      "enabled": true,
+      "category": "career-resume",
+      "profile": "tech-blog"
       }
     ],
     "reddit": {
-      "enabled": true,
+      "enabled": false,
       "subreddits": [
         {
           "subreddit": "LocalLLaMA",
@@ -203,7 +279,7 @@
       "fetch_comments": 3
     },
     "telegram": {
-      "enabled": true,
+      "enabled": false,
       "channels": [
         {
           "channel": "durov",
@@ -244,9 +320,10 @@
         "resume",
         "interview",
         "tutorial"
-      ],
-      "min_stars": 1,
-      "max_items": 20
+    ],
+    "min_stars": 1,
+    "max_items": 20,
+    "profile": "tech-news"
     }
   },
   "processing": {
@@ -254,26 +331,59 @@
     "default_profile": "tech-news",
     "profile_settings": {
       "tech-news": {
-        "threshold": 1.0,
+        "threshold": 5.0,
         "topic_dedup": true
       },
       "tech-blog": {
-        "threshold": 1.0,
+        "threshold": 5.0,
         "topic_dedup": true
       },
       "finance-news": {
-        "threshold": 1.0,
+        "threshold": 8.0,
         "topic_dedup": true
       }
     }
   },
   "collection": {
-    "time_window_hours": 72
+    "time_window_hours": 48
   },
   "digest": {
     "max_items": 20,
+    "require_exact_count": true,
+    "require_unique_items": true,
+    "category_groups": {
+      "applied-ai": {
+        "name": "AI 落地与提效",
+        "limit": 10,
+        "categories": [
+          "applied-ai"
+        ]
+      },
+      "builder-stack": {
+        "name": "开发与 SaaS 实战",
+        "limit": 10,
+        "categories": [
+          "builder-stack"
+        ]
+      }
+    },
     "default_group": "other",
-    "default_group_limit": 3
+    "default_group_limit": 1
+  },
+  "video": {
+    "enabled": true,
+    "auto_render": true,
+    "languages": [
+      "zh"
+    ],
+    "max_items": 5,
+    "min_video_score": 7.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "voice": "zh-CN-YunxiNeural",
+    "renderer_dir": "video",
+    "output_dir": "data/videos"
   },
   "webhook": {
     "enabled": true,

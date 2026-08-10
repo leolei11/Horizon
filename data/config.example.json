@@ -7,7 +7,9 @@
     "max_tokens": 4096,
     "throttle_sec": 0,
     "analysis_concurrency": 1,
-    "enrichment_concurrency": 1
+    "enrichment_concurrency": 1,
+    "request_timeout_sec": 60,
+    "max_retries": 1
   },
   "processing": {
     "profiles_dir": "profiles",
@@ -200,6 +202,8 @@
   },
   "digest": {
     "max_items": null,
+    "require_exact_count": false,
+    "require_unique_items": false,
     "profile_order": [
       "tech-news",
       "tech-blog",
@@ -208,6 +212,21 @@
     "category_groups": {},
     "default_group": "other",
     "default_group_limit": null
+  },
+  "video": {
+    "enabled": false,
+    "auto_render": false,
+    "languages": [
+      "zh"
+    ],
+    "max_items": 5,
+    "min_video_score": 7.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "voice": "zh-CN-YunxiNeural",
+    "renderer_dir": "video",
+    "output_dir": "data/videos"
   },
   "webhook": {
     "enabled": false,

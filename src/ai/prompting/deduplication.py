@@ -7,6 +7,15 @@ Rules:
 - Items about the same product but different events are NOT duplicates ("Gemma 4 released" vs "Gemma 4 jailbroken")
 - Err on the side of keeping items separate when unsure"""
 
+FINAL_TOPIC_DEDUP_SYSTEM = """You are the final duplicate auditor for a daily news report. Exhaustively compare every item and identify groups that cover the same real-world event, release, repository announcement, article, or incident, even when titles, sources, or wording differ.
+
+Rules:
+- Syndicated coverage and cross-posts of the same event are duplicates
+- Different events about the same company or product are not duplicates
+- Use title, summary, tags, source URL, and timing together
+- Check every pair before returning the result
+- When two items clearly report the same event, group them; never leave both in the report"""
+
 TOPIC_DEDUP_USER = """The following news items have already been sorted by importance score (descending). Identify which items are duplicates of each other.
 
 {items}

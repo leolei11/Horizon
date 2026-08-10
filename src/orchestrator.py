@@ -5,6 +5,7 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+import unicodedata
 from typing import Dict, List, Literal, Optional
 from urllib.parse import unquote_plus, urlsplit
 import httpx
@@ -269,7 +270,11 @@ class HorizonOrchestrator:
                     f"→ {len(merged_items)} unique items\n"
                 )
 
-            history_dedup = HistoryDeduplicator(self.storage.data_dir)
+            # StorageManager exposes data_dir in production. Keeping a cwd
+            # fallback makes lightweight integrations and tests safe without
+            # coupling them to the concrete storage implementation.
+            history_data_dir = Path(getattr(self.storage, "data_dir", Path.cwd()))
+            history_dedup = HistoryDeduplicator(history_data_dir)
             fresh_items = history_dedup.filter_items(merged_items)
             if len(fresh_items) < len(merged_items):
                 self.console.print(
@@ -321,23 +326,49 @@ class HorizonOrchestrator:
                     f"{self.icons['save']} Saved {lang.upper()} summary to: {summary_path}\n"
                 )
 
-                # Export automatic Jianying Pro draft project for Chinese summary
-                if lang == "zh":
+                if (
+                    self.config.video.enabled
+                    and lang in self.config.video.languages
+                ):
                     try:
-                        from src.video.jianying_draft import JianyingDraftGenerator
-                        jy_gen = JianyingDraftGenerator()
-                        draft_name = f"HORIZON_{today}"
-                        jy_draft_dir = await jy_gen.build_draft_project(summary_path, draft_name)
-                        self.console.print(
-                            f"{self.icons['sparkles']} [bold green]Exported Jianying Pro draft project to: {jy_draft_dir}[/bold green]\n"
+                        from .video.pipeline import HorizonVideoPipeline
+
+                        bucket_names = {
+                            bucket_id: bucket.name
+                            for bucket_id, bucket in self.config.interests.buckets.items()
+                        }
+                        video_result = await HorizonVideoPipeline(
+                            self.config.video
+                        ).build_daily_video(
+                            important_items,
+                            date=today,
+                            language=lang,
+                            bucket_names=bucket_names,
                         )
+                        self.console.print(
+                            f"{self.icons['sparkles']} Video edition selected "
+                            f"{video_result.selected_count} items; manifest: "
+                            f"{video_result.manifest_path}"
+                        )
+                        if video_result.output_path:
+                            self.console.print(
+                                f"{self.icons['save']} Rendered landscape video: "
+                                f"{video_result.output_path}\n"
+                            )
+                        elif video_result.warnings:
+                            self.console.print(
+                                f"[yellow]{self.icons['warning']} Video manifest "
+                                "created with narration degradations.[/yellow]\n"
+                            )
                     except Exception as ex:
-                        logger.warning("Could not export Jianying draft project: %s", ex)
+                        logger.warning("Could not build video edition: %s", ex)
+                        self.console.print(
+                            f"[yellow]{self.icons['warning']} Video edition skipped: "
+                            f"{ex}[/yellow]\n"
+                        )
 
                 # Copy to docs/ for GitHub Pages
                 try:
-                    from pathlib import Path
-
                     post_filename = f"{today}-summary-{lang}.md"
                     posts_dir = Path("docs/_posts")
                     posts_dir.mkdir(parents=True, exist_ok=True)
@@ -646,6 +677,7 @@ class HorizonOrchestrator:
         items: List[ContentItem],
         *,
         log: bool = True,
+        strict: bool = False,
     ) -> List[ContentItem]:
         """Merge items covering the same topic using AI semantic deduplication.
 
@@ -661,7 +693,11 @@ class HorizonOrchestrator:
         if len(items) <= 1:
             return items
 
-        from .ai.prompting.deduplication import TOPIC_DEDUP_SYSTEM, TOPIC_DEDUP_USER
+        from .ai.prompting.deduplication import (
+            FINAL_TOPIC_DEDUP_SYSTEM,
+            TOPIC_DEDUP_SYSTEM,
+            TOPIC_DEDUP_USER,
+        )
         from .ai.utils import parse_json_response
 
         # Build the item list for the prompt
@@ -670,26 +706,77 @@ class HorizonOrchestrator:
             analysis = item.processing.analysis if item.processing else None
             tags = ", ".join(analysis.tags) if analysis and analysis.tags else "—"
             summary = analysis.summary if analysis else "—"
-            lines.append(f"[{i}] {item.title}\n    Tags: {tags}\n    Summary: {summary}")
+            lines.append(
+                f"[{i}] {item.title}\n"
+                f"    URL: {item.url}\n"
+                f"    Published: {item.published_at.isoformat()}\n"
+                f"    Tags: {tags}\n"
+                f"    Summary: {summary}"
+            )
         items_text = "\n\n".join(lines)
 
-        try:
-            ai_client = create_ai_client(self.config.ai)
-            response = await ai_client.complete(
-                system=TOPIC_DEDUP_SYSTEM,
-                user=TOPIC_DEDUP_USER.format(items=items_text),
-            )
-            result = parse_json_response(response)
-            if result is None:
+        ai_client = create_ai_client(self.config.ai)
+        duplicate_groups = None
+        audit_attempts = 3 if strict else 1
+        last_error: Exception | None = None
+        for attempt in range(audit_attempts):
+            try:
+                response = await ai_client.complete(
+                    system=(
+                        FINAL_TOPIC_DEDUP_SYSTEM if strict else TOPIC_DEDUP_SYSTEM
+                    ),
+                    user=TOPIC_DEDUP_USER.format(items=items_text),
+                )
+                result = parse_json_response(response)
+                if not isinstance(result, dict) or "duplicates" not in result:
+                    raise ValueError("invalid AI response")
+                duplicate_groups = result.get("duplicates", [])
+                break
+            except Exception as exc:
+                last_error = exc
+                if strict and attempt < audit_attempts - 1:
+                    continue
+                if strict:
+                    raise RuntimeError(
+                        f"Final duplicate audit failed after {audit_attempts} "
+                        f"attempts: {exc}"
+                    ) from exc
                 if log:
-                    self.console.print("[yellow]  dedup: could not parse AI response, skipping[/yellow]")
+                    self.console.print(
+                        f"[yellow]  dedup: AI call failed ({exc}), skipping[/yellow]"
+                    )
                 return items
 
-            duplicate_groups = result.get("duplicates", [])
-        except Exception as e:
-            if log:
-                self.console.print(f"[yellow]  dedup: AI call failed ({e}), skipping[/yellow]")
+        if duplicate_groups is None:
+            raise RuntimeError(
+                f"Final duplicate audit failed after {audit_attempts} attempts: "
+                f"{last_error or 'unknown error'}"
+            )
+
+        if not isinstance(duplicate_groups, list):
+            if strict:
+                raise RuntimeError(
+                    "Final duplicate audit failed: duplicates must be a list"
+                )
             return items
+
+        used_indices: set[int] = set()
+        for group in duplicate_groups:
+            valid_group = (
+                isinstance(group, list)
+                and len(group) >= 2
+                and all(type(index) is int for index in group)
+                and len(group) == len(set(group))
+                and all(0 <= index < len(items) for index in group)
+                and not used_indices.intersection(group)
+            )
+            if not valid_group:
+                if strict:
+                    raise RuntimeError(
+                        "Final duplicate audit failed: invalid duplicate group"
+                    )
+                continue
+            used_indices.update(group)
 
         if not duplicate_groups:
             return items
@@ -722,6 +809,51 @@ class HorizonOrchestrator:
                 drop_indices.add(dup_idx)
 
         return [item for i, item in enumerate(items) if i not in drop_indices]
+
+    @staticmethod
+    def _digest_title_identity(title: str) -> str:
+        normalized = unicodedata.normalize("NFKC", title).casefold()
+        return "".join(character for character in normalized if character.isalnum())
+
+    @staticmethod
+    def _digest_url_identity(url: str) -> tuple[str, Optional[int], str, tuple[str, ...]]:
+        parsed = urlsplit(url)
+        scheme = parsed.scheme.lower()
+        port = parsed.port
+        if (scheme, port) in {("http", 80), ("https", 443)}:
+            port = None
+        path = unquote_plus(parsed.path).rstrip("/") or "/"
+        query_parts = []
+        for part in parsed.query.split("&") if parsed.query else []:
+            name = unquote_plus(part.partition("=")[0]).lower()
+            if name.startswith("utm_") or name in _TRACKING_QUERY_PARAMETERS:
+                continue
+            query_parts.append(unquote_plus(part))
+        return (
+            (parsed.hostname or "").lower(),
+            port,
+            path,
+            tuple(sorted(query_parts)),
+        )
+
+    def merge_digest_identity_duplicates(
+        self,
+        items: List[ContentItem],
+    ) -> List[ContentItem]:
+        """Remove deterministic URL/title duplicates while preserving rank order."""
+        seen_urls: set[tuple[str, Optional[int], str, tuple[str, ...]]] = set()
+        seen_titles: set[str] = set()
+        unique_items: List[ContentItem] = []
+        for item in items:
+            url_key = self._digest_url_identity(str(item.url))
+            title_key = self._digest_title_identity(item.title)
+            if url_key in seen_urls or (title_key and title_key in seen_titles):
+                continue
+            seen_urls.add(url_key)
+            if title_key:
+                seen_titles.add(title_key)
+            unique_items.append(item)
+        return unique_items
 
     async def filter_items(
         self,
@@ -811,6 +943,59 @@ class HorizonOrchestrator:
         log: bool = True,
     ) -> FilteringPipelineResult:
         """Select final digest items using the same stages for every entry point."""
+        exact_count = (
+            self.config.digest.max_items
+            if self.config.digest.require_exact_count
+            else None
+        )
+        if exact_count is not None:
+            quality_items = [
+                item for item in items if self.passes_profile_filter(item, threshold)
+            ]
+            candidates = [item for item in items if self.passes_digest_candidate(item)]
+            candidates.sort(
+                key=lambda item: (
+                    1 if self.passes_profile_filter(item, threshold) else 0,
+                    *self._digest_sort_key(item),
+                ),
+                reverse=True,
+            )
+            await self._expand_twitter_discussion(candidates)
+            candidates = [
+                item for item in candidates if self.passes_digest_candidate(item)
+            ]
+            candidates.sort(
+                key=lambda item: (
+                    1 if self.passes_profile_filter(item, threshold) else 0,
+                    *self._digest_sort_key(item),
+                ),
+                reverse=True,
+            )
+            topic_dedup_removed = 0
+            if self.config.digest.require_unique_items:
+                before_dedup = len(candidates)
+                candidates = self.merge_digest_identity_duplicates(candidates)
+                candidates = await self.merge_topic_duplicates(
+                    candidates,
+                    log=log,
+                    strict=True,
+                )
+                topic_dedup_removed = before_dedup - len(candidates)
+            balanced = self.apply_balanced_digest(candidates, log=log)
+            if len(balanced.items) != exact_count:
+                raise RuntimeError(
+                    f"Digest requires exactly {exact_count} unique items, but only "
+                    f"{len(balanced.items)} eligible candidates remained"
+                )
+            return FilteringPipelineResult(
+                items=balanced.items,
+                threshold_count=len(quality_items),
+                topic_dedup_count=len(candidates),
+                topic_dedup_removed=topic_dedup_removed,
+                balanced_digest=balanced,
+                eligible_count=len(candidates),
+            )
+
         initial = await self.filter_items(
             items,
             threshold=threshold,
@@ -827,27 +1012,6 @@ class HorizonOrchestrator:
             for item in candidates
             if self.passes_profile_filter(item, threshold)
         ]
-        # Guarantee fallback: If eligible items is less than digest max_items (10), fill from items
-        target_count = self.config.digest.max_items or 10
-        if len(eligible) < target_count and items:
-            eligible_ids = {item.id for item in eligible}
-            sorted_all = sorted(
-                items,
-                key=lambda item: (
-                    item.processing.analysis.score
-                    if item.processing
-                    and item.processing.analysis
-                    and item.processing.analysis.score is not None
-                    else -1
-                ),
-                reverse=True,
-            )
-            for item in sorted_all:
-                if item.id not in eligible_ids:
-                    eligible.append(item)
-                    eligible_ids.add(item.id)
-                    if len(eligible) >= target_count:
-                        break
 
         eligible.sort(
             key=lambda item: (
@@ -869,6 +1033,22 @@ class HorizonOrchestrator:
             eligible_count=len(eligible),
         )
 
+    def passes_digest_candidate(self, item: ContentItem) -> bool:
+        """Accept a reserve candidate while preserving hard interest exclusions."""
+        if not item.processing or not item.processing.analysis:
+            return False
+        analysis = item.processing.analysis
+        if analysis.score is None:
+            return False
+
+        interests = getattr(self.config, "interests", None)
+        if interests is None or not interests.enabled:
+            return True
+        return (
+            not analysis.rejection_reason
+            and analysis.interest_bucket in interests.buckets
+        )
+
     def passes_profile_filter(
         self,
         item: ContentItem,
@@ -882,7 +1062,58 @@ class HorizonOrchestrator:
         if effective_threshold is None and settings is not None:
             effective_threshold = settings.threshold
         score = item.processing.analysis.score
-        return score is not None and score >= effective_threshold
+        if score is None:
+            return False
+        if effective_threshold is not None and score < effective_threshold:
+            return False
+
+        interests = getattr(self.config, "interests", None)
+        if interests is None or not interests.enabled:
+            return True
+
+        analysis = item.processing.analysis
+        if analysis.rejection_reason:
+            return False
+        if analysis.interest_bucket not in interests.buckets:
+            return False
+        if (
+            analysis.relevance_score is None
+            or analysis.relevance_score < interests.min_relevance_score
+        ):
+            return False
+        if (
+            analysis.actionability_score is None
+            or analysis.actionability_score < interests.min_actionability_score
+        ):
+            return False
+        return True
+
+    def _digest_category(self, item: ContentItem) -> Optional[str]:
+        """Return the user-interest lane when enabled, else the source category."""
+        interests = getattr(self.config, "interests", None)
+        if (
+            interests is not None
+            and interests.enabled
+            and item.processing
+            and item.processing.analysis
+        ):
+            return item.processing.analysis.interest_bucket
+        category = item.metadata.get("category")
+        return category if isinstance(category, str) else None
+
+    def _digest_sort_key(self, item: ContentItem) -> tuple[float, ...]:
+        """Rank by personal utility when configured, else by profile score."""
+        analysis = item.processing.analysis if item.processing else None
+        if analysis is None:
+            return (-1.0,)
+        interests = getattr(self.config, "interests", None)
+        if interests is not None and interests.enabled:
+            return (
+                analysis.relevance_score or 0.0,
+                analysis.actionability_score or 0.0,
+                analysis.score or 0.0,
+            )
+        return (analysis.score if analysis.score is not None else -1.0,)
 
     def apply_balanced_digest(
         self,
@@ -899,18 +1130,23 @@ class HorizonOrchestrator:
         digest = self.config.digest
         groups = digest.category_groups
         max_items = digest.max_items
+        interests = getattr(self.config, "interests", None)
+        has_interest_quotas = bool(
+            interests is not None and interests.enabled and interests.buckets
+        )
 
-        if not groups and max_items is None:
+        if not groups and max_items is None and not has_interest_quotas:
             return BalancedDigestResult(items=items)
 
-        sorted_items = sorted(
-            items,
-            key=lambda item: (
-                item.processing.analysis.score
-                if item.processing and item.processing.analysis and item.processing.analysis.score is not None
-                else -1
-            ),
-            reverse=True,
+        sorted_items = sorted(items, key=self._digest_sort_key, reverse=True)
+
+        interest_limits = (
+            {
+                bucket_id: bucket.target_count
+                for bucket_id, bucket in interests.buckets.items()
+            }
+            if interests is not None and interests.enabled
+            else {}
         )
 
         category_to_group: Dict[str, str] = {}
@@ -936,32 +1172,22 @@ class HorizonOrchestrator:
         group_counts: Dict[str, int] = defaultdict(int)
         default_group = digest.default_group
 
-        from .models import SourceType
-        # 1. Guarantee GitHub items if available (MUST include GitHub)
-        github_items = [item for item in sorted_items if item.source_type == SourceType.GITHUB]
-        for item in github_items[:3]:
-            category = item.metadata.get("category")
-            group_key = (
-                category_to_group.get(category, default_group)
-                if isinstance(category, str)
-                else default_group
-            )
-            selected.append((item, group_key))
-            selected_ids.add(item.id)
-            group_counts[group_key] += 1
-
-        # 2. Main category balancing loop
+        # Apply configured quality-preserving quota caps. A cap is never broken
+        # merely to fill max_items; max_items is an upper bound, not a target.
         for item in sorted_items:
             if item.id in selected_ids:
                 continue
-            category = item.metadata.get("category")
-            group_key = (
-                category_to_group.get(category, default_group)
-                if isinstance(category, str)
-                else default_group
-            )
+            category = self._digest_category(item)
+            if isinstance(category, str) and category in interest_limits:
+                group_key = category
+            elif isinstance(category, str):
+                group_key = category_to_group.get(category, default_group)
+            else:
+                group_key = default_group
 
-            if group_key in groups:
+            if group_key in interest_limits:
+                limit = interest_limits[group_key]
+            elif group_key in groups:
                 limit = groups[group_key].limit
             else:
                 limit = digest.default_group_limit
@@ -973,23 +1199,24 @@ class HorizonOrchestrator:
             selected_ids.add(item.id)
             group_counts[group_key] += 1
 
-        # 3. Fill up to max_items if category limits left selected under max_items
-        if max_items is not None and len(selected) < max_items:
-            for item in sorted_items:
-                if item.id not in selected_ids:
-                    category = item.metadata.get("category")
-                    group_key = (
-                        category_to_group.get(category, default_group)
-                        if isinstance(category, str)
-                        else default_group
-                    )
-                    selected.append((item, group_key))
-                    selected_ids.add(item.id)
-                    if len(selected) >= max_items:
-                        break
-
         if max_items is not None:
             selected = selected[:max_items]
+            if digest.require_exact_count and len(selected) < max_items:
+                selected_ids = {item.id for item, _ in selected}
+                for item in sorted_items:
+                    if len(selected) >= max_items:
+                        break
+                    if item.id in selected_ids:
+                        continue
+                    category = self._digest_category(item)
+                    if isinstance(category, str) and category in interest_limits:
+                        group_key = category
+                    elif isinstance(category, str):
+                        group_key = category_to_group.get(category, default_group)
+                    else:
+                        group_key = default_group
+                    selected.append((item, group_key))
+                    selected_ids.add(item.id)
 
         final_counts: Dict[str, int] = defaultdict(int)
         for _, group_key in selected:
@@ -998,6 +1225,7 @@ class HorizonOrchestrator:
         group_limits: Dict[str, Optional[int]] = {
             group_key: group.limit for group_key, group in groups.items()
         }
+        group_limits.update(interest_limits)
         group_limits.setdefault(default_group, digest.default_group_limit)
 
         if log:
@@ -1010,6 +1238,14 @@ class HorizonOrchestrator:
                 self.console.print(
                     f"      {self.icons['detail']} {label}: "
                     f"{final_counts.get(group_key, 0)}/{group.limit}"
+                )
+            for group_key, limit in interest_limits.items():
+                if group_key in groups:
+                    continue
+                bucket = interests.buckets[group_key]
+                self.console.print(
+                    f"      {self.icons['detail']} {bucket.name}: "
+                    f"{final_counts.get(group_key, 0)}/{limit}"
                 )
             if (
                 final_counts.get(default_group, 0)
@@ -1089,7 +1325,12 @@ class HorizonOrchestrator:
             f"   Re-analyzing {len(expanded)} Twitter items with reply context...\n"
         )
         ai_client = create_ai_client(self.config.ai)
-        analyzer = ContentAnalyzer(ai_client, self.profiles, console=self.console)
+        analyzer = ContentAnalyzer(
+            ai_client,
+            self.profiles,
+            console=self.console,
+            interests=self.config.interests,
+        )
         await analyzer.analyze_batch(expanded)
 
     async def enrich_items(self, items: List[ContentItem]) -> EnrichmentBatchResult:
@@ -1138,7 +1379,12 @@ class HorizonOrchestrator:
         self.console.print(f"{self.icons['ai']} Analyzing content with AI...")
 
         ai_client = create_ai_client(self.config.ai)
-        analyzer = ContentAnalyzer(ai_client, self.profiles, console=self.console)
+        analyzer = ContentAnalyzer(
+            ai_client,
+            self.profiles,
+            console=self.console,
+            interests=self.config.interests,
+        )
 
         return await analyzer.analyze_batch(items)
 

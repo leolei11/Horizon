@@ -62,3 +62,9 @@ logs/*.log
 todo.txt
 .ruff_cache
 .pytest_cache
+
+# Deterministic video renderer dependencies and generated assets
+video/node_modules/
+video/public/generated/
+data/videos/
+work/

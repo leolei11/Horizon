@@ -1,6 +1,8 @@
-"""
-Pro Web-based Video Renderer using HTML5, CSS Glassmorphism, Playwright 60fps, and FFmpeg.
-Generates stunning 1080P AI News Video automatically.
+"""Legacy real-time browser recorder.
+
+Playwright can record a browser context, but its API does not provide a
+deterministic frame-rate contract. New Horizon videos use the Remotion renderer
+under ``video/``; this module remains only for compatibility with old drafts.
 """
 
 import os
@@ -285,8 +287,8 @@ class WebVideoRenderer:
 """
 
     async def render_video(self, items: List[Dict[str, Any]], audio_path: Path, output_mp4: Path) -> Path:
-        """Render 60fps high-aesthetic video via Playwright & combine with TTS audio."""
-        logger.info("Starting Playwright 60fps Web Video Render...")
+        """Record the page in real time and combine the result with TTS audio."""
+        logger.info("Starting legacy Playwright browser recording...")
         
         # Calculate scene durations based on sentences length
         total_dur_sec = 0.0
@@ -337,8 +339,8 @@ class WebVideoRenderer:
             if recorded_files:
                 raw_video_path = recorded_files[0]
 
-        # Combine recorded 60fps video with Edge-TTS audio using FFmpeg
-        logger.info("Combining 60fps Playwright video with TTS audio using FFmpeg...")
+        # Combine the browser recording with Edge-TTS audio using FFmpeg.
+        logger.info("Combining browser recording with TTS audio using FFmpeg...")
         cmd = [
             "ffmpeg", "-y",
             "-i", str(raw_video_path),

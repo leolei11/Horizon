@@ -72,11 +72,7 @@ def _truncate(value: str, limit: int, split: str) -> str:
         current_chars += seg_chars
 
     res = split.join(kept)
-    if not res:
-        res = value[:limit]
-    if len(res) < len(value):
-        res += "\n\n...(内容较长已截断，点击查看完整网页)"
-    return res
+    return res or value[:limit]
 
 
 def _render(

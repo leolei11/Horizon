@@ -21,12 +21,25 @@ class ToolResult:
 class WebSearchTool:
     name = "web_search"
 
+    def __init__(self, timeout_sec: float = 15.0):
+        self.timeout_sec = timeout_sec
+
     async def execute(self, arguments: dict[str, Any]) -> list[dict[str, str]]:
         query = arguments.get("query")
         if not isinstance(query, str) or not query.strip():
             raise ValueError("web_search requires a non-empty query")
         try:
-            raw = await asyncio.to_thread(DDGS().text, query.strip(), max_results=3)
+            raw = await asyncio.wait_for(
+                asyncio.to_thread(
+                    DDGS(timeout=self.timeout_sec).text,
+                    query.strip(),
+                    max_results=3,
+                ),
+                timeout=self.timeout_sec,
+            )
+        except TimeoutError:
+            logger.warning("web_search timed out for %r", query)
+            return []
         except Exception as exc:
             logger.warning("web_search failed for %r: %s", query, exc)
             return []

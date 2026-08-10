@@ -77,11 +77,13 @@ But Horizon is not just another summarizer. AI is great at reducing noise, but n
 
 - **📡 Watch Your Own Sources** — Track Hacker News, RSS, Reddit, Telegram, Twitter/X, GitHub releases or user activity, and OpenBB financial news watchlists in one pipeline
 - **🤖 Turn Noise Into a Reading List** — Analyze each item with a stable processing profile and apply your own filter threshold
-- **🔗 Merge Repeated Stories** — Deduplicate the same story across platforms before it reaches your briefing
+- **🎯 Enforce a Real Interest Contract** — Score personal relevance and actionability, hard-reject excluded topics, and optionally require an exact final item count
+- **🔗 Merge Repeated Stories** — Combine normalized URL/title checks with a strict final AI audit before an exact-count briefing is published
 - **🔍 Understand the Background** — Add web-researched context for unfamiliar concepts, companies, projects, and technical terms
 - **💬 Read the Conversation** — Collect and summarize community comments from Hacker News, Reddit, and other supported sources
 - **🌐 Publish in Two Languages** — Generate English and Chinese daily briefings from the same source set
 - **📝 Ship a Daily Site** — Publish generated Markdown as a GitHub Pages daily briefing site
+- **🎬 Render a Landscape Video Edition** — Select a stricter video subset and render a deterministic 1920×1080 H.264/AAC MP4 with Remotion and Edge TTS, without depending on CapCut
 - **📧 Deliver by Email** — Run a self-hosted SMTP/IMAP newsletter with automatic subscribe and unsubscribe handling
 - **🔔 Push to Chat or Automations** — Send templated results to Feishu/Lark, DingTalk, Slack, Discord, or custom webhook endpoints
 - **🧙 Start From Your Interests** — Use the setup wizard to generate a personalized source configuration
@@ -280,6 +282,8 @@ results. Categories come from source configuration such as
 {
   "digest": {
     "max_items": 20,
+    "require_exact_count": true,
+    "require_unique_items": true,
     "category_groups": {
       "ai": {
         "limit": 5,
@@ -298,6 +302,12 @@ results. Categories come from source configuration such as
 
 Group limits are applied after profile filtering and before enrichment. If
 `category_groups` and `max_items` are omitted, no balanced digest limits apply.
+When `require_exact_count` is enabled, quality thresholds become ranking
+priorities: lower-ranked but still valid candidates may fill open slots, and
+group limits become soft targets so another group can backfill a shortage.
+When `require_unique_items` is also enabled, Horizon normalizes URLs and titles,
+runs a strict semantic duplicate audit, and refuses to publish unless exactly
+`max_items` unique candidates remain.
 
 `api_key_env` must be the name of an environment variable, not the API key
 itself. Put the real secret in `.env`:
@@ -344,6 +354,15 @@ docker compose run --rm horizon [OPTIONS]
 | `-l`, `--log-level LEVEL` | `WARNING` | Logging level (DEBUG/INFO/WARNING/ERROR/CRITICAL) |
 
 `--data-dir` changes the state directory, including summaries, subscribers, and the default config location; `--config` changes only the config file. The generated report is saved to `data/summaries/` (or `<data-dir>/summaries/` if `--data-dir` is set). See [Configuration Paths](docs/configuration.md#configuration-paths) for combining both flags and initializing a custom config location.
+
+When `video.enabled` is true, install the pinned renderer once with
+`npm install --prefix video`, then the normal Horizon run can also create a
+manifest under `data/videos/manifests/` and an MP4 under
+`data/videos/renders/`. Re-render a manifest with:
+
+```bash
+uv run horizon-video data/videos/manifests/horizon-YYYY-MM-DD-zh.json
+```
 
 ### 4. Automate (Optional)
 

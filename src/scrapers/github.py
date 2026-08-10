@@ -249,7 +249,7 @@ class GitHubScraper(BaseScraper):
         since_str = since.strftime("%Y-%m-%d")
 
         # 1. Search for trending repositories created or updated recently
-        limit = getattr(source, "trending_limit", 10) or 10
+        limit = source.trending_limit
         url = f"{self.base_url}/search/repositories?q=pushed:>{since_str}&sort=stars&order=desc&per_page={limit}"
         try:
             response = await self.client.get(url, headers=self._get_headers(), follow_redirects=True)
@@ -297,36 +297,62 @@ class GitHubScraper(BaseScraper):
             logger.warning("Error searching GitHub trending: %s", e)
 
         # 2. Fetch curated curriculum repos if configured
-        curriculum_batches = getattr(source, "curriculum_batches", []) or []
-        for batch in curriculum_batches[:3]:  # limit to top batches per run
-            for repo_name in batch:
-                if not repo_name or "/" not in repo_name:
-                    continue
-                repo_url = f"{self.base_url}/repos/{repo_name}"
-                try:
-                    res = await self.client.get(repo_url, headers=self._get_headers(), follow_redirects=True)
-                    if res.status_code == 200:
-                        repo = res.json()
-                        stars = repo.get("stargazers_count", 0)
-                        description = repo.get("description") or "Classic GitHub Curriculum Repository"
-                        lang = repo.get("language") or "General"
-                        item = ContentItem(
-                            id=self._generate_id("github", "curriculum", str(repo["id"])),
-                            source_type=SourceType.GITHUB,
-                            title=f"GitHub 经典名库: {repo['full_name']} (⭐️ {stars})",
-                            url=repo["html_url"],
-                            content=f"{description}\n\nLanguage: {lang} | Stars: {stars}",
-                            author=repo["owner"]["login"],
-                            published_at=since,
-                            profile=source.profile,
-                            metadata={
-                                "repo": repo["full_name"],
-                                "stars": stars,
-                                "category": source.category,
-                            },
-                        )
-                        items.append(item)
-                except httpx.HTTPError as e:
-                    logger.warning("Error fetching curriculum repo %s: %s", repo_name, e)
+        curriculum_repos = [
+            repo_name
+            for batch in source.curriculum_batches
+            for repo_name in batch
+            if repo_name and "/" in repo_name
+        ]
+        selected_curriculum: List[str] = []
+        if curriculum_repos and source.curriculum_items_per_day:
+            start = int(since.strftime("%j")) % len(curriculum_repos)
+            selected_curriculum = [
+                curriculum_repos[(start + offset) % len(curriculum_repos)]
+                for offset in range(
+                    min(source.curriculum_items_per_day, len(curriculum_repos))
+                )
+            ]
+
+        for repo_name in selected_curriculum:
+            repo_url = f"{self.base_url}/repos/{repo_name}"
+            try:
+                res = await self.client.get(
+                    repo_url,
+                    headers=self._get_headers(),
+                    follow_redirects=True,
+                )
+                if res.status_code == 200:
+                    repo = res.json()
+                    stars = repo.get("stargazers_count", 0)
+                    description = (
+                        repo.get("description")
+                        or "Classic GitHub Curriculum Repository"
+                    )
+                    lang = repo.get("language") or "General"
+                    item = ContentItem(
+                        id=self._generate_id(
+                            "github", "curriculum", str(repo["id"])
+                        ),
+                        source_type=SourceType.GITHUB,
+                        title=(
+                            f"GitHub 经典名库: {repo['full_name']} "
+                            f"(⭐️ {stars})"
+                        ),
+                        url=repo["html_url"],
+                        content=(
+                            f"{description}\n\nLanguage: {lang} | Stars: {stars}"
+                        ),
+                        author=repo["owner"]["login"],
+                        published_at=since,
+                        profile=source.profile,
+                        metadata={
+                            "repo": repo["full_name"],
+                            "stars": stars,
+                            "category": source.category,
+                        },
+                    )
+                    items.append(item)
+            except httpx.HTTPError as e:
+                logger.warning("Error fetching curriculum repo %s: %s", repo_name, e)
 
         return items

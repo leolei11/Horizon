@@ -62,6 +62,17 @@ class ContentAnalysis(BaseModel):
     reason: str
     summary: str
     tags: List[str] = Field(default_factory=list)
+    interest_bucket: Optional[str] = None
+    relevance_score: Optional[float] = Field(
+        default=None, ge=0, le=10, allow_inf_nan=False
+    )
+    actionability_score: Optional[float] = Field(
+        default=None, ge=0, le=10, allow_inf_nan=False
+    )
+    video_score: Optional[float] = Field(
+        default=None, ge=0, le=10, allow_inf_nan=False
+    )
+    rejection_reason: Optional[str] = None
 
 
 class ArtifactSource(BaseModel):
@@ -193,6 +204,8 @@ AI_PROVIDER_DEFAULTS = {
 class AIConfig(BaseModel):
     """AI client configuration."""
 
+    model_config = ConfigDict(extra="forbid")
+
     provider: AIProvider
     provider_chain: Optional[str] = None
     model: str
@@ -206,11 +219,9 @@ class AIConfig(BaseModel):
     throttle_sec: float = 0.0
     analysis_concurrency: int = 1
     enrichment_concurrency: int = 1
+    request_timeout_sec: float = Field(default=60, gt=0, le=600)
+    max_retries: int = Field(default=1, ge=0, le=5)
     languages: List[str] = Field(default_factory=lambda: ["en"])
-    # Fallback configuration when provider_chain is used
-    fallback_model: Optional[str] = None
-    fallback_base_url: Optional[str] = None
-    fallback_api_key_env: Optional[str] = None
     # Azure OpenAI specific; required when provider == AZURE
     azure_endpoint_env: Optional[str] = None
     api_version: Optional[str] = None
@@ -229,6 +240,8 @@ class AIConfig(BaseModel):
 class GitHubSourceConfig(BaseModel):
     """GitHub source configuration."""
 
+    model_config = ConfigDict(extra="forbid")
+
     type: str  # "user_events", "repo_releases", etc.
     username: Optional[str] = None
     owner: Optional[str] = None
@@ -236,6 +249,9 @@ class GitHubSourceConfig(BaseModel):
     enabled: bool = True
     category: Optional[str] = None
     profile: ProfileRoute = None
+    trending_limit: int = Field(default=10, gt=0, le=100)
+    curriculum_items_per_day: int = Field(default=0, ge=0, le=10)
+    curriculum_batches: List[List[str]] = Field(default_factory=list)
 
 
 class HackerNewsConfig(BaseModel):
@@ -597,6 +613,8 @@ class DigestConfig(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     max_items: Optional[int] = Field(default=None, gt=0)
+    require_exact_count: bool = False
+    require_unique_items: bool = False
     category_groups: Dict[str, CategoryGroupConfig] = Field(default_factory=dict)
     default_group: str = "other"
     default_group_limit: Optional[int] = Field(default=None, gt=0)
@@ -612,6 +630,74 @@ class DigestConfig(BaseModel):
         return value
 
 
+class InterestBucketConfig(BaseModel):
+    """One deterministic quota lane in the personalized digest."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    name: str
+    target_count: int = Field(gt=0)
+    description: str
+    priority_topics: List[str] = Field(default_factory=list)
+
+
+class InterestConfig(BaseModel):
+    """User-owned selection policy kept separate from model-provider settings."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    enabled: bool = False
+    audience: str = ""
+    include_topics: List[str] = Field(default_factory=list)
+    exclude_topics: List[str] = Field(default_factory=list)
+    hard_reject_rules: List[str] = Field(default_factory=list)
+    min_relevance_score: float = Field(default=0, ge=0, le=10)
+    min_actionability_score: float = Field(default=0, ge=0, le=10)
+    buckets: Dict[str, InterestBucketConfig] = Field(default_factory=dict)
+
+    @field_validator("buckets")
+    @classmethod
+    def validate_buckets(
+        cls, value: Dict[str, InterestBucketConfig]
+    ) -> Dict[str, InterestBucketConfig]:
+        if any(not bucket_id.strip() for bucket_id in value):
+            raise ValueError("interest bucket IDs must be non-empty strings")
+        return value
+
+
+class VideoConfig(BaseModel):
+    """Deterministic landscape-video output settings."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    enabled: bool = False
+    auto_render: bool = False
+    languages: List[str] = Field(default_factory=lambda: ["zh"])
+    max_items: int = Field(default=5, gt=0, le=10)
+    min_video_score: float = Field(default=7, ge=0, le=10)
+    width: int = Field(default=1920, ge=1280, le=7680)
+    height: int = Field(default=1080, ge=720, le=4320)
+    fps: Literal[24, 25, 30, 50, 60] = 30
+    voice: str = "zh-CN-YunxiNeural"
+    renderer_dir: str = "video"
+    output_dir: str = "data/videos"
+
+    @field_validator("languages")
+    @classmethod
+    def validate_video_languages(cls, languages: List[str]) -> List[str]:
+        if not languages or any(not language.strip() for language in languages):
+            raise ValueError("video.languages must contain non-empty language tags")
+        return languages
+
+    @field_validator("height")
+    @classmethod
+    def validate_landscape(cls, height: int, info) -> int:
+        width = info.data.get("width")
+        if width is not None and width <= height:
+            raise ValueError("video output must be landscape (width > height)")
+        return height
+
+
 class Config(BaseModel):
     """Main configuration model."""
 
@@ -621,6 +707,8 @@ class Config(BaseModel):
     sources: SourcesConfig
     collection: CollectionConfig = Field(default_factory=CollectionConfig)
     digest: DigestConfig = Field(default_factory=DigestConfig)
+    interests: InterestConfig = Field(default_factory=InterestConfig)
+    video: VideoConfig = Field(default_factory=VideoConfig)
     processing: ProcessingConfig = Field(default_factory=ProcessingConfig)
     display: DisplayConfig = Field(default_factory=DisplayConfig)
     extractors: Dict[str, ExtractorConfig] = Field(default_factory=dict)

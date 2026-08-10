@@ -27,6 +27,12 @@
         "optional": true
       },
       {
+        "id": "next_step",
+        "type": "section",
+        "tools": [],
+        "optional": true
+      },
+      {
         "id": "community_discussion",
         "type": "section",
         "tools": [],

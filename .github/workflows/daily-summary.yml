@@ -33,7 +33,7 @@ jobs:
           SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
           BARK_URL: ${{ secrets.BARK_URL }}
           GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: uv run horizon --hours 24
+        run: uv run horizon --hours 48
 
       - name: Commit and push deduplication history
         run: |

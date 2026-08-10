@@ -16,7 +16,6 @@ from rich.progress import (
     TaskID,
     TextColumn,
 )
-from tenacity import retry, stop_after_attempt, wait_exponential
 
 from .client import AIClient
 from .localization import normalize_language
@@ -143,7 +142,6 @@ class ContentEnricher:
         config = getattr(self.client, "config", None)
         return max(getattr(config, "enrichment_concurrency", 1), 1)
 
-    @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=2, max=10), reraise=True)
     async def _complete(self, **kwargs: Any) -> str:
         return await self.client.complete(**kwargs)
 
