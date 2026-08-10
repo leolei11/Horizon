@@ -430,19 +430,50 @@ class JianyingDraftGenerator:
 
         total_sec = total_dur_us / 1_000_000
 
+        # Enriched multi-track FCPXML resources
+        resources_xml = [
+            '<format id="r1" name="FFVideoFormat1080p30" frameDuration="100/3000s" width="1920" height="1080"/>',
+            f'<asset id="a1" name="{draft_name}.mp3" src="file://{out_dir.resolve()}/{draft_name}.mp3" start="0s" duration="{total_sec:.2f}s" hasAudio="1"/>'
+        ]
+
+        spine_clips_xml = []
+        scene_time_sec = 0.0
+
+        for idx, item in enumerate(items, 1):
+            sentences = item.get("sentences", [item["title"]])
+            t_clean = item["title"]
+            scene_dur_sec = max(len("".join(sentences)) * 0.35, 8.0)
+
+            bg_file = out_dir / f"0{idx}_bg_video.mp4"
+            logo_file = out_dir / f"0{idx}_brand_logo.png"
+
+            v_asset_id = f"v{idx}"
+            if bg_file.exists():
+                resources_xml.append(
+                    f'<asset id="{v_asset_id}" name="0{idx}_bg_video.mp4" src="file://{bg_file.resolve()}" start="0s" duration="{scene_dur_sec:.2f}s" hasVideo="1"/>'
+                )
+                spine_clips_xml.append(
+                    f'<asset-clip name="Scene_{idx}_BG" ref="{v_asset_id}" offset="{scene_time_sec:.2f}s" duration="{scene_dur_sec:.2f}s" start="0s"/>'
+                )
+            else:
+                spine_clips_xml.append(
+                    f'<gap name="Scene_{idx}" offset="{scene_time_sec:.2f}s" duration="{scene_dur_sec:.2f}s"/>'
+                )
+
+            scene_time_sec += scene_dur_sec
+
         fcpxml_content = f'''<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE fcpxml>
 <fcpxml version="1.8">
     <resources>
-        <format id="r1" name="FFVideoFormat1080p30" frameDuration="100/3000s" width="1920" height="1080"/>
-        <asset id="a1" name="{draft_name}.mp3" src="file://{out_dir.resolve()}/{draft_name}.mp3" start="0s" duration="{total_sec:.2f}s" hasAudio="1"/>
+        {"\n        ".join(resources_xml)}
     </resources>
     <library>
         <event name="Horizon AI Daily">
             <project name="{draft_name}">
                 <sequence format="r1" duration="{total_sec:.2f}s">
                     <spine>
-                        <asset-clip name="Main Voiceover" ref="a1" offset="0s" duration="{total_sec:.2f}s" start="0s"/>
+                        {"\n                        ".join(spine_clips_xml)}
                     </spine>
                 </sequence>
             </project>
@@ -453,5 +484,12 @@ class JianyingDraftGenerator:
         with open(fcpxml_path, "w", encoding="utf-8") as f:
             f.write(fcpxml_content)
 
-        logger.info("Exported FCPXML interchange project: %s", fcpxml_path)
+        # Trigger automatic macOS app invocation with FCPXML
+        try:
+            import subprocess
+            subprocess.run(["open", "-a", "CapCut", str(fcpxml_path.resolve())], check=False)
+            logger.info("Automatically triggered CapCut FCPXML import for: %s", fcpxml_path)
+        except Exception as e:
+            logger.warning("Could not auto-open FCPXML in CapCut: %s", e)
+
         return fcpxml_path
