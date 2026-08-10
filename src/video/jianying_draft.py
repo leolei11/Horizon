@@ -350,8 +350,29 @@ class JianyingDraftGenerator:
                         os.remove(os.path.join(d_dir, "draft_info.json"))
 
                 # 3. Subdirectories & Configs
+                res_dir = os.path.join(d_dir, "Resources")
                 for sd in ["Resources", "Timelines", "common_attachment", "subdraft", "matting", "adjust_mask"]:
                     os.makedirs(os.path.join(d_dir, sd), exist_ok=True)
+
+                # Move/Copy all media materials into the draft's internal Resources folder to comply with macOS sandbox security
+                with open(d_json_file, "r", encoding="utf-8") as f:
+                    content_json = json.load(f)
+
+                for mat_group in ["videos", "audios", "images"]:
+                    for m_item in content_json.get("materials", {}).get(mat_group, []):
+                        m_path = m_item.get("path")
+                        if m_path and os.path.exists(m_path):
+                            fname = os.path.basename(m_path)
+                            dest_m_path = os.path.join(res_dir, fname)
+                            if not os.path.exists(dest_m_path):
+                                shutil.copyfile(m_path, dest_m_path)
+                            m_item["path"] = dest_m_path
+
+                with open(d_json_file, "w", encoding="utf-8") as f:
+                    json.dump(content_json, f, indent=2, ensure_ascii=False)
+
+                if not is_capcut:
+                    shutil.copyfile(d_json_file, target_json_file)
 
                 default_configs = {
                     "draft_virtual_store.json": '{"draft_materials":[],"draft_virtual_store":[]}',
