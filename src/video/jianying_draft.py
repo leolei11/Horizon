@@ -333,14 +333,21 @@ class JianyingDraftGenerator:
                 if not main_draft_dir:
                     main_draft_dir = d_dir
 
-                # 1. Standard draft_content.json (Native CapCut format)
+                # 1. Standard draft_content.json (CapCut native format)
                 d_json_file = os.path.join(d_dir, "draft_content.json")
                 script.dump(d_json_file)
 
-                # 2. Duplicate to draft_info.json (Jianying compatibility)
-                import shutil
-                d_info_file = os.path.join(d_dir, "draft_info.json")
-                shutil.copyfile(d_json_file, d_info_file)
+                is_capcut = "CapCut" in b_dir
+                target_json_file = d_json_file if is_capcut else os.path.join(d_dir, "draft_info.json")
+
+                # If JianyingPro, create draft_info.json
+                if not is_capcut:
+                    import shutil
+                    shutil.copyfile(d_json_file, target_json_file)
+                else:
+                    # Clean up draft_info.json for CapCut so it doesn't flag as Jianying draft
+                    if os.path.exists(os.path.join(d_dir, "draft_info.json")):
+                        os.remove(os.path.join(d_dir, "draft_info.json"))
 
                 # 3. Subdirectories & Configs
                 for sd in ["Resources", "Timelines", "common_attachment", "subdraft", "matting", "adjust_mask"]:
@@ -378,7 +385,7 @@ class JianyingDraftGenerator:
                         if item.get("draft_name") == draft_name or item.get("draft_fold_path") == d_dir:
                             item["tm_duration"] = current_time_us
                             item["draft_timeline_materials_size"] = 25000000
-                            item["draft_json_file"] = d_info_file
+                            item["draft_json_file"] = target_json_file
                     with open(root_meta_file, "w", encoding="utf-8") as f:
                         json.dump(root_meta, f, indent=2, ensure_ascii=False)
 
