@@ -318,6 +318,7 @@ class JianyingDraftGenerator:
         # Save draft JSON into user CapCut & Jianying Projects folders
         target_base_dirs = [
             self.draft_base_dir,
+            os.path.expanduser("~/Library/Containers/com.lemon.lvoverseas/Data/Movies/CapCut/User Data/Projects/com.lveditor.draft/"),
             os.path.expanduser("~/Movies/CapCut/User Data/Projects/com.lveditor.draft/"),
             os.path.expanduser("~/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/")
         ]
