@@ -317,5 +317,19 @@ class JianyingDraftGenerator:
         draft_json_file = os.path.join(draft_dir, "draft_content.json")
         script.dump(draft_json_file)
 
+        # Update draft_meta_info.json with total duration & timeline size
+        meta_json_file = os.path.join(draft_dir, "draft_meta_info.json")
+        if os.path.exists(meta_json_file):
+            try:
+                import json
+                with open(meta_json_file, "r", encoding="utf-8") as f:
+                    meta_data = json.load(f)
+                meta_data["tm_duration"] = current_time_us
+                meta_data["draft_timeline_materials_size_"] = 25000000
+                with open(meta_json_file, "w", encoding="utf-8") as f:
+                    json.dump(meta_data, f, indent=2, ensure_ascii=False)
+            except Exception as e:
+                logger.warning("Could not update draft_meta_info.json: %s", e)
+
         logger.info("Successfully exported Jianying draft project: %s", draft_dir)
         return draft_dir
