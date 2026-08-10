@@ -413,5 +413,45 @@ class JianyingDraftGenerator:
             except Exception as ex:
                 logger.warning("Could not sync draft to %s: %s", b_dir, ex)
 
+        # Export FCPXML interchange project to data/videos/exports/
+        try:
+            self.export_fcpxml(items, current_time_us, draft_name)
+        except Exception as ex:
+            logger.warning("Could not export FCPXML file: %s", ex)
+
         logger.info("Successfully exported CapCut & Jianying draft project: %s", main_draft_dir)
         return main_draft_dir
+
+    def export_fcpxml(self, items: List[Dict[str, str]], total_dur_us: int, draft_name: str) -> Path:
+        """Export standard Final Cut Pro XML (FCPXML) project for CapCut/Jianying/Premiere import."""
+        out_dir = Path("data/videos/exports")
+        out_dir.mkdir(parents=True, exist_ok=True)
+        fcpxml_path = out_dir / f"{draft_name}.fcpxml"
+
+        total_sec = total_dur_us / 1_000_000
+
+        fcpxml_content = f'''<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.8">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p30" frameDuration="100/3000s" width="1920" height="1080"/>
+        <asset id="a1" name="{draft_name}.mp3" src="file://{out_dir.resolve()}/{draft_name}.mp3" start="0s" duration="{total_sec:.2f}s" hasAudio="1"/>
+    </resources>
+    <library>
+        <event name="Horizon AI Daily">
+            <project name="{draft_name}">
+                <sequence format="r1" duration="{total_sec:.2f}s">
+                    <spine>
+                        <asset-clip name="Main Voiceover" ref="a1" offset="0s" duration="{total_sec:.2f}s" start="0s"/>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+    </library>
+</fcpxml>'''
+
+        with open(fcpxml_path, "w", encoding="utf-8") as f:
+            f.write(fcpxml_content)
+
+        logger.info("Exported FCPXML interchange project: %s", fcpxml_path)
+        return fcpxml_path
