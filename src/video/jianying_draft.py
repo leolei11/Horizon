@@ -271,14 +271,14 @@ class JianyingDraftGenerator:
             if bg_video_path and bg_video_path.exists():
                 v_mat = VideoMaterial(str(bg_video_path.resolve()))
                 bg_dur = min(v_mat.duration, duration_us)
-                v_seg = VideoSegment(v_mat, trange(current_time_us, bg_dur))
+                v_seg = VideoSegment(v_mat, trange(current_time_us, bg_dur), source_timerange=trange(0, bg_dur))
                 script.add_segment(v_seg, track_bg_video)
 
             # 4. Brand / GitHub Logo Segment
             logo_path = await self.fetch_brand_logo(item["title"], item["url"])
             if logo_path and logo_path.exists():
                 l_mat = VideoMaterial(str(logo_path.resolve()))
-                l_seg = VideoSegment(l_mat, time_range)
+                l_seg = VideoSegment(l_mat, time_range, source_timerange=trange(0, duration_us))
                 script.add_segment(l_seg, track_logo)
 
             # 5. Title Text Segment (High Impact Gold/White Style)
