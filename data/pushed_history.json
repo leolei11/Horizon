@@ -437,5 +437,157 @@
     "url": "https://www.freecodecamp.org/news/how-to-add-dynamic-features-to-a-static-site-without-a-server/",
     "url_hash": "72f9cf08c820759685921d719456098b",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "Automate your job search: a daily LinkedIn jobs pipeline in Python",
+    "url": "https://dev.to/data_pool/automate-your-job-search-a-daily-linkedin-jobs-pipeline-in-python-4248",
+    "url_hash": "0d515a4de5efe8b53d436e28c2ad329e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
+    "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+    "url_hash": "e17bee14f20f9b36f5116ce73162c11a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+    "url": "https://github.com/antirez/h3.c",
+    "url_hash": "2754c90afab4e2ef2b96b0d93a111952",
+    "source_type": "hackernews",
+    "repo": "antirez/h3.c"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "Introducing Muse Glimmer",
+    "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+    "url_hash": "d8fd569f0f8e58e0a3365e3fcaf33ae3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "jnMetaCode/agency-agents-zh (+2⭐ past_24_hours)",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh",
+    "url_hash": "993f8beeea2ca28029107fe68703acd3",
+    "source_type": "ossinsight",
+    "repo": "jnmetacode/agency-agents-zh"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "bojieli/ai-agent-book (+3⭐ past_24_hours)",
+    "url": "https://github.com/bojieli/ai-agent-book",
+    "url_hash": "b07d60e58753a646ba85aa60601adbd8",
+    "source_type": "ossinsight",
+    "repo": "bojieli/ai-agent-book"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "url": "https://stolen-thoughts.com/",
+    "url_hash": "6be852f3c4f096d21f731ceca43a9df4",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
+    "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
+    "url_hash": "baee0d63d0520cc9aee875d4cc59bd4d",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "Code review: como apontar o problema sem parecer babaca",
+    "url": "https://dev.to/denisgusto1/code-review-como-apontar-o-problema-sem-parecer-babaca-19c5",
+    "url_hash": "85d184252612b282984a804959270e6a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "hugohe3/ppt-master (+3⭐ past_24_hours)",
+    "url": "https://github.com/hugohe3/ppt-master",
+    "url_hash": "26454b4b1f40da47c4a3fbc5d143393a",
+    "source_type": "ossinsight",
+    "repo": "hugohe3/ppt-master"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "JCodesMore/ai-website-cloner-template (+2⭐ past_24_hours)",
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+    "url_hash": "cdf1702f364a4d5a525df1f377373026",
+    "source_type": "ossinsight",
+    "repo": "jcodesmore/ai-website-cloner-template"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "Exploring Procedural Geometry with Three.js and WebGPU",
+    "url": "https://tympanus.net/codrops/2026/08/11/exploring-procedural-geometry-with-three-js-and-webgpu/",
+    "url_hash": "e59a9c420498450dd8e7887726a6bcae",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet",
+    "url": "https://github.com/TheRealYT/git-knife",
+    "url_hash": "ac556788a81763687626c907d79fb0a6",
+    "source_type": "hackernews",
+    "repo": "therealyt/git-knife"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
+    "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+    "url_hash": "b9b0f04df4c54bcac1ea66695fd5377f",
+    "source_type": "hackernews",
+    "repo": "trycua/cua"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "melgarafael/DeskcommCRM (+3⭐ past_24_hours)",
+    "url": "https://github.com/melgarafael/DeskcommCRM",
+    "url_hash": "cc05accd67dc995f7c9006a0de5da8dc",
+    "source_type": "ossinsight",
+    "repo": "melgarafael/deskcommcrm"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "baidu/Unlimited-OCR (+3⭐ past_24_hours)",
+    "url": "https://github.com/baidu/Unlimited-OCR",
+    "url_hash": "896c32c8cf649dc179e249b10e47d840",
+    "source_type": "ossinsight",
+    "repo": "baidu/unlimited-ocr"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "GitHub Trending: public-apis/public-apis (⭐️ 455492)",
+    "url": "https://github.com/public-apis/public-apis",
+    "url_hash": "a55c819fccc2bf0d8efdee2ac48f8d08",
+    "source_type": "github",
+    "repo": "public-apis/public-apis"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "GitHub Trending: EbookFoundation/free-programming-books (⭐️ 394158)",
+    "url": "https://github.com/EbookFoundation/free-programming-books",
+    "url_hash": "3e2033fc37ad3f11a38ec8f8bb524666",
+    "source_type": "github",
+    "repo": "ebookfoundation/free-programming-books"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "How to Get Your Side Project Seen and Gain Paying Users",
+    "url": "https://www.freecodecamp.org/news/how-to-get-your-side-project-seen-and-gain-paying-users/",
+    "url_hash": "75e3dbb09388e57baac5ad502b06af77",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T20:56:42.716201+00:00",
+    "title": "ailyProject/aily-blockly (+4⭐ past_24_hours)",
+    "url": "https://github.com/ailyProject/aily-blockly",
+    "url_hash": "4f2783077fc12eeb6ec0317b128a1c9b",
+    "source_type": "ossinsight",
+    "repo": "ailyproject/aily-blockly"
   }
 ]
