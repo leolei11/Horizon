@@ -4,6 +4,7 @@ import asyncio
 from collections import defaultdict
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
+import logging
 from pathlib import Path
 import unicodedata
 from typing import Dict, List, Literal, Optional
@@ -34,6 +35,9 @@ from .ai.summarizer import DailySummarizer
 from .ai.enricher import ContentEnricher, EnrichmentBatchResult
 from .ai.tokens import get_usage_snapshot
 from .processing import ProfileRegistry
+
+
+logger = logging.getLogger(__name__)
 
 
 _TRACKING_QUERY_PARAMETERS = {
