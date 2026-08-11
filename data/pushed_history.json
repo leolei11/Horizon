@@ -291,5 +291,151 @@
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjt4vi/lophius_a_workbench_for_language_model_research/",
     "url_hash": "2f4f58d612996df39ee12d82f336e1b4",
     "source_type": "reddit"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "GitHub Trending: awesome-selfhosted/awesome-selfhosted (⭐️ 311850)",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "url_hash": "c6bea20e97c0820e26c7791afa5185e3",
+    "source_type": "github",
+    "repo": "awesome-selfhosted/awesome-selfhosted"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+    "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+    "url_hash": "3f4b51b0e9d786678d3dcdb4facc5da9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+    "url": "https://cactuscompute.com/needle",
+    "url_hash": "dc264893595eec750597ad191076883f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "AI Evaluation Engineering: Build a Production-Grade LLM Evaluation Platform from Scratch [Full Handbook]",
+    "url": "https://www.freecodecamp.org/news/ai-evaluation-engineering-build-a-production-grade-llm-evaluation-platform-handbook/",
+    "url_hash": "cb2d3e8bd15f813158eaf271ce7dc1fc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+    "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+    "url_hash": "8bec2762d3f70f8f63f47f32e40f0946",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
+    "url": "https://www.stoaexchange.com/",
+    "url_hash": "7f9cf988c706ea8b93ce2ad6f644b42a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "SQLite compressed text-history prototypes",
+    "url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
+    "url_hash": "40d193a48a416a3768f3b26c562176dc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "The 4 Frameworks That Changed How I Evaluate Anything",
+    "url": "https://dev.to/aimigo_57e64d6aeaf6a67a02/the-4-frameworks-that-changed-how-i-evaluate-anything-3aaa",
+    "url_hash": "98037259ed2f71e95fe3f4f038f24900",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "GitHub Trending: practical-tutorials/project-based-learning (⭐️ 278019)",
+    "url": "https://github.com/practical-tutorials/project-based-learning",
+    "url_hash": "a43fc7e96320f493fb7127528309d2a6",
+    "source_type": "github",
+    "repo": "practical-tutorials/project-based-learning"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "A Time-Tracking System That Ends Month-End Gaps",
+    "url": "https://dev.to/layerclock/a-time-tracking-system-that-ends-month-end-gaps-1lph",
+    "url_hash": "8d0f74dec47f5722197660539d6f1b8c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "pranshuparmar/witr (+3⭐ past_24_hours)",
+    "url": "https://github.com/pranshuparmar/witr",
+    "url_hash": "5c6b792d638db986c2feb0923228e77f",
+    "source_type": "ossinsight",
+    "repo": "pranshuparmar/witr"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "Humanising LLM Outputs Is Dumb",
+    "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+    "url_hash": "8f8cca34fc522fb37c69e809dea369f0",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+    "url_hash": "98a69bb3881bfcb44e7bdbb5735fcbc0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+    "url": "https://openai.com/index/zapier",
+    "url_hash": "2400bb772f7607344db5555b2d35d156",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "VoltAgent/awesome-agent-skills (+2⭐ past_24_hours)",
+    "url": "https://github.com/VoltAgent/awesome-agent-skills",
+    "url_hash": "064bd2f0be42f364bc8fba7378b127fb",
+    "source_type": "ossinsight",
+    "repo": "voltagent/awesome-agent-skills"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "ChatGPT Prompt Engineering for Freelancers: Unlocking the Power of AI-Assisted Development",
+    "url": "https://dev.to/caper_dev/chatgpt-prompt-engineering-for-freelancers-unlocking-the-power-of-ai-assisted-development-9ie",
+    "url_hash": "b3f52df1dcab34b4b82da4bc373855f1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "GitHub Trending: microsoft/vscode (⭐️ 188555)",
+    "url": "https://github.com/microsoft/vscode",
+    "url_hash": "429ceefb7bccd659498f2e08bee83c9e",
+    "source_type": "github",
+    "repo": "microsoft/vscode"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "Rust SIMD on the GPU",
+    "url": "https://www.vectorware.com/blog/simd-on-gpu/",
+    "url_hash": "1ca5dd9dc8302b5c3c51e2232c71956b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "GitHub Trending: ohmyzsh/ohmyzsh (⭐️ 189090)",
+    "url": "https://github.com/ohmyzsh/ohmyzsh",
+    "url_hash": "776dc19871547de6ade286164a23eda0",
+    "source_type": "github",
+    "repo": "ohmyzsh/ohmyzsh"
+  },
+  {
+    "pushed_at": "2026-08-11T02:32:14.049390+00:00",
+    "title": "How to Add Dynamic Features to a Static Site Without a Server",
+    "url": "https://www.freecodecamp.org/news/how-to-add-dynamic-features-to-a-static-site-without-a-server/",
+    "url_hash": "72f9cf08c820759685921d719456098b",
+    "source_type": "rss"
   }
 ]
