@@ -589,5 +589,152 @@
     "url_hash": "4f2783077fc12eeb6ec0317b128a1c9b",
     "source_type": "ossinsight",
     "repo": "ailyproject/aily-blockly"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "GitHub 经典名库: vercel/next.js (⭐️ 141743)",
+    "url": "https://github.com/vercel/next.js",
+    "url_hash": "b58db5c0a7c76bd1c9e76f7138c88210",
+    "source_type": "github",
+    "repo": "vercel/next.js"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "GitHub Trending: obra/superpowers (⭐️ 271214)",
+    "url": "https://github.com/obra/superpowers",
+    "url_hash": "c3257d531a3c4d8943e81b60e8f94a95",
+    "source_type": "github",
+    "repo": "obra/superpowers"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "calesthio/OpenMontage (+3⭐ past_24_hours)",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "url_hash": "20703a86e2b01e2467f7f101e6e554ea",
+    "source_type": "ossinsight",
+    "repo": "calesthio/openmontage"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "Qwen3.8-2.4T",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+    "url_hash": "4b3c0e16bb3f45a1233726eb31152d27",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "GitHub Trending: DigitalPlatDev/FreeDomain (⭐️ 192497)",
+    "url": "https://github.com/DigitalPlatDev/FreeDomain",
+    "url_hash": "a6c0bdd810c337f3d1d61934826d3af2",
+    "source_type": "github",
+    "repo": "digitalplatdev/freedomain"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "Creating an Interactive 3D Cluster with Three.js, TSL and Three Start",
+    "url": "https://tympanus.net/codrops/2026/08/12/creating-an-interactive-3d-cluster-with-three-js-tsl-and-three-start/",
+    "url_hash": "63e5a67a613202bf7dc426cd662b856f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "How to Integrate OpenTelemetry With a FastAPI App",
+    "url": "https://realpython.com/fastapi-opentelemetry/",
+    "url_hash": "b532be12ac6ebe98ba0b5131b52c47dc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "A gofmt-style formatter for SQL",
+    "url": "https://postgresweekly.com/issues/661",
+    "url_hash": "7efd75b48bdb1ed56deef0747007f9b0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "How to Build an AI Agent with Per-User OAuth Access [Full Handbook]",
+    "url": "https://www.freecodecamp.org/news/ai-agent-per-user-oauth-slack-github/",
+    "url_hash": "b74480e46887a05a69c707b791e694f8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "How to Automate Flutter Releases with Fastlane and GitHub Actions for Firebase App Distribution, Google Play, TestFlight, and App Store Connect",
+    "url": "https://www.freecodecamp.org/news/how-to-automate-flutter-releases-with-fastlane-and-github-actions/",
+    "url_hash": "6509d7a3db9687fd7a43fa09cc863d08",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "DeepSeek V4 Pro 0813",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+    "url_hash": "407e683521748e9d901290f02084b601",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "HTML over WebSockets: real-time SPAs with barely any JavaScript",
+    "url": "https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/",
+    "url_hash": "559bf5e2ec330beb92f01970e44960e5",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "Product Experimentation with Doubly Robust Estimation: When Both Your Models Are Wrong in LLM Applications",
+    "url": "https://www.freecodecamp.org/news/doubly-robust-estimation-for-llm-product-experiments/",
+    "url_hash": "dee98ff7455b45c114deaa91775b2bd5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+    "url_hash": "9fea4b35a86fb761cc35f831a624adb5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "stablyai/orca (+9⭐ past_24_hours)",
+    "url": "https://github.com/stablyai/orca",
+    "url_hash": "d7dc32f00be2e8f50acc933b5a08c8b5",
+    "source_type": "ossinsight",
+    "repo": "stablyai/orca"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "openchamber/openchamber (+4⭐ past_24_hours)",
+    "url": "https://github.com/openchamber/openchamber",
+    "url_hash": "88a45a8c0c27ecefa474e0d943ddeb0e",
+    "source_type": "ossinsight",
+    "repo": "openchamber/openchamber"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "Coding With OpenCode: AI-Assisted Python",
+    "url": "https://realpython.com/courses/coding-with-opencode-ai/",
+    "url_hash": "1e8c98e8475fb40cecdc2d7a452e6357",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "datasette-upload-dbs 0.5a0",
+    "url": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything",
+    "url_hash": "ef17876be59a301d1d06b7e2f1ba6380",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "How to Build a Browser-Based PDF Filter Studio with JavaScript",
+    "url": "https://www.freecodecamp.org/news/build-pdf-filter-studio-javascript/",
+    "url_hash": "7f81cf9fb3b422879e8cb66e5d4ad1d0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-12T20:52:54.658875+00:00",
+    "title": "v4.0.508",
+    "url": "https://github.com/remotion-dev/remotion/releases/tag/v4.0.508",
+    "url_hash": "a8d3125444eb5eec426ffb60e8b582bb",
+    "source_type": "rss",
+    "repo": "remotion-dev/remotion"
   }
 ]
