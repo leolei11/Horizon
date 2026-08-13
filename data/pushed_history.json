@@ -736,5 +736,152 @@
     "url_hash": "a8d3125444eb5eec426ffb60e8b582bb",
     "source_type": "rss",
     "repo": "remotion-dev/remotion"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "The GitHub Quest: How I Found the 'One Ring' of Open Source Contributions",
+    "url": "https://dev.to/timevolt/the-github-quest-how-i-found-the-one-ring-of-open-source-contributions-2a76",
+    "url_hash": "f68bdcb2c22f9cabbe2eb3036f904fa2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "DeepSeek Harness developer preview",
+    "url": "https://deepseek.com/harness/en/",
+    "url_hash": "b16a91c61bd8efbefb39f3e044aee25c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "alchemy-utils 0.1a0",
+    "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+    "url_hash": "cd2cdfe1baf6cfe271c2c5db7638327c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "The builder’s guide to GPT‑5.6",
+    "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "url_hash": "3e500ccae6c75743adcd9ad5e9b66144",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "alibaba/open-code-review (+2⭐ past_24_hours)",
+    "url": "https://github.com/alibaba/open-code-review",
+    "url_hash": "9cd514d03f14c102dbbc50bef65e5aac",
+    "source_type": "ossinsight",
+    "repo": "alibaba/open-code-review"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "GitHub Trending: mattpocock/skills (⭐️ 216282)",
+    "url": "https://github.com/mattpocock/skills",
+    "url_hash": "1ae169fb23a902a770b4e06de446aaa5",
+    "source_type": "github",
+    "repo": "mattpocock/skills"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+    "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "url_hash": "24013c064501e2fcce5bd97cd1768ef4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "guillaumemeyer/watermarks-remover (+23⭐ past_24_hours)",
+    "url": "https://github.com/guillaumemeyer/watermarks-remover",
+    "url_hash": "3c102972a07181349af7c70fd21e0724",
+    "source_type": "ossinsight",
+    "repo": "guillaumemeyer/watermarks-remover"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "GitHub Trending: nilbuild/developer-roadmap (⭐️ 364346)",
+    "url": "https://github.com/nilbuild/developer-roadmap",
+    "url_hash": "a26e346683b6f7d6483dddf1d2fa7d57",
+    "source_type": "github",
+    "repo": "nilbuild/developer-roadmap"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "Gemini 3.7 Flash",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "url_hash": "5b7b881746ceaa8f6745d54c054296e9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "Choose Boring Technology (2015)",
+    "url": "https://mcfunley.com/choose-boring-technology",
+    "url_hash": "6723325d9229f986f6b77cc5ff6d3ef2",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "Single log line is 49KB+ (ext4) / 110KB+ (btrfs) of systemd-journald disk writes",
+    "url": "https://github.com/systemd/systemd/issues/40262",
+    "url_hash": "233a7f03f4908fb220d0f2425477ac04",
+    "source_type": "hackernews",
+    "repo": "systemd/systemd"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "Codex in ChatGPT desktop app for Linux is now in preview",
+    "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
+    "url_hash": "2782b5e427b572dc4845f1841e20dd92",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong",
+    "url": "https://css-tricks.com/blocked-aria-hidden-fix/",
+    "url_hash": "7fdd2d760ec558465c7513fcb9c1aa56",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "A Detailed Guide to API Composition Techniques",
+    "url": "https://blog.bytebytego.com/p/a-detailed-guide-to-api-composition",
+    "url_hash": "53a92f717b30832f43a766590e81095c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "There are no lossless transformations of natural-language text",
+    "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/",
+    "url_hash": "0974a61883659e6d51aa3d334d279afe",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "url_hash": "1110b810dc4dcfbad259c21d1e88926a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "How RingCentral builds AI-native work from engineering to ops",
+    "url": "https://openai.com/index/ringcentral",
+    "url_hash": "dc35058bee54bda2ac9d3bb2d0ef18f7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "macro-inc/macro (+4⭐ past_24_hours)",
+    "url": "https://github.com/macro-inc/macro",
+    "url_hash": "bbfc2ca772d59109e439aa8934238743",
+    "source_type": "ossinsight",
+    "repo": "macro-inc/macro"
+  },
+  {
+    "pushed_at": "2026-08-13T20:54:11.842225+00:00",
+    "title": "Devin-AXIS/iPolloWork (+3⭐ past_24_hours)",
+    "url": "https://github.com/Devin-AXIS/iPolloWork",
+    "url_hash": "143c0cc13bde848939afad1351ca99d1",
+    "source_type": "ossinsight",
+    "repo": "devin-axis/ipollowork"
   }
 ]
