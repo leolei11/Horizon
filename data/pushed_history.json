@@ -883,5 +883,149 @@
     "url_hash": "143c0cc13bde848939afad1351ca99d1",
     "source_type": "ossinsight",
     "repo": "devin-axis/ipollowork"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "Qwen 3.8 27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+    "url_hash": "3c6993de807d20485350b162fbbe2888",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+    "url": "https://z.ai/blog/glm-5.3",
+    "url_hash": "9404236b6131d234b2118ec4727f738b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    "url": "https://openai.com/index/previewing-ultrafast",
+    "url_hash": "b66fa57c04f1c3a8bc6c97d9d809fe00",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "Los logros los dibujó mi novia. Los eliminé.",
+    "url": "https://dev.to/itinterviewcoch/los-logros-los-dibujo-mi-novia-los-elimine-icj",
+    "url_hash": "7e24b9b89481cd471fbb3a3071abef08",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "ashishpatel26/500-AI-Agents-Projects (+3⭐ past_24_hours)",
+    "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+    "url_hash": "7de1cdaef68b1fca0c37b8fd02c5ce48",
+    "source_type": "ossinsight",
+    "repo": "ashishpatel26/500-ai-agents-projects"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "How to Build a Production-Ready AI Agent for $0/Month Using PHP, cPanel, and Gemini Flash",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-production-ready-ai-agent-for-0-month-using-php-cpanel-and-gemini-flash/",
+    "url_hash": "a6d865351981b51ad0aaad7f79e0ee4b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "Rust for Python Developers: Why You Should Learn It",
+    "url": "https://dev.to/qingluan/rust-for-python-developers-why-you-should-learn-it-3e4a",
+    "url_hash": "e579733b346c4f5d2642262db5b20650",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "How to Build Production-Grade Agents with Pydantic AI",
+    "url": "https://www.freecodecamp.org/news/building-agents-with-pydantic-ai/",
+    "url_hash": "c2768942eb57220b828d1ce0894dee17",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "holaboss-ai/holaOS (+4⭐ past_24_hours)",
+    "url": "https://github.com/holaboss-ai/holaOS",
+    "url_hash": "7cc067ca58c9acc948704b662a67bc3a",
+    "source_type": "ossinsight",
+    "repo": "holaboss-ai/holaos"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "RustDesk now supports true unattended remote access on Wayland",
+    "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+    "url_hash": "861ab2a51f04ceb7e66119a79cb99a75",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "How to Build a Multi-Agent Trading Research System with LangChain Deep Agents [Full Handbook]",
+    "url": "https://www.freecodecamp.org/news/build-a-multi-agent-trading-research-system-with-langchain-deep-agents-handbook/",
+    "url_hash": "11873b3211b0ad7c2c20dfad52799fda",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "How the Chrome Dino Game Works Under the Hood: A Tour of Chromium's Source Code",
+    "url": "https://www.freecodecamp.org/news/how-the-chrome-dino-game-works/",
+    "url_hash": "230f07dcb12d4843513ea53e7d90f9c9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "llm-gemini 0.33",
+    "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+    "url_hash": "25d755fe228061fc06bc6b98eaf048c8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "vercel-labs/deepsec (+6⭐ past_24_hours)",
+    "url": "https://github.com/vercel-labs/deepsec",
+    "url_hash": "5c5d7a1f365e26b0e619fc401b827945",
+    "source_type": "ossinsight",
+    "repo": "vercel-labs/deepsec"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "How to Build a Basic Discord Storytelling, Chat, and Mental Wellness Bot with Python",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-basic-discord-bot-with-python/",
+    "url_hash": "68867956ae150100b3506ec250b47b09",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "How to Build a Browser-Based PDF to Grayscale Converter Using JavaScript",
+    "url": "https://www.freecodecamp.org/news/build-pdf-to-grayscale-converter-javascript/",
+    "url_hash": "75f15cd14a9c1ae9af6338fb11e1cf4f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "How to Create a Scalable KYC Onboarding Flow in React with Shadcn UI",
+    "url": "https://www.freecodecamp.org/news/how-to-create-a-kyc-onboarding-flow-with-shadcn-ui/",
+    "url_hash": "43c1549d63bb1be29f52050ed107e24d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "dnshe/DNSHE-FreeDomains (+3⭐ past_24_hours)",
+    "url": "https://github.com/dnshe/DNSHE-FreeDomains",
+    "url_hash": "f071b44b7306ffc740fa3119cdd0262f",
+    "source_type": "ossinsight",
+    "repo": "dnshe/dnshe-freedomains"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
+    "url": "https://css-tricks.com/whats-important-17/",
+    "url_hash": "2e61de5f785dc5e973576c15719477d4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-14T20:36:12.795560+00:00",
+    "title": "sqlite-utils 4.2.1",
+    "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+    "url_hash": "19988466e478beb757ce8d63c9e2239a",
+    "source_type": "rss"
   }
 ]
