@@ -33,6 +33,7 @@ from .ai.client import create_ai_client
 from .ai.analyzer import ContentAnalyzer
 from .ai.summarizer import DailySummarizer
 from .ai.enricher import ContentEnricher, EnrichmentBatchResult
+from .ai.quota_digest import QuotaDigestBuildResult, QuotaDigestBuilder
 from .ai.tokens import get_usage_snapshot
 from .processing import ProfileRegistry
 
@@ -287,17 +288,29 @@ class HorizonOrchestrator:
                     f"→ {len(fresh_items)} fresh items remaining\n"
                 )
 
-            # 4. Analyze with AI
-            analyzed_items = await self.analyze_items(fresh_items)
-            self.console.print(
-                f"{self.icons['ai']} Analyzed {len(analyzed_items)} items with AI\n"
-            )
+            if self.config.digest.quota_optimized_ai:
+                # Free-tier Gemini projects can have a very small daily request
+                # budget. Use bounded analysis and enrichment batches around one
+                # compact global selection request instead of one call per item.
+                quota_candidates = self.merge_digest_identity_duplicates(fresh_items)
+                quota_result = await self.build_quota_digest(quota_candidates)
+                important_items = quota_result.items
+                self.console.print(
+                    f"{self.icons['ai']} Built {len(important_items)}-item digest "
+                    f"in {quota_result.request_count} AI request(s)\n"
+                )
+            else:
+                # 4. Analyze with AI
+                analyzed_items = await self.analyze_items(fresh_items)
+                self.console.print(
+                    f"{self.icons['ai']} Analyzed {len(analyzed_items)} items with AI\n"
+                )
 
-            # 5. Filter, deduplicate, and balance the digest
-            filtering_result = await self.select_digest_items(
-                analyzed_items,
-            )
-            important_items = filtering_result.items
+                # 5. Filter, deduplicate, and balance the digest
+                filtering_result = await self.select_digest_items(
+                    analyzed_items,
+                )
+                important_items = filtering_result.items
 
             # Show per-sub-source selection breakdown
             selected_counts: Dict[str, int] = defaultdict(int)
@@ -308,8 +321,10 @@ class HorizonOrchestrator:
                 self.console.print(f"      {self.icons['detail']} {source_key}: {count}")
             self.console.print("")
 
-            # 6. Search related stories + enrich with background knowledge (2nd AI pass)
-            await self.enrich_items(important_items)
+            # Quota-optimized mode already writes the enriched artifact. The
+            # conventional path retains the existing second-pass enrichment.
+            if not self.config.digest.quota_optimized_ai:
+                await self.enrich_items(important_items)
 
             # Record final pushed items into historical deduplication memory
             history_dedup.record_pushed_items(important_items)
@@ -1391,6 +1406,39 @@ class HorizonOrchestrator:
         )
 
         return await analyzer.analyze_batch(items)
+
+    async def build_quota_digest(
+        self,
+        items: List[ContentItem],
+    ) -> QuotaDigestBuildResult:
+        """Build an exact enriched digest within a small daily AI request budget."""
+        exact_count = self.config.digest.max_items
+        if not self.config.digest.require_exact_count or exact_count is None:
+            raise ValueError(
+                "digest.quota_optimized_ai requires digest.require_exact_count "
+                "and max_items"
+            )
+        if not self.config.interests.enabled:
+            raise ValueError(
+                "digest.quota_optimized_ai requires the personalized interests policy"
+            )
+        if not self.config.ai.languages:
+            raise ValueError(
+                "digest.quota_optimized_ai requires at least one AI language"
+            )
+
+        builder = QuotaDigestBuilder(
+            client=create_ai_client(self.config.ai),
+            profiles=self.profiles,
+            interests=self.config.interests,
+            exact_count=exact_count,
+            language=self.config.ai.languages[0],
+            max_requests=self.config.digest.ai_request_budget,
+            analysis_batches=self.config.digest.analysis_batch_count,
+            enrichment_batches=self.config.digest.enrichment_batch_count,
+            request_interval_sec=self.config.ai.throttle_sec,
+        )
+        return await builder.build(items)
 
     async def _generate_summary(
         self,

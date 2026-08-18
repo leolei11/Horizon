@@ -615,6 +615,10 @@ class DigestConfig(BaseModel):
     max_items: Optional[int] = Field(default=None, gt=0)
     require_exact_count: bool = False
     require_unique_items: bool = False
+    quota_optimized_ai: bool = False
+    ai_request_budget: int = Field(default=20, gt=0)
+    analysis_batch_count: int = Field(default=12, gt=0)
+    enrichment_batch_count: int = Field(default=2, gt=0)
     category_groups: Dict[str, CategoryGroupConfig] = Field(default_factory=dict)
     default_group: str = "other"
     default_group_limit: Optional[int] = Field(default=None, gt=0)

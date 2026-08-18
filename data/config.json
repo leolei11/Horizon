@@ -346,6 +346,10 @@
     "max_items": 20,
     "require_exact_count": true,
     "require_unique_items": true,
+    "quota_optimized_ai": true,
+    "ai_request_budget": 20,
+    "analysis_batch_count": 12,
+    "enrichment_batch_count": 2,
     "category_groups": {
       "applied-ai": {
         "name": "AI 落地与提效",
