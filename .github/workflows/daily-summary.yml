@@ -2,8 +2,9 @@ name: Daily Horizon Summary
 
 on:
   schedule:
-    # 20:00 UTC is 04:00 AM Asia/Shanghai
-    - cron: '0 20 * * *'
+    # 08:15 UTC is 16:15 Asia/Shanghai, safely after the Gemini daily quota
+    # reset at midnight Pacific in both daylight-saving and standard time.
+    - cron: '15 8 * * *'
   workflow_dispatch:      # Allow manual trigger from GitHub Actions tab
 
 jobs:
