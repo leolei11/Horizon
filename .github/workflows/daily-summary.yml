@@ -5,7 +5,17 @@ on:
     # 08:15 UTC is 16:15 Asia/Shanghai, safely after the Gemini daily quota
     # reset at midnight Pacific in both daylight-saving and standard time.
     - cron: '15 8 * * *'
-  workflow_dispatch:      # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+    inputs:
+      model_override:
+        description: "Optional Gemini model for this recovery run only"
+        required: false
+        type: string
+      replace_current_day:
+        description: "Replace today's generated digest and history atomically"
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   daily-summary:
@@ -27,6 +37,15 @@ jobs:
 
       - name: Install dependencies
         run: uv sync
+
+      - name: Prepare automated recovery run
+        if: >-
+          github.event_name == 'workflow_dispatch' &&
+          (inputs.model_override != '' || inputs.replace_current_day)
+        env:
+          HORIZON_MODEL_OVERRIDE: ${{ inputs.model_override }}
+          HORIZON_REPLACE_CURRENT_DAY: ${{ inputs.replace_current_day }}
+        run: uv run python scripts/prepare_recovery_run.py
 
       - name: Run Horizon
         env:
