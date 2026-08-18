@@ -1,7 +1,7 @@
 {
   "ai": {
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.5-flash-lite",
     "api_key_env": "GEMINI_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
@@ -350,6 +350,7 @@
     "ai_request_budget": 20,
     "analysis_batch_count": 12,
     "enrichment_batch_count": 2,
+    "transient_retry_delay_sec": 30,
     "category_groups": {
       "applied-ai": {
         "name": "AI 落地与提效",

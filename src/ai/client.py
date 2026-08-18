@@ -173,7 +173,7 @@ class AnthropicClient(AIClient):
             max_tokens=max_tokens,
             temperature=temperature,
             system=system,
-            messages=[{"role": "user", "content": user}]
+            messages=[{"role": "user", "content": user}],
         )
         usage = getattr(message, "usage", None)
         if usage is not None:
@@ -249,7 +249,9 @@ class OpenAIClient(AIClient):
                 if base_url:
                     break
         if not base_url:
-            base_url = AI_PROVIDER_DEFAULTS.get(config.provider, {}).get("base_url") or ""
+            base_url = (
+                AI_PROVIDER_DEFAULTS.get(config.provider, {}).get("base_url") or ""
+            )
 
         if config.provider == AIProvider.OLLAMA and base_url:
             return _normalize_ollama_base_url(base_url)
@@ -290,7 +292,9 @@ class OpenAIClient(AIClient):
                 use_max_completion_tokens=self._use_max_completion_tokens,
             )
         except Exception as exc:
-            if self._supports_temperature and self._is_temperature_unsupported(str(exc)):
+            if self._supports_temperature and self._is_temperature_unsupported(
+                str(exc)
+            ):
                 self._supports_temperature = False
                 response = await self._do_request(
                     system=system,
@@ -300,7 +304,10 @@ class OpenAIClient(AIClient):
                     include_temperature=False,
                     use_max_completion_tokens=self._use_max_completion_tokens,
                 )
-            elif not self._use_max_completion_tokens and self._is_max_tokens_unsupported(str(exc)):
+            elif (
+                not self._use_max_completion_tokens
+                and self._is_max_tokens_unsupported(str(exc))
+            ):
                 self._use_max_completion_tokens = True
                 response = await self._do_request(
                     system=system,
@@ -351,11 +358,16 @@ class OpenAIClient(AIClient):
                 {"role": "user", "content": user},
             ],
         }
-        token_param = "max_completion_tokens" if use_max_completion_tokens else "max_tokens"
+        token_param = (
+            "max_completion_tokens" if use_max_completion_tokens else "max_tokens"
+        )
         request_kwargs[token_param] = max_tokens
         if include_temperature:
             request_kwargs["temperature"] = temperature
-        if self.provider not in self._NO_RESPONSE_FORMAT and self._supports_response_format:
+        if (
+            self.provider not in self._NO_RESPONSE_FORMAT
+            and self._supports_response_format
+        ):
             request_kwargs["response_format"] = {"type": "json_object"}
         return await self.client.chat.completions.create(**request_kwargs)
 
@@ -556,15 +568,18 @@ class GeminiClient(AIClient):
         temperature = self.temperature if temperature is None else temperature
         max_tokens = self.max_tokens if max_tokens is None else max_tokens
 
+        generation_config = {
+            "system_instruction": system,
+            "max_output_tokens": max_tokens,
+            "response_mime_type": "application/json",
+        }
+        if self.model not in {"gemini-3.5-flash-lite", "gemini-3.6-flash"}:
+            generation_config["temperature"] = temperature
+
         response = await self.client.aio.models.generate_content(
             model=self.model,
             contents=user,
-            config=types.GenerateContentConfig(
-                system_instruction=system,
-                temperature=temperature,
-                max_output_tokens=max_tokens,
-                response_mime_type="application/json"
-            )
+            config=types.GenerateContentConfig(**generation_config),
         )
         usage = getattr(response, "usage_metadata", None)
         if usage is not None:
@@ -583,9 +598,8 @@ def _uses_anthropic_compatible_api(config: AIConfig) -> bool:
 
 def _create_single_client(config: AIConfig) -> AIClient:
     """Create a single AI client instance."""
-    if (
-        config.provider == AIProvider.ANTHROPIC
-        or _uses_anthropic_compatible_api(config)
+    if config.provider == AIProvider.ANTHROPIC or _uses_anthropic_compatible_api(
+        config
     ):
         return AnthropicClient(config)
     elif config.provider == AIProvider.AZURE:
@@ -657,7 +671,9 @@ class ChainedAIClient(AIClient):
                 if i < len(self.configs) - 1:
                     logger.warning(
                         "Provider %s failed (%s), falling back to %s...",
-                        self.configs[i].provider.value, exc, self.configs[i + 1].provider.value,
+                        self.configs[i].provider.value,
+                        exc,
+                        self.configs[i + 1].provider.value,
                     )
         raise RuntimeError(f"All providers failed. Last error: {last_error}")
 
@@ -700,7 +716,9 @@ def _create_chained_client(config: AIConfig) -> ChainedAIClient:
         else:
             base_url = config.fallback_base_url or defaults.get("base_url")
             model = config.fallback_model or defaults.get("model", config.model)
-            api_key_env = config.fallback_api_key_env or defaults.get("api_key_env", config.api_key_env)
+            api_key_env = config.fallback_api_key_env or defaults.get(
+                "api_key_env", config.api_key_env
+            )
 
         cfg = AIConfig(
             provider=provider,

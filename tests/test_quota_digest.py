@@ -117,14 +117,23 @@ def _interests() -> InterestConfig:
 
 
 class FakeClient:
-    def __init__(self, responses: list[str]):
+    def __init__(self, responses: list[str | Exception]):
         self.responses = iter(responses)
         self.calls = []
         self.config = SimpleNamespace()
 
     async def complete(self, **kwargs):
         self.calls.append(kwargs)
-        return next(self.responses)
+        response = next(self.responses)
+        if isinstance(response, Exception):
+            raise response
+        return response
+
+
+class FakeAPIError(Exception):
+    def __init__(self, code: int):
+        super().__init__(f"HTTP {code}")
+        self.code = code
 
 
 def _base_responses() -> list[str]:
@@ -198,6 +207,31 @@ def test_quota_digest_uses_one_reserved_request_to_repair_a_batch():
     assert result.request_count == 16
     assert len(result.items) == 20
     assert "previous response failed validation" in client.calls[1]["user"]
+
+
+def test_quota_digest_uses_one_reserved_request_for_a_transient_503():
+    responses = _base_responses()
+    responses.insert(6, FakeAPIError(503))
+    client = FakeClient(responses)
+
+    result = asyncio.run(
+        _builder(client).build([_make_item(index) for index in range(CANDIDATE_COUNT)])
+    )
+
+    assert result.request_count == 16
+    assert len(result.items) == 20
+
+
+def test_quota_digest_does_not_retry_a_quota_429():
+    client = FakeClient([FakeAPIError(429)])
+
+    with pytest.raises(RuntimeError, match="request 1/20 failed: HTTP 429"):
+        asyncio.run(
+            _builder(client).build(
+                [_make_item(index) for index in range(CANDIDATE_COUNT)]
+            )
+        )
+    assert len(client.calls) == 1
 
 
 def test_quota_digest_rejects_duplicate_selection_after_one_repair():

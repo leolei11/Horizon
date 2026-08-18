@@ -1437,6 +1437,9 @@ class HorizonOrchestrator:
             analysis_batches=self.config.digest.analysis_batch_count,
             enrichment_batches=self.config.digest.enrichment_batch_count,
             request_interval_sec=self.config.ai.throttle_sec,
+            transient_retry_delay_sec=(
+                self.config.digest.transient_retry_delay_sec
+            ),
         )
         return await builder.build(items)
 

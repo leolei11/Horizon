@@ -119,6 +119,7 @@ class QuotaDigestBuilder:
         analysis_batches: int = 12,
         enrichment_batches: int = 2,
         request_interval_sec: float = 0,
+        transient_retry_delay_sec: float = 0,
     ):
         if analysis_batches < 1 or enrichment_batches < 1:
             raise ValueError("batch counts must be positive")
@@ -146,6 +147,7 @@ class QuotaDigestBuilder:
         self.analysis_batches = analysis_batches
         self.enrichment_batches = enrichment_batches
         self.request_interval_sec = max(0, request_interval_sec)
+        self.transient_retry_delay_sec = max(0, transient_retry_delay_sec)
         self.request_count = 0
 
     @staticmethod
@@ -426,32 +428,51 @@ class QuotaDigestBuilder:
         user: str,
         max_tokens: int,
     ) -> str:
-        if self.request_count >= self.max_requests:
-            raise RuntimeError(
-                f"Quota digest stopped before exceeding the {self.max_requests}-request "
-                f"budget during {stage}"
+        transient_codes = {408, 500, 502, 503, 504}
+        api_attempt = 0
+        while True:
+            if self.request_count >= self.max_requests:
+                raise RuntimeError(
+                    f"Quota digest stopped before exceeding the "
+                    f"{self.max_requests}-request budget during {stage}"
+                )
+            if self.request_count:
+                delay = (
+                    self.transient_retry_delay_sec
+                    if api_attempt
+                    else self.request_interval_sec
+                )
+                if delay:
+                    await asyncio.sleep(delay)
+            self.request_count += 1
+            logger.info(
+                "Quota digest %s request %d/%d",
+                stage,
+                self.request_count,
+                self.max_requests,
             )
-        if self.request_count and self.request_interval_sec:
-            await asyncio.sleep(self.request_interval_sec)
-        self.request_count += 1
-        logger.info(
-            "Quota digest %s request %d/%d",
-            stage,
-            self.request_count,
-            self.max_requests,
-        )
-        try:
-            return await self.client.complete(
-                system=system,
-                user=user,
-                temperature=0,
-                max_tokens=max_tokens,
-            )
-        except Exception as exc:
-            raise RuntimeError(
-                f"Quota digest {stage} request {self.request_count}/"
-                f"{self.max_requests} failed: {exc}"
-            ) from exc
+            try:
+                return await self.client.complete(
+                    system=system,
+                    user=user,
+                    temperature=0,
+                    max_tokens=max_tokens,
+                )
+            except Exception as exc:
+                status_code = getattr(exc, "code", None)
+                if api_attempt == 0 and status_code in transient_codes:
+                    api_attempt += 1
+                    logger.warning(
+                        "Quota digest %s request hit transient HTTP %s; "
+                        "retrying once within the request budget",
+                        stage,
+                        status_code,
+                    )
+                    continue
+                raise RuntimeError(
+                    f"Quota digest {stage} request {self.request_count}/"
+                    f"{self.max_requests} failed: {exc}"
+                ) from exc
 
     @staticmethod
     def _validate_exact_ids(

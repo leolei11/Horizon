@@ -619,6 +619,7 @@ class DigestConfig(BaseModel):
     ai_request_budget: int = Field(default=20, gt=0)
     analysis_batch_count: int = Field(default=12, gt=0)
     enrichment_batch_count: int = Field(default=2, gt=0)
+    transient_retry_delay_sec: float = Field(default=30, ge=0)
     category_groups: Dict[str, CategoryGroupConfig] = Field(default_factory=dict)
     default_group: str = "other"
     default_group_limit: Optional[int] = Field(default=None, gt=0)
