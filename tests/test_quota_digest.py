@@ -51,13 +51,18 @@ def _analysis_response(indices: list[int]) -> str:
     )
 
 
-def _selection_response(*, duplicate: bool = False) -> str:
+def _selection_response(
+    *, duplicate: bool = False, replacement_index: int | None = None
+) -> str:
+    indices = list(range(20))
+    if replacement_index is not None:
+        indices[13] = replacement_index
     items = [
         {
             "id": f"rss:test:{index}",
             "interest_bucket": "applied-ai" if index < 10 else "builder-stack",
         }
-        for index in range(20)
+        for index in indices
     ]
     if duplicate:
         items[-1] = items[0]
@@ -85,6 +90,12 @@ def _enrichment_response(indices: list[int]) -> str:
             ]
         },
         ensure_ascii=False,
+    )
+
+
+def _audit_response(*groups: list[int]) -> str:
+    return json.dumps(
+        {"duplicates": [[f"rss:test:{index}" for index in group] for group in groups]}
     )
 
 
@@ -141,6 +152,7 @@ def _base_responses() -> list[str]:
     return [
         *[_analysis_response(indices) for indices in partitions],
         _selection_response(),
+        _audit_response(),
         _enrichment_response(list(range(10))),
         _enrichment_response(list(range(10, 20))),
     ]
@@ -161,13 +173,13 @@ def _builder(client: FakeClient, **overrides) -> QuotaDigestBuilder:
     return QuotaDigestBuilder(**settings)
 
 
-def test_quota_digest_uses_fifteen_requests_with_bounded_batch_context():
+def test_quota_digest_uses_sixteen_requests_with_automatic_duplicate_audit():
     client = FakeClient(_base_responses())
     result = asyncio.run(
         _builder(client).build([_make_item(index) for index in range(CANDIDATE_COUNT)])
     )
 
-    assert result.request_count == 15
+    assert result.request_count == 16
     assert len(result.items) == 20
     assert len({item.id for item in result.items}) == 20
     buckets = [item.processing.analysis.interest_bucket for item in result.items]
@@ -184,8 +196,9 @@ def test_quota_digest_uses_fifteen_requests_with_bounded_batch_context():
     assert max(len(call["user"]) for call in analysis_calls) < 25_000
     assert "[Stage: select]" in client.calls[12]["system"]
     assert len(client.calls[12]["user"]) < 40_000
-    assert all("[Stage: enrich]" in call["system"] for call in client.calls[13:])
-    assert max(len(call["user"]) for call in client.calls[13:]) < 50_000
+    assert "[Stage: duplicate-audit]" in client.calls[13]["system"]
+    assert all("[Stage: enrich]" in call["system"] for call in client.calls[14:])
+    assert max(len(call["user"]) for call in client.calls[14:]) < 50_000
 
 
 def test_quota_digest_uses_one_reserved_request_to_repair_a_batch():
@@ -195,6 +208,7 @@ def test_quota_digest_uses_one_reserved_request_to_repair_a_batch():
         _analysis_response(partitions[0]),
         *[_analysis_response(indices) for indices in partitions[1:]],
         _selection_response(),
+        _audit_response(),
         _enrichment_response(list(range(10))),
         _enrichment_response(list(range(10, 20))),
     ]
@@ -204,7 +218,7 @@ def test_quota_digest_uses_one_reserved_request_to_repair_a_batch():
         _builder(client).build([_make_item(index) for index in range(CANDIDATE_COUNT)])
     )
 
-    assert result.request_count == 16
+    assert result.request_count == 17
     assert len(result.items) == 20
     assert "previous response failed validation" in client.calls[1]["user"]
 
@@ -218,7 +232,7 @@ def test_quota_digest_uses_one_reserved_request_for_a_transient_503():
         _builder(client).build([_make_item(index) for index in range(CANDIDATE_COUNT)])
     )
 
-    assert result.request_count == 16
+    assert result.request_count == 17
     assert len(result.items) == 20
 
 
@@ -250,6 +264,46 @@ def test_quota_digest_rejects_duplicate_selection_after_one_repair():
             )
         )
     assert len(client.calls) == 14
+
+
+def test_quota_digest_automatically_replaces_article_quiz_semantic_duplicate():
+    partitions = QuotaDigestBuilder.partition_indices(CANDIDATE_COUNT, 12)
+    candidates = [_make_item(index) for index in range(CANDIDATE_COUNT)]
+    candidates[12] = candidates[12].model_copy(
+        update={
+            "title": "How to Debug Python with an AI Assistant",
+            "url": "https://realpython.com/ai-debugging/",
+        }
+    )
+    candidates[13] = candidates[13].model_copy(
+        update={
+            "title": "Quiz: How to Debug Python with an AI Assistant",
+            "url": "https://realpython.com/quizzes/ai-debugging/",
+        }
+    )
+    responses = [
+        *[_analysis_response(indices) for indices in partitions],
+        _selection_response(),
+        _audit_response(),
+        _selection_response(replacement_index=20),
+        _audit_response(),
+        _enrichment_response(list(range(10))),
+        _enrichment_response([10, 11, 12, 20, 14, 15, 16, 17, 18, 19]),
+    ]
+    client = FakeClient(responses)
+
+    result = asyncio.run(_builder(client).build(candidates))
+
+    assert result.request_count == 18
+    assert len(result.items) == 20
+    assert len({item.id for item in result.items}) == 20
+    assert "rss:test:13" not in {item.id for item in result.items}
+    assert "rss:test:20" in {item.id for item in result.items}
+    assert "[Stage: select]" in client.calls[14]["system"]
+    assert (
+        "selection-repair" in client.calls[14]["user"]
+        or "Replace" in client.calls[14]["user"]
+    )
 
 
 def test_quota_digest_rejects_a_base_plan_above_the_request_budget():
