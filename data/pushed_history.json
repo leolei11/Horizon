@@ -1029,123 +1029,42 @@
     "source_type": "rss"
   },
   {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
     "title": "GPT-5.6 Sol Pricing Cut by 50%",
     "url": "https://openrouter.ai/openai/gpt-5.6-sol",
     "url_hash": "f9c5e49c1db9c740f8ce38214f8b96cf",
     "source_type": "hackernews"
   },
   {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
     "title": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
     "url": "https://speko.ai/",
     "url_hash": "3e4bebdd6898fbb3723178e480318301",
     "source_type": "hackernews"
   },
   {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
     "title": "How to Debug Python Code With an AI Agent",
     "url": "https://realpython.com/ai-debugging/",
     "url_hash": "2b39953c6ca60a1d09df3a063c0c476a",
     "source_type": "rss"
   },
   {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "Quiz: How to Debug Python Code With an AI Agent",
-    "url": "https://realpython.com/quizzes/ai-debugging/",
-    "url_hash": "bef61b5f0249bf970cf1957e6ce1bb18",
-    "source_type": "rss"
-  },
-  {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
     "title": "How to Manage Context Files in Your Codebase and Get Better Output From AI Coding Agents",
     "url": "https://www.freecodecamp.org/news/how-to-manage-context-files-in-your-codebase-and-get-better-agent-output/",
     "url_hash": "fc604b38db43ed254a4b02868f9a1857",
     "source_type": "rss"
   },
   {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
     "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
     "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
     "url_hash": "59985fb7431983a39900b3eb9eea3bdc",
     "source_type": "rss"
   },
   {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "Judgment Is the Job Now",
-    "url": "https://dev.to/sergueyasaelshinder/judgment-is-the-job-now-4kmm",
-    "url_hash": "a8ada9e8a4644ad95a1a859dc444c838",
-    "source_type": "rss"
-  },
-  {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "Make the Model Show Its Work",
-    "url": "https://dev.to/sergueyasaelshinder/make-the-model-show-its-work-1ma",
-    "url_hash": "24a513c2a905a9d8e3e40d7b6e5a97f2",
-    "source_type": "rss"
-  },
-  {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "whiteguo233/OpenBiliClaw (+1⭐ past_24_hours)",
-    "url": "https://github.com/whiteguo233/OpenBiliClaw",
-    "url_hash": "57e1e03c432b39de8ba3c9943baa4342",
-    "source_type": "ossinsight",
-    "repo": "whiteguo233/openbiliclaw"
-  },
-  {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "yuanzhongqiao/printfilm (+1⭐ past_24_hours)",
-    "url": "https://github.com/yuanzhongqiao/printfilm",
-    "url_hash": "ff703d0e069bfee8e971233cd934c9cc",
-    "source_type": "ossinsight",
-    "repo": "yuanzhongqiao/printfilm"
-  },
-  {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "GitHub 经典名库: donnemartin/system-design-primer (⭐️ 364507)",
-    "url": "https://github.com/donnemartin/system-design-primer",
-    "url_hash": "5be9284bd6d1ce37f2ec026a123d20ce",
-    "source_type": "github",
-    "repo": "donnemartin/system-design-primer"
-  },
-  {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "A Preview of DuckDB v2.0",
-    "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
-    "url_hash": "d316305f168247da9a54b2ee1cd510f5",
-    "source_type": "hackernews"
-  },
-  {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
-    "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-    "url_hash": "64d3338b4aed0757db9d008aae28b949",
-    "source_type": "hackernews"
-  },
-  {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "How to Scale LLM Inference for AI Agents Using vLLM",
-    "url": "https://www.freecodecamp.org/news/how-to-scale-llm-inference-for-ai-agents-using-vllm/",
-    "url_hash": "6ca2c99bec86e25a11d11202ff9bbac3",
-    "source_type": "rss"
-  },
-  {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "Markdown SVG upgrades",
-    "url": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
-    "url_hash": "2e9e21ad6c5d09c723ad00913ae97ad1",
-    "source_type": "rss"
-  },
-  {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "internet-court/internet-court-skill (+2⭐ past_24_hours)",
-    "url": "https://github.com/internet-court/internet-court-skill",
-    "url_hash": "92a184c30783268a2125a0cd1509bce5",
-    "source_type": "ossinsight",
-    "repo": "internet-court/internet-court-skill"
-  },
-  {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
     "title": "router-for-me/CLIProxyAPI (+2⭐ past_24_hours)",
     "url": "https://github.com/router-for-me/CLIProxyAPI",
     "url_hash": "d18cd3ce0304d099b7ff372784699b22",
@@ -1153,7 +1072,7 @@
     "repo": "router-for-me/cliproxyapi"
   },
   {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
     "title": "QuantumNous/new-api (+2⭐ past_24_hours)",
     "url": "https://github.com/QuantumNous/new-api",
     "url_hash": "8c13ac832eb5e9fe59686ae106f90bec",
@@ -1161,19 +1080,102 @@
     "repo": "quantumnous/new-api"
   },
   {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
-    "title": "larashero3-dotcom/lieflat-charts (+1⭐ past_24_hours)",
-    "url": "https://github.com/larashero3-dotcom/lieflat-charts",
-    "url_hash": "6d1003b1a9e2dc6f8403b97544e639bf",
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "whiteguo233/OpenBiliClaw (+1⭐ past_24_hours)",
+    "url": "https://github.com/whiteguo233/OpenBiliClaw",
+    "url_hash": "57e1e03c432b39de8ba3c9943baa4342",
     "source_type": "ossinsight",
-    "repo": "larashero3-dotcom/lieflat-charts"
+    "repo": "whiteguo233/openbiliclaw"
   },
   {
-    "pushed_at": "2026-08-18T07:17:06.506547+00:00",
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "yuanzhongqiao/printfilm (+1⭐ past_24_hours)",
+    "url": "https://github.com/yuanzhongqiao/printfilm",
+    "url_hash": "ff703d0e069bfee8e971233cd934c9cc",
+    "source_type": "ossinsight",
+    "repo": "yuanzhongqiao/printfilm"
+  },
+  {
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "guocong-bincai/ai-interview-guide (+1⭐ past_24_hours)",
+    "url": "https://github.com/guocong-bincai/ai-interview-guide",
+    "url_hash": "9ae198047dd6729404e2aaab4b729700",
+    "source_type": "ossinsight",
+    "repo": "guocong-bincai/ai-interview-guide"
+  },
+  {
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "GitHub 经典名库: donnemartin/system-design-primer (⭐️ 364512)",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "url_hash": "5be9284bd6d1ce37f2ec026a123d20ce",
+    "source_type": "github",
+    "repo": "donnemartin/system-design-primer"
+  },
+  {
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "How Bluesky draws its logo on screenshots",
+    "url": "https://timmarinin.net/2026/bluesky-screenshots/",
+    "url_hash": "70308a49e74d5a2f6237912e28c9f496",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "A Preview of DuckDB v2.0",
+    "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
+    "url_hash": "d316305f168247da9a54b2ee1cd510f5",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+    "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+    "url_hash": "64d3338b4aed0757db9d008aae28b949",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "GPU Offload in Rust: Portable, Safe, and Fast",
+    "url": "https://arxiv.org/abs/2608.13759",
+    "url_hash": "fb1d9c246a9f2420fe704953eaaa1ecf",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "How to Scale LLM Inference for AI Agents Using vLLM",
+    "url": "https://www.freecodecamp.org/news/how-to-scale-llm-inference-for-ai-agents-using-vllm/",
+    "url_hash": "6ca2c99bec86e25a11d11202ff9bbac3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "hydra-db/hydradb (+2⭐ past_24_hours)",
+    "url": "https://github.com/hydra-db/hydradb",
+    "url_hash": "569fbb68d93f8468b5f66e73d9915ebf",
+    "source_type": "ossinsight",
+    "repo": "hydra-db/hydradb"
+  },
+  {
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
     "title": "t8y2/dbx (+1⭐ past_24_hours)",
     "url": "https://github.com/t8y2/dbx",
     "url_hash": "4cb07dec940977f8f20eec80eb9598c0",
     "source_type": "ossinsight",
     "repo": "t8y2/dbx"
+  },
+  {
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "CalvinXKY/InfraTech (+1⭐ past_24_hours)",
+    "url": "https://github.com/CalvinXKY/InfraTech",
+    "url_hash": "25d726261b2a23bd3fc5df774592b246",
+    "source_type": "ossinsight",
+    "repo": "calvinxky/infratech"
+  },
+  {
+    "pushed_at": "2026-08-18T07:45:36.534150+00:00",
+    "title": "MengTo/kage (+1⭐ past_24_hours)",
+    "url": "https://github.com/MengTo/kage",
+    "url_hash": "e407a24316733ace317bfe432154bea1",
+    "source_type": "ossinsight",
+    "repo": "mengto/kage"
   }
 ]
