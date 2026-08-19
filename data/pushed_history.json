@@ -1177,5 +1177,154 @@
     "url_hash": "e407a24316733ace317bfe432154bea1",
     "source_type": "ossinsight",
     "repo": "mengto/kage"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+    "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+    "url_hash": "0316ef8e9abc2c9e8d49ab95791c0660",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "How NVIDIA scales expertise with ChatGPT Work",
+    "url": "https://openai.com/index/nvidia/chatgpt-work",
+    "url_hash": "b308f27228d706b8614d56413d244955",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+    "url": "https://openai.com/index/asana",
+    "url_hash": "eaf7eab1e8f78770e333674266ba6bfe",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "v0.33.2",
+    "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.2",
+    "url_hash": "daf751c51977be7429d6e8bf9606c6c6",
+    "source_type": "rss",
+    "repo": "comfy-org/comfyui"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "How to Create a Standout Resume with AI",
+    "url": "https://dev.to/aivadesk/how-to-create-a-standout-resume-with-ai-a95",
+    "url_hash": "b2256a370293cbcb71adc596bd06bc59",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "Cursor Launches Rival Hosting Platform Amid GitHub Frustration",
+    "url": "https://dev.to/career_aheadmagazine_0a5/cursor-launches-rival-hosting-platform-amid-github-frustration-4loe",
+    "url_hash": "f96a5e2076acca6c4b1a63366e927b72",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "How to Automate LinkedIn Outreach (Ethically) with Python",
+    "url": "https://dev.to/qingluan/how-to-automate-linkedin-outreach-ethically-with-python-50em",
+    "url_hash": "2701fe3601bf1fd92adba0f0fc8290f1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "mukul975/Anthropic-Cybersecurity-Skills (+8⭐ past_24_hours)",
+    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+    "url_hash": "ebc3b4fe22b66c2debc93614e74dea26",
+    "source_type": "ossinsight",
+    "repo": "mukul975/anthropic-cybersecurity-skills"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "ifixai-ai/iFixAi (+4⭐ past_24_hours)",
+    "url": "https://github.com/ifixai-ai/iFixAi",
+    "url_hash": "637c4b19860f8e9ed36925fc67b19ada",
+    "source_type": "ossinsight",
+    "repo": "ifixai-ai/ifixai"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "vibeinging/deepseek-harness-desktop-app (+3⭐ past_24_hours)",
+    "url": "https://github.com/vibeinging/deepseek-harness-desktop-app",
+    "url_hash": "cb9882098e177f2110023aaffcb88f77",
+    "source_type": "ossinsight",
+    "repo": "vibeinging/deepseek-harness-desktop-app"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "Turbovec – Google's TurboQuant for vector search in Rust",
+    "url": "https://github.com/RyanCodrai/turbovec",
+    "url_hash": "ce57d7f0f38eb7bca62546526a74fdbe",
+    "source_type": "hackernews",
+    "repo": "ryancodrai/turbovec"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "Building an Animated Testimonial Hero Using the GSAP Timeline and Dynamic CMS Data",
+    "url": "https://tympanus.net/codrops/2026/08/18/building-an-animated-testimonial-hero-using-the-gsap-timeline-and-dynamic-cms-data/",
+    "url_hash": "1f525f7e2c2a2ec30d92bf6c2179a94e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "High-Frequency Real-Time Data in React: From Ring Buffers to OffscreenCanvas",
+    "url": "https://www.freecodecamp.org/news/high-frequency-real-time-data-in-react-from-ring-buffers-to-offscreencanvas/",
+    "url_hash": "ba78b066afd9540ef4d77987d489031d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "What to Do if Your Site Is About to Hit Vercel's Free Image Optimization Cap",
+    "url": "https://www.freecodecamp.org/news/what-to-do-if-your-site-is-about-to-hit-vercels-free-image-optimization-cap/",
+    "url_hash": "0106350eb9218ae93ade1bda755caafc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "How to Build More Accessible Websites with WCAG 2.2",
+    "url": "https://www.freecodecamp.org/news/how-to-build-more-accessible-websites-with-wcag-2-2/",
+    "url_hash": "c1a20255e479b19ebb7cbddd52b49c5c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "Mojo🔥 is now open source",
+    "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+    "url_hash": "0f152038505d1826c37a7eabfd3206ca",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "volcengine/OpenViking (+7⭐ past_24_hours)",
+    "url": "https://github.com/volcengine/OpenViking",
+    "url_hash": "91af1ab046d36261c08b69a51135fdf7",
+    "source_type": "ossinsight",
+    "repo": "volcengine/openviking"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "chaitanyagiri/munder-difflin (+4⭐ past_24_hours)",
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
+    "url_hash": "c611600453f2b1d1ebc14cc6bbc43727",
+    "source_type": "ossinsight",
+    "repo": "chaitanyagiri/munder-difflin"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "AlexsJones/llmfit (+4⭐ past_24_hours)",
+    "url": "https://github.com/AlexsJones/llmfit",
+    "url_hash": "018703fab583e3d5f222e07ea8d06ad3",
+    "source_type": "ossinsight",
+    "repo": "alexsjones/llmfit"
+  },
+  {
+    "pushed_at": "2026-08-19T08:59:17.170455+00:00",
+    "title": "herdrdev/herdr (+4⭐ past_24_hours)",
+    "url": "https://github.com/herdrdev/herdr",
+    "url_hash": "1d66c63cb19917f357c387004ed4626c",
+    "source_type": "ossinsight",
+    "repo": "herdrdev/herdr"
   }
 ]
