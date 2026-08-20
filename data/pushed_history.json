@@ -1326,5 +1326,150 @@
     "url_hash": "1d66c63cb19917f357c387004ed4626c",
     "source_type": "ossinsight",
     "repo": "herdrdev/herdr"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "OpenRouter is joining Stripe",
+    "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+    "url_hash": "a363f747245beb81040833b5dce1d2be",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "fx :Tiny, open, native coding agent.",
+    "url": "https://fx.sh/",
+    "url_hash": "6b3b061e5a87024d7e5a3b9d9239cd8e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+    "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+    "url_hash": "dde03b1aef373b46a697b0ea4a20a0c9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "Quoting Jeremy Morrell",
+    "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+    "url_hash": "cb585e40638197da5d64423b0e127563",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "Offering Zero Data Retention for frontier models",
+    "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+    "url_hash": "7e1debc1bd0a37c49daf5b3a7eecee78",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "Replit expands access to software creation with GPT-5.6 Luna",
+    "url": "https://openai.com/index/replit",
+    "url_hash": "09f9dc1b5215ea73d9ea743c10c4931e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "I Automated My Job Search With AI Agents — Here's the Exact Workflow",
+    "url": "https://dev.to/agentchip/i-automated-my-job-search-with-ai-agents-heres-the-exact-workflow-3dg1",
+    "url_hash": "537d88c7563f336b8516edcc4e7d7acc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "pipeshub-ai/pipeshub-ai (+4⭐ past_24_hours)",
+    "url": "https://github.com/pipeshub-ai/pipeshub-ai",
+    "url_hash": "92fdf4f7a86d10e622082f11105bb7e9",
+    "source_type": "ossinsight",
+    "repo": "pipeshub-ai/pipeshub-ai"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "wang2122/sprix-sage-router (+3⭐ past_24_hours)",
+    "url": "https://github.com/wang2122/sprix-sage-router",
+    "url_hash": "8fd1001025f65752c89bf27f9b3014a4",
+    "source_type": "ossinsight",
+    "repo": "wang2122/sprix-sage-router"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "debpalash/VoiceStudio (+3⭐ past_24_hours)",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "url_hash": "9660013ea25c5cd2db9a8ecd94f88520",
+    "source_type": "ossinsight",
+    "repo": "debpalash/voicestudio"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "GitHub Trending: affaan-m/ECC (⭐️ 241263)",
+    "url": "https://github.com/affaan-m/ECC",
+    "url_hash": "a90d342e2181a92761dda9340af4081e",
+    "source_type": "github",
+    "repo": "affaan-m/ecc"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "Go 1.27",
+    "url": "https://go.dev/blog/go1.27",
+    "url_hash": "6dbfb305b24b24d99b980458e86fb1ad",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "PostgreSQL for Everything",
+    "url": "https://www.raphaelbauer.com/posts/postgresql-everything/",
+    "url_hash": "f6c3cb854d26343b3f1eb14f52481e76",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "Relighting Images with Depth Maps and Three.js",
+    "url": "https://tympanus.net/codrops/2026/08/19/relighting-images-with-depth-maps-and-three-js/",
+    "url_hash": "d2d473e3f738e4bca2dd5bdfbd68c02c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "CSS Navigation Matching, Early Days",
+    "url": "https://css-tricks.com/css-navigation-matching-early-days/",
+    "url_hash": "8263de80ca54f41d1d55b5625f880e57",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "Quiz: How to Review AI-Generated Python Code Efficiently",
+    "url": "https://realpython.com/quizzes/review-ai-generated-code/",
+    "url_hash": "9f392774120dfb417a6bb9f27ed06e8d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "Building a Reinforcement Learning Framework from Scratch in Pure C",
+    "url": "https://www.freecodecamp.org/news/building-a-reinforcement-learning-framework-from-scratch-in-pure-c/",
+    "url_hash": "16da01f38a06d1e6cc2a2200e4f6b4e5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "How to Work with Material and Cupertino Decoupling in Flutter [Full Handbook]",
+    "url": "https://www.freecodecamp.org/news/how-to-work-with-material-and-cupertino-decoupling-in-flutter-full-handbook/",
+    "url_hash": "c93e51c1d36205f1626212e6c2346085",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "Don't Let AI Drive: How to Stay the Architect When AI Writes the Code",
+    "url": "https://dev.to/billahdotdev/dont-let-ai-drive-how-to-stay-the-architect-when-ai-writes-the-code-1068",
+    "url_hash": "b935f708130cc218de5ff1fb85297d25",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-20T09:00:22.145517+00:00",
+    "title": "akitaonrails/ai-memory (+5⭐ past_24_hours)",
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "url_hash": "44154b46b32c21ba347d3ed533a471d7",
+    "source_type": "ossinsight",
+    "repo": "akitaonrails/ai-memory"
   }
 ]
