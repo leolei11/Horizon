@@ -1471,5 +1471,151 @@
     "url_hash": "44154b46b32c21ba347d3ed533a471d7",
     "source_type": "ossinsight",
     "repo": "akitaonrails/ai-memory"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "Ox Alpha",
+    "url": "https://openrouter.ai/stealth/ox-alpha",
+    "url_hash": "d6d013dda9ded2e29e02ae46a5809fa0",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "Show HN: Huzzah – a novel approach to coding with AI",
+    "url": "https://www.danielvaughn.dev/posts/huzzah/",
+    "url_hash": "5ec3ba9aa0130bae02009ae2369acb5c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "GraphRAG: How AI Answers Questions Hidden Across Many Documents",
+    "url": "https://blog.bytebytego.com/p/graphrag-how-ai-answers-questions",
+    "url_hash": "8e09af59bb84d27b47495ae2a50e681f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "The AI Agent Engineer's Guide: 60 Patterns for Building Autonomous Systems [Full Book]",
+    "url": "https://www.freecodecamp.org/news/ai-agent-engineers-guide-60-patterns-for-building-autonomous-systems-book/",
+    "url_hash": "20a50a38896658e288e739d7121c02ba",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "Learn System Design for AI Agents: Build a Production-Ready Multi-Agent PR Reviewer",
+    "url": "https://www.freecodecamp.org/news/learn-system-design-for-ai-agents-build-a-production-ready-multi-agent-pr-reviewer/",
+    "url_hash": "ca2d2eacbd56bf3307588d60bbb1e5a7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "Conceptual integrity and counting lines of code",
+    "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+    "url_hash": "9aaebeb65537c8e4fe810862a9218bb3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+    "url_hash": "b1eabc16d142bc5de468e0164652302e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+    "url": "https://openai.com/index/stampli",
+    "url_hash": "6213ce5ceef3e2f90fd382894e0df523",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "dimensionalOS/dimos (+5⭐ past_24_hours)",
+    "url": "https://github.com/dimensionalOS/dimos",
+    "url_hash": "fbf1b63dde48b7282ce55047f27e8245",
+    "source_type": "ossinsight",
+    "repo": "dimensionalos/dimos"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "xai-org/grok-build (+3⭐ past_24_hours)",
+    "url": "https://github.com/xai-org/grok-build",
+    "url_hash": "2bdccaea9d3819f9feb845879f475076",
+    "source_type": "ossinsight",
+    "repo": "xai-org/grok-build"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "HTML Can Do That",
+    "url": "https://chrisburnell.com/html-can-do-that/",
+    "url_hash": "6861172c5554f8a6f8aae47dc4a84370",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "Run Rob Run: Building a Music-Reactive Goo with Three.js and WebGPU",
+    "url": "https://tympanus.net/codrops/2026/08/20/run-rob-run-building-a-music-reactive-goo-with-three-js-and-webgpu/",
+    "url_hash": "9730ebfe3c587692a1ebdfda2fce5733",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "Schema Evolution: Changing the Contract Without Breaking What Runs",
+    "url": "https://blog.bytebytego.com/p/schema-evolution-changing-the-contract",
+    "url_hash": "9ba40e338dec1ba9b36ef8902b48b9a1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "How to Build a Knowledge Graph with Python and Neo4j [Full Handbook]",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-knowledge-graph-with-python-and-neo4j-handbook/",
+    "url_hash": "b70f24997e6d3201c18f683466548c41",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+    "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+    "url_hash": "33e1a02e40cc643869ad172fe7df9c38",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "Building AI Systems, One Project at a Time 🚀",
+    "url": "https://dev.to/ilakkiyan-j/building-ai-systems-one-project-at-a-time-39f8",
+    "url_hash": "166e6fa32e7138eca2aa1f232f937f78",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "vectorize-io/hindsight (+3⭐ past_24_hours)",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "url_hash": "4628c962cd9b6f78d033cc862799a638",
+    "source_type": "ossinsight",
+    "repo": "vectorize-io/hindsight"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "tt-a1i/archify (+3⭐ past_24_hours)",
+    "url": "https://github.com/tt-a1i/archify",
+    "url_hash": "717af6605a957a5cd4e003a1f727b28f",
+    "source_type": "ossinsight",
+    "repo": "tt-a1i/archify"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "Wei-Shaw/sub2api (+2⭐ past_24_hours)",
+    "url": "https://github.com/Wei-Shaw/sub2api",
+    "url_hash": "e1a6696969acd12e2cc522be91041373",
+    "source_type": "ossinsight",
+    "repo": "wei-shaw/sub2api"
+  },
+  {
+    "pushed_at": "2026-08-21T09:01:58.677112+00:00",
+    "title": "magnitudedev/magnitude (+2⭐ past_24_hours)",
+    "url": "https://github.com/magnitudedev/magnitude",
+    "url_hash": "2f51b72af43a25a93b5b0851825437c0",
+    "source_type": "ossinsight",
+    "repo": "magnitudedev/magnitude"
   }
 ]
