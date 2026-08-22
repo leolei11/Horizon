@@ -1617,5 +1617,153 @@
     "url_hash": "2f51b72af43a25a93b5b0851825437c0",
     "source_type": "ossinsight",
     "repo": "magnitudedev/magnitude"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+    "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+    "url_hash": "a0091eb58ff6835f910f7921397cb625",
+    "source_type": "hackernews",
+    "repo": "adnanakil/nobuzz"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "How we made a text-to-speech model respond in sub-50 ms",
+    "url": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
+    "url_hash": "b5e22c25755363cf682084568570880b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "The Real Python Podcast – Episode #308: Navigating Silent Failures in AI: Strategies for Effective Oversight",
+    "url": "https://realpython.com/podcasts/rpp/308/",
+    "url_hash": "7aa5fb2b4a677c7d5408847509f84c74",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "How to Understand a Legacy Codebase Using AI Before Changing it",
+    "url": "https://www.freecodecamp.org/news/understand-a-legacy-codebase-with-ai/",
+    "url_hash": "18cf28f5a5e02b5f04861b530444bf96",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "llm-openrouter 0.7",
+    "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+    "url_hash": "5a8f876f8f596d95691907d1a7283f2f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "The Developer Career Playbook: Build a Future That Outlasts Any Framework",
+    "url": "https://dev.to/daniel_489_0405ab1cd47ba9/the-developer-career-playbook-build-a-future-that-outlasts-any-framework-3e8o",
+    "url_hash": "14506b07b227edff887a55a8d4198c6d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "AI Agents vs. Chatbots: Why Developers Need to Know the Difference in 2026",
+    "url": "https://dev.to/omni_fys/ai-agents-vs-chatbots-why-developers-need-to-know-the-difference-in-2026-1b2a",
+    "url_hash": "ce277b4dc41e5eabd234635015e0b848",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "citrolabs/ego-lite (+9⭐ past_24_hours)",
+    "url": "https://github.com/citrolabs/ego-lite",
+    "url_hash": "02e09efcdbd4bdf8f685c57bfad57e76",
+    "source_type": "ossinsight",
+    "repo": "citrolabs/ego-lite"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "ayghri/i-have-adhd (+7⭐ past_24_hours)",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "url_hash": "ee7d6f2f5cec7fb9144bf06168941bcb",
+    "source_type": "ossinsight",
+    "repo": "ayghri/i-have-adhd"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "FailproofAI/failproofai (+5⭐ past_24_hours)",
+    "url": "https://github.com/FailproofAI/failproofai",
+    "url_hash": "84dd6e259d3d7f168f6c2c72a458cb66",
+    "source_type": "ossinsight",
+    "repo": "failproofai/failproofai"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "GitHub Trending: vinta/awesome-python (⭐️ 315428)",
+    "url": "https://github.com/vinta/awesome-python",
+    "url_hash": "649ab0c34b9b8ea2f33a2126effc7fe2",
+    "source_type": "github",
+    "repo": "vinta/awesome-python"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "GitHub 经典名库: codecrafters-io/build-your-own-x (⭐️ 541973)",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "url_hash": "bcfb7e936799fa980f010c550be21bd0",
+    "source_type": "github",
+    "repo": "codecrafters-io/build-your-own-x"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "Rust Glancer: Rust LSP using 100x less RAM",
+    "url": "https://rust-glancer.github.io/blog/hello-world/",
+    "url_hash": "55223296d994a108d6cdc4e7ae3dcbad",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "Chain of Responsibility Design Pattern: Decoupling Complex Business Rules, One Handler at a Time",
+    "url": "https://www.freecodecamp.org/news/chain-of-responsibility-design-pattern-decoupling-complex-business-rules/",
+    "url_hash": "8111874f532e41912fdd9fba42229bae",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "How to Host Odoo: Self-Hosted vs Managed Hosting",
+    "url": "https://www.freecodecamp.org/news/how-to-host-odoo/",
+    "url_hash": "6d75ca1ca4c424e32715214ed18845a0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "Kubernetes Networking Explained: From ClusterIP to Cilium Service Mesh",
+    "url": "https://www.freecodecamp.org/news/kubernetes-networking-explained-from-clusterip-to-cilium-service-mesh/",
+    "url_hash": "9502793a11581b687ad724786ba8d800",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "The Sanitizers Handbook: Memory, Initialization, and Races",
+    "url": "https://www.freecodecamp.org/news/the-sanitizers-handbook/",
+    "url_hash": "a7cf26f705d53756629f6407ad6fe1c1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "How to Earn $4000/Month as a Part-Time CTO",
+    "url": "https://dev.to/qingluan/how-to-earn-4000month-as-a-part-time-cto-1c83",
+    "url_hash": "da5596b3236fa3f45a911b0f5b3436e7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "HiThink-Tech/Financial-API (+9⭐ past_24_hours)",
+    "url": "https://github.com/HiThink-Tech/Financial-API",
+    "url_hash": "3c4173fe342ec975681a1497fb033991",
+    "source_type": "ossinsight",
+    "repo": "hithink-tech/financial-api"
+  },
+  {
+    "pushed_at": "2026-08-22T08:52:41.589861+00:00",
+    "title": "MemTensor/memmy-agent (+5⭐ past_24_hours)",
+    "url": "https://github.com/MemTensor/memmy-agent",
+    "url_hash": "9000634652817b7fd49bc120620b3cb6",
+    "source_type": "ossinsight",
+    "repo": "memtensor/memmy-agent"
   }
 ]
