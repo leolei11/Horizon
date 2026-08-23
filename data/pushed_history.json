@@ -1765,5 +1765,152 @@
     "url_hash": "9000634652817b7fd49bc120620b3cb6",
     "source_type": "ossinsight",
     "repo": "memtensor/memmy-agent"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "Why your local LLM feels dumber than it is",
+    "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+    "url_hash": "54728fe029ffdc2e5a49a54b503de18b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+    "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+    "url_hash": "aacc9738b1f8f70ec2bef7ea6df07948",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "New MCP Roadmap",
+    "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+    "url_hash": "abfcb3a15e344b896e4db8262b12015c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "A week of using Codex more than Claude",
+    "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+    "url_hash": "ab95295ba1e57b3c2c776fc732a83fc6",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "Munder Difflin – Agent harness to run an office of your clones",
+    "url": "https://munderdiffl.in/",
+    "url_hash": "3fdee41c10308dbd1fabcae08993f1ed",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "Quoting Linus Torvalds",
+    "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+    "url_hash": "d5424714ca8314ae295dc9c53665758c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "llm 0.33",
+    "url": "https://simonwillison.net/2026/Aug/22/llm/",
+    "url_hash": "8a60916c08f6d086269dc83e524f0868",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "More than just code review",
+    "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+    "url_hash": "d83a91c4f0d1b2c6cf704912f5ef37de",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "ATS systems reject 75% of resumes — here's exactly how to beat them",
+    "url": "https://dev.to/elyasian_57e0befd2a586e37/ats-systems-reject-75-of-resumes-heres-exactly-how-to-beat-them-6cl",
+    "url_hash": "38a6580d675347b601895bf0a2411d9a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "Untrivial-ai/agent-orchestrator (+2⭐ past_24_hours)",
+    "url": "https://github.com/Untrivial-ai/agent-orchestrator",
+    "url_hash": "1caf7b85f7a7a6319f058ddfbe1fe4b4",
+    "source_type": "ossinsight",
+    "repo": "untrivial-ai/agent-orchestrator"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "Sixty Frames for the Record: A Three.js Game, Seven Fly-Throughs, and a Wall of CRTs",
+    "url": "https://tympanus.net/codrops/2026/08/22/sixty-frames-for-the-record-a-three-js-game-seven-fly-throughs-and-a-wall-of-crts/",
+    "url_hash": "13a696ff5b0b36e757311f0a2466bcb0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "Resolved: CSS Class Prefix Selector",
+    "url": "https://css-tricks.com/resolved-css-class-prefix-selector/",
+    "url_hash": "c80e270f460e144ddd8ef5492ef9870e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "EP223: Ollama vs vLLM vs SGLang",
+    "url": "https://blog.bytebytego.com/p/ep223-ollama-vs-vllm-vs-sglang",
+    "url_hash": "b0e610b61258f9748e5be6e08adba556",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "Stop Making TUIs",
+    "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+    "url_hash": "b7682d8cf9ab30372c0a3e92a1b3b8f1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "cosmicstack-labs/mercury-agent-skills (+1⭐ past_24_hours)",
+    "url": "https://github.com/cosmicstack-labs/mercury-agent-skills",
+    "url_hash": "9670c64eccf074261a8964d506b14846",
+    "source_type": "ossinsight",
+    "repo": "cosmicstack-labs/mercury-agent-skills"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "kaishi00/hermes-conduit (+1⭐ past_24_hours)",
+    "url": "https://github.com/kaishi00/hermes-conduit",
+    "url_hash": "45d0e1708d0db64e0cc9cb51d43bf654",
+    "source_type": "ossinsight",
+    "repo": "kaishi00/hermes-conduit"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "HarnessRouter/harnessrouter (+1⭐ past_24_hours)",
+    "url": "https://github.com/HarnessRouter/harnessrouter",
+    "url_hash": "7de9c14cf2a58792ed19bcecc11002c2",
+    "source_type": "ossinsight",
+    "repo": "harnessrouter/harnessrouter"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "jlcodes99/cockpit-tools (+1⭐ past_24_hours)",
+    "url": "https://github.com/jlcodes99/cockpit-tools",
+    "url_hash": "2f514732b8ddb415021376efea01206d",
+    "source_type": "ossinsight",
+    "repo": "jlcodes99/cockpit-tools"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "croffasia/itsaplan (+1⭐ past_24_hours)",
+    "url": "https://github.com/croffasia/itsaplan",
+    "url_hash": "1e6152666ef20ce6439a608e4fe48ff1",
+    "source_type": "ossinsight",
+    "repo": "croffasia/itsaplan"
+  },
+  {
+    "pushed_at": "2026-08-23T08:52:13.921609+00:00",
+    "title": "Sinotrade/shioaji-pro-app (+1⭐ past_24_hours)",
+    "url": "https://github.com/Sinotrade/shioaji-pro-app",
+    "url_hash": "dd6139594ce7a4bb983166c98a79848e",
+    "source_type": "ossinsight",
+    "repo": "sinotrade/shioaji-pro-app"
   }
 ]
