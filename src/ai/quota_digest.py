@@ -262,9 +262,74 @@ class QuotaDigestBuilder:
                 ),
                 max_tokens=8192,
                 validator=validate,
+                recovery=partial(self._recover_analysis, batch=batch),
             )
             analyses.extend(batch_result)
         return analyses
+
+    def _recover_analysis(
+        self,
+        parsed: object,
+        *,
+        batch: list[ContentItem],
+    ) -> list[BatchAnalysisEntry]:
+        """Salvage partial analysis and synthesize source-grounded missing rows."""
+        raw_by_id: dict[str, dict[str, object]] = {}
+        if isinstance(parsed, dict) and isinstance(parsed.get("items"), list):
+            expected_ids = {item.id for item in batch}
+            for raw_entry in parsed["items"]:
+                if not isinstance(raw_entry, dict):
+                    continue
+                candidate_id = raw_entry.get("id")
+                if isinstance(candidate_id, str) and candidate_id in expected_ids:
+                    raw_by_id.setdefault(candidate_id, raw_entry)
+
+        recovered: list[BatchAnalysisEntry] = []
+        allowed_buckets = set(self.interests.buckets)
+        fallback_relevance = max(7.0, self.interests.min_relevance_score)
+        fallback_actionability = max(6.0, self.interests.min_actionability_score)
+        for item in batch:
+            raw = raw_by_id.get(item.id, {})
+            bucket = raw.get("interest_bucket")
+            if not isinstance(bucket, str) or bucket not in allowed_buckets:
+                bucket = self._fallback_interest_bucket(item)
+            reason = self._nonempty_text(raw.get("reason")) or (
+                "模型结构化输出不可用，依据原始来源进行确定性降级评估。"
+            )
+            summary = self._nonempty_text(raw.get("summary")) or self._source_excerpt(
+                item, 320
+            )
+            tags_value = raw.get("tags")
+            tags = (
+                [tag.strip() for tag in tags_value if isinstance(tag, str) and tag.strip()]
+                if isinstance(tags_value, list)
+                else []
+            )
+            rejection_reason = self._nonempty_text(raw.get("rejection_reason"))
+            recovered.append(
+                BatchAnalysisEntry(
+                    id=item.id,
+                    score=self._score_value(raw.get("score"), fallback_relevance),
+                    reason=reason,
+                    summary=summary,
+                    tags=tags,
+                    interest_bucket=bucket,
+                    relevance_score=self._score_value(
+                        raw.get("relevance_score"), fallback_relevance
+                    ),
+                    actionability_score=self._score_value(
+                        raw.get("actionability_score"), fallback_actionability
+                    ),
+                    video_score=self._score_value(raw.get("video_score"), 5.0),
+                    rejection_reason=rejection_reason,
+                )
+            )
+        logger.warning(
+            "Recovered analysis batch deterministically (%d/%d model rows usable)",
+            len(raw_by_id),
+            len(batch),
+        )
+        return recovered
 
     async def _select_candidates(
         self,
@@ -359,14 +424,16 @@ class QuotaDigestBuilder:
         excluded_ids: set[str] | None = None,
     ) -> list[SelectionEntry]:
         """Complete a structurally invalid model selection deterministically."""
-        if not isinstance(parsed, dict) or not isinstance(parsed.get("items"), list):
-            raise TypeError("selection recovery needs a JSON items array")
-
         candidate_by_id = {item.id: item for item in candidates}
         analysis_by_id = {entry.id: entry for entry in analyses}
         excluded = excluded_ids or set()
         model_entries: list[SelectionEntry] = []
-        for raw_entry in parsed["items"]:
+        raw_items = (
+            parsed["items"]
+            if isinstance(parsed, dict) and isinstance(parsed.get("items"), list)
+            else []
+        )
+        for raw_entry in raw_items:
             try:
                 entry = SelectionEntry.model_validate(raw_entry)
             except (TypeError, ValidationError, ValueError):
@@ -613,6 +680,7 @@ class QuotaDigestBuilder:
             ),
             max_tokens=4096,
             validator=validate,
+            recovery=lambda _parsed: [],
         )
         local_groups = self._deterministic_duplicate_groups(
             selection,
@@ -751,9 +819,91 @@ class QuotaDigestBuilder:
                 ),
                 max_tokens=16384,
                 validator=validate,
+                recovery=partial(
+                    self._recover_enrichment,
+                    batch=batch,
+                    candidate_by_id=candidate_by_id,
+                    analysis_by_id=analysis_by_id,
+                ),
             )
             enriched.extend(batch_result)
         return enriched
+
+    def _recover_enrichment(
+        self,
+        parsed: object,
+        *,
+        batch: list[SelectionEntry],
+        candidate_by_id: dict[str, ContentItem],
+        analysis_by_id: dict[str, BatchAnalysisEntry],
+    ) -> list[EnrichmentEntry]:
+        """Salvage valid enrichment rows and fill missing rows from source text."""
+        entry_by_id: dict[str, EnrichmentEntry] = {}
+        if isinstance(parsed, dict) and isinstance(parsed.get("items"), list):
+            expected_ids = {entry.id for entry in batch}
+            for raw_entry in parsed["items"]:
+                try:
+                    entry = EnrichmentEntry.model_validate(raw_entry)
+                except (TypeError, ValidationError, ValueError):
+                    continue
+                if entry.id in expected_ids:
+                    entry_by_id.setdefault(entry.id, entry)
+
+        recovered: list[EnrichmentEntry] = []
+        for selected in batch:
+            if selected.id in entry_by_id:
+                recovered.append(entry_by_id[selected.id])
+                continue
+            item = candidate_by_id[selected.id]
+            analysis = analysis_by_id[selected.id]
+            source_excerpt = self._source_excerpt(item, 420)
+            summary = analysis.summary.strip()
+            if source_excerpt and source_excerpt not in summary:
+                summary = f"{summary} 来源内容补充：{source_excerpt}"
+            recovered.append(
+                EnrichmentEntry(
+                    id=selected.id,
+                    title=item.title,
+                    summary=summary,
+                    next_step="查看原始来源，并按官方文档或项目说明核验后再试用。",
+                )
+            )
+        logger.warning(
+            "Recovered enrichment batch deterministically (%d/%d model rows usable)",
+            len(entry_by_id),
+            len(batch),
+        )
+        return recovered
+
+    def _fallback_interest_bucket(self, item: ContentItem) -> str | None:
+        if not self.interests.buckets:
+            return None
+        haystack = f"{item.title} {item.content or ''}".casefold()
+        return max(
+            self.interests.buckets,
+            key=lambda bucket_id: sum(
+                topic.casefold() in haystack
+                for topic in self.interests.buckets[bucket_id].priority_topics
+            ),
+        )
+
+    @staticmethod
+    def _source_excerpt(item: ContentItem, limit: int) -> str:
+        source_text = split_content(item.content).main or item.title
+        compact = re.sub(r"\s+", " ", source_text).strip()
+        return compact[:limit].rstrip() or item.title
+
+    @staticmethod
+    def _nonempty_text(value: object) -> str | None:
+        return value.strip() if isinstance(value, str) and value.strip() else None
+
+    @staticmethod
+    def _score_value(value: object, default: float) -> float:
+        if isinstance(value, bool):
+            return default
+        if isinstance(value, (int, float)):
+            return min(10.0, max(0.0, float(value)))
+        return min(10.0, max(0.0, default))
 
     async def _request_validated(
         self,
@@ -773,12 +923,23 @@ class QuotaDigestBuilder:
                     "\n\nThe previous response failed validation: "
                     f"{validation_error}. Return one corrected complete JSON object."
                 )
-            response = await self._complete(
-                stage=stage,
-                system=system,
-                user=request_prompt,
-                max_tokens=max_tokens,
-            )
+            try:
+                response = await self._complete(
+                    stage=stage,
+                    system=system,
+                    user=request_prompt,
+                    max_tokens=max_tokens,
+                )
+            except RuntimeError as exc:
+                if recovery is None:
+                    raise
+                logger.warning(
+                    "Quota digest %s AI request failed; using deterministic "
+                    "recovery: %s",
+                    stage,
+                    exc,
+                )
+                return recovery(None)
             parsed = parse_json_response(response)
             try:
                 return validator(parsed)

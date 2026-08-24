@@ -212,11 +212,10 @@ def test_quota_digest_uses_sixteen_requests_with_automatic_duplicate_audit():
     assert max(len(call["user"]) for call in client.calls[14:]) < 50_000
 
 
-def test_quota_digest_uses_one_reserved_request_to_repair_a_batch():
+def test_quota_digest_recovers_an_invalid_analysis_without_an_extra_request():
     partitions = QuotaDigestBuilder.partition_indices(CANDIDATE_COUNT, 12)
     responses = [
         json.dumps({"items": []}),
-        _analysis_response(partitions[0]),
         *[_analysis_response(indices) for indices in partitions[1:]],
         _selection_response(),
         _audit_response(),
@@ -229,9 +228,9 @@ def test_quota_digest_uses_one_reserved_request_to_repair_a_batch():
         _builder(client).build([_make_item(index) for index in range(CANDIDATE_COUNT)])
     )
 
-    assert result.request_count == 17
+    assert result.request_count == 16
     assert len(result.items) == 20
-    assert "previous response failed validation" in client.calls[1]["user"]
+    assert "previous response failed validation" not in client.calls[1]["user"]
 
 
 def test_quota_digest_deterministically_completes_a_partial_selection():
@@ -256,6 +255,27 @@ def test_quota_digest_deterministically_completes_a_partial_selection():
     assert "[Stage: duplicate-audit]" in client.calls[13]["system"]
 
 
+def test_quota_digest_deterministically_selects_when_model_returns_no_json():
+    partitions = QuotaDigestBuilder.partition_indices(CANDIDATE_COUNT, 12)
+    responses = [
+        *[_analysis_response(indices) for indices in partitions],
+        "The selected stories are listed below without JSON.",
+        _audit_response(),
+        _enrichment_response(list(range(10))),
+        _enrichment_response(list(range(10, 20))),
+    ]
+    client = FakeClient(responses)
+
+    result = asyncio.run(
+        _builder(client).build([_make_item(index) for index in range(CANDIDATE_COUNT)])
+    )
+
+    assert result.request_count == 16
+    assert len(result.items) == 20
+    assert len({item.id for item in result.items}) == 20
+    assert "[Stage: duplicate-audit]" in client.calls[13]["system"]
+
+
 def test_quota_digest_uses_one_reserved_request_for_a_transient_503():
     responses = _base_responses()
     responses.insert(6, FakeAPIError(503))
@@ -269,16 +289,39 @@ def test_quota_digest_uses_one_reserved_request_for_a_transient_503():
     assert len(result.items) == 20
 
 
-def test_quota_digest_does_not_retry_a_quota_429():
-    client = FakeClient([FakeAPIError(429)])
+def test_quota_digest_publishes_with_deterministic_fallback_on_quota_429():
+    client = FakeClient([FakeAPIError(429)] * 16)
 
-    with pytest.raises(RuntimeError, match="request 1/20 failed: HTTP 429"):
-        asyncio.run(
-            _builder(client).build(
-                [_make_item(index) for index in range(CANDIDATE_COUNT)]
-            )
+    result = asyncio.run(
+        _builder(client).build(
+            [_make_item(index) for index in range(CANDIDATE_COUNT)]
         )
-    assert len(client.calls) == 1
+    )
+
+    assert result.request_count == 16
+    assert len(result.items) == 20
+    assert len({item.id for item in result.items}) == 20
+    assert len(client.calls) == 16
+
+
+def test_quota_digest_recovers_non_json_enrichment_from_sources():
+    partitions = QuotaDigestBuilder.partition_indices(CANDIDATE_COUNT, 12)
+    responses = [
+        *[_analysis_response(indices) for indices in partitions],
+        _selection_response(),
+        _audit_response(),
+        "No JSON was returned for enrichment batch one.",
+        "No JSON was returned for enrichment batch two.",
+    ]
+    client = FakeClient(responses)
+
+    result = asyncio.run(
+        _builder(client).build([_make_item(index) for index in range(CANDIDATE_COUNT)])
+    )
+
+    assert result.request_count == 16
+    assert len(result.items) == 20
+    assert all(item.processing.artifacts["zh"].blocks for item in result.items)
 
 
 def test_quota_digest_deterministically_repairs_duplicate_selection_ids():
