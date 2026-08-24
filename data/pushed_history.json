@@ -1912,5 +1912,157 @@
     "url_hash": "dd6139594ce7a4bb983166c98a79848e",
     "source_type": "ossinsight",
     "repo": "sinotrade/shioaji-pro-app"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "I built a low-latency AI companion that plays Skyrim with me",
+    "url": "https://pantel.is/projects/ai-gaming-companion/",
+    "url_hash": "686041e84d4e573518e18c4f1144694c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "My agent.md to improve LLM-assisted code quality",
+    "url": "https://fabiensanglard.net/agent.md/index.html",
+    "url_hash": "e51017e8b3e9b5658c659ece9273ddad",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "Quoting Drew Breunig",
+    "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+    "url_hash": "3096098d7585486742d1025eea793db4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "How I Organized My Tech Job Search (No More Messy Spreadsheets)",
+    "url": "https://dev.to/jay_gadhiya_d7cd1b63b811d/how-i-organized-my-tech-job-search-no-more-messy-spreadsheets-48if",
+    "url_hash": "0284cf57ff36f325768a085fdd6a9573",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "Leonxlnx/unlazy (+3⭐ past_24_hours)",
+    "url": "https://github.com/Leonxlnx/unlazy",
+    "url_hash": "cb291993436663f2d642f95c027a5810",
+    "source_type": "ossinsight",
+    "repo": "leonxlnx/unlazy"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "petergyang/no-ai-slop (+2⭐ past_24_hours)",
+    "url": "https://github.com/petergyang/no-ai-slop",
+    "url_hash": "5a9e12d20eb13fef8d3d3e111b3ec3a7",
+    "source_type": "ossinsight",
+    "repo": "petergyang/no-ai-slop"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "Audio8-AI/Audio8_TTS (+2⭐ past_24_hours)",
+    "url": "https://github.com/Audio8-AI/Audio8_TTS",
+    "url_hash": "104cec83dba0b4179917e088489dbb9d",
+    "source_type": "ossinsight",
+    "repo": "audio8-ai/audio8_tts"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "jd-opensource/JoyAI-Video-Edit (+1⭐ past_24_hours)",
+    "url": "https://github.com/jd-opensource/JoyAI-Video-Edit",
+    "url_hash": "c1519a7368578c4dcd51ded579eefccb",
+    "source_type": "ossinsight",
+    "repo": "jd-opensource/joyai-video-edit"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "ArcReel/ArcReel (+1⭐ past_24_hours)",
+    "url": "https://github.com/ArcReel/ArcReel",
+    "url_hash": "064d523a156ca7c7fdbba00d9cb79d63",
+    "source_type": "ossinsight",
+    "repo": "arcreel/arcreel"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "How I find problems to solve as a staff engineer",
+    "url": "https://lalitm.com/post/find-problems-staff-engineer/",
+    "url_hash": "8330a4559a11d17696dfba532babafdf",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "Executable Is a SQLite Database",
+    "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
+    "url_hash": "95d11516eb4ee6cb691e46a6f4dfe0c1",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "What Is a Harness?",
+    "url": "https://earendil.com/posts/what-is-a-harness/",
+    "url_hash": "6171fed76e8cb08ba89f5c3e04fdf716",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "Migrating a Synology NAS to a UniFi UNAS Pro 8 with Robocopy, SMB Multichannel",
+    "url": "https://www.hanselman.com/blog/migrating-a-synology-nas-to-a-unifi-unas-pro-8-with-robocopy-smb-multichannel-and-surprising-performance-traps",
+    "url_hash": "5c89c953a102559b9c258777201e2f41",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "vorssaint/vorssaint-utils (+6⭐ past_24_hours)",
+    "url": "https://github.com/vorssaint/vorssaint-utils",
+    "url_hash": "b66db9609a1a862c9bb6beafbf6fd24c",
+    "source_type": "ossinsight",
+    "repo": "vorssaint/vorssaint-utils"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "tinyhumansai/openhuman (+2⭐ past_24_hours)",
+    "url": "https://github.com/tinyhumansai/openhuman",
+    "url_hash": "e5348c5ff3f91788221ce06df7191ad6",
+    "source_type": "ossinsight",
+    "repo": "tinyhumansai/openhuman"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "AgIzT/NovelAI-Tag (+1⭐ past_24_hours)",
+    "url": "https://github.com/AgIzT/NovelAI-Tag",
+    "url_hash": "d088f068b88f1d0c7dac791f65ae6ac9",
+    "source_type": "ossinsight",
+    "repo": "agizt/novelai-tag"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance (+1⭐ past_24_hours)",
+    "url": "https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
+    "url_hash": "5c71d0e6ee5a7f9e8c7a105bf41ca76b",
+    "source_type": "ossinsight",
+    "repo": "sushegaad/claude-skills-governance-risk-and-compliance"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "shawnla90/gtm-coding-agent (+1⭐ past_24_hours)",
+    "url": "https://github.com/shawnla90/gtm-coding-agent",
+    "url_hash": "12f6a7d267f281043d164a200821e4d2",
+    "source_type": "ossinsight",
+    "repo": "shawnla90/gtm-coding-agent"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "arxhr007/Aliens_eye (+2⭐ past_24_hours)",
+    "url": "https://github.com/arxhr007/Aliens_eye",
+    "url_hash": "79ceed67749f699ac63d8d0df16a3782",
+    "source_type": "ossinsight",
+    "repo": "arxhr007/aliens_eye"
+  },
+  {
+    "pushed_at": "2026-08-24T10:28:25.432979+00:00",
+    "title": "GitHub 经典名库: trekhleb/javascript-algorithms (⭐️ 196547)",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "url_hash": "2782646b32b29bfadc7d0b6dd436ba75",
+    "source_type": "github",
+    "repo": "trekhleb/javascript-algorithms"
   }
 ]
