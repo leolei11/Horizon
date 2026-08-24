@@ -323,25 +323,45 @@ def test_quota_digest_automatically_replaces_article_quiz_semantic_duplicate():
         *[_analysis_response(indices) for indices in partitions],
         _selection_response(),
         _audit_response(),
-        _selection_response(replacement_index=20),
         _audit_response(),
         _enrichment_response(list(range(10))),
-        _enrichment_response([10, 11, 12, 20, 14, 15, 16, 17, 18, 19]),
+        _enrichment_response([10, 11, 12, 14, 15, 16, 17, 18, 19, 20]),
     ]
     client = FakeClient(responses)
 
     result = asyncio.run(_builder(client).build(candidates))
 
-    assert result.request_count == 18
+    assert result.request_count == 17
     assert len(result.items) == 20
     assert len({item.id for item in result.items}) == 20
     assert "rss:test:13" not in {item.id for item in result.items}
     assert "rss:test:20" in {item.id for item in result.items}
-    assert "[Stage: select]" in client.calls[14]["system"]
-    assert (
-        "selection-repair" in client.calls[14]["user"]
-        or "Replace" in client.calls[14]["user"]
+    assert "[Stage: duplicate-audit]" in client.calls[14]["system"]
+
+
+def test_quota_digest_replaces_audited_duplicates_deterministically():
+    partitions = QuotaDigestBuilder.partition_indices(CANDIDATE_COUNT, 12)
+    responses = [
+        *[_analysis_response(indices) for indices in partitions],
+        _partial_selection_response(13),
+        _audit_response([12, 13]),
+        _audit_response(),
+        _enrichment_response(list(range(10))),
+        _enrichment_response([10, 11, 12, 14, 15, 16, 17, 18, 19, 20]),
+    ]
+    client = FakeClient(responses)
+
+    result = asyncio.run(
+        _builder(client).build([_make_item(index) for index in range(CANDIDATE_COUNT)])
     )
+
+    selected_ids = [item.id for item in result.items]
+    assert result.request_count == 17
+    assert len(selected_ids) == 20
+    assert len(set(selected_ids)) == 20
+    assert "rss:test:13" not in selected_ids
+    assert "rss:test:20" in selected_ids
+    assert "[Stage: duplicate-audit]" in client.calls[14]["system"]
 
 
 def test_quota_digest_rejects_a_base_plan_above_the_request_budget():

@@ -355,6 +355,8 @@ class QuotaDigestBuilder:
         parsed: object,
         candidates: list[ContentItem],
         analyses: list[BatchAnalysisEntry],
+        *,
+        excluded_ids: set[str] | None = None,
     ) -> list[SelectionEntry]:
         """Complete a structurally invalid model selection deterministically."""
         if not isinstance(parsed, dict) or not isinstance(parsed.get("items"), list):
@@ -362,13 +364,14 @@ class QuotaDigestBuilder:
 
         candidate_by_id = {item.id: item for item in candidates}
         analysis_by_id = {entry.id: entry for entry in analyses}
+        excluded = excluded_ids or set()
         model_entries: list[SelectionEntry] = []
         for raw_entry in parsed["items"]:
             try:
                 entry = SelectionEntry.model_validate(raw_entry)
             except (TypeError, ValidationError, ValueError):
                 continue
-            if entry.id in candidate_by_id:
+            if entry.id in candidate_by_id and entry.id not in excluded:
                 model_entries.append(entry)
 
         if self.interests.enabled:
@@ -442,6 +445,7 @@ class QuotaDigestBuilder:
                             candidate_id
                             for candidate_id in candidate_by_id
                             if candidate_id not in selected_ids
+                            and candidate_id not in excluded
                             and quality_tier(candidate_id) == tier
                             and (
                                 not prefer_suggested_bucket
@@ -480,31 +484,92 @@ class QuotaDigestBuilder:
     ) -> list[SelectionEntry]:
         candidate_by_id = {item.id: item for item in candidates}
         duplicate_groups = await self._audit_selection(selection, candidate_by_id)
-        if not duplicate_groups:
-            return selection
+        excluded_ids: set[str] = set()
+        while duplicate_groups:
+            selection, excluded_ids = self._replace_duplicate_groups(
+                candidates,
+                analyses,
+                selection,
+                duplicate_groups,
+                excluded_ids,
+            )
+            requests_after_another_audit = self.request_count + 1
+            if (
+                requests_after_another_audit + self.enrichment_batches
+                > self.max_requests
+            ):
+                logger.warning(
+                    "Skipped another AI duplicate audit to reserve %d enrichment "
+                    "request(s); deterministic replacement removed %d audited IDs",
+                    self.enrichment_batches,
+                    len(excluded_ids),
+                )
+                return selection
+            duplicate_groups = await self._audit_selection(
+                selection,
+                candidate_by_id,
+            )
+        return selection
 
-        repair_context = json.dumps(
-            {
-                "previous_selection": [entry.model_dump() for entry in selection],
-                "duplicate_groups": duplicate_groups,
-            },
-            ensure_ascii=False,
-        )
-        repaired = await self._select_candidates(
+    def _replace_duplicate_groups(
+        self,
+        candidates: list[ContentItem],
+        analyses: list[BatchAnalysisEntry],
+        selection: list[SelectionEntry],
+        duplicate_groups: list[list[str]],
+        excluded_ids: set[str],
+    ) -> tuple[list[SelectionEntry], set[str]]:
+        """Remove audited duplicates and refill their slots without another selection call."""
+        analysis_by_id = {entry.id: entry for entry in analyses}
+        selection_order = {
+            entry.id: index for index, entry in enumerate(selection)
+        }
+        removed_ids = set(excluded_ids)
+
+        def keep_rank(candidate_id: str) -> tuple[float, ...]:
+            analysis = analysis_by_id[candidate_id]
+            return (
+                1.0 if analysis.rejection_reason else 0.0,
+                -analysis.relevance_score,
+                -analysis.actionability_score,
+                -analysis.score,
+                -analysis.video_score,
+                float(selection_order[candidate_id]),
+            )
+
+        for group in duplicate_groups:
+            selected_group = [
+                candidate_id
+                for candidate_id in group
+                if candidate_id in selection_order and candidate_id not in removed_ids
+            ]
+            if len(selected_group) < 2:
+                continue
+            keep_id = min(selected_group, key=keep_rank)
+            removed_ids.update(
+                candidate_id
+                for candidate_id in selected_group
+                if candidate_id != keep_id
+            )
+
+        seed = {
+            "items": [
+                entry.model_dump()
+                for entry in selection
+                if entry.id not in removed_ids
+            ]
+        }
+        repaired = self._recover_selection(
+            seed,
             candidates,
             analyses,
-            repair_context=repair_context,
+            excluded_ids=removed_ids,
         )
-        remaining_duplicates = await self._audit_selection(
-            repaired,
-            candidate_by_id,
+        logger.warning(
+            "Replaced %d audited semantic duplicate(s) deterministically",
+            len(removed_ids),
         )
-        if remaining_duplicates:
-            raise RuntimeError(
-                "Quota digest automatic duplicate replacement did not produce "
-                "20 semantically unique items"
-            )
-        return repaired
+        return repaired, removed_ids
 
     async def _audit_selection(
         self,
