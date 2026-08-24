@@ -8,6 +8,7 @@ import unicodedata
 from collections import Counter
 from collections.abc import Callable
 from dataclasses import dataclass
+from functools import partial
 from typing import TypeVar
 from urllib.parse import unquote_plus, urlsplit
 
@@ -332,6 +333,10 @@ class QuotaDigestBuilder:
                 f"Repair context: {repair_context}"
             )
         )
+
+        def recover(parsed: object) -> list[SelectionEntry]:
+            return self._recover_selection(parsed, candidates, analyses)
+
         return await self._request_validated(
             stage="selection" if repair_context is None else "selection-repair",
             system=self._selection_system_prompt(),
@@ -342,7 +347,130 @@ class QuotaDigestBuilder:
             ),
             max_tokens=8192,
             validator=validate,
+            recovery=recover,
         )
+
+    def _recover_selection(
+        self,
+        parsed: object,
+        candidates: list[ContentItem],
+        analyses: list[BatchAnalysisEntry],
+    ) -> list[SelectionEntry]:
+        """Complete a structurally invalid model selection deterministically."""
+        if not isinstance(parsed, dict) or not isinstance(parsed.get("items"), list):
+            raise TypeError("selection recovery needs a JSON items array")
+
+        candidate_by_id = {item.id: item for item in candidates}
+        analysis_by_id = {entry.id: entry for entry in analyses}
+        model_entries: list[SelectionEntry] = []
+        for raw_entry in parsed["items"]:
+            try:
+                entry = SelectionEntry.model_validate(raw_entry)
+            except (TypeError, ValidationError, ValueError):
+                continue
+            if entry.id in candidate_by_id:
+                model_entries.append(entry)
+
+        if self.interests.enabled:
+            targets = {
+                bucket_id: bucket.target_count
+                for bucket_id, bucket in self.interests.buckets.items()
+            }
+        else:
+            targets = {"general": self.exact_count}
+
+        selected: list[SelectionEntry] = []
+        selected_ids: set[str] = set()
+        selected_topic_keys: set[tuple[str, str]] = set()
+        counts: Counter[str] = Counter()
+
+        def quality_tier(candidate_id: str) -> int:
+            analysis = analysis_by_id[candidate_id]
+            if analysis.rejection_reason:
+                return 2
+            if self.interests.enabled and (
+                analysis.relevance_score < self.interests.min_relevance_score
+                or analysis.actionability_score
+                < self.interests.min_actionability_score
+            ):
+                return 1
+            return 0
+
+        def add(candidate_id: str, bucket_id: str) -> bool:
+            if candidate_id in selected_ids or counts[bucket_id] >= targets[bucket_id]:
+                return False
+            topic_keys = self._semantic_topic_keys(candidate_by_id[candidate_id])
+            if topic_keys & selected_topic_keys:
+                return False
+            selected.append(
+                SelectionEntry(id=candidate_id, interest_bucket=bucket_id)
+            )
+            selected_ids.add(candidate_id)
+            selected_topic_keys.update(topic_keys)
+            counts[bucket_id] += 1
+            return True
+
+        # Preserve every valid, eligible judgment the model did return.
+        for entry in model_entries:
+            bucket_id = entry.interest_bucket if self.interests.enabled else "general"
+            if bucket_id not in targets or quality_tier(entry.id) != 0:
+                continue
+            add(entry.id, bucket_id)
+
+        def rank_key(candidate_id: str, bucket_id: str) -> tuple[float | str, ...]:
+            analysis = analysis_by_id[candidate_id]
+            return (
+                0 if analysis.interest_bucket == bucket_id else 1,
+                -analysis.relevance_score,
+                -analysis.actionability_score,
+                -analysis.score,
+                -analysis.video_score,
+                candidate_id,
+            )
+
+        # Fill each bucket from strict candidates first. Lower-scored or rejected
+        # candidates are used only as a last resort so publication can still meet
+        # the explicit exact-count contract when the model over-rejects a batch.
+        for tier in range(3):
+            for prefer_suggested_bucket in (True, False):
+                for bucket_id, target in targets.items():
+                    if counts[bucket_id] >= target:
+                        continue
+
+                    ranked_ids = sorted(
+                        (
+                            candidate_id
+                            for candidate_id in candidate_by_id
+                            if candidate_id not in selected_ids
+                            and quality_tier(candidate_id) == tier
+                            and (
+                                not prefer_suggested_bucket
+                                or analysis_by_id[candidate_id].interest_bucket
+                                == bucket_id
+                            )
+                        ),
+                        key=partial(rank_key, bucket_id=bucket_id),
+                    )
+                    for candidate_id in ranked_ids:
+                        add(candidate_id, bucket_id)
+                        if counts[bucket_id] >= target:
+                            break
+
+        if len(selected) != self.exact_count:
+            raise ValueError(
+                f"deterministic selection recovery found only {len(selected)} "
+                f"semantically unique candidates"
+            )
+
+        degraded_count = sum(quality_tier(entry.id) > 0 for entry in selected)
+        logger.warning(
+            "Recovered exact %d-item selection deterministically from %d model "
+            "entries%s",
+            self.exact_count,
+            len(model_entries),
+            f" with {degraded_count} threshold fallback(s)" if degraded_count else "",
+        )
+        return selected
 
     async def _ensure_semantic_uniqueness(
         self,
@@ -570,6 +698,7 @@ class QuotaDigestBuilder:
         user: str,
         max_tokens: int,
         validator: Callable[[object], ValidatedT],
+        recovery: Callable[[object], ValidatedT] | None = None,
     ) -> ValidatedT:
         validation_error: Exception | None = None
         for _attempt in range(2):
@@ -585,10 +714,21 @@ class QuotaDigestBuilder:
                 user=request_prompt,
                 max_tokens=max_tokens,
             )
+            parsed = parse_json_response(response)
             try:
-                return validator(parse_json_response(response))
+                return validator(parsed)
             except (TypeError, ValidationError, ValueError) as exc:
                 validation_error = exc
+                if recovery is not None:
+                    try:
+                        return recovery(parsed)
+                    except (TypeError, ValidationError, ValueError) as recovery_exc:
+                        logger.warning(
+                            "Quota digest %s deterministic recovery was not "
+                            "possible: %s",
+                            stage,
+                            recovery_exc,
+                        )
                 logger.warning(
                     "Quota digest %s response failed validation; "
                     "using one repair request: %s",

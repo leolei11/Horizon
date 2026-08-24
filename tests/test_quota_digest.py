@@ -69,6 +69,17 @@ def _selection_response(
     return json.dumps({"items": items}, ensure_ascii=False)
 
 
+def _partial_selection_response(count: int) -> str:
+    items = [
+        {
+            "id": f"rss:test:{index}",
+            "interest_bucket": "applied-ai" if index < 10 else "builder-stack",
+        }
+        for index in range(count)
+    ]
+    return json.dumps({"items": items}, ensure_ascii=False)
+
+
 def _enrichment_response(indices: list[int]) -> str:
     return json.dumps(
         {
@@ -223,6 +234,28 @@ def test_quota_digest_uses_one_reserved_request_to_repair_a_batch():
     assert "previous response failed validation" in client.calls[1]["user"]
 
 
+def test_quota_digest_deterministically_completes_a_partial_selection():
+    partitions = QuotaDigestBuilder.partition_indices(CANDIDATE_COUNT, 12)
+    responses = [
+        *[_analysis_response(indices) for indices in partitions],
+        _partial_selection_response(13),
+        _audit_response(),
+        _enrichment_response(list(range(10))),
+        _enrichment_response(list(range(10, 20))),
+    ]
+    client = FakeClient(responses)
+
+    result = asyncio.run(
+        _builder(client).build([_make_item(index) for index in range(CANDIDATE_COUNT)])
+    )
+
+    assert result.request_count == 16
+    assert [item.id for item in result.items] == [
+        f"rss:test:{index}" for index in range(20)
+    ]
+    assert "[Stage: duplicate-audit]" in client.calls[13]["system"]
+
+
 def test_quota_digest_uses_one_reserved_request_for_a_transient_503():
     responses = _base_responses()
     responses.insert(6, FakeAPIError(503))
@@ -248,22 +281,27 @@ def test_quota_digest_does_not_retry_a_quota_429():
     assert len(client.calls) == 1
 
 
-def test_quota_digest_rejects_duplicate_selection_after_one_repair():
+def test_quota_digest_deterministically_repairs_duplicate_selection_ids():
     partitions = QuotaDigestBuilder.partition_indices(CANDIDATE_COUNT, 12)
     responses = [
         *[_analysis_response(indices) for indices in partitions],
         _selection_response(duplicate=True),
-        _selection_response(duplicate=True),
+        _audit_response(),
+        _enrichment_response(list(range(10))),
+        _enrichment_response(list(range(10, 20))),
     ]
     client = FakeClient(responses)
 
-    with pytest.raises(RuntimeError, match="unique item IDs"):
-        asyncio.run(
-            _builder(client).build(
-                [_make_item(index) for index in range(CANDIDATE_COUNT)]
-            )
+    result = asyncio.run(
+        _builder(client).build(
+            [_make_item(index) for index in range(CANDIDATE_COUNT)]
         )
-    assert len(client.calls) == 14
+    )
+
+    assert result.request_count == 16
+    assert [item.id for item in result.items] == [
+        f"rss:test:{index}" for index in range(20)
+    ]
 
 
 def test_quota_digest_automatically_replaces_article_quiz_semantic_duplicate():
