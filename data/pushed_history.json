@@ -2064,5 +2064,152 @@
     "url_hash": "2782646b32b29bfadc7d0b6dd436ba75",
     "source_type": "github",
     "repo": "trekhleb/javascript-algorithms"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "Headlong: A Microharness for Persistent Agents",
+    "url": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+    "url_hash": "cb5c66d3ecdbcf6e85deaec51e3558cf",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "Jabber/XMPP: 25 Years of Digital Independence",
+    "url": "https://gultsch.de/posts/25-years-of-digital-independence/",
+    "url_hash": "8af339aea427865e14e95aacacd3eba6",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "Training AI to Paint with Code",
+    "url": "https://surya.website/rling-qwen-to-paint-with-code",
+    "url_hash": "7729b273a32f9f8ff7255d3d0f0af1a1",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "LLMs could control their host machines by exploiting inference engines",
+    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+    "url_hash": "dffcb3a91fbb0cfe122e5fb86d2a657f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "Blender to Three.js and Back: 10 Tips for a Better Workflow",
+    "url": "https://tympanus.net/codrops/2026/08/24/blender-to-three-js-and-back-10-tips-for-a-better-workflow/",
+    "url_hash": "4b93af301097cc16db053681355c998f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "How to Write an AGENTS.md File for a Python Project",
+    "url": "https://realpython.com/agents-md/",
+    "url_hash": "4a6e4546ec1c3be5aab968f5e5faf088",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "How to Test Conversational AI: A Practical Guide for QA Engineers",
+    "url": "https://www.freecodecamp.org/news/how-to-test-conversational-ai-practical-guide-for-qa-engineers/",
+    "url_hash": "0433bf8888f29d12d2739ca6f9937c59",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+    "url": "https://huggingface.co/blog/gradio-workflow-guide",
+    "url_hash": "3a9a9569747555fe4c323bcbedb1ada5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+    "url": "https://openai.com/index/gpt-5-6-in-kiro",
+    "url_hash": "b4f331f2e15ca85e54054ef510a9acf3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "blader/humanizer (+4⭐ past_24_hours)",
+    "url": "https://github.com/blader/humanizer",
+    "url_hash": "786d914db71c331d62b6cab76e01f80c",
+    "source_type": "ossinsight",
+    "repo": "blader/humanizer"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "Moon (2024)",
+    "url": "https://ciechanow.ski/moon/",
+    "url_hash": "e0dba6ce805b1e588d402e89b4458926",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "Bookshelf – Self-hosted eBook library that runs on object storage",
+    "url": "https://github.com/murerkinn/bookshelf",
+    "url_hash": "ed65ff4c6976467bd0e4aecfeadfc3c3",
+    "source_type": "hackernews",
+    "repo": "murerkinn/bookshelf"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "Walgit – a Git server that is one binary in front of an object store",
+    "url": "https://github.com/tobi/walgit",
+    "url_hash": "f88f39e4f1a2815b23a7069b57f203ed",
+    "source_type": "hackernews",
+    "repo": "tobi/walgit"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "How to Build Referral-Aware Split Payment Flows in Django",
+    "url": "https://www.freecodecamp.org/news/how-to-build-referral-aware-split-payment-flows-in-django/",
+    "url_hash": "fd26cf0b9e23caf3ace2ee6caae90c2f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "How to Build Type-Safe APIs with Hono and Zod",
+    "url": "https://www.freecodecamp.org/news/how-to-build-type-safe-apis-with-hono-and-zod/",
+    "url_hash": "b87b3e8f98080e28d83c655fff024535",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "Your executable is a SQLite database",
+    "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+    "url_hash": "a007cf1a87b485a8245216dd9918e701",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "plannotator/effective-html (+2⭐ past_24_hours)",
+    "url": "https://github.com/plannotator/effective-html",
+    "url_hash": "372ff496c12d3d885fdbdefc071cf373",
+    "source_type": "ossinsight",
+    "repo": "plannotator/effective-html"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "HKUDS/CLI-Anything (+2⭐ past_24_hours)",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "url_hash": "12e9527951797ad091ed4942877b8b76",
+    "source_type": "ossinsight",
+    "repo": "hkuds/cli-anything"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "weicj/vLLM-2080Ti-Definitive (+2⭐ past_24_hours)",
+    "url": "https://github.com/weicj/vLLM-2080Ti-Definitive",
+    "url_hash": "d92bf35bd54a6d3675efce04a0766f01",
+    "source_type": "ossinsight",
+    "repo": "weicj/vllm-2080ti-definitive"
+  },
+  {
+    "pushed_at": "2026-08-25T09:07:05.336681+00:00",
+    "title": "browser-use/browser-harness (+2⭐ past_24_hours)",
+    "url": "https://github.com/browser-use/browser-harness",
+    "url_hash": "bb5811b216f2da0a891d26641f5d59c8",
+    "source_type": "ossinsight",
+    "repo": "browser-use/browser-harness"
   }
 ]
