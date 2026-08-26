@@ -2211,5 +2211,150 @@
     "url_hash": "bb5811b216f2da0a891d26641f5d59c8",
     "source_type": "ossinsight",
     "repo": "browser-use/browser-harness"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Queryable Executables",
+    "url": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
+    "url_hash": "18e2ddcdb7ddc53aca592b4da706bf6f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Black hole singularity is a surface not a point",
+    "url": "https://arxiv.org/abs/2608.21590",
+    "url_hash": "b93f46aba1a0b52ecf30ce7120edb9b3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
+    "url": "https://arxiv.org/abs/2607.21503",
+    "url_hash": "4c796a944c9258f5d9f5bb73f6430269",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Tooltips need a delay, and then they need to skip it",
+    "url": "https://blog.master.dev/tooltips-need-a-delay-and-then-they-need-to-skip-it/",
+    "url_hash": "51ca5aa82bb8fc50ac5c5ff58b442e8c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Don't Wordle",
+    "url": "https://dontwordle.com/",
+    "url_hash": "28a220791c4004dbc8879d5b5314a483",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+    "url": "https://github.com/ThinkOffApp/CarWatch",
+    "url_hash": "a3303d6642187a9a81ca4f0b3d2193dc",
+    "source_type": "hackernews",
+    "repo": "thinkoffapp/carwatch"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Quiz: The Python print() Function: Go Beyond the Basics",
+    "url": "https://realpython.com/quizzes/python-print-course/",
+    "url_hash": "9f0c9a5cf1b16469d8577ca540e2eaaf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Quiz: How to Write an AGENTS.md File for a Python Project",
+    "url": "https://realpython.com/quizzes/agents-md/",
+    "url_hash": "76cc9648e8ea50d5f9d2f18bd01eb903",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "How to Fix a Leaked API Key: A Developer’s Guide to Git Security",
+    "url": "https://www.freecodecamp.org/news/how-to-fix-a-leaked-api-key/",
+    "url_hash": "0727a94233ef858770c9a53ec742b61c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",
+    "url": "https://github.com/runetes/maiao",
+    "url_hash": "3245646118f69dd3d11b499cb65ca4f9",
+    "source_type": "hackernews",
+    "repo": "runetes/maiao"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "When str.lower() is a security vulnerability in Python",
+    "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+    "url_hash": "d2a3f6279c26b5861f9223d67c941775",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
+    "url": "https://github.com/jeffhajewski/latticedb",
+    "url_hash": "ada2bbcb034ecc5863f5cdf6eb7e6112",
+    "source_type": "hackernews",
+    "repo": "jeffhajewski/latticedb"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Building a Mouse-Following Square Lens Effect with Three.js and GLSL",
+    "url": "https://tympanus.net/codrops/2026/08/25/building-a-mouse-following-square-lens-effect-with-three-js-and-glsl/",
+    "url_hash": "5b785b9bd69a4ed188d3f7c0b73ce151",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "MicroLighter: Syntax Highlighter",
+    "url": "https://css-tricks.com/microlighter-syntax-highlighter/",
+    "url_hash": "66f02360dcb91110739885fdb686552e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "WordPress PHP-Only Block Registration",
+    "url": "https://css-tricks.com/wordpress-php-block-registration/",
+    "url_hash": "1d6eeb6efe8c97264a3ee5d1162fa99b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Quiz: Python 3.12 Preview: Static Typing Improvements",
+    "url": "https://realpython.com/quizzes/python312-typing/",
+    "url_hash": "e4641e6a1f70b47ffcba30e158d67e19",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Mobile Background Execution: iOS Background Modes, Android WorkManager, and Background Services in Dart",
+    "url": "https://www.freecodecamp.org/news/mobile-background-execution-ios-background-modes-android-workmanager-and-background-services-in-dart/",
+    "url_hash": "073d6700a8490e4229ebda1c3cda269f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "JetBrains/go-modern-guidelines (+2⭐ past_24_hours)",
+    "url": "https://github.com/JetBrains/go-modern-guidelines",
+    "url_hash": "7ee06cf44ceed9653f329162d693babd",
+    "source_type": "ossinsight",
+    "repo": "jetbrains/go-modern-guidelines"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "Quoting Paul Dix",
+    "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+    "url_hash": "4d0d59df800c9995a744c2e372e7d91c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-26T09:10:20.105273+00:00",
+    "title": "rohitg00/ai-engineering-from-scratch (+3⭐ past_24_hours)",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "url_hash": "4d8e922de101f720aa844b6f0d839a9a",
+    "source_type": "ossinsight",
+    "repo": "rohitg00/ai-engineering-from-scratch"
   }
 ]
