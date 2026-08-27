@@ -2356,5 +2356,149 @@
     "url_hash": "4d8e922de101f720aa844b6f0d839a9a",
     "source_type": "ossinsight",
     "repo": "rohitg00/ai-engineering-from-scratch"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "GitHub Trending: yt-dlp/yt-dlp (⭐️ 187337)",
+    "url": "https://github.com/yt-dlp/yt-dlp",
+    "url_hash": "1d9d6ca6d40c8b5d9ecaf3222f6aef53",
+    "source_type": "github",
+    "repo": "yt-dlp/yt-dlp"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "Small Models Have Arrived",
+    "url": "https://calv.info/small-models-have-arrived",
+    "url_hash": "d61a57e1a09bd47ab343d05d849b943d",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "Gemini Omni 1.1 Flash",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+    "url_hash": "e50a00d949637246657285b8f7e2dace",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "Nvidia agrees to acquire Hugging Face for $13B",
+    "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+    "url_hash": "a8711ed2edfa40f539af1d0de41fe5ab",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "How to Stop Letting AI Agents Fake Their Own Tests",
+    "url": "https://www.freecodecamp.org/news/how-to-stop-letting-ai-agents-fake-their-own-tests/",
+    "url_hash": "aac927ecb79229ad825de5857681028e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "Qwen3.8-Flash-Next",
+    "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+    "url_hash": "040172db2ac1adbcd973dd1404a19333",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "The Hugging Face incident and the road ahead",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+    "url_hash": "1c454c14ad6cf1d30c6d23d6ad263320",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "How loveholidays is making everyone a builder with Codex",
+    "url": "https://openai.com/index/loveholidays",
+    "url_hash": "d8bbd65ee6442256d0d12185b60e304d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "A fake client sent me a GitHub repo. Running it cost me two days and every password I had.",
+    "url": "https://dev.to/vinimabreu/a-fake-client-sent-me-a-github-repo-running-it-cost-me-two-days-and-every-password-i-had-5bm",
+    "url_hash": "961ccefc49e94bba45e2b32812dbd5b1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "Judgment Is the Job Now",
+    "url": "https://dev.to/sergueyasaelshinder/judgment-is-the-job-now-3976",
+    "url_hash": "9ac5c294c220184e1790550c8156aa3d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "GitHub Trending: deepseek-ai/deepseek-harness (⭐️ 200018)",
+    "url": "https://github.com/deepseek-ai/deepseek-harness",
+    "url_hash": "e176415c25cf7e0269c3a25489d07908",
+    "source_type": "github",
+    "repo": "deepseek-ai/deepseek-harness"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+    "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+    "url_hash": "fd22f13f8917c28ff65ea2f913fd6547",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "Goodgrowth: Boot Sequences, Spinning Discs, and the Art of the Portfolio",
+    "url": "https://tympanus.net/codrops/2026/08/27/goodgrowth-boot-sequences-spinning-discs-and-the-art-of-the-portfolio/",
+    "url_hash": "f8ffd62dd7000b710c2af6edc2e13890",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
+    "url": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
+    "url_hash": "db2aee731b0b46cc1071291798ef853e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "How to Make LLMs 3X Faster",
+    "url": "https://blog.bytebytego.com/p/how-to-make-llms-3x-faster",
+    "url_hash": "67ffd16377642dccd1548e2d696aa427",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "Python 3.15 Preview: Sampling Profiler",
+    "url": "https://realpython.com/python315-sampling-profiler/",
+    "url_hash": "f12c6c2f0fb09307d613a9de5611a294",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "28 CVEs and a GROUP BY ALL U-turn",
+    "url": "https://postgresweekly.com/issues/662",
+    "url_hash": "6d827de55026bb79646723a9d30325c9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "Build a Market Time Machine: Replay Trading Sessions with Python and WebSockets",
+    "url": "https://www.freecodecamp.org/news/build-a-market-time-machine-replay-trading-sessions-with-python-and-websockets/",
+    "url_hash": "56e240f5242691e8561db2e1fc9b579e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "rocketride-org/rocketride-server (+4⭐ past_24_hours)",
+    "url": "https://github.com/rocketride-org/rocketride-server",
+    "url_hash": "9a5a2088ea606177b4959a67d752f994",
+    "source_type": "ossinsight",
+    "repo": "rocketride-org/rocketride-server"
+  },
+  {
+    "pushed_at": "2026-08-27T19:11:23.978855+00:00",
+    "title": "tashfeenahmed/freellmapi (+4⭐ past_24_hours)",
+    "url": "https://github.com/tashfeenahmed/freellmapi",
+    "url_hash": "43d43a131b0529aa989badc9ab8a68ee",
+    "source_type": "ossinsight",
+    "repo": "tashfeenahmed/freellmapi"
   }
 ]
