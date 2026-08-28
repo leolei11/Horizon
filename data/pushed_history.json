@@ -2500,5 +2500,151 @@
     "url_hash": "43d43a131b0529aa989badc9ab8a68ee",
     "source_type": "ossinsight",
     "repo": "tashfeenahmed/freellmapi"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "GLM-5.3 is now open-weight",
+    "url": "https://huggingface.co/zai-org/GLM-5.3",
+    "url_hash": "666e9301b7cc302204fc0e5638c75fad",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "I Added a CDN Cache to My Site and It Got Slower. Here's the Math I Should Have Done First.",
+    "url": "https://www.freecodecamp.org/news/cdn-cache-made-my-site-slower/",
+    "url_hash": "145ca326c0acfa4ff6a9303dd9f278ac",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "How to Get Reliable Structured Data Out of an LLM",
+    "url": "https://www.freecodecamp.org/news/how-to-get-reliable-structured-data-out-of-an-llm/",
+    "url_hash": "aaa53a4dbd779d8cc774e66dd12c287e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "Build AI Agents, APIs, and Full-Stack Apps with Meta Muse Code & Muse Spark",
+    "url": "https://www.freecodecamp.org/news/build-ai-agents-apis-and-full-stack-apps-with-meta-muse-code-muse-spark/",
+    "url_hash": "e90b5049036651232d4c70d3cbd95cad",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "Stop Building AI Slop: Build High-End Web Apps with AI",
+    "url": "https://www.freecodecamp.org/news/stop-building-ai-slop-build-high-end-web-apps-with-ai/",
+    "url_hash": "8ed68949e47f34e6b9c5ebc1c25b73c6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "Ценнее становится тот, кто связывает системы, а не тот, кто знает один инструмент",
+    "url": "https://dev.to/serguey_shinder_4ab9b87b1/tsiennieie-stanovitsia-tot-kto-sviazyvaiet-sistiemy-a-nie-tot-kto-znaiet-odin-instrumient-2m2i",
+    "url_hash": "08d38f4ab4e82c96f230a3b3fa5b63ad",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "Top Free AI Workflow Automation Tools for 2026: Real Stats & Results",
+    "url": "https://dev.to/nlocoding/top-free-ai-workflow-automation-tools-for-2026-real-stats-results-3i18",
+    "url_hash": "31be80d79eb343df6ae6006fd487d2e9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "La automatización no elimina tu trabajo, eleva el listón",
+    "url": "https://dev.to/serguey_shinder_4ab9b87b1/la-automatizacion-no-elimina-tu-trabajo-eleva-el-liston-5hkd",
+    "url_hash": "6eeb63432170baaab08235b72dfb6129",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "tailscale/tailcat (+9⭐ past_24_hours)",
+    "url": "https://github.com/tailscale/tailcat",
+    "url_hash": "2e99c10b71a947d890cd480573092996",
+    "source_type": "ossinsight",
+    "repo": "tailscale/tailcat"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "K-Dense-AI/scientific-agent-skills (+4⭐ past_24_hours)",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "url_hash": "bf559441b24d3589098e6fff38c73cd7",
+    "source_type": "ossinsight",
+    "repo": "k-dense-ai/scientific-agent-skills"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "GUIs should be fully keyboard-driven",
+    "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+    "url_hash": "74ae9e994eb8ccf69e18617137615b7d",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "Htmx 4.0",
+    "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+    "url_hash": "85d677ced8012c42e105702db2ad654f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "The Twelve-Factor App",
+    "url": "https://12factor.net/",
+    "url_hash": "6b39130777ec37d6ce8688b07e4170d7",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "Background Work: From Cron Jobs to Distributed Systems",
+    "url": "https://blog.bytebytego.com/p/background-work-from-cron-jobs-to",
+    "url_hash": "ecf76929f61ae3cc9fe195b9a3fbbf7d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "The Follow-Up Email That Converts Cold Leads Into Paying Clients",
+    "url": "https://dev.to/alfred_p_c0ddb65b3df9fc36/the-follow-up-email-that-converts-cold-leads-into-paying-clients-4ame",
+    "url_hash": "50ae648b9ae2e413e94daaccbb335f7d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "The Problem I Saw From the Floor, Not From a Laptop",
+    "url": "https://dev.to/gerale30/the-problem-i-saw-from-the-floor-not-from-a-laptop-35hk",
+    "url_hash": "c1d26332ba2372fdff05ad1f06324b76",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "workweave/router (+5⭐ past_24_hours)",
+    "url": "https://github.com/workweave/router",
+    "url_hash": "821ced831e9eda87da8f7037688f52ab",
+    "source_type": "ossinsight",
+    "repo": "workweave/router"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "cathrynlavery/diagram-design (+5⭐ past_24_hours)",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "url_hash": "f0faec98f86e4fde0f792a68e2ecbc6c",
+    "source_type": "ossinsight",
+    "repo": "cathrynlavery/diagram-design"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "can1357/oh-my-pi (+3⭐ past_24_hours)",
+    "url": "https://github.com/can1357/oh-my-pi",
+    "url_hash": "5486dec8b59ab192ec9b309f7d2f7149",
+    "source_type": "ossinsight",
+    "repo": "can1357/oh-my-pi"
+  },
+  {
+    "pushed_at": "2026-08-28T20:15:16.309288+00:00",
+    "title": "openJiuwen-ai/jiuwenswarm (+12⭐ past_24_hours)",
+    "url": "https://github.com/openJiuwen-ai/jiuwenswarm",
+    "url_hash": "4eff6b77555d37edcd99cf7cdfc85cbb",
+    "source_type": "ossinsight",
+    "repo": "openjiuwen-ai/jiuwenswarm"
   }
 ]
