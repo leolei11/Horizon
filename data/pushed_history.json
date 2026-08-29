@@ -2646,5 +2646,157 @@
     "url_hash": "4eff6b77555d37edcd99cf7cdfc85cbb",
     "source_type": "ossinsight",
     "repo": "openjiuwen-ai/jiuwenswarm"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "StemDeck, a free, open-source and local AI stem separator",
+    "url": "https://github.com/stemdeckapp/stemdeck",
+    "url_hash": "3b2887a66a01672f1aa4b0b2c61f6bf7",
+    "source_type": "hackernews",
+    "repo": "stemdeckapp/stemdeck"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "I accidentally turned LLM memory into program analysis",
+    "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
+    "url_hash": "0a7027f2cd3f85ef226e4c9fb4a91115",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "Inception-style curved map for turn-by-turn directions",
+    "url": "https://www.orbify.eu/demo/",
+    "url_hash": "8b352a0cb1ea4c7a385ec491d91bc6c3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "Our decision on Cursor following its acquisition by SpaceX",
+    "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+    "url_hash": "57a3b900535e942d6c25590b2b3aec3d",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "Just a rumour of a bug is enough to find a security exploit these days",
+    "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+    "url_hash": "4ff133555dff34a6d06df0f0f2981f50",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "The returner CV: stop hiding the gap your ATS already parsed",
+    "url": "https://dev.to/cvpilot/the-returner-cv-stop-hiding-the-gap-your-ats-already-parsed-55j3",
+    "url_hash": "8329e1af5a039f875ae144ec267c1509",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "Forward Deployed AI Engineer: The Role Enterprise AI Actually Needs",
+    "url": "https://dev.to/trendwise/forward-deployed-ai-engineer-the-role-enterprise-ai-actually-needs-2f9i",
+    "url_hash": "74106758e1c4b98e114394352e258c08",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "A Decoy-PR Test for AI Reviewer Candidates: Prompt, Rubric, and a Free-Server Reference Setup",
+    "url": "https://dev.to/appjs_3979/a-decoy-pr-test-for-ai-reviewer-candidates-prompt-rubric-and-a-free-server-reference-setup-3062",
+    "url_hash": "50cc8501d4ddd9a1514a3fefc57dd5fd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "diffusionstudio/editor (+8⭐ past_24_hours)",
+    "url": "https://github.com/diffusionstudio/editor",
+    "url_hash": "c6bfc56d2735940f0748b8a4f7c626db",
+    "source_type": "ossinsight",
+    "repo": "diffusionstudio/editor"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "conorbronsdon/avoid-ai-writing (+2⭐ past_24_hours)",
+    "url": "https://github.com/conorbronsdon/avoid-ai-writing",
+    "url_hash": "94209b45b3aabe5fbf4d55b22b5bffe5",
+    "source_type": "ossinsight",
+    "repo": "conorbronsdon/avoid-ai-writing"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+    "url": "https://github.com/Lakr233/vphone-cli",
+    "url_hash": "e1146483aea35c4b62a163c8843314dc",
+    "source_type": "hackernews",
+    "repo": "lakr233/vphone-cli"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "TurboKV: Insanely fast Rust key-value store",
+    "url": "https://github.com/kingroryg/turbokv",
+    "url_hash": "b2210563bd6850de05e19a19d2a66c23",
+    "source_type": "hackernews",
+    "repo": "kingroryg/turbokv"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "How to Automate Your Tests in Express Using Vitest",
+    "url": "https://www.freecodecamp.org/news/how-to-automate-your-tests-in-express-using-vitest/",
+    "url_hash": "8ac9da67ec4bcdf20ea95e2ef0d4416c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "vorssaintapp/vorssaint-utils (+4⭐ past_24_hours)",
+    "url": "https://github.com/vorssaintapp/vorssaint-utils",
+    "url_hash": "5103ab8475732a5b2da11838fb969f74",
+    "source_type": "ossinsight",
+    "repo": "vorssaintapp/vorssaint-utils"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "daimon3332/address (+4⭐ past_24_hours)",
+    "url": "https://github.com/daimon3332/address",
+    "url_hash": "72c7166b4eea0a5f389d1b6e5757590a",
+    "source_type": "ossinsight",
+    "repo": "daimon3332/address"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "Everless321/dYm (+2⭐ past_24_hours)",
+    "url": "https://github.com/Everless321/dYm",
+    "url_hash": "7ea1f0c0de7e2049cc5d0cf275ecaf84",
+    "source_type": "ossinsight",
+    "repo": "everless321/dym"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "RizRiyz/luvus (+2⭐ past_24_hours)",
+    "url": "https://github.com/RizRiyz/luvus",
+    "url_hash": "b544c6628091be17c9b465c2c66971d4",
+    "source_type": "ossinsight",
+    "repo": "rizriyz/luvus"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "zhaoxuya520/reverse-skill (+2⭐ past_24_hours)",
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
+    "url_hash": "7445d3b513aec3d071197cab4f99d43e",
+    "source_type": "ossinsight",
+    "repo": "zhaoxuya520/reverse-skill"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "jakubkrehel/make-interfaces-feel-better (+2⭐ past_24_hours)",
+    "url": "https://github.com/jakubkrehel/make-interfaces-feel-better",
+    "url_hash": "e51c6859768d50b3db53ea7b7ea16996",
+    "source_type": "ossinsight",
+    "repo": "jakubkrehel/make-interfaces-feel-better"
+  },
+  {
+    "pushed_at": "2026-08-29T13:54:58.832833+00:00",
+    "title": "agentconnect-md/agentconnect (+4⭐ past_24_hours)",
+    "url": "https://github.com/agentconnect-md/agentconnect",
+    "url_hash": "25e460da031934829d144213b28ab63e",
+    "source_type": "ossinsight",
+    "repo": "agentconnect-md/agentconnect"
   }
 ]
