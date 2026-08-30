@@ -2798,5 +2798,151 @@
     "url_hash": "25e460da031934829d144213b28ab63e",
     "source_type": "ossinsight",
     "repo": "agentconnect-md/agentconnect"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+    "url": "https://arxiv.org/abs/1804.07389",
+    "url_hash": "0bf72c87c65b6023bf3e56635b986a99",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "Google's AI-Assisted Coding Interview: Catch the Cached 503 the Model Will Ship",
+    "url": "https://dev.to/karuha/googles-ai-assisted-coding-interview-catch-the-cached-503-the-model-will-ship-3o2k",
+    "url_hash": "3264f0bede72b2d5881767cdc07ff087",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "I Built a Security Linter for AI-Generated Code, Here Is What I Found in a Real Production Codebase",
+    "url": "https://dev.to/david_seagal_77ff697cd0f6/i-built-a-security-linter-for-ai-generated-codehere-is-what-i-found-in-a-real-production-codebase-38hp",
+    "url_hash": "0c4397e1f5d77d44add002395b842dea",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "Your CV redundancy note is a defensive try/catch you do not need",
+    "url": "https://dev.to/cvpilot/your-cv-redundancy-note-is-a-defensive-trycatch-you-do-not-need-2alh",
+    "url_hash": "601bbb062a69c567480e417e876e772a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "kaifcodec/user-scanner (+5⭐ past_24_hours)",
+    "url": "https://github.com/kaifcodec/user-scanner",
+    "url_hash": "77dfe4fc1c3ceb1f7d38d2147642b989",
+    "source_type": "ossinsight",
+    "repo": "kaifcodec/user-scanner"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "Hy4 preview",
+    "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+    "url_hash": "2571d5ebcfa8c2cfd993d5effc7d6d68",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "The Freelancer's Checklist for Raising Rates With Existing Clients",
+    "url": "https://dev.to/alfred_p_c0ddb65b3df9fc36/the-freelancers-checklist-for-raising-rates-with-existing-clients-jjm",
+    "url_hash": "62e976c1b1a5ae714374edee50746e48",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "hieunc229/mailflare (+9⭐ past_24_hours)",
+    "url": "https://github.com/hieunc229/mailflare",
+    "url_hash": "c21d8872cc553207ad91f8011dcbc294",
+    "source_type": "ossinsight",
+    "repo": "hieunc229/mailflare"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "THU-MAIC/OpenMAIC (+9⭐ past_24_hours)",
+    "url": "https://github.com/THU-MAIC/OpenMAIC",
+    "url_hash": "c2f4cce08f408ce82b04ccc8cb863a64",
+    "source_type": "ossinsight",
+    "repo": "thu-maic/openmaic"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "The Skill That Survives Is Knowing Why, Not How",
+    "url": "https://dev.to/serguey_shinder_4ab9b87b1/the-skill-that-survives-is-knowing-why-not-how-33o0",
+    "url_hash": "2a3785c964704b4e40b8609445d6c38e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "The messages counter that counts you",
+    "url": "https://dev.to/oroborolabs/the-messages-counter-that-counts-you-143f",
+    "url_hash": "ce36f7827ae7eef0b7a94ebd21314726",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+    "url": "https://github.com/anthropics/claude-code/issues/66504",
+    "url_hash": "c3ea29b4e6dafe3a2ecbe7acfc77c7fe",
+    "source_type": "hackernews",
+    "repo": "anthropics/claude-code"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "GitHub Trending: TheAlgorithms/Python (⭐️ 224131)",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "url_hash": "a631e1ebbdafbdec08f0c445d55f687b",
+    "source_type": "github",
+    "repo": "thealgorithms/python"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "Bug Blindness",
+    "url": "https://danluu.com/bug-blind/",
+    "url_hash": "cf8dd375603f64ecd78df4c898110370",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "Virginia salary ranges for remote job postings",
+    "url": "https://dev.to/devconnect/virginia-salary-ranges-for-remote-job-postings-3mf1",
+    "url_hash": "c56ea89417e2585553205f24c97b6884",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "The Basics Will Matter More, Not Less",
+    "url": "https://dev.to/asael_shinder_9f53bdca840/the-basics-will-matter-more-not-less-1jl5",
+    "url_hash": "a37458f2b7b7cb0bca82f5a2920a5a26",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "MadsLorentzen/ai-job-search (+7⭐ past_24_hours)",
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "url_hash": "ce3a785ea3a972f568ea6a4abc3bb8cf",
+    "source_type": "ossinsight",
+    "repo": "madslorentzen/ai-job-search"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "FreeCORE TrueNAS Core – Continued",
+    "url": "https://freecore.org/",
+    "url_hash": "f4528d24cb39f0c426c6a872e871df06",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "The proposal we didn't send",
+    "url": "https://dev.to/oroborolabs/the-proposal-we-didnt-send-4do3",
+    "url_hash": "998f5fbd267eba4d710f3ee90efd466a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-30T13:51:13.992927+00:00",
+    "title": "The exclusive wall: when the newest jobs can't be bid on",
+    "url": "https://dev.to/oroborolabs/the-exclusive-wall-when-the-newest-jobs-cant-be-bid-on-1ig6",
+    "url_hash": "d015ba6ec114c2aa216d7a3ba1eabe1c",
+    "source_type": "rss"
   }
 ]
