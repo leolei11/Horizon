@@ -2944,5 +2944,151 @@
     "url": "https://dev.to/oroborolabs/the-exclusive-wall-when-the-newest-jobs-cant-be-bid-on-1ig6",
     "url_hash": "d015ba6ec114c2aa216d7a3ba1eabe1c",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
+    "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
+    "url_hash": "d1dc74ed710258db14f7f3538afc7092",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "ChatGPT Work Tool and Skill Reference",
+    "url": "https://codex-tool-reference.simonw.chatgpt.site/",
+    "url_hash": "45e4672db13129a7b9409f2e481588d8",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "Malleable software = solid bases and custom code",
+    "url": "https://www.mdubakov.me/malleable-software-solid-bases-custom-code/",
+    "url_hash": "9d8deff6bca61d63d9fbea7ab8446e57",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "Agent Memory as a File Format",
+    "url": "https://calpaterson.com/memoryfields.html",
+    "url_hash": "eedde1eeae5f9e7c9edbf88fadf6f031",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "Understanding ChatGPT Work",
+    "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+    "url_hash": "21ade8dcbced14e66be180e5734bb758",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "Introducing Hy4 Preview",
+    "url": "https://simonwillison.net/2026/Aug/29/hy4/",
+    "url_hash": "0e7392771c67e4b71444c6d645c669dd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "chatfire-AI/huobao-drama (+3⭐ past_24_hours)",
+    "url": "https://github.com/chatfire-AI/huobao-drama",
+    "url_hash": "24e3a423934a999aed6b3e42176e1591",
+    "source_type": "ossinsight",
+    "repo": "chatfire-ai/huobao-drama"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "uv: Deduplicate all files in the wheel cache",
+    "url": "https://github.com/astral-sh/uv/pull/21327",
+    "url_hash": "16b2651210e5ad6e4cefbb2cbca7e6d7",
+    "source_type": "hackernews",
+    "repo": "astral-sh/uv"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "P99 0 ms* autocomplete for 240M domain names",
+    "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+    "url_hash": "08f919ff1defcc0cddb6cc9d5ad81cb4",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "Volatile Nexus: Tinkering with Glass, Caustics, Cubes and Sound in Three.js",
+    "url": "https://tympanus.net/codrops/2026/08/31/volatile-nexus-tinkering-with-glass-caustics-cubes-and-sound-in-three-js/",
+    "url_hash": "3d7eb1fae3d342766b91171bb34a9b08",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
+    "url": "https://css-tricks.com/css-random-function-polyfill/",
+    "url_hash": "8770ba94d6924693d95d477a58ee6710",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "Async Programming in Python: From Generators to asyncio",
+    "url": "https://realpython.com/python-async-features/",
+    "url_hash": "c96e2d14bfd7f7e38f8944d6c5288148",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "SegFault42/HeliosGen (+9⭐ past_24_hours)",
+    "url": "https://github.com/SegFault42/HeliosGen",
+    "url_hash": "06e78532f22a9c70cf4bcd0277c1476b",
+    "source_type": "ossinsight",
+    "repo": "segfault42/heliosgen"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "arcboxlabs/arcbox (+9⭐ past_24_hours)",
+    "url": "https://github.com/arcboxlabs/arcbox",
+    "url_hash": "801ce4845ed4a472245200de6e267a8c",
+    "source_type": "ossinsight",
+    "repo": "arcboxlabs/arcbox"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "MobAI-App/simslim (+6⭐ past_24_hours)",
+    "url": "https://github.com/MobAI-App/simslim",
+    "url_hash": "19225318a76f8d74ce06ac0cdc984f8f",
+    "source_type": "ossinsight",
+    "repo": "mobai-app/simslim"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "qusong0627/QuantMind (+4⭐ past_24_hours)",
+    "url": "https://github.com/qusong0627/QuantMind",
+    "url_hash": "c19bd0d345888712d5e6742be0a77155",
+    "source_type": "ossinsight",
+    "repo": "qusong0627/quantmind"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "How to Write a 5,000-Word Masterpiece That Hits DR 20, 1K Daily Views, and Secures Google AI Position 0",
+    "url": "https://dev.to/kevingarzao/how-to-write-a-5000-word-masterpiece-that-hits-dr-20-1k-daily-views-and-secures-google-ai-3ejc",
+    "url_hash": "b6328e4a204c13242958557f5ec62e7f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "The Complete Guide to AI Automation in Internal Operations: Use Cases That Actually Work",
+    "url": "https://dev.to/sairaaslam-coder/the-complete-guide-to-ai-automation-in-internal-operations-use-cases-that-actually-work-4m8a",
+    "url_hash": "25c298f49c86ded1f1c5475bf9519604",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "AI won't replace you, your refusal to learn it will",
+    "url": "https://dev.to/web_dev-usman/ai-wont-replace-you-your-refusal-to-learn-it-will-4k7m",
+    "url_hash": "e6105b7a1658329dd6aea437de707a20",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-08-31T16:13:10.159353+00:00",
+    "title": "The biggest mistake i made with client contracts (and how i fixed scope creep)",
+    "url": "https://dev.to/aldobarbosa/3-simple-contract-rules-i-use-so-clients-stop-asking-for-free-reworks-3n88",
+    "url_hash": "585a813472fd8beafb59922a43548c8a",
+    "source_type": "rss"
   }
 ]
