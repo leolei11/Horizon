@@ -3090,5 +3090,145 @@
     "url": "https://dev.to/aldobarbosa/3-simple-contract-rules-i-use-so-clients-stop-asking-for-free-reworks-3n88",
     "url_hash": "585a813472fd8beafb59922a43548c8a",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "Learn the AI SDLC – The Complete Guide to Building Agent Skills",
+    "url": "https://www.freecodecamp.org/news/learn-the-ai-sdlc-the-complete-guide-to-building-agent-skills/",
+    "url_hash": "792896b17f400e5d0b5c8fbcb38dec5b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "Polimill builds Japan's next-generation public AI infrastructure",
+    "url": "https://openai.com/index/polimill",
+    "url_hash": "6489dfdc164c07c2840c1d081ef8ae8e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "Treat the interviewer's \"any questions?\" like a code review, not a courtesy",
+    "url": "https://dev.to/cvpilot/treat-the-interviewers-any-questions-like-a-code-review-not-a-courtesy-1dpc",
+    "url_hash": "2645724d5342531f9f863a999aee7f7c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "How to Research U.S. Employers Before Applying on OPT: A 10-Minute Fit Check",
+    "url": "https://dev.to/jobhunger/how-to-research-us-employers-before-applying-on-opt-a-10-minute-fit-check-528l",
+    "url_hash": "6e41d7c2a7db4a211b3f010eb57f4c07",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "When Your AI Team Gets Restructured: A 30-Day Plan",
+    "url": "https://dev.to/rishi_kora/when-your-ai-team-gets-restructured-a-30-day-plan-1gm5",
+    "url_hash": "93ccecf792f38472d9d2780d9f903229",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "🤖 Can Vibe Coding Get You Hired as a Developer?",
+    "url": "https://dev.to/akanksha_sharma/can-vibe-coding-get-you-hired-as-a-developer-g24",
+    "url_hash": "36ecf1b3f753a16b71f6c9e1dc7c8fa0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "The follow-up question is the interview",
+    "url": "https://dev.to/moputa/the-follow-up-question-is-the-interview-2na9",
+    "url_hash": "23ddee18595c6e19d4168a72024a670e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "How to Estimate LLM API Costs Before You Build",
+    "url": "https://dev.to/juankkipas/how-to-estimate-llm-api-costs-before-you-build-8a5",
+    "url_hash": "6c84126ff612906a0a328bfe5260a7aa",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "Data Engineering Dropped DSA. What Replaced It Is Worse.",
+    "url": "https://dev.to/datadriven/data-engineering-dropped-dsa-what-replaced-it-is-worse-fpo",
+    "url_hash": "264c073da73cc2f684b60d70a69f8212",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "I turned my security cameras into an automatic bird identification system",
+    "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+    "url_hash": "2baa5ab2b1a2f09d89397a85bcef0cb3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "Bend, Aim, Fling: Turning the Eiffel Tower into a Catapult with Three.js",
+    "url": "https://tympanus.net/codrops/2026/09/01/bend-aim-fling-turning-the-eiffel-tower-into-a-catapult-with-three-js/",
+    "url_hash": "9bc53d71d3aa2e80b968bcd2de6bbced",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "What’s !important #18: <geolocation>, Syntax ::highlight()ing, named-feature(), and More",
+    "url": "https://css-tricks.com/whats-important-18/",
+    "url_hash": "4974af7691de16b4e6620c51bce4959d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "Bloom Filters Explained: The Probabilistic Data Structure Powering Instagram, Google, and High-Scale Systems",
+    "url": "https://www.freecodecamp.org/news/bloom-filters-explained/",
+    "url_hash": "882be18a73a2cb24b8d77fdac1219f5c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "How Firestore Structures Data and How to Perform CRUD Operations With It",
+    "url": "https://www.freecodecamp.org/news/how-firestore-structures-data-and-how-to-perform-crud-operations-with-it/",
+    "url_hash": "0be8919189ff90c9becea4f164168366",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "How to Build Characterization Tests Before Refactoring Legacy Code",
+    "url": "https://www.freecodecamp.org/news/characterization-tests-before-refactoring-legacy-code/",
+    "url_hash": "930ca8c4184c591bf5de6eb3edd5bb31",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "Introducing wrapture",
+    "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+    "url_hash": "9ac92eb762dc785c574128f6050f171e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "The Freelancer's Guide to Creating Content That Attracts Clients",
+    "url": "https://dev.to/alfred_p_c0ddb65b3df9fc36/the-freelancers-guide-to-creating-content-that-attracts-clients-4jdj",
+    "url_hash": "728f3657d2aa73411c1fa4993a147112",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "How to Build API Documentation From Scratch [A Roadmap for Technical Writers]",
+    "url": "https://www.freecodecamp.org/news/how-to-build-api-documentation-from-scratch-roadmap/",
+    "url_hash": "65ac7c4d1f9fc0a3dc6cd1cfabc37b10",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "Quiz: Automating EDA With fg-data-profiling",
+    "url": "https://realpython.com/quizzes/automating-eda-with-fg-data-profiling/",
+    "url_hash": "70eda63973cecfe901dba29bebf89ba3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-01T13:34:26.916602+00:00",
+    "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
+    "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
+    "url_hash": "ffc85844d1e29ad37b49810e52093c03",
+    "source_type": "hackernews"
   }
 ]
