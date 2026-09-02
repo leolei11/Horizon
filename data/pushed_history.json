@@ -3230,5 +3230,145 @@
     "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
     "url_hash": "ffc85844d1e29ad37b49810e52093c03",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
+    "url": "https://www.norirobotics.com/",
+    "url_hash": "686a7f8e249c0fcd1689be8f8da29195",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "My local model setup on an M4 Pro Mac Mini",
+    "url": "https://lws.io/blog/my-local-model-setup/",
+    "url_hash": "661f696ffa500c0f3b0c4490f12dc1f3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "How to Get Started With Ollama",
+    "url": "https://realpython.com/courses/get-started-with-ollama/",
+    "url_hash": "2d4feca65971272197b00132d2d1c0a7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "How to Build an AI File Analysis Agent with Python",
+    "url": "https://www.freecodecamp.org/news/build-an-ai-analysis-agent/",
+    "url_hash": "685161c06d1cf859dab607b354758c97",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "GeoJSON Map Viewer",
+    "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+    "url_hash": "e63c50f8df3d3033d015eb6bbb41624f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "datasette-mcp 0.2",
+    "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+    "url_hash": "a1a6b85cd71556059cedbf7d759e2201",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "How AI-native companies turn workflows into operating capability",
+    "url": "https://openai.com/index/ai-native-company-workflows",
+    "url_hash": "4be3ed23a721c092e4d0396071b6da38",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+    "url": "https://masteranza.github.io/weedout/",
+    "url_hash": "5c529f929a141c96aa0e71572c052dd9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "The efficient frontier of LLM inference",
+    "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+    "url_hash": "755997d0190828f2926c2275326aceaf",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "Build Your Own Face Recognition Tool With Python",
+    "url": "https://realpython.com/face-recognition-with-python/",
+    "url_hash": "5039b0c9caf5a64da28bc7f58f11e625",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "Primer on Python Decorators",
+    "url": "https://realpython.com/primer-on-python-decorators/",
+    "url_hash": "7938bb5e02528b74d80c799f03677747",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "MERGE/SPLIT PARTITION reverted again",
+    "url": "https://postgresweekly.com/issues/663",
+    "url_hash": "ba2220953efa435bfb3d6421a318bf3a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "Why You Should Never Send Emails Inside Your API Requests",
+    "url": "https://www.freecodecamp.org/news/why-you-should-never-send-emails-inside-your-api-requests/",
+    "url_hash": "0bd50e88d34983d51507156bd1749366",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "Understanding the CAP Theorem: Consistency, Availability, and Partition Tolerance in System Design",
+    "url": "https://www.freecodecamp.org/news/understanding-the-cap-theorem-consistency-availability-and-partition-tolerance-in-system-design/",
+    "url_hash": "cdbf21d898a9c6ca520df2d43b0c1378",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+    "url": "https://huggingface.co/blog/webgpu-kernels",
+    "url_hash": "0f146bbd840c1766b301fab4b1bea68d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "The Proposal Section That Most Freelancers Skip",
+    "url": "https://dev.to/alfred_p_c0ddb65b3df9fc36/the-proposal-section-that-most-freelancers-skip-551c",
+    "url_hash": "3783a575a6d6894d2c50446066ed8141",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "Did GitHub Sponsors pass $100 million for open source?",
+    "url": "https://dev.to/devconnect/did-github-sponsors-pass-100-million-for-open-source-480n",
+    "url_hash": "90b2ee8bfaa63b0c7dee85a54da7f448",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "What Every Dev Should Know About Tracking Product Data",
+    "url": "https://www.freecodecamp.org/news/what-devs-should-know-about-tracking-product-data/",
+    "url_hash": "a078ce313b75e6cfd9084fcce035433a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "Python 3.15.0 candidate 2 is here!",
+    "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+    "url_hash": "8ca1c3315ccacfa34316b74c0c198f2b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-02T12:51:19.727762+00:00",
+    "title": "How to Build Accessible Android Apps with Jetpack Compose: A Comprehensive Guide",
+    "url": "https://www.freecodecamp.org/news/accessibility-in-jetpack-compose-comprehensive-tutorial/",
+    "url_hash": "92b45a2c195804f0565b98c2b25ef930",
+    "source_type": "rss"
   }
 ]
