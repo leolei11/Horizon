@@ -3370,5 +3370,146 @@
     "url": "https://www.freecodecamp.org/news/accessibility-in-jetpack-compose-comprehensive-tutorial/",
     "url_hash": "92b45a2c195804f0565b98c2b25ef930",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Muse Spark 1.3",
+    "url": "https://developer.meta.com/ai/models/muse-spark/",
+    "url_hash": "169a47a35bc2b879775d604577170748",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+    "url_hash": "f80367106a949afb097fe05a6daf5e3b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+    "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+    "url_hash": "6281f4a3b0d49144a250849c772f9ce9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "llm-gemini 0.34",
+    "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+    "url_hash": "50dd199bff412c2299971cf9034fd942",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Codex bundles LibreOffice",
+    "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+    "url_hash": "5aeae5680e3f4f747fa9acd00faba58c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+    "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+    "url_hash": "980824ac6d3d02a2b00766b70bfe593a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+    "url": "https://openai.com/index/atv-big-air-tour",
+    "url_hash": "21f8b896917eb3e70c18d7bf97ba8a32",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "How to Become a 10x Engineer and Stay Safe in the Age of AI Layoffs",
+    "url": "https://dev.to/remojansen/how-to-become-a-10x-engineer-and-stay-safe-in-the-age-of-ai-layoffs-ljo",
+    "url_hash": "88f55253d23f751e86c1a1eefe3fca01",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "How to Demo Your AI Agent Live Without It Falling Over",
+    "url": "https://dev.to/rishi_kora/how-to-demo-your-ai-agent-live-without-it-falling-over-5hg4",
+    "url_hash": "bf3649af6882e7f3358ca2b261eac1f5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "The Browser's Main Thread Is Expensive",
+    "url": "https://kciter.so/posts/the-expensive-main-thread/en/",
+    "url_hash": "83982140e92cc2833f8cd81e4e2fcc09",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Fable 5.1 World Modeling",
+    "url": "https://github.com/PhiloLabs/fable51-worlds",
+    "url_hash": "788f87ef4fec80ec631d453266e92383",
+    "source_type": "hackernews",
+    "repo": "philolabs/fable51-worlds"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Breaking the Frame: Building a Real-Time Datamosh Effect with Three.js",
+    "url": "https://tympanus.net/codrops/2026/09/02/breaking-the-frame-building-a-real-time-datamosh-effect-with-three-js/",
+    "url_hash": "fbbd9bd7390c01927388fa7501f78fe3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Quiz: Python AI: How to Build a Neural Network & Make Predictions",
+    "url": "https://realpython.com/quizzes/python-ai-neural-network/",
+    "url_hash": "af7c4520c601659bd472f9304f2f09a0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Python 3.15 Preview: UTF-8 by Default",
+    "url": "https://realpython.com/python315-utf8-default/",
+    "url_hash": "0ba691ec510d46408cc67e7379622708",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "The Builder Design Pattern: A Better Approach to Complex Object Construction",
+    "url": "https://www.freecodecamp.org/news/the-builder-design-pattern-a-better-approach-to-complex-object-construction/",
+    "url_hash": "e49869fdb0708daabef260bdb6120fca",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Give Your Coding Agents a Memory You Own",
+    "url": "https://huggingface.co/blog/funes",
+    "url_hash": "f01b512d414fc84cc9240148cf9878ea",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Quoting Tarn Adams",
+    "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+    "url_hash": "9301cae19417cba585d5be70bc8729d8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+    "url": "https://huggingface.co/blog/train-to-paint-with-code",
+    "url_hash": "3f452d1458f4ed180c0cc947a79931da",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+    "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+    "url_hash": "320a6f71d3d376d514305a808d93baa4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-03T12:56:22.851993+00:00",
+    "title": "How to Vet Someone Before Inviting Them to Your Side Project",
+    "url": "https://dev.to/devconnect/how-to-vet-someone-before-inviting-them-to-your-side-project-21jo",
+    "url_hash": "e2ef5f871a25e4ed852131d0e2c5583e",
+    "source_type": "rss"
   }
 ]
