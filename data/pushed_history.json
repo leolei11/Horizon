@@ -3652,5 +3652,145 @@
     "url": "https://dev.to/moputa/how-senior-engineers-pass-hard-technical-interviews-and-land-big-offers-23nj",
     "url_hash": "5bc74b050ce5e9f9346f94f06253586e",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "GPT-6 Astra on OpenRouter",
+    "url": "https://openrouter.ai/openai/gpt-6-astra",
+    "url_hash": "a4ca6138058c66987f53f7e12f74346f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "Can AI design circuit boards yet?",
+    "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+    "url_hash": "7ac90654ff255dc242d9b6a978a48b6b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "How to Build a Scholarship Research MCP Server with Node.js, Express, and MongoDB",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-scholarship-research-mcp-server-with-node-js-express-and-mongodb/",
+    "url_hash": "a1190b89f79c4180f901dbd6eb97dad4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "How AI Receptionists Work: The Architecture Behind AI Phone Agents",
+    "url": "https://www.freecodecamp.org/news/how-ai-receptionists-work-the-architecture-behind-ai-phone-agents/",
+    "url_hash": "9508af9112ee01c73818e3ea9e7c50ba",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "How to Build AI Systems That Know When They Don't Know: A Practical Guide",
+    "url": "https://www.freecodecamp.org/news/how-to-build-ai-systems-that-know-when-they-don-t-know/",
+    "url_hash": "ebb877825956215e8ed42a163d06884a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "How to Use Skills in Agentic Flutter Development: A Handbook for Devs",
+    "url": "https://www.freecodecamp.org/news/how-to-use-skills-in-agentic-flutter-development-a-handbook-for-devs/",
+    "url_hash": "691c6bcc9a03e56551986c9fe17d8017",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "The Pelican comparison grid for Astra is pretty interesting",
+    "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+    "url_hash": "1d89e09d1285ae03eeff49b81f04796f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "OpenAI's rogue agents were caught communicating via public wikis",
+    "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+    "url_hash": "4e4ae9cdb6ccc57d357ee93364f6911f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "GPT‑6 Astra",
+    "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+    "url_hash": "e52d34cd6f412c11577a7f8dfde349f8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "Statichost.eu – European static site hosting",
+    "url": "https://www.statichost.eu/",
+    "url_hash": "7f60173df62a0c0bfabf90019e42058f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "Show HN: Open-Source eInk Bike Computer",
+    "url": "https://opentrailpaper.com/",
+    "url_hash": "bdf7f8522fda8514825558621b65c9b1",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "Beyond the Luminance Ramp: A Shape-Aware ASCII Renderer in Three.js",
+    "url": "https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/",
+    "url_hash": "957497122d3bd8513748625aacd44ed1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "From Rays to Meshes: Building Vercel’s Prism with vgpu",
+    "url": "https://tympanus.net/codrops/2026/09/03/from-rays-to-meshes-building-vercels-prism-with-vgpu/",
+    "url_hash": "28525065b813a16886babd7a9223a630",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "More Three.js Speakers, More Ideas from Paris",
+    "url": "https://tympanus.net/codrops/2026/09/03/more-three-js-speakers-more-ideas-from-paris/",
+    "url_hash": "1e73ea05d37524f8c59eb4e2cbfbd136",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "How OpenTelemetry Works: A Complete Guide",
+    "url": "https://www.freecodecamp.org/news/how-opentelemetry-works/",
+    "url_hash": "fb879d3d8e20675b93c7069665d53410",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "The Client Communication That Prevents Scope Disputes",
+    "url": "https://dev.to/alfred_p_c0ddb65b3df9fc36/the-client-communication-that-prevents-scope-disputes-57nk",
+    "url_hash": "b41f4f7a577c98ccb093de3296e24833",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "Scoping a Two-Week Paid AI Pilot as a Solo Builder",
+    "url": "https://dev.to/rishi_kora/scoping-a-two-week-paid-ai-pilot-as-a-solo-builder-21dk",
+    "url_hash": "7c87d3c941627a580a70ee624db74b42",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "The note-taking stack is broken: Anki still can't talk to your notes (and why that's a product gap)",
+    "url": "https://dev.to/justinnnnnnn045/the-note-taking-stack-is-broken-anki-still-cant-talk-to-your-notes-and-why-thats-a-product-gap-2cl7",
+    "url_hash": "1b2cef81392ed67b31471d04caec6535",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "The Real Python Podcast – Episode #310: Performance Engineering: Profiling and Making Apps Fast by Default",
+    "url": "https://realpython.com/podcasts/rpp/310/",
+    "url_hash": "e6cfda9de19f290a20218a93bfb766cb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-05T11:53:20.946166+00:00",
+    "title": "Quiz: Common Python Data Structures (Guide)",
+    "url": "https://realpython.com/quizzes/common-python-data-structures/",
+    "url_hash": "495f3621963b0dfa0ec94e3296de0cd0",
+    "source_type": "rss"
   }
 ]
