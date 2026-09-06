@@ -3792,5 +3792,146 @@
     "url": "https://realpython.com/quizzes/common-python-data-structures/",
     "url_hash": "495f3621963b0dfa0ec94e3296de0cd0",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "I kept failing interviews on delivery, so I built a practice coach that scores eye contact",
+    "url": "https://dev.to/nottanjune/i-kept-failing-interviews-on-delivery-so-i-built-a-practice-coach-that-scores-eye-contact-251a",
+    "url_hash": "eb22777a3980e9d1f691fe7a0f6285dc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "Introducing GPT-6 Astra for developers",
+    "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+    "url_hash": "901b5c0daa3a4bd2173337735c2b8a29",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "Using Blender with coding agents on macOS",
+    "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+    "url_hash": "296bfdc25b56d9238ea9cd260f4991be",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "The 4-paragraph developer cover letter that actually gets read (under 200 words, with a full example)",
+    "url": "https://dev.to/lluc_verdaguermacias_a09/the-4-paragraph-developer-cover-letter-that-actually-gets-read-under-200-words-with-a-full-52c7",
+    "url_hash": "e675386e05d6407b270d1b48cdf5e4d6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "The 7-second test: why junior developer CVs get skipped (with before/after rewrites)",
+    "url": "https://dev.to/lluc_verdaguermacias_a09/the-7-second-test-why-junior-developer-cvs-get-skipped-with-beforeafter-rewrites-18bf",
+    "url_hash": "2100df206001f51e5290b6b85f136ef0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "EP224: MCP vs RAG vs AI Agents",
+    "url": "https://blog.bytebytego.com/p/ep224-mcp-vs-rag-vs-ai-agents",
+    "url_hash": "1960f36b45bd2a9d646e9e779c56d9b8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "GitHub Trending: avelino/awesome-go (⭐️ 183301)",
+    "url": "https://github.com/avelino/awesome-go",
+    "url_hash": "81263f9ad8eca0898e6ab843c70108a9",
+    "source_type": "github",
+    "repo": "avelino/awesome-go"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+    "url": "https://cloudinabottle.org/blog/launch-post",
+    "url_hash": "2b04cefa2c63d06ba27671b79a7ef031",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "Building an Infinite Loom: Unravelling Images into Threads with Three.js",
+    "url": "https://tympanus.net/codrops/2026/09/05/building-an-infinite-loom-unravelling-images-into-threads-with-three-js/",
+    "url_hash": "3682442f8d9fbd010e371225d804651d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "The Friday Review That Keeps Your Freelance Business Running",
+    "url": "https://dev.to/alfred_p_c0ddb65b3df9fc36/the-friday-review-that-keeps-your-freelance-business-running-1jff",
+    "url_hash": "f0a9db4969681a219077d684127cbe90",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "The Subnetting Question That Ends Interviews Early",
+    "url": "https://dev.to/rockyyy/the-subnetting-question-that-ends-interviews-early-2019",
+    "url_hash": "c2db369f4f1036932f4b2c63928aad20",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "NAEOS Founder Journal-The Foundation Is Being Built. Now We Need Builders.",
+    "url": "https://dev.to/bayu911/naeos-founder-journal-the-foundation-is-being-built-now-we-need-builders-4f2n",
+    "url_hash": "9ef17d9a55c67aab2bb724adb6fc5644",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+    "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+    "url_hash": "5092585de75fae400606f42b56ed2934",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "I Changed My License",
+    "url": "https://bergie.iki.fi/blog/eupl/",
+    "url_hash": "6139d30943f5760fa9ecbdee93c48ad6",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "How to Make $2000/Month as a Technical Writer",
+    "url": "https://dev.to/qingluan/how-to-make-2000month-as-a-technical-writer-kpd",
+    "url_hash": "9f570133d13efb446df5a7cdbd24e397",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "Quiz: Build Your Own Face Recognition Tool With Python",
+    "url": "https://realpython.com/quizzes/face-recognition-with-python/",
+    "url_hash": "b8a2b544b348f4b32626465b2fbf1a7d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "Quiz: Understanding the Python Traceback",
+    "url": "https://realpython.com/quizzes/python-traceback/",
+    "url_hash": "783f7075e9fc404dae22b30d523e79d1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "The Job Posting Says 'Hands-On Experience Required.' Here's How You Get Some Before You Even Apply.",
+    "url": "https://dev.to/rockyyy/the-job-posting-says-hands-on-experience-required-heres-how-you-get-some-before-you-even-apply-6o0",
+    "url_hash": "b03d8aa725d6d3de9467ddd9cb26a4e6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "How AI Is Changing Patching and What Devs Need to Know About Exposure Management",
+    "url": "https://www.freecodecamp.org/news/how-ai-is-breaking-traditional-patch-management/",
+    "url_hash": "8d39734a77c233f7d457e4a181ef36d2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-06T12:11:52.927285+00:00",
+    "title": "AI, Tools and Transformation",
+    "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+    "url_hash": "7d04c432b36741989cd2afe146f1fe68",
+    "source_type": "hackernews"
   }
 ]
