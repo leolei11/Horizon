@@ -3933,5 +3933,145 @@
     "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
     "url_hash": "7d04c432b36741989cd2afe146f1fe68",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Ask HN: How do you manage skills files?",
+    "url": "https://news.ycombinator.com/item?id=49589914",
+    "url_hash": "dd519d1674e2e398219c8c3cc5f8b0ef",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Research acceleration: The view inside OpenAI",
+    "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+    "url_hash": "58026cec33f310ecda3d1360d2e09b5f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "How to Automate LinkedIn Outreach (Ethically) with Python",
+    "url": "https://dev.to/qingluan/how-to-automate-linkedin-outreach-ethically-with-python-2ai1",
+    "url_hash": "c94019d20abe71b2b152e71456eebfab",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Why Code Is About to Get Cheap — and What Actually Becomes the Moat",
+    "url": "https://dev.to/williamchiu/why-code-is-about-to-get-cheap-and-what-actually-becomes-the-moat-35i",
+    "url_hash": "b5dc282783b96fe4ebe7f5dc5d6fa99f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Apparently CodePen 2.0 sends data to their servers as you type",
+    "url": "https://news.ycombinator.com/item?id=49596976",
+    "url_hash": "8eb37be2439aa25372c4512a8a435d4d",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Making a Python interpreter in 1024 bytes",
+    "url": "https://austinhenley.com/blog/python1024.html",
+    "url_hash": "1f11cbd5b32484d4b1196462703ba3d7",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Drawing With Light: An Exploration of Lit GPU Tubes with TSL and WebGPU",
+    "url": "https://tympanus.net/codrops/2026/09/07/drawing-with-light-an-exploration-of-lit-gpu-tubes-with-tsl-and-webgpu/",
+    "url_hash": "331ac03ccd786c167e27f63c345fdde0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Building a Real-Time 3D Face Mask with MediaPipe, Threlte and Three.js",
+    "url": "https://tympanus.net/codrops/2026/09/06/building-a-real-time-3d-face-mask-with-mediapipe-threlte-and-three-js/",
+    "url_hash": "d218053cd1d1ac877cea16040b860dd1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Async Generators Get yield from and Other Python News for September 2026",
+    "url": "https://realpython.com/python-news-september-2026/",
+    "url_hash": "9427ff0917704fb59cdf86437bfb2be1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "I Built a $1,500 Dashboard. I Learned a Lesson Worth More Than $1,500.",
+    "url": "https://dev.to/a95yman/i-built-a-1500-dashboard-i-learned-a-lesson-worth-more-than-1500-42n",
+    "url_hash": "b570aa6d1c4a359aa7a710f9e28ba821",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Speculative Decoding in vLLM on AMD GPUs",
+    "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+    "url_hash": "81b5627c58e8ff514e8e100215aaa23c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Ask HN: Fable hacked my piano, can I release the results?",
+    "url": "https://news.ycombinator.com/item?id=49577129",
+    "url_hash": "4b9345f1abbdeefa39e404c1d6a31a0d",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "7 Tips to Choose the Right Online Course for Your Career Goals",
+    "url": "https://dev.to/unified_mentor/7-tips-to-choose-the-right-online-course-for-your-career-goals-19k2",
+    "url_hash": "0329a91e9e07dafecf11f6d5a07aaa67",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Quiz: Python Statistics Fundamentals: How to Describe Your Data",
+    "url": "https://realpython.com/quizzes/python-statistics/",
+    "url_hash": "b2865c735c0644490650ff0c9e7ddb44",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "What are your goals for the week? #195",
+    "url": "https://dev.to/jarvisscript/what-are-your-goals-for-the-week-195-ec3",
+    "url_hash": "7635ce3e041a32b8e3281a626407e61a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "Your Redundant BGP Link Isn't As Instant As You Think",
+    "url": "https://dev.to/rockyyy/your-redundant-bgp-link-isnt-as-instant-as-you-think-39c0",
+    "url_hash": "5aa5bfa95a6ad872d6bf5a4eda960c22",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+    "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
+    "url_hash": "c049e4de41cb49acd0c227f4d2a7e395",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "How to Handle a Project That Is Running Late",
+    "url": "https://dev.to/alfred_p_c0ddb65b3df9fc36/how-to-handle-a-project-that-is-running-late-1h3c",
+    "url_hash": "5350b371bca79f1578d5bd2eb9d003c3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "There's No Limit to How Bad Code Can Get",
+    "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+    "url_hash": "54aefd96327d885481b0d97aea5fb3ad",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-07T14:20:33.271366+00:00",
+    "title": "It took a year to ship WebAssembly in Anubis",
+    "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
+    "url_hash": "dbca444bbb647068c19588a3728beb72",
+    "source_type": "hackernews"
   }
 ]
