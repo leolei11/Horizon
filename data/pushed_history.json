@@ -4073,5 +4073,146 @@
     "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
     "url_hash": "dbca444bbb647068c19588a3728beb72",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "How well do agents use test/verification techniques?",
+    "url": "https://danluu.com/agentic-testing/",
+    "url_hash": "13dcfa4ac305d2502b206148ffa643be",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "Leaving VMware just got harder after Broadcom pulled VDDK downloads",
+    "url": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/",
+    "url_hash": "49335922b7e99024cb2f5b9482fa5674",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "Multi-Agents LLM Financial Trading Framework",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "url_hash": "afdace39e7492d8a97f67bee65617c80",
+    "source_type": "hackernews",
+    "repo": "tauricresearch/tradingagents"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "How to Build an AI Chatbot with Gemini and Vercel Serverless Functions 🚀",
+    "url": "https://www.freecodecamp.org/news/how-to-build-an-ai-chatbot-with-gemini-and-vercel-serverless-functions/",
+    "url_hash": "1fbded7ca2d02ed8240c317a92042ca8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "llm 0.35",
+    "url": "https://simonwillison.net/2026/Sep/7/llm/",
+    "url_hash": "768779acea19e9e4707756ae4163442c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "Mercator ↔ Equal Earth",
+    "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+    "url_hash": "adf1f5ca74deb2a0b9d1bc09fe2f452c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "Maharashtra Cracks Down on Unauthorized Class 11 Admissions",
+    "url": "https://dev.to/career_aheadmagazine_0a5/maharashtra-cracks-down-on-unauthorized-class-11-admissions-2jcm",
+    "url_hash": "0870b6a6fe8c8bb14e0562400b4c5d36",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "The AI Project Write-Up That Survives a 90-Second Scan",
+    "url": "https://dev.to/rishi_kora/the-ai-project-write-up-that-survives-a-90-second-scan-gko",
+    "url_hash": "42c10162c823752cb5af54f638ef3b83",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "TALA Is Open-Source",
+    "url": "https://d2lang.com/blog/tala-is-open-source/",
+    "url_hash": "3d62bceefc3203ea50d19c16d965c132",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "Jellyfin 12.0",
+    "url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
+    "url_hash": "58cd65c5fe0317ed4ae67049b0e5c128",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "How to Deal With Errors and Failures in LLM-Powered Applications",
+    "url": "https://blog.bytebytego.com/p/how-to-deal-with-errors-and-failures",
+    "url_hash": "a1dad3f5dd761e269c5c84d7243ba201",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "The Gamepad API Lies to You: A Practical Guide to Reading Controller Input in JavaScript",
+    "url": "https://www.freecodecamp.org/news/gamepad-api-javascript-guide/",
+    "url_hash": "38218f0f0a391d50b055c0feaadc95f5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "How to Refactor a Legacy Application Before Migrating It",
+    "url": "https://www.freecodecamp.org/news/refactor-legacy-application-before-migration/",
+    "url_hash": "7fdd7fb44db829f2f7929685b441dc96",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "AWS Cloud Cost Monitoring, Alerting, and Optimization: A Guide for Devs",
+    "url": "https://www.freecodecamp.org/news/aws-cloud-cost-monitoring-alerting-and-optimization-a-guide-for-devs/",
+    "url_hash": "adca113bea649f2f649df443c0f307f9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "How to Crack Senior Cloud & DevOps Scenario Interviews in 2026 (Real Outages, Architecture Drills & AI Mocks) published",
+    "url": "https://dev.to/intervixa_ai/how-to-crack-senior-cloud-devops-scenario-interviews-in-2026-real-outages-architecture-drills--36fp",
+    "url_hash": "e761758886c8240c045da7b221df5518",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "AI-LMC Phase 00 — I just wanted to make easy money with AI, so obviously I'm now building a legacy app from scratch 🐼 (Part 1)",
+    "url": "https://dev.to/puyun_days/ai-lmc-phase-00-i-just-wanted-to-make-easy-money-with-ai-so-obviously-im-now-building-a-legacy-3nan",
+    "url_hash": "e113f09155864401ba52d77216e5c4ea",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
+    "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
+    "url_hash": "5f5f6da9c76deb1fd12712d17ea7954c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare",
+    "url": "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten",
+    "url_hash": "89b72f7ba1545227e0ba6ae369e8d4ed",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "Quiz: Python Timer Functions",
+    "url": "https://realpython.com/quizzes/python-timer-functions/",
+    "url_hash": "46510bedea6bb15eadfa5d56968c7e4d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-08T12:59:52.641714+00:00",
+    "title": "The purpose of DNS is to spread scams",
+    "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+    "url_hash": "091412d5d5aae4858e4ed0fb831385f1",
+    "source_type": "rss"
   }
 ]
