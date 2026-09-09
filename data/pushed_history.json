@@ -4214,5 +4214,145 @@
     "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
     "url_hash": "091412d5d5aae4858e4ed0fb831385f1",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "Desert Ant Labs: local, fast models that run on device",
+    "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+    "url_hash": "91d56b15f33cbb6ff5518b8f389ce01a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "Lotus Notes and the dangers of starting from scratch",
+    "url": "https://buttondown.com/blog/lotus-notes-email",
+    "url_hash": "6b690812349adcc51e20dbecfb073997",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "DeepSeek launching v4.1 flash cheaper and more capable than v4 pro",
+    "url": "https://news.ycombinator.com/item?id=49624603",
+    "url_hash": "1f1cef5aba78ec7dd92a4c69c8b34b95",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "Mercury 2.5",
+    "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+    "url_hash": "851b4565b9f7f2ebedaebc61804f0ebf",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "DaVinci Resolve 21.1",
+    "url": "https://www.blackmagicdesign.com/media/release/20260908-03",
+    "url_hash": "e031e020aa25c04ca62f729bfdec4d59",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "Introducing ChatGPT Images 2.5",
+    "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+    "url_hash": "4004f2a517f015de0120053b08afe053",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "1Password increases engineering productivity 21% with Codex",
+    "url": "https://openai.com/index/1password",
+    "url_hash": "fddf04f3238ae789f552950459af94d6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "7 DSA Patterns That Show Up in Almost Every Coding Interview",
+    "url": "https://dev.to/interview_pitch/7-dsa-patterns-that-show-up-in-almost-every-coding-interview-54p8",
+    "url_hash": "dee59a1308238c7a7a3d54fe05155334",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "The same question, answered by a junior and a senior: eight examples",
+    "url": "https://dev.to/moputa/the-same-question-answered-by-a-junior-and-a-senior-eight-examples-27cl",
+    "url_hash": "e6b81cc8158ef6c467445e756c8d58ae",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "The Behavioral Interview Questions That Consistently Produce Incomplete Answers (2025 Data)",
+    "url": "https://dev.to/alex_bell_f2b96166c2d62f5/the-behavioral-interview-questions-that-consistently-produce-incomplete-answers-2025-data-3104",
+    "url_hash": "a1327a3046de758bfa06b46fbdc0d453",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "Building an Infinite Liquid Glass Grid with Three.js, WebGPU, and TSL",
+    "url": "https://tympanus.net/codrops/2026/09/08/building-an-infinite-liquid-glass-grid-with-three-js-webgpu-and-tsl/",
+    "url_hash": "bbaecf8d837fb7043e33d3402448b699",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "Built for Reliability: How American Express Processes Payments at Scale",
+    "url": "https://blog.bytebytego.com/p/built-for-reliability-how-american",
+    "url_hash": "fd326c5193f99a8ab5094b8e21099250",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "Python Timer Functions",
+    "url": "https://realpython.com/courses/python-timer-functions/",
+    "url_hash": "0ffcb1bfae0d7d31fb2bc3d2d5816f9d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "How a System Call Actually Works in Linux",
+    "url": "https://www.freecodecamp.org/news/how-a-system-call-actually-works-in-linux/",
+    "url_hash": "99f94e6320e1e94010b438066daf1dcc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "How to Price a Consulting Engagement vs a Development Project",
+    "url": "https://dev.to/alfred_p_c0ddb65b3df9fc36/how-to-price-a-consulting-engagement-vs-a-development-project-1mha",
+    "url_hash": "d9564637f081b3ce2d472a9906daf1f7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "Creepy crawlies",
+    "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+    "url_hash": "d9d8c628d20ae7651456dac77c51d82a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "9 सितंबर 2026 का दैनिक राशिफल",
+    "url": "https://dev.to/astroly_1215b0a9af60/9-sitnbr-2026-kaa-dainik-raashiphl-4kk3",
+    "url_hash": "574baf4ea01bcf8e8064299ba0084ecd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "You Can Learn Every AI Tool and Still Have Nothing to Sell",
+    "url": "https://dev.to/chizurumchidimma/you-can-learn-every-ai-tool-and-still-have-nothing-to-sell-1mdh",
+    "url_hash": "1d52816f6fee4d769faf934e31365373",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "7 Pieces of Advice for New Software Engineers",
+    "url": "https://dev.to/franciscolunadev82/7-pieces-of-advice-for-new-software-engineers-1f5m",
+    "url_hash": "922d44986ec5142ef950a46575a63213",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-09T13:07:29.510539+00:00",
+    "title": "The Design Patterns Handbook: Learn Popular Design Patterns with C# Code Examples",
+    "url": "https://www.freecodecamp.org/news/the-design-patterns-handbook-learn-popular-design-patterns-with-c-code-examples/",
+    "url_hash": "d8adce9e0c1cb0ae6b4e50414aa04004",
+    "source_type": "rss"
   }
 ]
