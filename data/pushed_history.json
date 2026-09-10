@@ -4354,5 +4354,145 @@
     "url": "https://www.freecodecamp.org/news/the-design-patterns-handbook-learn-popular-design-patterns-with-c-code-examples/",
     "url_hash": "d8adce9e0c1cb0ae6b4e50414aa04004",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "DeepSeek v4.1 Flash",
+    "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+    "url_hash": "999bdeb44c39eb15ff451b2e5ebf5ec0",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "How Smart Model Routing Can Cut LLM Costs by 10X",
+    "url": "https://blog.bytebytego.com/p/how-smart-model-routing-can-cut-llm",
+    "url_hash": "a32b2a103a0de9f592e2e91e8526128c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "How to Use Gradio with Python: A Complete Beginner-to-Advanced Book",
+    "url": "https://www.freecodecamp.org/news/how-to-use-gradio-with-python-beginner-to-advanced-book/",
+    "url_hash": "8cf3c4af615ba35083cc3f0a48afb946",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "Quoting Calif Research",
+    "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
+    "url_hash": "9f4b99945604020d9566dda153222cfb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": ".blend URL Viewer",
+    "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+    "url_hash": "3fe37ca162c1095e109a5a27af6f976b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+    "url": "https://huggingface.co/blog/gradio-workflow-1111",
+    "url_hash": "549549603105f7132c1fac603103dda3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+    "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+    "url_hash": "0e4c70248969a9299804fbcdc622e1ce",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+    "url": "https://openai.com/index/codex-quantum-computing-experiments",
+    "url_hash": "48232c1c3bd81287bcf5bb279e9a8a2e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "What the Greenhouse application form actually asks you",
+    "url": "https://dev.to/find-best-job/what-the-greenhouse-application-form-actually-asks-you-3ned",
+    "url_hash": "42f7fb1bb5203fcab0fc7689111785df",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "How to Bid for Public-Sector AI Work as a Two-Person Team",
+    "url": "https://dev.to/rishi_kora/how-to-bid-for-public-sector-ai-work-as-a-two-person-team-o4",
+    "url_hash": "55a519bbb2e7e568e929ddac77df1be9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "Shopify acquires Tailwind",
+    "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+    "url_hash": "9957c79ffef3800719bbef09fa6bc8fa",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "Still: From Akira to Ink Wash, Building a Generative Garden in WebGPU",
+    "url": "https://tympanus.net/codrops/2026/09/09/still-from-akira-to-ink-wash-building-a-generative-garden-in-webgpu/",
+    "url_hash": "6059e272d88c170ec8d418f625865d33",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "Python 3.15 Preview: Lazy Imports",
+    "url": "https://realpython.com/python315-lazy-imports/",
+    "url_hash": "2fc3d54865af128d08bb078f53e07585",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "An Effective Python Development Environment",
+    "url": "https://realpython.com/effective-python-environment/",
+    "url_hash": "4959147c83f329b45aa28701e5607428",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "Postgres 19 loses SQL/PGQ (and its release date)",
+    "url": "https://postgresweekly.com/issues/664",
+    "url_hash": "6b571c556d1aa63cc0819e85830dcd7b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "How Linux Actually Boots: From Firmware to the Login Screen",
+    "url": "https://www.freecodecamp.org/news/how-linux-actually-boots-from-firmware-to-the-login-screen/",
+    "url_hash": "752b913c0a8547b02778190b9df9a51a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "How to Build a Deployment Checklist That Actually Prevents Production Incidents",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-deployment-checklist-that-actually-prevents-production-incidents/",
+    "url_hash": "302e54e7547df064cf59be59716460d1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "The Composite Design Pattern: How to Work with Individual Objects and Groups Through the Same Interface",
+    "url": "https://www.freecodecamp.org/news/the-composite-design-pattern-work-with-individual-objects-and-groups-through-the-same-interface/",
+    "url_hash": "1ea2da374f9d623132df9785cd8795a9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "What to Include in a Developer Portfolio: A Recruiter-Readable Checklist",
+    "url": "https://dev.to/alx094/what-to-include-in-a-developer-portfolio-a-recruiter-readable-checklist-1nj7",
+    "url_hash": "237010be4c8fd2f9c2923a1e6a092b51",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-10T13:05:08.127549+00:00",
+    "title": "Inside the First Three.js Conference in Paris",
+    "url": "https://tympanus.net/codrops/2026/09/10/inside-the-first-three-js-conference-in-paris/",
+    "url_hash": "06af73bb143f904363f0eadb123f6eb1",
+    "source_type": "rss"
   }
 ]
