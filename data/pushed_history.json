@@ -4634,5 +4634,146 @@
     "url": "https://realpython.com/podcasts/rpp/311/",
     "url_hash": "8b454b692135be47286fd9929e05c78a",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "How to Build a Self-Evaluating AI System: Automated Testing and Evaluation Pipelines for LLM Applications",
+    "url": "https://www.freecodecamp.org/news/build-a-self-evaluating-ai-system-automated-testing-and-evaluation-pipelines-for-llm-apps/",
+    "url_hash": "fc627c0f897c5af5af8bdb30f467cd80",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "OpenAI agents attacked RubyGems back in May",
+    "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+    "url_hash": "c12a137ad7dc40915e5583418f2d217a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "So you want to use OpenRouter?",
+    "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
+    "url_hash": "8932e6ceedb7d0c6dffba120989fd63f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "Feeling sad about AI",
+    "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
+    "url_hash": "adb9b07f3ad88a1476b86b81a4edbc40",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "The AI Cost Engineer: Proving You Can Cut a Token Bill",
+    "url": "https://dev.to/rishi_kora/the-ai-cost-engineer-proving-you-can-cut-a-token-bill-6ag",
+    "url_hash": "eb19f52a5fbf280201d7258120f5d680",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "Master no code web development",
+    "url": "https://dev.to/anima_priyadarshaninath_/master-no-code-web-development-2kji",
+    "url_hash": "0ea68784e5ac3bf9bd548956a11f2ec9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "The Freelancer's Approach to Managing Creative Disagreements",
+    "url": "https://dev.to/alfred_p_c0ddb65b3df9fc36/the-freelancers-approach-to-managing-creative-disagreements-fl9",
+    "url_hash": "de73c031b1286b6d4ce4bc239c6ef259",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "Remote Job Resume Tips: What Hiring Managers Want to See",
+    "url": "https://dev.to/madan_dhoundiyal_61ef7c1e/remote-job-resume-tips-what-hiring-managers-want-to-see-ah4",
+    "url_hash": "87090f30ec99f7b98f89b4b9556c43a2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "Litelm: LiteLLM Without the Bloat",
+    "url": "https://github.com/kennethwolters/litelm",
+    "url_hash": "8ae62f80b43a1f7a4d85f58c79f104f3",
+    "source_type": "hackernews",
+    "repo": "kennethwolters/litelm"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+    "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
+    "url_hash": "d71fcb90ca31414005065fa1573f4ade",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "How to Prevent Race Conditions in Django",
+    "url": "https://www.freecodecamp.org/news/how-to-prevent-race-conditions-in-django/",
+    "url_hash": "ec9e4d1336639b7c96c169ec3d41e3c1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "How to Build an AI Chat App Interface With the Vercel AI SDK and Shadcn/ui",
+    "url": "https://www.freecodecamp.org/news/how-to-build-an-ai-chat-app-interface-with-the-ai-sdk/",
+    "url_hash": "3bba1e5768b8c3822bc9d8c20c7a3310",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "How to Connect to HMRC's Making Tax Digital API: A Beginner's Guide",
+    "url": "https://www.freecodecamp.org/news/how-to-connect-to-hmrc-making-tax-digital-api/",
+    "url_hash": "97d3960897ef3e030fa268bc9c13c353",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "Don't sleep on wrapture",
+    "url": "https://simonwillison.net/2026/Sep/11/wrapture/",
+    "url_hash": "237d036215b57e23acba02e58474cbc2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "datasette-publish-fly 1.4",
+    "url": "https://simonwillison.net/2026/Sep/11/datasette-publish-fly/",
+    "url_hash": "cb3fddae482fad7d96e4d2c0a5ec548c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+    "url_hash": "ebb4b1b0f1245e5c186c42216d76ec91",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "I treated publishing as a queue. The queue lied.",
+    "url": "https://dev.to/simple_memo/i-treated-publishing-as-a-queue-the-queue-lied-2d2j",
+    "url_hash": "3f537d721da0974279dbfa8706a38e50",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "Yestalgia: Bringing Decathlon’s ’90s Spirit to Life Through a Playful Digital Experience",
+    "url": "https://tympanus.net/codrops/2026/09/12/yestalgia-bringing-decathlons-90s-spirit-to-life-through-a-playful-digital-experience/",
+    "url_hash": "f043abc1601fc6fe16644b319b38aada",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "datasette 0.65.4",
+    "url": "https://simonwillison.net/2026/Sep/11/datasette/",
+    "url_hash": "dcf3633c200a0cb412826b73bb45bf80",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-12T12:15:10.895888+00:00",
+    "title": "A Guide to Application Networking Basics",
+    "url": "https://blog.bytebytego.com/p/a-guide-to-application-networking",
+    "url_hash": "629dedf735b31a72862f43af78753e4d",
+    "source_type": "rss"
   }
 ]
