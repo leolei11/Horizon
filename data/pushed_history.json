@@ -4775,5 +4775,145 @@
     "url": "https://blog.bytebytego.com/p/a-guide-to-application-networking",
     "url_hash": "629dedf735b31a72862f43af78753e4d",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "AgentsDock: An IDE designed for agentic AI research",
+    "url": "https://agentsdock.net/",
+    "url_hash": "3056cda238ef952508f44ddf8ba89233",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+    "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+    "url_hash": "66fe5729105a064c885626401c4dea8f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Quoting huggingface.co/security.txt",
+    "url": "https://simonwillison.net/2026/Sep/11/hugging-face-security/",
+    "url_hash": "29d2466e4533df54b70907a7c47b9475",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Best Grammar Checkers for Non-Native English Developers (2026)",
+    "url": "https://dev.to/yanlong_wang/best-grammar-checkers-for-non-native-english-developers-2026-172c",
+    "url_hash": "fda5e50b91bf3b7b1551f2b82f74805e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "How to List Freelance and Contract Work on Your Resume",
+    "url": "https://dev.to/madan_dhoundiyal_61ef7c1e/how-to-list-freelance-and-contract-work-on-your-resume-3aj6",
+    "url_hash": "6abdb0dd2528d8c62f9bc890e845c9bc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Homebrew 7.0.0",
+    "url": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
+    "url_hash": "40c0fc47bdb64d8f5763a805c0f36a33",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Building Depth: Designing and Developing a 3D Renderer Inside Figma",
+    "url": "https://tympanus.net/codrops/2026/09/13/building-depth-designing-and-developing-a-3d-renderer-inside-figma/",
+    "url_hash": "d7708b6c1d8183bcc9f56f5744d3740b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "EP225: Why Does Git Revert Cause Conflicts?",
+    "url": "https://blog.bytebytego.com/p/ep225-why-does-git-revert-cause-conflicts",
+    "url_hash": "bd590d6920fe8759d9f07d51db7f466c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "How to Sandbox a Linux Process with Landlock, No Root Required",
+    "url": "https://www.freecodecamp.org/news/how-to-sandbox-a-linux-process-with-landlock-no-root-required/",
+    "url_hash": "e4e998e7345b99b59afbe02bcdd75850",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Decision fatigue is a routing problem — what a 3,000-year-old Chinese framework taught me about choosing",
+    "url": "https://dev.to/yanlong_wang/decision-fatigue-is-a-routing-problem-what-a-3000-year-old-chinese-framework-taught-me-about-5eck",
+    "url_hash": "9b4266e239536ed31d202665cd84f9df",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Fixed-Price Freelance Work Starts Before the Quote",
+    "url": "https://dev.to/nami_ops/fixed-price-freelance-work-starts-before-the-quote-1956",
+    "url_hash": "e0b0cc8fb54683421ef0a8f4680fd309",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "How to fund an open source project on GitLab",
+    "url": "https://dev.to/devconnect/how-to-fund-an-open-source-project-on-gitlab-9h1",
+    "url_hash": "9d34499bb83ed9a27e7855e060de7197",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Soft-deprecating re.match()",
+    "url": "https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/",
+    "url_hash": "84484cc1167f41151160e008b0343981",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "JetKVM Mini",
+    "url": "https://jetkvm.com/blog/introducing-jetkvm-mini",
+    "url_hash": "705d6f77916b19ca858bc9951e012a49",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Software Engineer di Era AI: Bukan Digantikan, Tapi Berevolusi",
+    "url": "https://dev.to/hellogung/software-engineer-di-era-ai-bukan-digantikan-tapi-berevolusi-3moo",
+    "url_hash": "2399f97714c9f18fdcbf31c512fcc55f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+    "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+    "url_hash": "bb3fa770c5976f2eef16689b086e2c16",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Why are AI agents lying, cheating and coordinating?",
+    "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+    "url_hash": "31ea732525921f66aa0f7462c7112364",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Quoting Paul Ford",
+    "url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
+    "url_hash": "69450c767e0b7cb1740f9f91da8c09dd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "How to Implement LEGO Architecture in Flutter [Full Handbook]",
+    "url": "https://www.freecodecamp.org/news/how-to-implement-lego-architecture-in-flutter-handbook/",
+    "url_hash": "26b99d1226b5eba093b290cd34235851",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-13T13:22:05.136571+00:00",
+    "title": "Quiz: Traditional Face Detection With Python",
+    "url": "https://realpython.com/quizzes/traditional-face-detection-python/",
+    "url_hash": "3e8621cce49e92c8818502f8d037c5a8",
+    "source_type": "rss"
   }
 ]
