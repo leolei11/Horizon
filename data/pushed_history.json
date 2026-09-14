@@ -4915,5 +4915,148 @@
     "url": "https://realpython.com/quizzes/traditional-face-detection-python/",
     "url_hash": "3e8621cce49e92c8818502f8d037c5a8",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "New $100K H-1B Visa Fee Pushes Tech Jobs Offshore",
+    "url": "https://spectrum.ieee.org/h-1b-visa-us-government",
+    "url_hash": "896ddc0c915d26d10677d754d562a71c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "Agentic Engineering in Python: From Vibes to Evidence",
+    "url": "https://realpython.com/agentic-engineering/",
+    "url_hash": "c50e800b580e636c4ca0414127daa94b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "Quoting Laurie Voss",
+    "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
+    "url_hash": "11eea3e9002d35b2560af1576b0089b9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "Living a Colorful Life in a Black-and-White ATS World",
+    "url": "https://dev.to/kenwalger/living-a-colorful-life-in-a-black-and-white-ats-world-2m0o",
+    "url_hash": "56a57b9dfd4780d34ad519fedc06ff8a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "Show HN: Kinesis – Control your Mac with the Meta Neural Band",
+    "url": "https://github.com/callbacked/kinesis",
+    "url_hash": "cb9767970cbe820f6ffe53de423279f4",
+    "source_type": "hackernews",
+    "repo": "callbacked/kinesis"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "OpenArch – PyTorch implementations of modern LLM architectures",
+    "url": "https://github.com/anuj0456/OpenArch",
+    "url_hash": "6cee68e265a82b3148367414c9d8e248",
+    "source_type": "hackernews",
+    "repo": "anuj0456/openarch"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "Primer on Jinja Templating",
+    "url": "https://realpython.com/primer-on-jinja-templating/",
+    "url_hash": "4c8671ba413dc17d57b83c6f30beee30",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "I shipped it. Nobody came.",
+    "url": "https://dev.to/kunalukey/i-shipped-it-nobody-came-31m9",
+    "url_hash": "90c241cc2954755b055fe9128ff3f74f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "commit-rewriter 0.1",
+    "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+    "url_hash": "7d77c160030e19bcdbd80f7130f4e5b6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "shot-scraper 1.12",
+    "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+    "url_hash": "fd3c4eceb3cebecd2af9c1bc01892311",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "A 386 PC for Your RP2350",
+    "url": "https://github.com/rh1tech/frank-386",
+    "url_hash": "d43f745c9b91a836dfed66c8a4e08bcd",
+    "source_type": "hackernews",
+    "repo": "rh1tech/frank-386"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "How to Write an Effective Software Design Document",
+    "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+    "url_hash": "1a59c1dd0ae4ea4da865a084307fa14e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+    "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "url_hash": "ea5b1933378254704fc4abacd46eabc9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "FDE vs Software Engineer: How the Two Roles Differ in Practice",
+    "url": "https://dev.to/fdeacademy/fde-vs-software-engineer-how-the-two-roles-differ-in-practice-3ob0",
+    "url_hash": "b1e20c3829f55535c7ee9c816961250c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "25 Meeting Agenda Templates: The Manager's Cheat Sheet for Meetings That Don't Suck",
+    "url": "https://dev.to/yotta_xlybris/25-meeting-agenda-templates-the-managers-cheat-sheet-for-meetings-that-dont-suck-2med",
+    "url_hash": "5b69bd9b538f64c8aa83872337888aa0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "From DevOps to SRE: Making the Transition",
+    "url": "https://dev.to/samson_tanimawo/from-devops-to-sre-making-the-transition-4a3o",
+    "url_hash": "6277ecb79da9f51637c03abceef8dc5d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "I Want to Get Into Site Reliability Engineering — But I Genuinely Don't Know Where to Start",
+    "url": "https://dev.to/abu_talha_ff8881fb5dda346/i-want-to-get-into-site-reliability-engineering-but-i-genuinely-dont-know-where-to-start-ch8",
+    "url_hash": "de5c96eeb8d11b33a4487a48ae7d1ccf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "If AI Makes Work Cheaper, Who Gets Richer?",
+    "url": "https://dev.to/nikita_mkrv/if-ai-makes-work-cheaper-who-gets-richer-2m8j",
+    "url_hash": "3428fc039f6762a2cc46fd83068afa48",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "Python Practice Problems: Parsing CSV Files",
+    "url": "https://realpython.com/python-interview-problem-parsing-csv-files/",
+    "url_hash": "2e7fc58b4881f284280a41c14b418b27",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-14T15:07:25.581923+00:00",
+    "title": "Making the Internet a Bit Less Sh*t: Inside Resn’s Digital Experiences",
+    "url": "https://tympanus.net/codrops/2026/09/14/inside-resns-digital-experiences/",
+    "url_hash": "a0a55025ea9a2d7198ba2cbd4676d75c",
+    "source_type": "rss"
   }
 ]
