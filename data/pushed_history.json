@@ -5058,5 +5058,146 @@
     "url": "https://tympanus.net/codrops/2026/09/14/inside-resns-digital-experiences/",
     "url_hash": "a0a55025ea9a2d7198ba2cbd4676d75c",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "iOS 27, iPadOS 27, and macOS 27",
+    "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+    "url_hash": "4f152cece0c8e99337caf30b12a26bfb",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "Alternatives to MinIO for single-node local S3",
+    "url": "https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/",
+    "url_hash": "38700d955bc66c11cdb74d95583c503b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "Charts built for Chat",
+    "url": "https://dbtcharts.com/blog/charts-built-for-chat/",
+    "url_hash": "19f64b8fb5020692953cc18e2158d810",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+    "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+    "url_hash": "efc22b1a1f30b60bbbba02671b827702",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "LLMs as a Judge: How to Know if Your LLM is Healthy",
+    "url": "https://blog.bytebytego.com/p/llms-as-a-judge-how-to-know-if-your",
+    "url_hash": "9e5dddbc8525743d788849cb7887dd17",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "Quiz: Agentic Engineering in Python: From Vibes to Evidence",
+    "url": "https://realpython.com/quizzes/agentic-engineering/",
+    "url_hash": "23213aa81275f1b01d42cf3eec428000",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "How to Catch Security Vulnerabilities in Code Before They Reach Your Pull Requests",
+    "url": "https://www.freecodecamp.org/news/catch-security-vulnerabilities-code-pull-requests/",
+    "url_hash": "f68e7cfc44b22df56906124bb7918a06",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "How to Use Differential Testing During a Legacy Migration",
+    "url": "https://www.freecodecamp.org/news/differential-testing-legacy-migration/",
+    "url_hash": "67da3b25a9abe095e4edd7061657e7b5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "How to Implement Feature Flags for Safe and Gradual Rollouts",
+    "url": "https://www.freecodecamp.org/news/how-to-implement-feature-flags-for-safe-and-gradual-rollouts/",
+    "url_hash": "6061cc788cc596d3ea489a724cce0fdb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "How to Design Gifting Features People Actually Use: Evidence from 58 Apps",
+    "url": "https://www.freecodecamp.org/news/how-to-design-gifting-features-people-actually-use-evidence-from-58-apps/",
+    "url_hash": "1602c0da1155cb23de05628dbea7dd14",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "How Fyxer built an AI executive assistant people trust",
+    "url": "https://openai.com/index/fyxer",
+    "url_hash": "2318750699794a8eed15e53747f78b6c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "Prove You Can Build Evals: The Skill Gap That Gets You Hired",
+    "url": "https://dev.to/rishi_kora/prove-you-can-build-evals-the-skill-gap-that-gets-you-hired-f2b",
+    "url_hash": "d024c1b6ed3e3b0e14ae00653b2f4a22",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "The Free ATS Resume Template That Gets Past the Robots (Copy It, Use It Today)",
+    "url": "https://dev.to/yotta_xlybris/the-free-ats-resume-template-that-gets-past-the-robots-copy-it-use-it-today-555e",
+    "url_hash": "9fe9980accae2dd07c278e2cc77b2bfe",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "Apache Iceberg v3 Is GA. Here Is What Data Engineers Get.",
+    "url": "https://dev.to/datadriven/apache-iceberg-v3-is-ga-here-is-what-data-engineers-get-51ol",
+    "url_hash": "bb66c4828ca5fcf08060854e3ac49d3e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+    "url": "https://github.com/arnegiacomo/fugleramme",
+    "url_hash": "f9bc345c257a4c338d74c080f48cc35a",
+    "source_type": "hackernews",
+    "repo": "arnegiacomo/fugleramme"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "Guiding CS Students to Find Their Niche: Strategies for Focused Learning and Career Growth",
+    "url": "https://dev.to/ilyatech/guiding-cs-students-to-find-their-niche-strategies-for-focused-learning-and-career-growth-54a",
+    "url_hash": "a726e709dd07b07afa25514026ea34cd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "AI Didn't Remove the Engineering Work. It Just Made It Easier to Pretend You Did.",
+    "url": "https://dev.to/dj29/ai-didnt-remove-the-engineering-work-it-just-made-it-easier-to-pretend-you-did-42m9",
+    "url_hash": "b40e0bb04bb147afedd9b463e109db54",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "Suspected sabotage causes major Netherlands rail disruption",
+    "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
+    "url_hash": "666b3bded89818edfc214999f991241f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "US confirms for first time it has deployed space weapons",
+    "url": "https://www.bbc.com/news/articles/ck790xg41ygro",
+    "url_hash": "a6309f14a4819df05609563510615962",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-15T13:37:36.668422+00:00",
+    "title": "Quiz: How to Get Started With Ollama",
+    "url": "https://realpython.com/quizzes/get-started-with-ollama/",
+    "url_hash": "62dbebfcb35707a901ab40294728d91d",
+    "source_type": "rss"
   }
 ]
