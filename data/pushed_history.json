@@ -5199,5 +5199,145 @@
     "url": "https://realpython.com/quizzes/get-started-with-ollama/",
     "url_hash": "62dbebfcb35707a901ab40294728d91d",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+    "url": "https://mistral.ai/news/mistral-x-mozilla/",
+    "url_hash": "86258c70441d63a9f2900b5e258252bc",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Introducing System One Models and Jev",
+    "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+    "url_hash": "6f7d07f4680cc41bc4f4fe69a2ad79c1",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+    "url_hash": "695fec0ce52c3d4eb731937e6805bad9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Gemini Live audio",
+    "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+    "url_hash": "85738fc4262f6709caba8e5d635e7a9c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Evaluating ML-Based Hiring Tools: An Engineer's Checklist",
+    "url": "https://dev.to/john_zacharia/evaluating-ml-based-hiring-tools-an-engineers-checklist-1kn0",
+    "url_hash": "7689a4076819bb727687d58d132b17a4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Are we doomed? A developer's manifesto on AI",
+    "url": "https://dev.to/quentin_merle/are-we-doomed-a-developers-manifesto-on-ai-32fc",
+    "url_hash": "a6d8ff57b0a434de3630d6d5d6e8063a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
+    "url": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
+    "url_hash": "443b315ed21151c6d747a4535facedca",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Automating EDA With fg-data-profiling",
+    "url": "https://realpython.com/courses/automating-eda-with-fg-data-profiling/",
+    "url_hash": "6ffad1d61e64636520287c3ac68e6d0c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Tom Lane on threads, MVCC and 30 years of Postgres",
+    "url": "https://postgresweekly.com/issues/665",
+    "url_hash": "c62487fc8b489f261bc51d8601960b1b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "How to Build an Endpoint Data Loss Prevention Strategy for Your Development Team",
+    "url": "https://www.freecodecamp.org/news/build-an-endpoint-data-loss-prevention-strategy-for-your-dev-team/",
+    "url_hash": "71f20929dcfdddc1dab4665ff61f350e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "How WebRTC Scales: Signaling, NAT Traversal, and the Mesh/SFU/MCU Tradeoff",
+    "url": "https://www.freecodecamp.org/news/how-webrtc-scales-signaling-nat-traversal-and-the-mesh-sfu-mcu-tradeoff/",
+    "url_hash": "5c2c78aae674e9b9f31adb7090dd67ac",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Why ScaleDojo Is the Best System Design Learning Platform for Aspiring Engineers",
+    "url": "https://dev.to/scaledojo_ee02b8b3725aa97/why-scaledojo-is-the-best-system-design-learning-platform-for-aspiring-engineers-3bk3",
+    "url_hash": "2ea280fd51c000a2d0a3fce35dae5ef8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Client Onboarding Template for Freelancers (That Actually Prevents Chaos)",
+    "url": "https://dev.to/iggyhacks/client-onboarding-template-for-freelancers-that-actually-prevents-chaos-5f5e",
+    "url_hash": "fee5f59c1c34b0646016bcc966c2c2df",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Net 7 vs Net 30: pick a due date finance can actually honor",
+    "url": "https://dev.to/kitdesk/net-7-vs-net-30-pick-a-due-date-finance-can-actually-honor-1na2",
+    "url_hash": "e08d261f8517824f000c67ee7182933d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Invoice Template for Freelancers: Get Paid Without Awkward Follow-Ups",
+    "url": "https://dev.to/iggyhacks/invoice-template-for-freelancers-get-paid-without-awkward-follow-ups-2c42",
+    "url_hash": "3ad7aee8a72de615f7c2bda23791f438",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "The 7 Essential Parts of Your Online Presence",
+    "url": "https://www.freecodecamp.org/news/the-7-essential-parts-of-your-online-presence/",
+    "url_hash": "40e87f80c2100fbbb43fbe044d6da6d8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Apple Reference Image: A New Approach for Verified Photography",
+    "url": "https://security.apple.com/blog/apple-reference-image/",
+    "url_hash": "131417d34718261aef2e1bc48c4f5053",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "Your Agent Aced the Task. Will It Do It Again?",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+    "url_hash": "5236dbdf1644621323432bcf2ca16248",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "I think I have figured out where the tech industry is heading",
+    "url": "https://dev.to/web_dev-usman/i-think-i-have-figured-out-where-the-tech-industry-is-heading-54en",
+    "url_hash": "1d6dac56eecc43b291ea8a225ea8d586",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-16T13:34:53.992276+00:00",
+    "title": "What's New in macOS 27 for Developers?",
+    "url": "https://www.freecodecamp.org/news/whats-new-in-macos-27-for-developers/",
+    "url_hash": "877f97cfe89c070a7a4bf951112f2a6e",
+    "source_type": "rss"
   }
 ]
