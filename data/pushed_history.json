@@ -5339,5 +5339,146 @@
     "url": "https://www.freecodecamp.org/news/whats-new-in-macos-27-for-developers/",
     "url_hash": "877f97cfe89c070a7a4bf951112f2a6e",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "Cloudflare/Security-Audit-Skill",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "url_hash": "1a92f63bf14a6daefc05a1efeb7ff9f9",
+    "source_type": "hackernews",
+    "repo": "cloudflare/security-audit-skill"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+    "url": "https://mimo.xiaomi.com/rl/",
+    "url_hash": "d5c3098dd08820c923ebe1e0948e0ff2",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "Reimagining advertising with AI",
+    "url": "https://openai.com/index/reimagining-advertising-with-ai",
+    "url_hash": "d2e2a131de125013cd25557d833d0b45",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "The LLM can declare that a task \"appears to be finished. It will not be possible to check it off.",
+    "url": "https://dev.to/experimentlabs/the-llm-can-declare-that-a-task-appears-to-be-finished-it-will-not-be-possible-to-check-it-off-1ff8",
+    "url_hash": "68eae04f86c69649edc89440f6ccb337",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "How interviewers actually ask Two Sum, and the four follow ups that matter more than the answer",
+    "url": "https://dev.to/aditya_shukla_b8a48a7984a/how-interviewers-actually-ask-two-sum-and-the-four-follow-ups-that-matter-more-than-the-answer-1oc0",
+    "url_hash": "9af6310c29d9a0f10f118a4dadfad3d5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "ATS-Friendly Resume Format: What Actually Parses",
+    "url": "https://dev.to/rebel_studios/ats-friendly-resume-format-what-actually-parses-1af8",
+    "url_hash": "b715d90bec0a9da0f64d4e11a7d1e522",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "Nvidia announces native GPU programming in Rust",
+    "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+    "url_hash": "29551a44d23bb717b0975a709b43e69c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+    "url": "https://rohanbansal.com/qorl",
+    "url_hash": "07eea16e6e8594759411806d04e32a1a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "How LLMs Can Find a Needle in a Haystack",
+    "url": "https://blog.bytebytego.com/p/how-llms-can-find-a-needle-in-a-haystack",
+    "url_hash": "621f7b9db3e7abf8542eae0e276d64d2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "How to Review AI-Generated Python Code Efficiently",
+    "url": "https://realpython.com/review-ai-generated-code/",
+    "url_hash": "4855aa6741f9043a56b4cae1c03d3132",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "Learn How to Deploy, Secure, and Automate Full-Stack Web Apps",
+    "url": "https://www.freecodecamp.org/news/learn-how-to-deploy-secure-and-automate-full-stack-web-apps/",
+    "url_hash": "57f27cebb9abc3d920b7a95c6b3d26eb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "datasette 1.0a40",
+    "url": "https://simonwillison.net/2026/Sep/16/datasette/",
+    "url_hash": "98d571ffe55ca29b1f40c1b01b330284",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "dbt Now Runs on Flink. What Changes for Data Engineers",
+    "url": "https://dev.to/datadriven/dbt-now-runs-on-flink-what-changes-for-data-engineers-55hg",
+    "url_hash": "9a628632772acdf87d870223410b033e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
+    "url": "https://ryan.science/blog/keys-not-included",
+    "url_hash": "535ed10d7212e3276b9c362dcf5bd904",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "New on YoolaSMS: AI Message Assistant.",
+    "url": "https://dev.to/olowo_michael/new-on-yoolasms-ai-message-assistant-4947",
+    "url_hash": "8e955b3ec289ca5d523a36587bab2273",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "Small programming tricks",
+    "url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+    "url_hash": "fbefca01219aa874045d8a5199e4fd30",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "My temporary PHP fix from 2014 has nearly 20M installs. Today I'm deprecating it",
+    "url": "https://jakeasmith.com/blog/http-build-url/",
+    "url_hash": "19f551523a8d38609256774a629d67b0",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "Quiz: HTML and CSS Foundations for Python Developers",
+    "url": "https://realpython.com/quizzes/html-css-foundations/",
+    "url_hash": "257fb45d1874247bf2e2dbfe7a061e4f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "How to connect AI usage to business value",
+    "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+    "url_hash": "ddf43229688c2cf1c6eec829c71d5fbf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-17T13:38:34.544976+00:00",
+    "title": "GLM Built Its Own Inference Infrastructure",
+    "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+    "url_hash": "bee9ec00509d912e25dcda0e5c5178d6",
+    "source_type": "hackernews"
   }
 ]
