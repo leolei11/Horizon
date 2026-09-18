@@ -5480,5 +5480,148 @@
     "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
     "url_hash": "bee9ec00509d912e25dcda0e5c5178d6",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Bend 2 and the Vibe-Coding Trap",
+    "url": "https://blog.liampwll.com/posts/bend_vibe_coding/",
+    "url_hash": "dad41c974a8a0586d2b937d6cee038c6",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "ZCode, the GLM coding agent, silently uploads your Git history",
+    "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+    "url_hash": "dcd7d3322f7bb334a63cbddea76c1d67",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Qwen 3.8 Omni Flash",
+    "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+    "url_hash": "421590dd564cbf87b77658afbda780b6",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Hands-On Evolution of Deep Learning – Geoffrey Hinton’s AI Legacy",
+    "url": "https://www.freecodecamp.org/news/hands-on-evolution-of-deep-learning-geoffrey-hinton-s-ai-legacy/",
+    "url_hash": "aafcbf8984f24cd71452659c5d8c5043",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Self-generated prompt injections in compaction summaries",
+    "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+    "url_hash": "db036a2c90ab91030857828c136d6be7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "A Job Advert Is a Wish, Not a Standard",
+    "url": "https://dev.to/asael_shinder_9f53bdca840/a-job-advert-is-a-wish-not-a-standard-35i4",
+    "url_hash": "44c3d44b237a616d5b5776c5614aea8c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "You Are Outsourcing the Part That Was Teaching You",
+    "url": "https://dev.to/sergueyasaelshinder/you-are-outsourcing-the-part-that-was-teaching-you-4ghl",
+    "url_hash": "ea880a4dc8a9ed484308853a7a206d0d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+    "url": "https://prismml.com/news/bonsai-2-27b",
+    "url_hash": "51ea877eb60806184fdc3b0ad62bb32a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Replacing Pull Requests with Delta",
+    "url": "https://zed.dev/blog/delta-public-beta",
+    "url_hash": "105cb9fb16a99395ffae80c645123ada",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Hister: A private search engine for the pages you visit and the files you keep",
+    "url": "https://github.com/asciimoo/hister",
+    "url_hash": "0c898219dedf03f5d25a5b08f7a39d8c",
+    "source_type": "hackernews",
+    "repo": "asciimoo/hister"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "When the fractional part of a float fixes your shader",
+    "url": "https://crocidb.com/post/when-the-fractional-part-of-a-float-fixes-your-shader/",
+    "url_hash": "afcda151df36bc66ed43982d5061d2a9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Migrations at Scale: Changing the Application Engine at 30,000 Feet",
+    "url": "https://blog.bytebytego.com/p/migrations-at-scale-changing-the",
+    "url_hash": "55bef75f4cdbb1c23cb6f338bb46ce0b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "How to Migrate a Legacy Monolith Incrementally Without a Big-Bang Rewrite",
+    "url": "https://www.freecodecamp.org/news/migrate-legacy-monolith-incrementally/",
+    "url_hash": "1b3c89c404bd3944ff6cb0104d544373",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "datasette 0.65.5",
+    "url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+    "url_hash": "b37b572b9375073a6f651c20ec1bcb52",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Shapelearn Qwen 3.8 27B (13.1 GB VRAM)",
+    "url": "https://byteshape.com/blogs/Qwen3.8-27B/",
+    "url_hash": "a4ef8077f533790246f1c9713c0cb284",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "How to Write with an LLM",
+    "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+    "url_hash": "a143eff4d387a756aaff9c98ce80666a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Do remote jobs in New York need salary info?",
+    "url": "https://dev.to/devconnect/do-remote-jobs-in-new-york-need-salary-info-ji4",
+    "url_hash": "a55d14ce2461e9265ca682db415202c8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Be alert: targeted attacks on prominent Rustaceans",
+    "url": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
+    "url_hash": "04a78468d00e12cd269fbc5b4c75f3ac",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "GitHub 经典名库: jwasham/coding-interview-university (⭐️ 361139)",
+    "url": "https://github.com/jwasham/coding-interview-university",
+    "url_hash": "7d9f29e1c13843dd05be5a3e0bb50163",
+    "source_type": "github",
+    "repo": "jwasham/coding-interview-university"
+  },
+  {
+    "pushed_at": "2026-09-18T13:07:47.395421+00:00",
+    "title": "Jemalloc 5.4.0",
+    "url": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+    "url_hash": "1eea9b5c22ecd68ef215fabd231e41f7",
+    "source_type": "hackernews",
+    "repo": "jemalloc/jemalloc"
   }
 ]
