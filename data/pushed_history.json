@@ -5623,5 +5623,145 @@
     "url_hash": "1eea9b5c22ecd68ef215fabd231e41f7",
     "source_type": "hackernews",
     "repo": "jemalloc/jemalloc"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "OpenJev",
+    "url": "https://openjev.com/",
+    "url_hash": "d0ecbcda1ad654ab466a38b497220428",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "How AI Coding Assistants Can Help You Debug Without Writing the Code for You",
+    "url": "https://www.freecodecamp.org/news/how-ai-coding-assistants-can-help-you-debug-without-writing-the-code-for-you/",
+    "url_hash": "a9f7faf97381e03d6f172a1b56089ba2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "How To Write With An LLM",
+    "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+    "url_hash": "aa4fd0d07b471d0dadb77c08e6991468",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "What Everyone Earns Is About to Stop Being a Secret",
+    "url": "https://dev.to/asael_shinder_9f53bdca840/what-everyone-earns-is-about-to-stop-being-a-secret-2cpf",
+    "url_hash": "6f34467fd8971e447c33bd2f7f37ed0a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "Cloudflare Quick Tunnels",
+    "url": "https://try.cloudflare.com/",
+    "url_hash": "b45da54dec8c2eb24ca6de429f08d6ec",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "Saving another 100TB of RAM",
+    "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+    "url_hash": "99d17a0d75962edf63192929dbc79e97",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "How to Prevent Poisoned GitHub Actions Dependencies",
+    "url": "https://www.freecodecamp.org/news/how-to-prevent-poisoned-github-actions-dependencies/",
+    "url_hash": "f7e294b90aec313079fd1130192d9001",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "How to Build a Bulk Image Compressor Tool with HTML, CSS, and JavaScript",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-bulk-image-compressor-tool-with-html-css-and-javascript/",
+    "url_hash": "ba7bd9fbe201b9cf9edae770406fda03",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "Stop Building Portfolio Projects. They're Making You Worse.",
+    "url": "https://dev.to/mikachu/stop-building-portfolio-projects-theyre-making-you-worse-4mlf",
+    "url_hash": "7f460a4f2264e3249c117bd584fd49a1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "Anyone Can Rebuild Your Feature in a Weekend",
+    "url": "https://dev.to/sergueyasaelshinder/anyone-can-rebuild-your-feature-in-a-weekend-3cff",
+    "url_hash": "a50fe43243933401769e322049b56d46",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "The Agent That Rounded Each Line Before the Sum: A Take-Home Packet",
+    "url": "https://dev.to/appjs_3979/the-agent-that-rounded-each-line-before-the-sum-a-take-home-packet-318k",
+    "url_hash": "ea20a71429a3661c1816f2fabde04c1c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+    "url": "https://spectrum.ieee.org/llms-for-chip-design",
+    "url_hash": "a817a2a7da9f774fd318b52a5b64d2a8",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "The 3am incident checklist every on-call engineer wishes existed",
+    "url": "https://dev.to/hive80lab/the-3am-incident-checklist-every-on-call-engineer-wishes-existed-2361",
+    "url_hash": "fb4baf5a1bdc5d2ba9e33e3c16553e6a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "Quoting Thariq Shihipar",
+    "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+    "url_hash": "5632887e32fe9026b668fe2de3fbc140",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "The Team You Sit In Beats the Company Name",
+    "url": "https://dev.to/asael_shinder_9f53bdca840/the-team-you-sit-in-beats-the-company-name-2hj1",
+    "url_hash": "dfebd8314016efb064ce6b93dac53254",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "Everybody Else Edited Before You Saw It",
+    "url": "https://dev.to/sergueyasaelshinder/everybody-else-edited-before-you-saw-it-645",
+    "url_hash": "941ceba3843a6be4b40f497031679bbf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+    "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+    "url_hash": "d6fbdd5b4809cd21a2c5173c1ef97b87",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "AI-generated posters don’t have to be horrible",
+    "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+    "url_hash": "861b71c77d7ec3a2bcf2dc7b47184379",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "How to Nail Your Grad School Application Essays (Without Cheating or Burnout)",
+    "url": "https://dev.to/publiflow/how-to-nail-your-grad-school-application-essays-without-cheating-or-burnout-4l9o",
+    "url_hash": "0acd0ff945c3ba8155f1d00a4219da82",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-19T12:33:31.050489+00:00",
+    "title": "Quiz: Thinking Recursively in Python",
+    "url": "https://realpython.com/quizzes/python-thinking-recursively/",
+    "url_hash": "b572fea36fec89b622981e40549cde45",
+    "source_type": "rss"
   }
 ]
