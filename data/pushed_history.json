@@ -5903,5 +5903,148 @@
     "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
     "url_hash": "f4a59236c1389f54607b684436bc4ecf",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Disney+: New user agreement allows ads before movies in all subscriptions",
+    "url": "https://consumerrights.wiki/w/Disney%2B_ad_policy_change",
+    "url_hash": "c1d7db06d6dc2203569f0640240503b1",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+    "url": "https://github.com/jaredpalmer/kev/tree/main",
+    "url_hash": "e96dab974ef43b8dbd6643eccb17e73e",
+    "source_type": "hackernews",
+    "repo": "jaredpalmer/kev"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "AX – Google’s Open Agentic Orchestrator",
+    "url": "https://agentexecutor.io/",
+    "url_hash": "1f8f0587e01604ae0259b32838837a9e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Heretic removes restrictions from language models",
+    "url": "https://heretic-project.org/",
+    "url_hash": "7290b72e8d57ae589e01f25e76be2c1f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Qwen Image 2.1",
+    "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+    "url_hash": "97ac8e86b37c6d23d030a0ee4a71384e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "MCP was always a bad idea?",
+    "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/",
+    "url_hash": "e41c515d62682ea3d7ec838a72b470b1",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "llm-keys-ui 0.1",
+    "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+    "url_hash": "53241f87e8d6ca1a71138053f7716c9c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "How V7 gives AI agents institutional memory",
+    "url": "https://openai.com/index/v7",
+    "url_hash": "07a9efb9a15596c54ef1f4a992326fe8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Readers can smell model prose in parts per trillion. So can the person reading your application.",
+    "url": "https://dev.to/levelbrook/readers-can-smell-model-prose-in-parts-per-trillion-so-can-the-person-reading-your-application-4hj7",
+    "url_hash": "213a2961039836062a93d96408dbb750",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "I Built a Daemon to Auto-Submit Job Applications. Two Lines Above It, My Own Policy File Said Not To.",
+    "url": "https://dev.to/rello1/i-built-a-daemon-to-auto-submit-job-applications-two-lines-above-it-my-own-policy-file-said-not-27p0",
+    "url_hash": "37bb5639766a544ad4ecc672f415ce5f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Jev-Leftpad",
+    "url": "https://github.com/f/jev-leftpad",
+    "url_hash": "5874adce6baf37cec9af565ae233b7a9",
+    "source_type": "hackernews",
+    "repo": "f/jev-leftpad"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+    "url": "https://github.com/volotat/mini-AGI/",
+    "url_hash": "8bd0860fd1532cc55d8275b3591b9153",
+    "source_type": "hackernews",
+    "repo": "volotat/mini-agi"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Python 3.15 Preview: frozendict",
+    "url": "https://realpython.com/python315-frozendict/",
+    "url_hash": "050092d72aca644ac7d3906dc95353c8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Why You Should Never Embed Your Gemini API Key in Client Code (And How Firebase AI Logic Fixes It)",
+    "url": "https://www.freecodecamp.org/news/why-you-should-never-embed-your-gemini-api-key-in-client-code-and-how-firebase-ai-logic-fixes-it/",
+    "url_hash": "ee9d2946a6fdb95f21642c301557e2a4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "datasette-explain 0.2.2",
+    "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+    "url_hash": "53485e38495f2f3a9218531cc803210f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+    "url_hash": "5a7c9e86a3edd10d4873e81995734736",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Remote SWE Jobs Paying Up to $250k (Sep 21)",
+    "url": "https://dev.to/crackr/remote-swe-jobs-paying-up-to-250k-sep-21-573",
+    "url_hash": "310fba4d61d12fa37e8b731bf1dd24da",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "💡 Why Pay for $1,000 Bootcamps When You Can Swap Skills for Free?",
+    "url": "https://dev.to/manjeet0246/why-pay-for-1000-bootcamps-when-you-can-swap-skills-for-free-5e9j",
+    "url_hash": "8d59e65a8e097b5d5df67b906891706c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Hand Them a Wrong Answer On Purpose",
+    "url": "https://dev.to/devio_4040/hand-them-a-wrong-answer-on-purpose-12k0",
+    "url_hash": "6a9a9d39f473e33bbff86a33f957ac40",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-21T15:16:58.504730+00:00",
+    "title": "Your First Dev Job Won't Look Like Your Seniors' First Job: A CS Student's Guide to the AI Agent Era",
+    "url": "https://dev.to/mhassanbinkhalid/your-first-dev-job-wont-look-like-your-seniors-first-job-a-cs-students-guide-to-the-ai-agent-era-oe0",
+    "url_hash": "a952a6f5128a4f6a2a932934f6905c09",
+    "source_type": "rss"
   }
 ]
