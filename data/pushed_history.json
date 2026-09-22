@@ -6046,5 +6046,145 @@
     "url": "https://dev.to/mhassanbinkhalid/your-first-dev-job-wont-look-like-your-seniors-first-job-a-cs-students-guide-to-the-ai-agent-era-oe0",
     "url_hash": "a952a6f5128a4f6a2a932934f6905c09",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "MiMo v2.6",
+    "url": "https://mimo.xiaomi.com/mimo-v2-6",
+    "url_hash": "c81f947362b7ce812d33d9b5b8316057",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "Transformers Explained Visually",
+    "url": "https://poloclub.github.io/transformer-explainer/",
+    "url_hash": "ed5369522f1f492cfc4bf936f3246384",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
+    "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro",
+    "url_hash": "799031348b8541b6b4e5bccddac0777a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+    "url": "https://simonwillison.net/2026/Sep/21/jev/",
+    "url_hash": "cdeb166cbe23b2980117c95436ff1cfd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "MCP was always a bad idea?",
+    "url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
+    "url_hash": "54db4b677fd12cb1fcada80e6a5815f4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+    "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+    "url_hash": "7a457bd9c5b4409fe643bc32b5da7803",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "We Solved the How to Code Problem. We Still Haven't Solved \"What to Build.\"",
+    "url": "https://dev.to/harsh2644/we-solved-the-how-to-code-problem-we-still-havent-solved-what-to-build-5e3g",
+    "url_hash": "3dbc159bc0aae81baeaa79df6d9b3550",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "A Practical Framework for Interview Prep That Isn't Just Grinding Question Banks",
+    "url": "https://dev.to/priya_chandrashekar_2e3e8/a-practical-framework-for-interview-prep-that-isnt-just-grinding-question-banks-3m33",
+    "url_hash": "80414aa45fa76f662d6d96768cf75f28",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "💡 Why Pay for $1,000 Bootcamps When You Can Swap Skills for Free?",
+    "url": "https://dev.to/manjeet0246/why-pay-for-1000-bootcamps-when-you-can-swap-skills-for-free-191h",
+    "url_hash": "ac7c792dcdb1aa2f53160b16a6b4f89c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "Internal AI Transfer: IJP, Secondment and the Paperwork",
+    "url": "https://dev.to/rishi_kora/internal-ai-transfer-ijp-secondment-and-the-paperwork-a3n",
+    "url_hash": "9ffb7a51b9cc70a51079dac1faee54ba",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+    "url": "https://linear.app/now/ci-bottleneck-reworked",
+    "url_hash": "6ccadb864870b71eb7e65ed26d96eeb5",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "Quiz: Python 3.15 Preview: frozendict",
+    "url": "https://realpython.com/quizzes/python315-frozendict/",
+    "url_hash": "63485bae1257b17220d845d1986fa207",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "Cloudflare Python Workers are now generally available",
+    "url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+    "url_hash": "345c725999108c7e70f3a614578f978a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "Transformers now runs llama.cpp quants",
+    "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+    "url_hash": "6aa8c26a533f95b100bc676a46b085da",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "I don't want to read what you didn't write",
+    "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+    "url_hash": "156888d7c0dd40b00321a4d1de069c09",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "AI Has No Wisdom and Neither Will You",
+    "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+    "url_hash": "ad4ec09dd3f1e03d9e4dfc9cf879e28f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "Why More Professionals Are Turning to Career Transition Coaches in 2026",
+    "url": "https://dev.to/rakeshvcoach/why-more-professionals-are-turning-to-career-transition-coaches-in-2026-3g4",
+    "url_hash": "010dce6ddbb12de50ebb2a518c0db456",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "Quoting voxium",
+    "url": "https://simonwillison.net/2026/Sep/20/voxium/",
+    "url_hash": "569ed23764d32e2bea92326b61d561f0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "How to Port a Jekyll Blog Theme to Python: Lessons From Actually Doing It",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-reading-focused-blog-with-python-markdown-and-github-pages-for-free/",
+    "url_hash": "a2ca896fe08076538a949b6165f6cdc5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-22T13:34:17.943154+00:00",
+    "title": "How to Run a Big Model on Cheap Hardware?",
+    "url": "https://blog.bytebytego.com/p/how-to-run-a-big-model-on-cheap-hardware",
+    "url_hash": "9ac153d0a2a797d7b4e7ebca41f546b4",
+    "source_type": "rss"
   }
 ]
