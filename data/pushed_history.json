@@ -6186,5 +6186,145 @@
     "url": "https://blog.bytebytego.com/p/how-to-run-a-big-model-on-cheap-hardware",
     "url_hash": "9ac153d0a2a797d7b4e7ebca41f546b4",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "Jev in 25 Lines of Python",
+    "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+    "url_hash": "281b3ebc3f8c48b35223e99a913e434b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "GPT-6 Sol and Luna",
+    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "url_hash": "c4259d8daf829e3d4560e2f22cbe4832",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "How OpenAI Built GPT-Live",
+    "url": "https://blog.bytebytego.com/p/how-openai-built-gpt-live",
+    "url_hash": "64be29fe27b24733da2267c0cb7c1df7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "Quiz: Cursor vs Copilot: Which AI Editor Is Better for Python?",
+    "url": "https://realpython.com/quizzes/cursor-vs-copilot/",
+    "url_hash": "730834302e605d6a429f69bf7ea1d54d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+    "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+    "url_hash": "5643478845809afdb18d4921da8bdbd5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+    "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+    "url_hash": "aebbca8c0ca146a74f5212f372dffeb2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "llm 0.36",
+    "url": "https://simonwillison.net/2026/Sep/22/llm/",
+    "url_hash": "655d040aa0cf51bb8ae588121fbc9ac0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "llm-anthropic 0.29",
+    "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+    "url_hash": "100d1fb37e9aaba4e6999cd1615f7e26",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "llm-typesafe 0.1a0",
+    "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+    "url_hash": "85976735f6754612c874bdbfffa7d3a2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "Better prompt caching for GPT-6",
+    "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+    "url_hash": "991bdfde2b40f6dee10de81d3f742a5a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+    "url": "https://foxscript.org/",
+    "url_hash": "ce6670abd2ef7e2c53dc83c85906d2e5",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "Lernova: A Free Eight-Page E-Learning Website Template",
+    "url": "https://dev.to/harsh_sharma_4e103c006e92/lernova-a-free-eight-page-e-learning-website-template-43og",
+    "url_hash": "8c3796ae8199da8af8ab0974bb32416f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "Python Backend Interview Questions (With Model Answers)",
+    "url": "https://dev.to/peakblick/python-backend-interview-questions-with-model-answers-ie",
+    "url_hash": "581f1badd3de45b2c6487ae7b768e7f7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "How to Calculate a Break-Even 1099 Rate as a Software Contractor",
+    "url": "https://dev.to/evvytools/how-to-calculate-a-break-even-1099-rate-as-a-software-contractor-2e4e",
+    "url_hash": "d0a534b586a980598d5390c0c3f0341b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "Why Your Freelance Developer Rate Needs a Self-Employment Tax Buffer",
+    "url": "https://dev.to/evvytools/why-your-freelance-developer-rate-needs-a-self-employment-tax-buffer-5boe",
+    "url_hash": "b92a568f3c0a3cc18d3024f4da6ef4b1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+    "url_hash": "165ac02a206f8f50d2e04d674d7a2689",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "Postgres 19's bumpy road to release",
+    "url": "https://postgresweekly.com/issues/666",
+    "url_hash": "4cf98c32dedc91d22d28d3d1e00c0142",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "Quiz: Sorting Algorithms in Python",
+    "url": "https://realpython.com/quizzes/sorting-algorithms-python/",
+    "url_hash": "fd46cee0536634f80d5a3a4f4004fd0b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "The Hidden Cost of SaaS Auto-Renewal Clauses for Engineering Teams",
+    "url": "https://dev.to/137foundry/the-hidden-cost-of-saas-auto-renewal-clauses-for-engineering-teams-50j2",
+    "url_hash": "defcd2e130f1367261fb6547fded81ef",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-23T13:49:19.415589+00:00",
+    "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+    "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+    "url_hash": "81928ec12dd820af077ab300213b6492",
+    "source_type": "rss"
   }
 ]
