@@ -6326,5 +6326,147 @@
     "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
     "url_hash": "81928ec12dd820af077ab300213b6492",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Ink and Switch Interactive Homepage",
+    "url": "https://www.inkandswitch.com/",
+    "url_hash": "571d3fea1402ba39c4b04b30b966f186",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+    "url": "https://github.com/devdotfast/whiteboard",
+    "url_hash": "8634cc1b388e0745378bade0a8b838e6",
+    "source_type": "hackernews",
+    "repo": "devdotfast/whiteboard"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "How to Customize a Model to Learn New Tricks",
+    "url": "https://blog.bytebytego.com/p/how-to-customize-a-model-to-learn",
+    "url_hash": "dd7740738e5a0c24dd7d25ce1946af24",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "How to Get Started With Jev in Python",
+    "url": "https://realpython.com/jev-python/",
+    "url_hash": "9565c390e88ba71b7262a96aa3bd48f5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Quiz: The Terminal: First Steps and Useful Commands for Python Developers",
+    "url": "https://realpython.com/quizzes/terminal-commands/",
+    "url_hash": "d71bd071236b201a308a6037dbe65c4e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Cursor vs Copilot: Which AI Editor Is Better for Python?",
+    "url": "https://realpython.com/cursor-vs-copilot/",
+    "url_hash": "c3f35ddf5fbe67c6d0d328850496a851",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Inside SeaHack: 24 Hours to Build an AI Startup",
+    "url": "https://www.freecodecamp.org/news/inside-seahack-24-hours-to-build-an-ai-startup/",
+    "url_hash": "787c809d0e44bc37c1695570c9c175a9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "commit-rewriter 0.2",
+    "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+    "url_hash": "3cfa228d84a33a1af14ea2c47e367024",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Gemini 3.8 TTS Playground",
+    "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+    "url_hash": "33cc6364283e5834570d81c65fabdbd2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Use AI to Learn Without Getting Worse at It",
+    "url": "https://dev.to/harryfloyd/use-ai-to-learn-without-getting-worse-at-it-17d5",
+    "url_hash": "f92104cf95113193aa72e60a8b28cea1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Dutch governments builds alternative for Microsoft based on NixOS",
+    "url": "https://www.dawo.community/en/",
+    "url_hash": "55fe0676d64812a3b136f35be33e2ace",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Platform-Independent SIMD in Go",
+    "url": "https://go.dev/blog/simd-experiment",
+    "url_hash": "700eb0cf8990d144f6c071d5339625ac",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
+    "url": "https://github.com/git-bug/git-bug",
+    "url_hash": "e2be899848d1749078a16451e0832690",
+    "source_type": "hackernews",
+    "repo": "git-bug/git-bug"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Show HN: Make cursed fonts like Times New Bastard",
+    "url": "https://bastardica.mitpit.com/",
+    "url_hash": "7e2442909ab867c880a2b41e9178d183",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "TimescaleDB Course – PostgreSQL for Time-Series Data",
+    "url": "https://www.freecodecamp.org/news/timescaledb-course-postgresql-for-time-series-data/",
+    "url_hash": "acb95f0001e3eb6c033dec2150952aba",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "How to Build a Dart Package Analytics Tool with the pub.dev API: Beyond the 30-Day Window",
+    "url": "https://www.freecodecamp.org/news/build-a-dart-package-analytics-tool-with-the-pub-dev-api/",
+    "url_hash": "ebe9619ad55c233b679f6c50d05fffbb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "datasette 1.0a41",
+    "url": "https://simonwillison.net/2026/Sep/24/datasette/",
+    "url_hash": "abf71c274f3588fb463507e21f3cdfbd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Shadow roots, explained with live examples",
+    "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+    "url_hash": "5d8957d12a3a29399935df1b9eb1957c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "A late-invoice follow-up sequence that keeps the client",
+    "url": "https://dev.to/fairdraftstudio/a-late-invoice-follow-up-sequence-that-keeps-the-client-3pil",
+    "url_hash": "b7a2e04722e82b64571dd609890cb978",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-25T13:52:34.502369+00:00",
+    "title": "Your resume can be faked in an afternoon. Your work can't.",
+    "url": "https://dev.to/ayoolasolomon/your-resume-can-be-faked-in-an-afternoon-your-work-cant-3nbl",
+    "url_hash": "b1dc6b686b53d87ba712c749a9dc9c44",
+    "source_type": "rss"
   }
 ]
