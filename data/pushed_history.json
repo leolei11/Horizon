@@ -6608,5 +6608,146 @@
     "url": "https://realpython.com/podcasts/rpp/312/",
     "url_hash": "e3f110f4eef3891847781bcabafe0bd5",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+    "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+    "url_hash": "a56823c4d8c788bd6a39d6112d866be9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "Jev and the Problem With AI That Always Has an Answer",
+    "url": "https://dev.to/999thelastpage/jev-and-the-problem-with-ai-that-always-has-an-answer-1k6f",
+    "url_hash": "28551ea07ce845c93e0a78aa1e45e793",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "Why ATS Systems Reject 75% of Resumes (And How AI Fixes It)",
+    "url": "https://dev.to/muhammad_alimughal_7d443/why-ats-systems-reject-75-of-resumes-and-how-ai-fixes-it-4a9g",
+    "url_hash": "de63df22b6cf8a558b109ffd4982002d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "How to check your CV against a job description in 10 minutes",
+    "url": "https://dev.to/cvpilot/how-to-check-your-cv-against-a-job-description-in-10-minutes-4f05",
+    "url_hash": "622916e874cbe37b59c6deb6b21b6f98",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "A Config Flag Told Me Telegram Was Off. My Gateway Log Said Otherwise.",
+    "url": "https://dev.to/rello1/a-config-flag-told-me-telegram-was-off-my-gateway-log-said-otherwise-l22",
+    "url_hash": "035f516c945ecf400c99826e2aa1790b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "Level Up Your GitHub Profile: The \"Docs Quest\" Technique (Inspired by *The Legend of Zelda*)",
+    "url": "https://dev.to/timevolt/level-up-your-github-profile-the-docs-quest-technique-inspired-by-the-legend-of-zelda-2ebb",
+    "url_hash": "494efa9fd6186bc54b86efbeb634c01d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "Go Concurrency Distilled",
+    "url": "https://antonz.org/go-concurrency-distilled/",
+    "url_hash": "9c490974474596095ec12e0064d5a9c3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "The internet discovers TLA+. Now what?",
+    "url": "https://reasonable.io/blog/tla-tutorial/",
+    "url_hash": "f5a761ae6e5d4276167a33ac0806af58",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+    "url": "https://github.com/reladraw/reladraw",
+    "url_hash": "55e3771ad7c8e981428449f724de1d05",
+    "source_type": "hackernews",
+    "repo": "reladraw/reladraw"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "Quiz: Enhance Your Flask Web Project With a Database",
+    "url": "https://realpython.com/quizzes/flask-database/",
+    "url_hash": "6cc60a426bf9d05a2a7ca6dc96100602",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "The Developer Portfolio That Gets You Hired (Build It Live)",
+    "url": "https://dev.to/mryadavgulshan/the-developer-portfolio-that-gets-you-hired-build-it-live-3kka",
+    "url_hash": "e401157137c5154ac89111f3b123a4d3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "What Actually Changes About Engineering Decisions When You're a Technical Co-Founder",
+    "url": "https://dev.to/freewayz-dev/what-actually-changes-about-engineering-decisions-when-youre-a-technical-co-founder-c0m",
+    "url_hash": "edf19f55fcd8a151d1ca963716458ee3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "💡 Why Pay for $1,000 Bootcamps When You Can Swap Skills for Free?",
+    "url": "https://dev.to/manjeet0246/why-pay-for-1000-bootcamps-when-you-can-swap-skills-for-free-idf",
+    "url_hash": "94e909e314ee0042f5e682a72b772a55",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "How to Level Up Your Portfolio in the AI Era: From Technical Writer to Developer Educator",
+    "url": "https://www.freecodecamp.org/news/how-to-level-up-your-portfolio-in-the-ai-era-from-technical-writer-to-developer-educator/",
+    "url_hash": "3213979d3ec3e6841ea5741a943fa601",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "Kākāpō Party",
+    "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+    "url_hash": "f68cfcafbcb853667a89a49056b38123",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "Python Inner Functions: What Are They Good For?",
+    "url": "https://realpython.com/inner-functions-what-are-they-good-for/",
+    "url_hash": "ac8e2ce1cb0498d448df81ca2c014828",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "🤖 Staying Sane with AI + My Journey",
+    "url": "https://dev.to/jjdev_/staying-sane-with-ai-my-journey-55m5",
+    "url_hash": "4ca11e08bd5720fb42a1be5e4a3aaa5b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "An agent used DNS to reach an external chatbot",
+    "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+    "url_hash": "2e4f7874d02234c20ff3a10295f53afd",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "Steal My 5 Cold Email Reply Templates (Steal My Series)",
+    "url": "https://dev.to/yotta_xlybris/steal-my-5-cold-email-reply-templates-steal-my-series-1cpm",
+    "url_hash": "e47acee3b1f92d29b0713dd2f531e09c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-27T14:12:00.084364+00:00",
+    "title": "Quiz: When Do You Use an Ellipsis in Python?",
+    "url": "https://realpython.com/quizzes/python-ellipsis/",
+    "url_hash": "ede965000b09727ddee67eb59816fa01",
+    "source_type": "rss"
   }
 ]
