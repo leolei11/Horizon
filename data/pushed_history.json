@@ -6749,5 +6749,147 @@
     "url": "https://realpython.com/quizzes/python-ellipsis/",
     "url_hash": "ede965000b09727ddee67eb59816fa01",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "AI Agents Can Think. Now They Can Pay.",
+    "url": "https://blog.bytebytego.com/p/ai-agents-can-think-now-they-can",
+    "url_hash": "a2fb8074c12d7db2844e3a316455bb72",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "GitHub 经典名库: vuejs/core (⭐️ 54459)",
+    "url": "https://github.com/vuejs/core",
+    "url_hash": "c8e469cab5d8d8d6d1d2133667f816bb",
+    "source_type": "github",
+    "repo": "vuejs/core"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "Footguns with Postgres \"at time zone 'UTC'\"",
+    "url": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
+    "url_hash": "74283b6981543d756306fe3c215b116a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "Ember-1",
+    "url": "https://fireworks.ai/blog/ember-1",
+    "url_hash": "ded09f36b42fa21c2942cc1b05e42698",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
+    "url": "https://www.inkandswitch.com/essay/malleable-software/",
+    "url_hash": "3deba8e15f1b3758507af9a8a3492765",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "Self-Hosting on the Dark Web",
+    "url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
+    "url_hash": "e57fa613dec2a17958eb4c0db79ecd7a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "When did Google get so weird?",
+    "url": "https://sancho.bearblog.dev/google-weird/",
+    "url_hash": "3d7414d28c7ee3c2fc5c5a167d16f8ed",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "Owed a billion dollars in Nvidia stock",
+    "url": "https://colo.to/nvidia-stock-narrative.html",
+    "url_hash": "3037bad6115aec9727bb58e81aae4898",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "Nissan's third generation e-POWER powertrain",
+    "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/",
+    "url_hash": "b004ef21e97a3eb652a5eec2dd0c69de",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
+    "url": "https://arxiv.org/abs/2110.01834",
+    "url_hash": "81351823e7b0af91bb081af3c427906a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "The Money Side of Going Independent: A Finance Checklist for Freelance Developers",
+    "url": "https://dev.to/paulcrinigan/the-money-side-of-going-independent-a-finance-checklist-for-freelance-developers-bi4",
+    "url_hash": "0b402e779bf87f5c67278a477106eb3f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "GitHub did change pull request license checks",
+    "url": "https://dev.to/devconnect/github-did-change-pull-request-license-checks-547o",
+    "url_hash": "0cc288c9a2f61e545c721786a07e4fa6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "💡 Why Pay for $1,000 Bootcamps When You Can Swap Skills for Free?",
+    "url": "https://dev.to/manjeet0246/why-pay-for-1000-bootcamps-when-you-can-swap-skills-for-free-29fi",
+    "url_hash": "f21b2ffd08daf9526e9246369fe699df",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+    "url": "https://git.mills.io/prologic/parley",
+    "url_hash": "f44798cde92913d64c8a69e398f53fa4",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "Show HN: Hntui – A TUI for Hacker News",
+    "url": "https://github.com/ahmd-sh/hntui",
+    "url_hash": "74393005f3ec31041468dc7ec310c85e",
+    "source_type": "hackernews",
+    "repo": "ahmd-sh/hntui"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "Kids turned low-traffic NPR Spotify comments into a secret group chat",
+    "url": "https://www.thisamericanlife.org/897/transcript",
+    "url_hash": "e1297c1839baf226d182a364cd69076a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "The problem is not the AI code, but nobody knows anything anymore",
+    "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+    "url_hash": "ebfa66b00cd4643db072a4d9cdc7f895",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "These Companies Want Interns This Summer (Sep 28)",
+    "url": "https://dev.to/crackr/these-companies-want-interns-this-summer-sep-28-49f4",
+    "url_hash": "cef8c53ddb5d69a9befabb4930a27a8f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "8 Remote SWE Jobs You Can Apply to From Anywhere (Sep 28)",
+    "url": "https://dev.to/crackr/8-remote-swe-jobs-you-can-apply-to-from-anywhere-sep-28-5aa2",
+    "url_hash": "ecfc3b9073325ecb299eb7b3e2cd915a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-28T17:02:09.846764+00:00",
+    "title": "How to Hire a Reliable Software Development Team in China (2026 Guide)",
+    "url": "https://dev.to/zhonglian/how-to-hire-a-reliable-software-development-team-in-china-2026-guide-1m11",
+    "url_hash": "1bc9b4be54ac813e1959c0851cf2d45d",
+    "source_type": "rss"
   }
 ]
