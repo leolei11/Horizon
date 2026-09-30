@@ -7031,5 +7031,145 @@
     "url": "https://dev.to/ufebri/software-engineering-skills-in-the-ai-era-ppi",
     "url_hash": "3d8ba0e6bfd2ca67eadc2fef0c99ba4f",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Pi.dev: You Said No MCP",
+    "url": "https://earendil.com/posts/you-said-no-mcp/",
+    "url_hash": "1c529a6f18f0aeeb8588ab98f01507b5",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Dots: Always-on agents",
+    "url": "https://openai.com/index/introducing-dots/",
+    "url_hash": "f806dd97b3178efb7b3cf2bf33d31f39",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "America.gov",
+    "url": "https://america.gov/",
+    "url_hash": "e74c9ce776cf5f1a09e64df81f8235cd",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+    "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+    "url_hash": "dd3f81de33242ce31954531338a0af48",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "How to Build a Reliable AI Assistant with the Claude API",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-reliable-ai-assistant-with-the-claude-api/",
+    "url_hash": "9352f5232294251367c7d713fd9c2b5b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Photo Scrubber — local face blur & metadata removal",
+    "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+    "url_hash": "0afd55fa62ce95b6c3e2a9bced3a3e65",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "DevDay 2026 Recap",
+    "url": "https://openai.com/index/devday-2026-recap",
+    "url_hash": "66cfd105295e72abdc14ad73d1d236b8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "How to Prepare for a Software Engineering Interview With AI",
+    "url": "https://dev.to/sarah23/how-to-prepare-for-a-software-engineering-interview-with-ai-2hpb",
+    "url_hash": "c064231a80dc374fdcdf5cf34fadf2da",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Benchmarking Real Work Case 2: Why Good Agent Evaluation Wasn’t Enough for Production",
+    "url": "https://dev.to/yaoshen_luo_9d969ebd998fc/benchmarking-real-work-case-2-why-good-agent-evaluation-wasnt-enough-for-production-35ai",
+    "url_hash": "9b1cd29f36c7324a966cf42b487a3a4c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "AI 功勞歸因偏誤與求生法",
+    "url": "https://dev.to/jh5_pulse/ai-gong-lao-gui-yin-pian-wu-yu-qiu-sheng-fa-2ici",
+    "url_hash": "06108b8677c898c69e8261ab86f9e0a4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+    "url": "https://space.bl2.net/",
+    "url_hash": "14babe9906d418b35b69fc2c6d448931",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Phyllotaxis: An audio-reactive LED display",
+    "url": "https://jagi.studio/posts/phyllotaxis/",
+    "url_hash": "b3cd990be61fe940b5799a02a7eadf20",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Testing WebGPU data layouts with Facet",
+    "url": "https://www.mattkeeter.com/blog/2026-08-23-wgpu-facet/",
+    "url_hash": "b00fc99e5c849477f22c9604975860db",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Quiz: Python Web Applications: Deploy Your Script as a Flask App",
+    "url": "https://realpython.com/quizzes/python-web-applications/",
+    "url_hash": "daca9d205eda10a95f124dfd607d188d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Quiz: What's New in Python 3.15",
+    "url": "https://realpython.com/quizzes/whats-new-in-python-315/",
+    "url_hash": "fa6f0f9aab677c5e3944e5b963394a76",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "How to Diagnose and Fix AI Inference Latency on Kubernetes",
+    "url": "https://www.freecodecamp.org/news/how-to-diagnose-and-fix-ai-inference-latency-on-kubernetes/",
+    "url_hash": "7ec5a6d147c9879d2ff772734b11ad1e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Python Algorithmic Trading with SnapTrade, Massive, Alpaca",
+    "url": "https://www.freecodecamp.org/news/python-algorithmic-trading-with-snaptrade-massive-alpaca/",
+    "url_hash": "39d1e36140141d03c1b480e72b139985",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "How to Use the Fullscreen API in JavaScript (and Keep the Screen Awake with the Wake Lock API)",
+    "url": "https://www.freecodecamp.org/news/fullscreen-api-javascript-wake-lock/",
+    "url_hash": "36abe9140e2abc858f9e1b9aff732a59",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Vacancy freshness is an event-time problem: a practical look at HireSeeker",
+    "url": "https://dev.to/konstantinhr/vacancy-freshness-is-an-event-time-problem-a-practical-look-at-hireseeker-3okh",
+    "url_hash": "49bbc967651a2e52aca28026c2cb2363",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-09-30T14:59:43.703816+00:00",
+    "title": "Solving Factorio Quality",
+    "url": "https://exyr.org/2026/solving-factorio-quality/",
+    "url_hash": "988dba86cf2ee692061b09b35c331755",
+    "source_type": "hackernews"
   }
 ]
