@@ -7171,5 +7171,147 @@
     "url": "https://exyr.org/2026/solving-factorio-quality/",
     "url_hash": "988dba86cf2ee692061b09b35c331755",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+    "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+    "url_hash": "2109c6dcb8a35acba1753116ca948102",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "Gemini 4 Argon",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "url_hash": "8166c2ead6155b91cb0bca2a88daf98e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+    "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+    "url_hash": "ca1a016b5fac1dfa29c20666df71e148",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "How DoorDash Built a Toolbox for AI Agents",
+    "url": "https://blog.bytebytego.com/p/how-doordash-built-a-toolbox-for",
+    "url_hash": "25beb6548a42d1ba51cbb5aabadf2673",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "Quoting Matthew Green",
+    "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+    "url_hash": "f036a6da80ed8ba8cc184ad8fa587480",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+    "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+    "url_hash": "4ad8f6075769fdc3f3f9cce24fbbb3f7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "OpenAI DevDay 2026 live blog",
+    "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+    "url_hash": "0845d37471e104bd9752658a0830c6c4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "I’m building a lower-noise professional network for developers, looking for founding testers",
+    "url": "https://dev.to/magnexis/im-building-a-lower-noise-professional-network-for-developers-looking-for-founding-testers-bd0",
+    "url_hash": "09403f98ba4218299019a3acf93fd121",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "8 Remote SWE Jobs You Can Apply to From Anywhere (Oct 1)",
+    "url": "https://dev.to/crackr/8-remote-swe-jobs-you-can-apply-to-from-anywhere-oct-1-8ma",
+    "url_hash": "2a99eb2f0aff5f8b41e6da7caa8dc0d7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "GitHub Trending: microsoft/markitdown (⭐️ 187855)",
+    "url": "https://github.com/microsoft/markitdown",
+    "url_hash": "33054ecb8bf0f85519b894002e0d45e8",
+    "source_type": "github",
+    "repo": "microsoft/markitdown"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
+    "url": "https://github.com/maanHimself/OpenDLSS-NR",
+    "url_hash": "ad27c0103c2ad700ec0c68e181c1f2d0",
+    "source_type": "hackernews",
+    "repo": "maanhimself/opendlss-nr"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "Halfspace experimental IDE for solid modeling with distance fields",
+    "url": "https://www.mattkeeter.com/projects/halfspace/",
+    "url_hash": "61225909bed188737125b3281348859e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+    "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+    "url_hash": "81a12543fb1b8dff33c6ded932208e5f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "Python 3.15: Cool New Features for You to Try",
+    "url": "https://realpython.com/python315-new-features/",
+    "url_hash": "ceea002318aefb3fa99cd2ec73ac9e53",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "Can REPACK CONCURRENTLY replace pg_repack?",
+    "url": "https://postgresweekly.com/issues/667",
+    "url_hash": "a5dbb6725a1f47c2e65115af08e0053c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "How to Debug a Stuck Kubernetes Rollout with a Hands-On Lab",
+    "url": "https://www.freecodecamp.org/news/how-to-debug-a-stuck-kubernetes-rollout-with-a-hands-on-lab/",
+    "url_hash": "043f0a64609bbf27dc8801cd98fde066",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "How to Build a Code Graph in TypeScript Using VS Code's Language APIs",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-code-graph-in-typescript-using-vs-code-language-apis/",
+    "url_hash": "0f03df92d96af235e7f5c824c327f709",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "How CSS content-visibility Works and How It Can Improve Rendering Performance",
+    "url": "https://www.freecodecamp.org/news/css-content-visibility-rendering-performance/",
+    "url_hash": "8970de17d4055b4be396006e90b24614",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "Freelance proposals that win: the 8-part structure (and 7 mistakes that kill deals)",
+    "url": "https://dev.to/chris_ad4e762f2200b40f49a/freelance-proposals-that-win-the-8-part-structure-and-7-mistakes-that-kill-deals-1ieh",
+    "url_hash": "4f97906763345f956276e637a3f71574",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-01T15:31:11.831027+00:00",
+    "title": "An AI agent's honest ledger: 51 days, zero sales, and the wall nobody warns you about",
+    "url": "https://dev.to/michael_lands/an-ai-agents-honest-ledger-51-days-zero-sales-and-the-wall-nobody-warns-you-about-3nei",
+    "url_hash": "2e176394c34a656f6f47fec252971a11",
+    "source_type": "rss"
   }
 ]
