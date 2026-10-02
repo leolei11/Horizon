@@ -7313,5 +7313,148 @@
     "url": "https://dev.to/michael_lands/an-ai-agents-honest-ledger-51-days-zero-sales-and-the-wall-nobody-warns-you-about-3nei",
     "url_hash": "2e176394c34a656f6f47fec252971a11",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "Pi 1.0",
+    "url": "https://earendil.com/posts/pi-1-0/",
+    "url_hash": "3de57c3b5295e6a7a157df8ef6bb0484",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
+    "url": "https://github.com/kvoltmer/Audionaut",
+    "url_hash": "d082b9fbd30c691d7b3d350cb8580e8e",
+    "source_type": "hackernews",
+    "repo": "kvoltmer/audionaut"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+    "url": "https://blog.cloudflare.com/clef-decision-models/",
+    "url_hash": "17f328b05501615d69b4e58201e4b431",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "Frog and Toad and the Increasingly Capable Machines",
+    "url": "https://www.frogandtoad.ai/",
+    "url_hash": "47c9bcbaa0bc0fe1298345e2bad61c6f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "DeepSeek Harness Desktop for macOS and Windows",
+    "url": "https://www.deepseek.com/en/harness/",
+    "url_hash": "ae9acbf7cc10480e7e51380339317283",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "Pi Durable",
+    "url": "https://earendil.com/posts/pi-durable/",
+    "url_hash": "d4eab1df6b394bacaf8adfaafd5ea70d",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "Ask HN: Who is hiring? (October 2026)",
+    "url": "https://news.ycombinator.com/item?id=49922569",
+    "url_hash": "3c1466a9e4c255271a01e47ef83d1187",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
+    "url": "https://www.cssbed.com/",
+    "url_hash": "1deebd0a5ee6a97e469388ec4564f33c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "Context Language Models",
+    "url": "https://arxiv.org/abs/2609.37725",
+    "url_hash": "aec409d52512b0cd7e09db8764f45ea8",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "SvelteKit 3",
+    "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+    "url_hash": "aef3b6555914d4a47f29acf15f0723fa",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "RIP, vector database",
+    "url": "https://turbopuffer.com/blog/rip-vector-database",
+    "url_hash": "e2ec9c41090be740129dd23d5cc3baaf",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "Cloudflare K2: serverless event streams",
+    "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+    "url_hash": "32b8e1c0874f8815e9f5ed4a3bb14018",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
+    "url": "https://github.com/Vibra-Ingenn/Janus",
+    "url_hash": "f5c925971d186cccdb7d2a21e1d50591",
+    "source_type": "hackernews",
+    "repo": "vibra-ingenn/janus"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "How to Add shadcn Charts to a Next.js App Without Writing Recharts Boilerplate",
+    "url": "https://www.freecodecamp.org/news/how-to-add-shadcn-ui-charts-to-nextjs/",
+    "url_hash": "1345c5c39737f8824f9ec015da0ae0c3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "Build and Publish a Full-Stack Mobile App with AI",
+    "url": "https://www.freecodecamp.org/news/build-and-publish-a-full-stack-mobile-app-with-ai/",
+    "url_hash": "1c7b22d83855500577adc779f9243824",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "The Node.js and Express.js Handbook for Beginners – Servers, Routes, Routers, and Views Explained",
+    "url": "https://www.freecodecamp.org/news/nodejs-and-expressjs-handbook-for-beginners/",
+    "url_hash": "aef845fa8c76ed8502a2b1f15decb984",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+    "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+    "url_hash": "87e5762e958351b0eac259f23df72c04",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "I spent three hours debugging an API endpoint that had nothing wrong with it.",
+    "url": "https://dev.to/rajanpanwar/i-spent-three-hours-debugging-an-api-endpoint-that-had-nothing-wrong-with-it-53be",
+    "url_hash": "2265a5a22f322f574d1c41dd6f6eb328",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "Why State is the Hardest Thing in Software Design",
+    "url": "https://blog.bytebytego.com/p/why-state-is-the-hardest-thing-in",
+    "url_hash": "58665a47c0c55dbae19929f11755883b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-02T14:47:46.902473+00:00",
+    "title": "StreetComplete on iOS is now in public beta",
+    "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+    "url_hash": "852f63c12efc171621529352f2272c80",
+    "source_type": "hackernews",
+    "repo": "streetcomplete/streetcomplete"
   }
 ]
