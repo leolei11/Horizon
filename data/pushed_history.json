@@ -7456,5 +7456,146 @@
     "url_hash": "852f63c12efc171621529352f2272c80",
     "source_type": "hackernews",
     "repo": "streetcomplete/streetcomplete"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "GitHub 经典名库: sindresorhus/awesome (⭐️ 513929)",
+    "url": "https://github.com/sindresorhus/awesome",
+    "url_hash": "09c61568d4dce2aae38a68b425795592",
+    "source_type": "github",
+    "repo": "sindresorhus/awesome"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "FLUX 3 Image",
+    "url": "https://bfl.ai/models/flux-3-image",
+    "url_hash": "ab582c2d5691571138c0088471ecc240",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+    "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+    "url_hash": "e869fb2f77567d2fa7a9362d02babd0b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+    "url": "https://stillwet.art/",
+    "url_hash": "2ab207675d7ca5d27125d475dce2a1c0",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "How to Build an AI Support System That Automatically Routes Bugs to GitHub with Next.js and Jev",
+    "url": "https://www.freecodecamp.org/news/build-an-ai-support-system-that-automatically-routes-bugs-to-github/",
+    "url_hash": "f8fb10057fcd47e4c5d2c628c62ac3c1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+    "url": "https://huggingface.co/blog/allenai/astabrief",
+    "url_hash": "e5ba9a829e20546171d946f8cedda401",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "A model guide for the GPT-6 family",
+    "url": "https://openai.com/index/practical-guide-building-gpt-6",
+    "url_hash": "d8bea22f6536e1b40f3febc6f9fdc870",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "Same Score, Twice in a Row. Two Completely Different Root Causes.",
+    "url": "https://dev.to/rello1/same-score-twice-in-a-row-two-completely-different-root-causes-24io",
+    "url_hash": "dcf034f4ff2b3ff6d74dbfd37a2fd1dc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "I didn't love coding. I loved building.",
+    "url": "https://dev.to/mathmed/i-didnt-love-coding-i-loved-building-hmg",
+    "url_hash": "e0c19997065cc3f8eed2b1988537ede6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "Apple Pass Designer",
+    "url": "https://developer.apple.com/pass-designer/",
+    "url_hash": "19c695654e20fa10ec20516494af3c61",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "From the creator of Redis; run LLM locally with ds4",
+    "url": "https://dwarfstar.sh/",
+    "url_hash": "5bd1f3decc5c05608364eb35b86eaf6a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "Learn Modern Kotlin",
+    "url": "https://www.freecodecamp.org/news/learn-modern-kotlin/",
+    "url_hash": "85d7bd420edd2499756d4bed3af5b354",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "How to Build Your Own AI App Builder Like Lovable with Next.js, AWS and Sandboxes",
+    "url": "https://www.freecodecamp.org/news/build-your-own-ai-app-builder-with-next-js-aws-and-sandboxes/",
+    "url_hash": "c1f8ea48eed78b59a5e30e0f397d0fec",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "How to Stop Your Android App from Draining the Battery with Wake Locks",
+    "url": "https://www.freecodecamp.org/news/how-to-stop-your-android-app-from-draining-the-battery-with-wake-locks/",
+    "url_hash": "7d886ae745f7b76b091c65decd5fee6d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "Chatham scales its capital markets expertise with OpenAI",
+    "url": "https://openai.com/index/chatham-financial",
+    "url_hash": "f5331f1181a08fca30062afd1123dc06",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "How to Choose a Computer Centre in Firozabad for Practical Digital Skills",
+    "url": "https://dev.to/astha_animation/how-to-choose-a-computer-centre-in-firozabad-for-practical-digital-skills-3g0m",
+    "url_hash": "cae5ca98589cf18cd1c157f5bd3a0399",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "Muse Gadgets",
+    "url": "https://gadgets.muse.ai/",
+    "url_hash": "25d7fadb2c58a4c1549adeaccd08089c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "Cloudflare OHTTP gateway",
+    "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+    "url_hash": "958011385d54e8fa5853084bcc22e47b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "Make Your English Standup Blocker Actionable: Four Small Fields",
+    "url": "https://dev.to/cherryengkr/make-your-english-standup-blocker-actionable-four-small-fields-57ea",
+    "url_hash": "b9bae0b142bf29a74e9d944381ba665a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-03T13:26:38.602741+00:00",
+    "title": "How Albertsons Companies is reimagining retail from the inside out",
+    "url": "https://openai.com/index/albertsons-reimagining-retail",
+    "url_hash": "0582363bf91ecf5b72bed06f9821e710",
+    "source_type": "rss"
   }
 ]
