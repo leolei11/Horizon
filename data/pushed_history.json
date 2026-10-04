@@ -7597,5 +7597,147 @@
     "url": "https://openai.com/index/albertsons-reimagining-retail",
     "url_hash": "0582363bf91ecf5b72bed06f9821e710",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "Agents don't need memory, they need documentation",
+    "url": "https://liao.gg/blog/agents-dont-need-memory",
+    "url_hash": "6664414c5e62bc9dccd337eba3132a33",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "We're working on a new RuneScape MMO",
+    "url": "https://play.runescape.com/4",
+    "url_hash": "e94e936032d738f41ac09406e2d3975e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "The Agent Said It Was Done. The Database Disagreed.",
+    "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "url_hash": "016378578c1d36c27e1ac93e928d4a5e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "How to practice interview answers out loud (and why silent prep fails)",
+    "url": "https://dev.to/makeinterview/how-to-practice-interview-answers-out-loud-and-why-silent-prep-fails-3obb",
+    "url_hash": "a19d470c49ba62de3eaad1b07e0096c8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "How to Build a LinkedIn Profile That Recruiters Actually Find",
+    "url": "https://dev.to/g105g/how-to-build-a-linkedin-profile-that-recruiters-actually-find-4e39",
+    "url_hash": "536b13093f97aad1dde0295e4ea0f1bb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "Resume Skills That Get Interviews: Before and After Rewrites",
+    "url": "https://dev.to/g105g/resume-skills-that-get-interviews-before-and-after-rewrites-1lg7",
+    "url_hash": "0fb3447b4ba3d31e614b47633e3fd4c3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "The press release said one number. The paper said another. Check the source before you repeat it.",
+    "url": "https://dev.to/one-ilands/the-press-release-said-one-number-the-paper-said-another-check-the-source-before-you-repeat-it-1lm4",
+    "url_hash": "dd3e9293e8eeb16d109c5dab92ebe998",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "Build an ATS-Friendly Resume in 5 Minutes with AI — Free, No Sign-Up",
+    "url": "https://dev.to/sumaninster/build-an-ats-friendly-resume-in-5-minutes-with-ai-free-no-sign-up-c8d",
+    "url_hash": "d2b67d627b4dc7c5acbff34edd59eb50",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "What AI labs pay developers to review code right now (data from 236 open roles)",
+    "url": "https://dev.to/aitrainingjobs/what-ai-labs-pay-developers-to-review-code-right-now-data-from-236-open-roles-1h39",
+    "url_hash": "1b7654ac181d4ddc133669be5583325d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "GitHub Trending: firecrawl/firecrawl (⭐️ 188459)",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "url_hash": "49a1c7e387a4e695f617ce1ad562319d",
+    "source_type": "github",
+    "repo": "firecrawl/firecrawl"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+    "url": "https://github.com/Niko1221/Strata",
+    "url_hash": "cbba30503920c619127529e95b0c34cc",
+    "source_type": "hackernews",
+    "repo": "niko1221/strata"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "We're going to need default hard budget caps on pretty much everything",
+    "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+    "url_hash": "0f5fb94f1fc707cbdfaa85d810696d71",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "We want you to build the next Git platform on Cloudflare",
+    "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+    "url_hash": "b5c305b095fad7b59089ac0382de048b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "How to Separate Operational Intent from the Executor",
+    "url": "https://www.freecodecamp.org/news/separate-operational-intent-from-executor/",
+    "url_hash": "cf0de195247f18f7b0115bc5d9de4b10",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "How to Diagnose Core Web Vitals Problems with Chrome DevTools (LCP, INP and CLS)",
+    "url": "https://dev.to/mg_contentlabs_1b2642600/how-to-diagnose-core-web-vitals-problems-with-chrome-devtools-lcp-inp-and-cls-3kcb",
+    "url_hash": "a085042d88a7b02443066c00ff5f9cf1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "How to Negotiate Your First Salary Offer (Without Blowing It)",
+    "url": "https://dev.to/g105g/how-to-negotiate-your-first-salary-offer-without-blowing-it-gl5",
+    "url_hash": "36d489b889ef65eec184f5028f4880a7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "Quiz: Operator and Function Overloading in Custom Python Classes",
+    "url": "https://realpython.com/quizzes/operator-function-overloading/",
+    "url_hash": "7eed01b33ca1217c049b0c7a753951ac",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "Why don't more developers “use the platform”?",
+    "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+    "url_hash": "490eec584937c4ec4881237f24cd5842",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "September sponsors-only newsletter",
+    "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+    "url_hash": "5cc027fe37fd8b9de038e68c3825a427",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-04T14:08:05.422352+00:00",
+    "title": "Quiz: Python's collections: A Buffet of Specialized Data Types",
+    "url": "https://realpython.com/quizzes/python-collections-module/",
+    "url_hash": "71a42890dca626102272840c88f7bf83",
+    "source_type": "rss"
   }
 ]
