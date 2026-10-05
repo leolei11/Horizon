@@ -7739,5 +7739,146 @@
     "url": "https://realpython.com/quizzes/python-collections-module/",
     "url_hash": "71a42890dca626102272840c88f7bf83",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "Web Search API",
+    "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+    "url_hash": "23bd24d9edb464cc0bbe2c0fb9aece39",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "Last 3 days: AI Evals, October cohort",
+    "url": "https://blog.bytebytego.com/p/new-course-ai-evals-in-practice-starts",
+    "url_hash": "0dc832336916e495ae6625ca258ffb94",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "How to Break the AI Coding Agent Fix Loop",
+    "url": "https://www.freecodecamp.org/news/how-to-break-the-ai-coding-agent-fix-loop/",
+    "url_hash": "85394f1c936b5db39471ef564fabd682",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "Our approach to EU text provenance rules",
+    "url": "https://openai.com/index/eu-text-provenance",
+    "url_hash": "f9545c4ec00f8446aacbae52af8fd736",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "I checked the on-chain receipts of an \"AI agents pay each other\" demo",
+    "url": "https://dev.to/hynoma/i-checked-the-on-chain-receipts-of-an-ai-agents-pay-each-other-demo-3c03",
+    "url_hash": "d88e88bf5b571e4338c5912efeec069c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "Capital One Product Manager Mini Case Interview Guide: Market Sizing, Metrics, and Product Judgment",
+    "url": "https://dev.to/prachub/capital-one-product-manager-mini-case-interview-guide-market-sizing-metrics-and-product-judgment-5ff",
+    "url_hash": "c4ff23bee590b8111418bc7f666a3dd0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "The Parts of a Job Search We Don't See",
+    "url": "https://dev.to/hemapriya_kanagala/the-parts-of-a-job-search-we-dont-see-3a6",
+    "url_hash": "0fdbb1b21f66a751e991a4e2333b72e7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "How resume keyword matching actually works (and a free tool to check yours)",
+    "url": "https://dev.to/jackson_s_33a25dbcc9fc24e/how-resume-keyword-matching-actually-works-and-a-free-tool-to-check-yours-4841",
+    "url_hash": "e1e0aa9fb19d2c3f1aeff08c2b0fc8d8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
+    "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+    "url_hash": "1e4e41222cd6949989282b5ba4dbf722",
+    "source_type": "hackernews",
+    "repo": "rui314/mold"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "We ported the original Doom to SQL",
+    "url": "https://cedardb.com/blog/sqldoom/",
+    "url_hash": "ba7fe832033e42f79ddab9da1f2c48da",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "A browser-native classic Visual Basic VB6 IDE",
+    "url": "https://wieslawsoltes.github.io/VB6/",
+    "url_hash": "906a181cce70e927f1f2e71a7bda27df",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "Python 3.15 Gets a Surprise RC3 and Other Python News for October 2026",
+    "url": "https://realpython.com/python-news-october-2026/",
+    "url_hash": "107087794958fcd0065aa20900f23ea4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "How to Use NestJS Observe: An Observability Handbook for Devs",
+    "url": "https://www.freecodecamp.org/news/how-to-use-nestjs-observe-an-observability-handbook-for-devs/",
+    "url_hash": "3f2613d48118c7c6bef600ba4f58d48a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "How AI Is Changing Email Deliverability: A Technical Guide to Sender Reputation and Inbox Placement",
+    "url": "https://www.freecodecamp.org/news/ai-email-deliverability-explained/",
+    "url_hash": "60361653b8089fe4fb65e452e61f4048",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "The Engineering Anatomy of API Vulnerabilities: A Deep Dive into the OWASP API Security Top 10",
+    "url": "https://www.freecodecamp.org/news/engineering-anatomy-of-api-vulnerabilities-owasp-api-security-top-10/",
+    "url_hash": "d4047759dd6249bfa6c655cc34d2dab2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "From Startup to Acquisition: Lessons from Building and Selling an eCommerce Platform",
+    "url": "https://dev.to/krishna_y/from-startup-to-acquisition-lessons-from-building-and-selling-an-ecommerce-platform-40fe",
+    "url_hash": "d1a57f906195b77968d170d958f1caee",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "8 client red flags every freelancer should memorize",
+    "url": "https://dev.to/chris_ad4e762f2200b40f49a/8-client-red-flags-every-freelancer-should-memorize-3l0o",
+    "url_hash": "21ec3319dc0eff8565f475e96eb6a687",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "The LLM Blindspot: Why Models Forget What’s in the Middle of Your Prompt",
+    "url": "https://blog.bytebytego.com/p/the-llm-blindspot-why-models-forget",
+    "url_hash": "ce2c5e9194ceecbf3e9f89eff3e353c2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "Building advertising for the way people use AI",
+    "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+    "url_hash": "b0c4983426b3963375587639e91d1bcf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-05T17:12:44.554615+00:00",
+    "title": "Qwen3.8 27B addition in words",
+    "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+    "url_hash": "f2f4e6f8f73ea0d9003a4602bd08cf3c",
+    "source_type": "rss"
   }
 ]
