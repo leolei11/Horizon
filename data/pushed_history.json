@@ -7880,5 +7880,145 @@
     "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
     "url_hash": "f2f4e6f8f73ea0d9003a4602bd08cf3c",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Mistral Large 4",
+    "url": "https://docs.mistral.ai/models/mistral-large-4-0",
+    "url_hash": "b113a58596f44a9e67f5e39391cda9a7",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Summer 2026 Internships: 8 New Openings This Week (Oct 6)",
+    "url": "https://dev.to/crackr/summer-2026-internships-8-new-openings-this-week-oct-6-46fi",
+    "url_hash": "5d8bf33f473037020313e7358a5d40bb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Remote SWE Jobs Paying Up to $250k (Oct 6)",
+    "url": "https://dev.to/crackr/remote-swe-jobs-paying-up-to-250k-oct-6-1e71",
+    "url_hash": "4acd0fb0b2269c6df3937e6ce999d5bd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Release of Polars 2.0",
+    "url": "https://pola.rs/posts/release-polars-2/",
+    "url_hash": "8eaf6c7ad055b293fa5028252b27f567",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Gleam doesn't compile to Erlang source anymore",
+    "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+    "url_hash": "b79a2dd65b2b484a8a51024729572313",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Friendship ended with Deno, now Node is my best friend",
+    "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+    "url_hash": "791a8e79b96c4b2ae70699de60943a62",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "How to Encrypt PII in Data Pipelines While Keeping It Searchable",
+    "url": "https://www.freecodecamp.org/news/how-to-encrypt-pii-in-data-pipelines-while-keeping-it-searchable/",
+    "url_hash": "ad3ea5f23d6ffac7e7044d27f7e5f79a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "API Authentication & Authorization: An Engineering Deep Dive into Mechanisms, Trade-offs, and Failure Modes",
+    "url": "https://www.freecodecamp.org/news/api-authentication-authorization-mechanisms-trade-offs-and-failure-modes/",
+    "url_hash": "15c0582748bf41939d4955390d1d6a22",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "How to Get Freelance Design Clients Without Upwork: 15 Proven Strategies",
+    "url": "https://dev.to/oliviabennettconnect/how-to-get-freelance-design-clients-without-upwork-15-proven-strategies-30jk",
+    "url_hash": "7a180b99d8543724d880b0d7126b016b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Quiz: How to Launch an HTTP Server in One Line of Python Code",
+    "url": "https://realpython.com/quizzes/python-http-server/",
+    "url_hash": "62c8e220889ab96ba87b5090edbf7eca",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Exploring the MVC Pattern in Python",
+    "url": "https://realpython.com/courses/exploring-mvc-pattern-python/",
+    "url_hash": "9aa135d41f45061b9900e6178229e960",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "The cover letter is optional now. Here is what replaced it",
+    "url": "https://dev.to/mitulgelani/the-cover-letter-is-optional-now-here-is-what-replaced-it-4bgh",
+    "url_hash": "257f96706954c0ac3190ebb50409eb2b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Find the flattest route between any two points in SF",
+    "url": "https://flattensf.com/",
+    "url_hash": "fa2f6e6a26e0c5877cc592479ae2d0eb",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Beam: Reflection's 501B open-weight model",
+    "url": "https://reflection.ai/blog/introducing-beam",
+    "url_hash": "9f3e1d26192750b8186fbec692902584",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Quiz: Using pandas and Python to Explore Your Dataset",
+    "url": "https://realpython.com/quizzes/pandas-python-explore-dataset/",
+    "url_hash": "db29b9c537882f5ce1234ebe8f46e98c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "JetBrains reported a net financial loss first time in its tracked history",
+    "url": "https://www.helgilibrary.com/companies/jetbrains",
+    "url_hash": "6b6eba6147db00e01f7ba31a241950d2",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+    "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+    "url_hash": "807faee26a0e2988609caf46c25d27dd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+    "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+    "url_hash": "bd2bae26a9249b07f7215ce501a9ab5c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "Quoting Felix Rieseberg",
+    "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+    "url_hash": "0cb47c2949689aea5992402dc2e30b53",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-06T15:16:42.436436+00:00",
+    "title": "20 Anos de TI e IA: Lições sobre Tecnologia, Gestão e Inovação",
+    "url": "https://dev.to/andr_diasmoreiraprol_b/20-anos-de-ti-e-ia-licoes-sobre-tecnologia-gestao-e-inovacao-2kd",
+    "url_hash": "897427d6da59b68ac1465baaf6b4e2ec",
+    "source_type": "rss"
   }
 ]
