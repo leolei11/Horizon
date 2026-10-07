@@ -8020,5 +8020,146 @@
     "url": "https://dev.to/andr_diasmoreiraprol_b/20-anos-de-ti-e-ia-licoes-sobre-tecnologia-gestao-e-inovacao-2kd",
     "url_hash": "897427d6da59b68ac1465baaf6b4e2ec",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "Show HN: A walkable 3D art history museum built from Wikipedia",
+    "url": "https://artmuseum.artfrompixels.com/",
+    "url_hash": "32029a3f73d4066e64d9c82326464c91",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "Strands Decider 2B: a small, open-source, decision model",
+    "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+    "url_hash": "e288c901b55534f284c8cc5c73d3cbbe",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "Mistral Large 4",
+    "url": "https://mistral.ai/news/mistral-large-4//",
+    "url_hash": "fca385cd3a25cff7a99649e3e3bb9018",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+    "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+    "url_hash": "d889ced15a6ad0c91c0f8cf26151d22b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "Quoting Victoria Kim",
+    "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+    "url_hash": "3f22b2cf33147fc0033409823db7f477",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "llm-openai-decisions 0.1a0",
+    "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+    "url_hash": "6e311311685184c4ba984acf33d51d43",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "llm-mistral 0.16",
+    "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+    "url_hash": "ee78974fc9da94435ec711ea6e29c626",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "Introducing Mistral Large 4: Le chonk",
+    "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+    "url_hash": "1b70ef2fc62fff143729ba5d77e61797",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "Scrimshaw Jukebox",
+    "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+    "url_hash": "8f148fd59545fa7fe7d86b650bb1f777",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "A font recreated from photographs of classic Commodore 64 keycaps",
+    "url": "https://github.com/szabadkai/c64-keyboard-font/",
+    "url_hash": "593911c5d48ab45ab2729d737d1bd133",
+    "source_type": "hackernews",
+    "repo": "szabadkai/c64-keyboard-font"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+    "url_hash": "3c5a53273da594b04fe64686739821c9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "How Netflix Taught an LLM to Recommend Movies So That You Keep Watching",
+    "url": "https://blog.bytebytego.com/p/how-uber-built-a-genie-to-answer",
+    "url_hash": "9941b93ba707c505e6a6e26479995d5b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "Microsoft's new MCP server for Postgres",
+    "url": "https://postgresweekly.com/issues/668",
+    "url_hash": "2b691f508c4e4fe207811e4dd3312d95",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "Anti-Patterns in Software Blogging",
+    "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+    "url_hash": "42b61fade5a28a6a277d797f41471912",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "EmbeddingGemma 2",
+    "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+    "url_hash": "91137c1a4b3faf6bc8781a67a66c1c9b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "Using Parseable with Datasette for OpenTelemetry traces",
+    "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+    "url_hash": "4ebe59a81bb573432cd58902344c2cb6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "HN \"Who is hiring?\" in 2026: a third fewer companies, and 2+ job seekers for every one",
+    "url": "https://dev.to/arthur_taken/hn-who-is-hiring-in-2026-a-third-fewer-companies-and-2-job-seekers-for-every-one-470f",
+    "url_hash": "637cd1098a9a446a60ead87ab855a469",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "8 Remote SWE Jobs You Can Apply to From Anywhere (Oct 7)",
+    "url": "https://dev.to/crackr/8-remote-swe-jobs-you-can-apply-to-from-anywhere-oct-7-1alj",
+    "url_hash": "201d0a6fb1a028c8bfd49c5c9a77c9ac",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "Advancing computer use with Ironclad",
+    "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+    "url_hash": "93f348179aaed7bd957527bb8fd6b568",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-07T15:37:43.122483+00:00",
+    "title": "How Jump Trading is scaling quant research with ChatGPT",
+    "url": "https://openai.com/index/jump-trading",
+    "url_hash": "b89eed70c4cf774ca0fd1789256e53ad",
+    "source_type": "rss"
   }
 ]
