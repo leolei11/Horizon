@@ -8161,5 +8161,145 @@
     "url": "https://openai.com/index/jump-trading",
     "url_hash": "b89eed70c4cf774ca0fd1789256e53ad",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+    "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+    "url_hash": "c1049ef641c81a60ee0da353ff2c1333",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "GPT‑6 and Intelligent UI for everyone",
+    "url": "https://openai.com/index/gpt-6-for-everyone/",
+    "url_hash": "3775ba35f5d86872ebb27c18f357affa",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "Why Junior Developers Might Know More About AI Than Seniors",
+    "url": "https://realpython.com/junior-developers-ahead-on-ai/",
+    "url_hash": "7af40dfd21523413ddea357990be0456",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "Mistral Large 4",
+    "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+    "url_hash": "1fad06d3b59f96f92308bfa858b29f50",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "Introducing Falcon ASR",
+    "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+    "url_hash": "6b0f9fee5e2b76b09c55c4d2cc7f7797",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+    "url": "https://openai.com/index/radisson",
+    "url_hash": "e0aa27ac242dbd957d733e6f9499800d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+    "url": "https://openai.com/index/atlassian-partnership",
+    "url_hash": "a444153ab109164564421c6965901555",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "The Early Morning Shift: Why 5am Belongs to Agent Workers",
+    "url": "https://dev.to/agenthandsai/the-early-morning-shift-why-5am-belongs-to-agent-workers-2kfc",
+    "url_hash": "e4beab1b9ca5073481aaac230ae3e776",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "Senior Remote SWE Roles Hiring Now - 4 Pay $150k+ (Oct 8)",
+    "url": "https://dev.to/crackr/senior-remote-swe-roles-hiring-now-4-pay-150k-oct-8-3197",
+    "url_hash": "154e76b7a9d9ac571c62301f47e6683d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+    "url": "https://bigwords.page/",
+    "url_hash": "e6d3be84feebeaa9adf85581ef1282e5",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "Quiz: Python, Boto3, and AWS S3: Demystified",
+    "url": "https://realpython.com/quizzes/python-boto3-aws-s3/",
+    "url_hash": "ca0b64b49fd4872ca78d8beff39e4f18",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "Build and Train a 25M Parameter LLM From Scratch on Your CPU",
+    "url": "https://www.freecodecamp.org/news/build-and-train-a-25m-parameter-llm-from-scratch-on-your-cpu/",
+    "url_hash": "020305e436ba6570727c13bab943d59e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "datasette-atom 0.11a0",
+    "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
+    "url_hash": "915cc973b55d3ddc47f08d56462b7b6b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "The 90-day freelance client plan: from zero to a full pipeline",
+    "url": "https://dev.to/chris_ad4e762f2200b40f49a/the-90-day-freelance-client-plan-from-zero-to-a-full-pipeline-10f5",
+    "url_hash": "2a9125e7041c8bc26873fc2d8320feec",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "How I Ship Production Apps Solo as an AI-Native Engineer",
+    "url": "https://dev.to/kstriabintang/how-i-ship-production-apps-solo-as-an-ai-native-engineer-1jcl",
+    "url_hash": "d4b4e18aecc5c5d5e7888aa09a81af07",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "REST API Interview Questions (With Model Answers)",
+    "url": "https://dev.to/peakblick/rest-api-interview-questions-with-model-answers-2alh",
+    "url_hash": "52b1795947e1b49c19ba7e59173a4cf7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "Quoting Ben Affleck",
+    "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
+    "url_hash": "c2506ceb395d33af7bc67b5d8adb6191",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "What Is Meta Muse? A Plain-English Guide to Meta's New AI",
+    "url": "https://realpython.com/what-is-meta-muse/",
+    "url_hash": "4578963c7f5096caa2d681e119e1810f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "The Slow Formation of Durable Software",
+    "url": "https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/",
+    "url_hash": "f50d821c56ee8b54d560725f90ead831",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-08T15:41:00.466498+00:00",
+    "title": "Multimodal open d1 decision models for the edge",
+    "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+    "url_hash": "567ec19b402cbefae0ca1fd55492649f",
+    "source_type": "rss"
   }
 ]
