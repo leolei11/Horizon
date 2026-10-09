@@ -8301,5 +8301,146 @@
     "url": "https://huggingface.co/blog/LiquidAI/open-d1",
     "url_hash": "567ec19b402cbefae0ca1fd55492649f",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Let your AI agents paint big arrows, boxes and text on your screen",
+    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "url_hash": "493e79e028ec891fb3e840534f024b0d",
+    "source_type": "hackernews",
+    "repo": "franzenzenhofer/big-arrow-on-the-screen"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Whistle: Speech to Text in 16.9 MB",
+    "url": "https://cactuscompute.com/blog/whistle",
+    "url_hash": "a1f51c8dbdf89fde092c6e01f22deda1",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "A new feature for my blog, built using my voice",
+    "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+    "url_hash": "2dc7fb34870b8f53a3ccf4b22e7ada39",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+    "url": "https://openai.com/index/oracle",
+    "url_hash": "dfc39b54c1a79f0001a7ddbb81a9256c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "LegalOn halves Codex costs while maintaining development speed",
+    "url": "https://openai.com/index/legalon-halves-codex-costs",
+    "url_hash": "7229588990aebcbae9c5987609980564",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Remote SWE Jobs Paying Up to $250k (Oct 9)",
+    "url": "https://dev.to/crackr/remote-swe-jobs-paying-up-to-250k-oct-9-d78",
+    "url_hash": "20d729200fc35479cfc3869a7af1cddf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Badge or evidence: what a deployed-agent engineer should be able to show",
+    "url": "https://dev.to/ascotlan/badge-or-evidence-what-a-deployed-agent-engineer-should-be-able-to-show-2ha2",
+    "url_hash": "2e211c10367c3ab1e86171c5e24c47f1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Classify Repo Paths Before Your First Agent Prompt",
+    "url": "https://dev.to/gitgo_5662/classify-repo-paths-before-your-first-agent-prompt-20cc",
+    "url_hash": "1b19958f2a8b6783572264653c70942c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Hidden Truncation Cases for a Structured-Output Hiring Packet",
+    "url": "https://dev.to/appjs_3979/hidden-truncation-cases-for-a-structured-output-hiring-packet-3i00",
+    "url_hash": "8038ee760a836e03b4ac4fc0f81df874",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Deno Is Joining Cloudflare",
+    "url": "https://deno.com/blog/cloudflare",
+    "url_hash": "0f28605d366eabcc465e80cf621aad01",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "The Hetzner Cloud network stack – history and technical overview",
+    "url": "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/",
+    "url_hash": "84cf0ee242c920e6954bb5a89bca4a4e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "How Software Boundaries Are The Most Important Skill for Developers",
+    "url": "https://blog.bytebytego.com/p/how-software-boundaries-are-the-most",
+    "url_hash": "1f7e1fa568619ca4b21bb839d276ee72",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Generate Images in Python With OpenAI's GPT Image API",
+    "url": "https://realpython.com/generate-images-openai/",
+    "url_hash": "3c68b25a521af2e78c72737a59390a71",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Modern Web Automation With Python and Selenium",
+    "url": "https://realpython.com/modern-web-automation-with-python-and-selenium/",
+    "url_hash": "4d0f327b7ad037c97bee242c1b265873",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Hugging Face Transformers: Leverage Open-Source AI in Python",
+    "url": "https://realpython.com/huggingface-transformers/",
+    "url_hash": "b29af66ecc2bee73d5c70cae4fdb2fa0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Master Modern React Routing: TanStack Router Crash Course",
+    "url": "https://www.freecodecamp.org/news/master-modern-react-routing-tanstack-router-crash-course/",
+    "url_hash": "61e87db3210c33218dfa7c4901671bed",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "How to Create System Design Diagrams using Python",
+    "url": "https://www.freecodecamp.org/news/how-to-create-system-design-diagrams-using-python/",
+    "url_hash": "2ca47573e1e21c2891951c7f0b28b709",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "ttok 0.4",
+    "url": "https://simonwillison.net/2026/Oct/8/ttok/",
+    "url_hash": "532bbe28aa9cb0598dd9ad7ec0a6437b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "Claude Haiku 5.5",
+    "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+    "url_hash": "2aab1fbe7ad0ae22f1ed6dc14e07925f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-09T15:21:54.696063+00:00",
+    "title": "How I’m Using Google Gemini to Smart-Debug My 3rd-Year AI/ML Code 🚀",
+    "url": "https://dev.to/abhijeet2005/how-im-using-google-gemini-to-smart-debug-my-3rd-year-aiml-code-482d",
+    "url_hash": "fefface28becf44a4afac9184cebb9f4",
+    "source_type": "rss"
   }
 ]
