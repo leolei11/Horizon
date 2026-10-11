@@ -8584,5 +8584,146 @@
     "url": "https://realpython.com/quizzes/get-all-files-in-directory-python/",
     "url_hash": "9112c541acde45f56f979fc58768bec2",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "Wie ich eine KI gebaut habe, die meine Jobsuche übernimmt",
+    "url": "https://dev.to/reaver1000/wie-ich-eine-ki-gebaut-habe-die-meine-jobsuche-ubernimmt-4e6i",
+    "url_hash": "8958c99e46266a5902409f1536c3566e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "Use AI to Edit Your Resume, Not Invent Your Experience",
+    "url": "https://dev.to/miracle_green_4ffe14e2e9b/use-ai-to-edit-your-resume-not-invent-your-experience-4imc",
+    "url_hash": "364de103a9eea89f6b8128e205c0b03f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "How to Write a 30-60-90 Day Plan Your Manager Will Actually Trust",
+    "url": "https://dev.to/jartan/how-to-write-a-30-60-90-day-plan-your-manager-will-actually-trust-fl4",
+    "url_hash": "29e94349af19e5ad0f556245ef756cc3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "One Master, Many Markets: Localization Is a Release Problem Before It Is a Translation Problem",
+    "url": "https://dev.to/easesu/one-master-many-markets-localization-is-a-release-problem-before-it-is-a-translation-problem-212d",
+    "url_hash": "94d9411d8d242f3ae40cd4d9e7d52742",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "Build your own decision model",
+    "url": "https://nishtahir.com/build-your-own-decision-model/",
+    "url_hash": "686e26661461fb777335b84c9df0de0c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "How to Add Structured Data (JSON-LD) to a Next.js Site and Validate It",
+    "url": "https://www.freecodecamp.org/news/nextjs-json-ld-structured-data/",
+    "url_hash": "94460548635511f01cab4b171668a20f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "Python 3.15.0 added to actions/python-versions",
+    "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+    "url_hash": "cee84b23d2f568c7e543e665450cfe0b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "I Built a Free ATS Resume Checker With Zero Budget (And Got It Indexed by Google in a Day)",
+    "url": "https://dev.to/imranstack53/i-built-a-free-ats-resume-checker-with-zero-budget-and-got-it-indexed-by-google-in-a-day-3bbe",
+    "url_hash": "1d93fa349f5115e7355900d8892a8c63",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "I paid people to try and follow my README",
+    "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+    "url_hash": "3b95f3f0116d1d9d1f7a33de5b2f58ef",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "Strangers Hiring Strangers: A 30-Year History of Online Gig Work — and What Changes When the Buyer Is Software",
+    "url": "https://dev.to/agenthandsai/strangers-hiring-strangers-a-30-year-history-of-online-gig-work-and-what-changes-when-the-buyer-13e2",
+    "url_hash": "dda2bd09cb3fc14c5f0e1c85e232a291",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "Python for Loops: The Pythonic Way",
+    "url": "https://realpython.com/python-for-loop/",
+    "url_hash": "55e734f8bfb9a135d995ec0d85478458",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "PSPi 6 – Raspberry Pi in a PSP",
+    "url": "https://github.com/othermod/PSPi-Version-6",
+    "url_hash": "790822c92df6754692ce3965ef4236f0",
+    "source_type": "hackernews",
+    "repo": "othermod/pspi-version-6"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "First-Job Nerves: What Applying to an AI-Posted Gig Actually Feels Like",
+    "url": "https://dev.to/agenthandsai/first-job-nerves-what-applying-to-an-ai-posted-gig-actually-feels-like-2mbl",
+    "url_hash": "657c7a89d40462e44331d3ea30ed7992",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "Namespaces in Python",
+    "url": "https://realpython.com/python-namespace/",
+    "url_hash": "72702857f3d66665605366627699d577",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "LineageOS 24.0",
+    "url": "https://lineageos.org/Changelog-32/",
+    "url_hash": "88e0791d70c4558672c9dfef47547755",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "Impactful scheduling for GPU clusters",
+    "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+    "url_hash": "ebb9e1a46a897c8e54e54dd0725e7e6f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "What Happens to Software Engineering Salaries When Code Gets Cheap?",
+    "url": "https://dev.to/diogodanielsoaresferreira/what-happens-to-software-engineering-salaries-when-code-gets-cheap-40k0",
+    "url_hash": "cb296e179d9f52154527c43d64ed782c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "The tilde in your PATH may not be your HOME",
+    "url": "https://disconnect3d.pl//2026/10/02/dont-put-tilde-in-your-path/",
+    "url_hash": "2b2f6ee14013331ce706bc4ae7cf45c5",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "Functional Programming in Python: When and How to Use It",
+    "url": "https://realpython.com/python-functional-programming/",
+    "url_hash": "fac0a122ac901fb110ac299d64db115a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-11T14:58:17.553423+00:00",
+    "title": "How to Measure Conformance Between an Operational Specification and Its Execution",
+    "url": "https://www.freecodecamp.org/news/measure-conformance-operational-specification-execution/",
+    "url_hash": "05d19beb1f58c3e1b0ceda60631a6ef9",
+    "source_type": "rss"
   }
 ]
