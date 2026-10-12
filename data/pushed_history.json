@@ -8725,5 +8725,148 @@
     "url": "https://www.freecodecamp.org/news/measure-conformance-operational-specification-execution/",
     "url_hash": "05d19beb1f58c3e1b0ceda60631a6ef9",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "Muse Wonder",
+    "url": "https://research.meta.ai/blog/muse-wonder",
+    "url_hash": "64604df83be7d45a52078bb0f2691ecb",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "Type-safe HTML templating in Zig",
+    "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+    "url_hash": "aa6851ed5a0d3b305e75534b12a06e7f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "The gap in shared understanding of LLM capability is widening",
+    "url": "https://twitter.com/karpathy/status/2109361546505966046",
+    "url_hash": "555a2b729c079321162b8aff56bebc0b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "Docling vs LlamaParse: How to Extract PDF Tables in Python",
+    "url": "https://realpython.com/extract-table-from-pdf-python/",
+    "url_hash": "db14ea121e11d90eb95c8d948116ce74",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "Quiz: Continuous Integration With Python: An Introduction",
+    "url": "https://realpython.com/quizzes/python-continuous-integration/",
+    "url_hash": "d03ba65aea890df986c80c3dd57a2116",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "The State of AI and Software Engineering: Code is Cheaper but Expertise are More Valuable [Full Book]",
+    "url": "https://www.freecodecamp.org/news/the-state-of-ai-and-software-engineering-book/",
+    "url_hash": "61d12c738f655394f27a22f2d0bbd25c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "AI Interview Tools: A Practical Guide to Better Interview Preparation",
+    "url": "https://dev.to/ethan_miller_fbe27ce5009b/ai-interview-tools-a-practical-guide-to-better-interview-preparation-6ko",
+    "url_hash": "aa0becfd11c34805499da0a7ab547e5c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "PDF or DOCX for an ATS: Which Should You Send?",
+    "url": "https://dev.to/mshykov/pdf-or-docx-for-an-ats-which-should-you-send-2n9n",
+    "url_hash": "43b0e2ce6f349b898e9ac684c02a471f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "My agents write the code now. So what am I supposed to do?",
+    "url": "https://dev.to/manveer_singh_64078cdb0e/my-agents-write-the-code-now-so-what-am-i-supposed-to-do-50ch",
+    "url_hash": "aa9f3dcd29dd40b3fda4e309b1b8fa23",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "A Modern Web App in C",
+    "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+    "url_hash": "d50867c6acb5ca63d545e6b4fa8fb36b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+    "url": "https://github.com/snuri00/ps2-web-recomp",
+    "url_hash": "3408fcbd1863d9497c19a5affef57576",
+    "source_type": "hackernews",
+    "repo": "snuri00/ps2-web-recomp"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "I Found a $90k Remote Code Execution Vulnerability in Google",
+    "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
+    "url_hash": "0e5af8172dfdcfeac402b81d4ea40898",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "It Started with Fonts: The Nearly Three-Month Road to Selling My Software",
+    "url": "https://dev.to/michael_jordan_87eaf96f24/it-started-with-fonts-the-nearly-three-month-road-to-selling-my-software-48ai",
+    "url_hash": "b954cc968dba919739f13a2b82e14aeb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "ATS Resume Checkers That Do Not Upload Your CV",
+    "url": "https://dev.to/mshykov/ats-resume-checkers-that-do-not-upload-your-cv-218",
+    "url_hash": "b0b590dc9d6952c600e3139610777f9a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "What Is an ATS Score, and What Does It Actually Measure?",
+    "url": "https://dev.to/mshykov/what-is-an-ats-score-and-what-does-it-actually-measure-dhi",
+    "url_hash": "58303fdc5fbf0ff5bde35e2507ceae2b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "Montana Layoffs 2026: WARN Numbers Explained",
+    "url": "https://dev.to/layoffatlas/montana-layoffs-2026-warn-numbers-explained-2kkd",
+    "url_hash": "06a71d4bb8e831d95b1c6ff6d6389a13",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "Capital One Power Day Interview Guide: Case, Technical, and Behavioral Rounds",
+    "url": "https://dev.to/prachub/capital-one-power-day-interview-guide-case-technical-and-behavioral-rounds-13e0",
+    "url_hash": "776a43587ebf165c0a9aee8899a1948d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+    "url": "https://github.com/h0m3us3r/w1700k-sdr",
+    "url_hash": "fce413df3716c650698a78658197f54e",
+    "source_type": "hackernews",
+    "repo": "h0m3us3r/w1700k-sdr"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "Running the unmodified Linux amdgpu driver on an iPad",
+    "url": "https://github.com/Geramy/LemonSeed-Studio",
+    "url_hash": "342fac08f489da2b1d5f2315aaea3eae",
+    "source_type": "hackernews",
+    "repo": "geramy/lemonseed-studio"
+  },
+  {
+    "pushed_at": "2026-10-12T17:59:27.213884+00:00",
+    "title": "How to Build Your First Portfolio Website (Even If You're Not a Designer)",
+    "url": "https://dev.to/adhikareeprayush/how-to-build-your-first-portfolio-website-even-if-youre-not-a-designer-19ho",
+    "url_hash": "e8c5f92555cd2a5c984f811adb027138",
+    "source_type": "rss"
   }
 ]
