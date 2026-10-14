@@ -9009,5 +9009,147 @@
     "url_hash": "23d9079a8f65da12636c0ab315848729",
     "source_type": "hackernews",
     "repo": "rust-lang/rust"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "llm-gemini 0.35",
+    "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+    "url_hash": "9b8fd6ca4946cfba4ae95d6037928c1c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "llm-meta-ai 0.2",
+    "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+    "url_hash": "513f1cd01454c3aab2c37862d93f2c1d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
+    "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+    "url_hash": "53476aa1c345b49d906c653c3c959bc6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+    "url_hash": "aba8264d5bfb8620eb3ecc6de5fe9ac6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "Higgsfield takes AI video from 1 minute to over 10",
+    "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+    "url_hash": "6412315144a18be6609f5776c6f7c208",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "The 75% Code Trap: How Senior Engineers Are Actually Surviving AI Mandates",
+    "url": "https://dev.to/debashish_ghosal/the-75-code-trap-how-senior-engineers-are-actually-surviving-ai-mandates-1ngh",
+    "url_hash": "a7f8cd25b35efb8d7e2aadae64484a53",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "How a match score is worked out on RoleLens, in plain words",
+    "url": "https://dev.to/ppapapetrou76/how-a-match-score-is-worked-out-on-rolelens-in-plain-words-278l",
+    "url_hash": "9c26782c82da86114b763684345b838e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "How to Prepare for the HR Round in a Developer Interview",
+    "url": "https://dev.to/gloud_academy/how-to-prepare-for-the-hr-round-in-a-developer-interview-2p0l",
+    "url_hash": "9034728f63d76fe70b9f5ce6ffeeb812",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "GitHub Trending: morluto/rea (⭐️ 229140)",
+    "url": "https://github.com/morluto/rea",
+    "url_hash": "0135e142dae8043247f7f971630c426d",
+    "source_type": "github",
+    "repo": "morluto/rea"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
+    "url": "https://typeof.net/Iosevka/",
+    "url_hash": "b526fa1f329d0e9a55164e6733c17aa3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+    "url": "https://github.com/timescale/pg_vectorsearch",
+    "url_hash": "0deb2fc30712cb03c0b04fe2bb9888c2",
+    "source_type": "hackernews",
+    "repo": "timescale/pg_vectorsearch"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "How to Keep a File for Minutes, Not Years, on Cloud Run",
+    "url": "https://www.freecodecamp.org/news/how-to-keep-a-file-for-minutes-not-years-on-cloud-run/",
+    "url_hash": "8befbbf7e39c0321de52f52f7ed702e7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "I built an ATS CV checker that never uploads your CV (pdf.js, jszip and a lot of heuristics)",
+    "url": "https://dev.to/marvel_akinwale/i-built-an-ats-cv-checker-that-never-uploads-your-cv-pdfjs-jszip-and-a-lot-of-heuristics-479i",
+    "url_hash": "55076a27d7dcf29ee3892983c5a9ef16",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "AI ROI Calculation: How to Justify an Automation Budget",
+    "url": "https://dev.to/chenwengui23/ai-roi-calculation-how-to-justify-an-automation-budget-3cog",
+    "url_hash": "64918f4184390d8f50935c27750c8825",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "The EU’s next chapter in AI is agentic",
+    "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+    "url_hash": "1ea8ff42a7988fd918493f4a0b1d4a41",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "AI Is Simplifying Modern HR Workflows",
+    "url": "https://dev.to/naveen_pandit_c0b0a15c84c/ai-is-simplifying-modern-hr-workflows-3lf0",
+    "url_hash": "7e55353e7c1dcbd9e1a4aba7457c184c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "The Real Skill Students Needed: Learning How to Work With AI",
+    "url": "https://dev.to/ethan_miller_fbe27ce5009b/the-real-skill-students-needed-learning-how-to-work-with-ai-18ej",
+    "url_hash": "5485de0bd9b80259b0e2f50d6db6dd7a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "Quiz: Python and PyQt: Building a GUI Desktop Calculator",
+    "url": "https://realpython.com/quizzes/python-pyqt-gui-calculator/",
+    "url_hash": "c9a943591c41ce0490ffdc11e37d685e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "Show HN: How random are you?",
+    "url": "https://lab.specr.net/rigged-draw/",
+    "url_hash": "4d96d94f0fb85685e5260a6a38913da4",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-14T13:47:54.014611+00:00",
+    "title": "DevOps with Multi-Cloud Training in KPHB: Tools, Skills, and Practical Learning",
+    "url": "https://dev.to/mounika_madem_68e8a991b0e/devops-with-multi-cloud-training-in-kphb-tools-skills-and-practical-learning-1m6c",
+    "url_hash": "261db97d1466374d912e4790880b22a9",
+    "source_type": "rss"
   }
 ]
