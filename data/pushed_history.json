@@ -9151,5 +9151,146 @@
     "url": "https://dev.to/mounika_madem_68e8a991b0e/devops-with-multi-cloud-training-in-kphb-tools-skills-and-practical-learning-1m6c",
     "url_hash": "261db97d1466374d912e4790880b22a9",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "OpenCode 2.0",
+    "url": "https://anoma.ly/notes/opencode-2-0/",
+    "url_hash": "cc855e7374dded403625b66679465591",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+    "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+    "url_hash": "83d869ed218b7887b06bb91d4c75ccb4",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "How to Give an AI Agent Safe Access to an Internal API with MCP",
+    "url": "https://www.freecodecamp.org/news/how-to-give-ai-agent-safe-access-internal-api-mcp/",
+    "url_hash": "c73eb5da4cf529f0a8770a971b756141",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "How to Stop an AI Agent from Inventing Nigerian Postcodes",
+    "url": "https://www.freecodecamp.org/news/how-to-stop-an-ai-agent-from-inventing-nigerian-postcodes/",
+    "url_hash": "0a0e9bf9a2f291c0059c17508f536348",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "Tree Appreciator",
+    "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+    "url_hash": "d5e206abbff03dc4ed15553b685f8699",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "Amp puts AI agents to work beyond code with OpenAI models",
+    "url": "https://openai.com/index/amp-beyond-coding",
+    "url_hash": "11f72270101b7c04f808498f9315fe5a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "SentinelOne cuts malware analysis from weeks to hours",
+    "url": "https://openai.com/index/sentinelone",
+    "url_hash": "5eaa767107168f588e7859f8e433970f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "The Flu-Season Gig: Wait Times an AI Can't See",
+    "url": "https://dev.to/agenthandsai/the-flu-season-gig-wait-times-an-ai-cant-see-5dko",
+    "url_hash": "5eba9fa45afd7aeb0fa70a4cacd5b7ce",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "The Laundromat Line: Hyperlocal Checks Only Regulars Can Do",
+    "url": "https://dev.to/agenthandsai/the-laundromat-line-hyperlocal-checks-only-regulars-can-do-3n7h",
+    "url_hash": "20b1dbb4f68aa9d09efe8924dafa458d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "The No-Gate Founder: What Happened When I Stopped Approving Marketing Posts",
+    "url": "https://dev.to/agenthandsai/the-no-gate-founder-what-happened-when-i-stopped-approving-marketing-posts-52cj",
+    "url_hash": "7af916acf9317b9bdd4f275f5538bf09",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "Show HN: Flipflop, Iroh-powered persistent tunnels for filesharing",
+    "url": "https://github.com/andunieee/flipflop",
+    "url_hash": "7e9903a8dfe7c5e317fea735bcddc8dc",
+    "source_type": "hackernews",
+    "repo": "andunieee/flipflop"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "Better HTTP/1 connection reuse in Go 1.27",
+    "url": "https://go.dev/blog/http-connection-reuse",
+    "url_hash": "8f4f9a3e82b7a24cc525da67d0215f29",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "Python Project Structure: How to Choose the Right Layout",
+    "url": "https://realpython.com/python-application-layouts/",
+    "url_hash": "22a950e31b2baf5d127f31a27d7c99a9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "Postgres 19 now due November 19",
+    "url": "https://postgresweekly.com/issues/669",
+    "url_hash": "677a62eaef7817393f0978b7308c9051",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "Secure by Design: How to Engineer Security into Architecture Before Writing Any Code",
+    "url": "https://www.freecodecamp.org/news/secure-by-design-engineer-security-into-architecture-before-writing-code/",
+    "url_hash": "699f51c6e783724e24c77ec52d172797",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "How to Build Disaster Simulations on a Real Map: Animated Canvas Layers and Collapsing 3D Buildings with Mapbox GL JS and Three.js",
+    "url": "https://www.freecodecamp.org/news/disaster-simulation-real-map-mapbox-three-js/",
+    "url_hash": "6b35d7f031d3220d1edc43eecea1f70c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "AI is mass decompiling games. That's both awesome and scary.",
+    "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+    "url_hash": "89dafac0f21f00029e074c5736a570cd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "Redesigning source control at Anthropic",
+    "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+    "url_hash": "6f3307680683717088384f5f323c0780",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "Build in Public, Week 10: The Mission to Get an AI Agent on the Platform",
+    "url": "https://dev.to/agenthandsai/build-in-public-week-10-the-mission-to-get-an-ai-agent-on-the-platform-50j0",
+    "url_hash": "19cab918a6757ea3372b37c8ebe5a0d6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-15T13:30:56.199582+00:00",
+    "title": "Hire Crews: The Night a Gig Platform Became a Staffing Company",
+    "url": "https://dev.to/agenthandsai/hire-crews-the-night-a-gig-platform-became-a-staffing-company-120e",
+    "url_hash": "07dd76686602b13a47a29c52f4c07793",
+    "source_type": "rss"
   }
 ]
