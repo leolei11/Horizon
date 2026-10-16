@@ -9292,5 +9292,146 @@
     "url": "https://dev.to/agenthandsai/hire-crews-the-night-a-gig-platform-became-a-staffing-company-120e",
     "url_hash": "07dd76686602b13a47a29c52f4c07793",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Muse Spark Open",
+    "url": "https://research.meta.ai/blog/muse-spark-open",
+    "url_hash": "3b44f1f13adced977362dcdbf6956bef",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Krea 3 – An image model built for editing at scale",
+    "url": "https://www.krea.ai/krea-3",
+    "url_hash": "3133e9315d4af568b80bb98051a85b26",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Chirp Pong",
+    "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+    "url_hash": "8dc845eb53c03702f9e6570c33342598",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+    "url": "https://huggingface.co/blog/reflection-beam",
+    "url_hash": "752ec58d0f63cb7e6b3baa1c21232ccb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+    "url_hash": "fe5649d96d8aa75f9e286d57f09e1e02",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Welcome FLUX.3 Image Klein in Diffusers",
+    "url": "https://huggingface.co/blog/flux-3",
+    "url_hash": "b59b01e3e8a7a36aa64b7a56d157a3a0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "AI Driven Predictive Maintenance for Industry",
+    "url": "https://dev.to/abhilash_abhi_5a1e33390c3/ai-driven-predictive-maintenance-for-industry-31jk",
+    "url_hash": "48e3a8080be0ce397c0c7b681bf7ee8f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "24 ChatGPT Prompts for Freelancers (Fill-in-the-Blank Templates)",
+    "url": "https://dev.to/kitwisestudio/24-chatgpt-prompts-for-freelancers-fill-in-the-blank-templates-205n",
+    "url_hash": "cb31b8ac0b371a991a432f5b7554d838",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "AI CAREER COMPASS",
+    "url": "https://dev.to/john_abhishek_002/ai-career-compass-2eng",
+    "url_hash": "30dd20440327e118977edcd05e251cb4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Any window from your Mac, on your iPhone and iPad",
+    "url": "https://github.com/Saffsanity/sill",
+    "url_hash": "9d4e1669fdee952273a021d461fda746",
+    "source_type": "hackernews",
+    "repo": "saffsanity/sill"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "What I self-host",
+    "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+    "url_hash": "111173dc552a36a16883657fe629a445",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "How to Design for Failures",
+    "url": "https://blog.bytebytego.com/p/how-to-design-for-failures",
+    "url_hash": "b8271c8885e7e907ce86b9419ec3cfd2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Quiz: Profiling in Python: How to Find Performance Bottlenecks",
+    "url": "https://realpython.com/quizzes/python-profiling/",
+    "url_hash": "b7560941637a7d74d64afdf8b54348fc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Learn How to Design Software Systems Like a Senior Engineer in Our New Course",
+    "url": "https://www.freecodecamp.org/news/learn-how-to-design-software-systems-like-a-senior-engineer-in-our-new-course/",
+    "url_hash": "ab3d5c7ca20bd2d4a35d9ee9bf11ce40",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "How to Build Ephemeral PR Preview Environments on GKE with GitHub Actions, Ingress, and Automatic TLS",
+    "url": "https://www.freecodecamp.org/news/build-ephemeral-pr-preview-environments-on-gke-with-github-actions-ingress-automatic-tls/",
+    "url_hash": "32d90c0ecfd06200908a3e50e9956328",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "How to Calculate Your Freelance Rate (Formula + Worked Example)",
+    "url": "https://dev.to/kitwisestudio/how-to-calculate-your-freelance-rate-formula-worked-example-2ga",
+    "url_hash": "d595fd11098279964ac0c3cdcb320207",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Why I Built FreeAICV: Solving Predatory Resume Paywalls & Broken ATS Parsers with Vector PDFs",
+    "url": "https://dev.to/khalidabdullahh/why-i-built-freeaicv-solving-predatory-resume-paywalls-broken-ats-parsers-with-vector-pdfs-ndc",
+    "url_hash": "1e2690fd90fd33ca608cc9a41da3769d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Celebrating 70 Years of Fortran",
+    "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+    "url_hash": "70ce9e38ac89536281ae21282bc9213c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+    "url": "https://openai.com/index/sullivan-cromwell",
+    "url_hash": "8ec6278a3e32fba5516b224fe7f7b10d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-16T13:22:18.991243+00:00",
+    "title": "The Terminator Problem: How Teaching an LLM One Bad Habit Can Change Its Behavior",
+    "url": "https://blog.bytebytego.com/p/the-terminator-problem-how-teaching",
+    "url_hash": "3b3e390cbae2707f974f9e2fac0412df",
+    "source_type": "rss"
   }
 ]
