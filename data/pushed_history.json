@@ -9714,5 +9714,145 @@
     "url": "https://openai.com/index/itau-generative-ai",
     "url_hash": "a6c97cf718be576d869df4edc6f4c3d6",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+    "url": "https://100toolkit.com/blog/deslop-model/",
+    "url_hash": "50fbbb190b13767a49dd1669ae35b6c3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+    "url": "https://arxiv.org/abs/2610.18861",
+    "url_hash": "3e9ec10a9d27e0eebac848098d41667b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+    "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+    "url_hash": "6fe4b72f2328fe48c6b18b29e17c1cb2",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "How to Build a Website User Interface Faster Using AI Prompts",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-website-user-interface-faster-using-ai-prompts/",
+    "url_hash": "f2e802b9fd1fd280230e17f261c44f3b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "llm-echo 0.5",
+    "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+    "url_hash": "f2de23fabb346693b502a5558fb8ca01",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "I built a free-to-copy Google Sheet that tracks every job application from Gmail automatically",
+    "url": "https://dev.to/mowa/i-built-a-free-to-copy-google-sheet-that-tracks-every-job-application-from-gmail-automatically-kpl",
+    "url_hash": "a2b3195e5bb611242a05f3b4b802441c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "AI agent that finds fresh jobs across portals, scored for you",
+    "url": "https://dev.to/insideofcub/ai-agent-that-finds-fresh-jobs-across-portals-scored-for-you-16ic",
+    "url_hash": "09b344eda2e3989a59e26d3e075168ea",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "Who's hiring this week: 3 in 10 new tech jobs are AI roles, but only 1 in 28 is junior (Oct 12-18, 2026)",
+    "url": "https://dev.to/siftwright_data/whos-hiring-this-week-3-in-10-new-tech-jobs-are-ai-roles-but-only-1-in-28-is-junior-oct-12-18-1iff",
+    "url_hash": "3b591080035c55ab6f3d806634ba5796",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "How Uber Built a Genie to Answer Questions Correctly",
+    "url": "https://blog.bytebytego.com/p/how-uber-built-a-genie-to-answer-051",
+    "url_hash": "541a00c9f1671945d8e871b550e3de72",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "Asynchronous Tasks With Django and Celery",
+    "url": "https://realpython.com/asynchronous-tasks-with-django-and-celery/",
+    "url_hash": "f1ad4d1c1f7496d2d8e75d8425fd84fb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "Digging Deeper Into Django Migrations",
+    "url": "https://realpython.com/digging-deeper-into-migrations/",
+    "url_hash": "b35e9a0f4f46574d9cff7a8023ee4006",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "Django Migrations: A Primer",
+    "url": "https://realpython.com/django-migrations-a-primer/",
+    "url_hash": "50e928706be72af6fe8438275814395f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "llm-tools-datasette 0.1.1",
+    "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+    "url_hash": "781a6b1aabf3ea82f969fe95995746e6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "8 Remote SWE Jobs You Can Apply to From Anywhere (Oct 19)",
+    "url": "https://dev.to/crackr/8-remote-swe-jobs-you-can-apply-to-from-anywhere-oct-19-1kgj",
+    "url_hash": "575cd492f18b979c3ad30c47e0c401aa",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "🚨 What breaks when your best engineer leaves? HandoffGraph uses AI and knowledge graphs to uncover hidden dependencies, identify knowledge gaps, and plan smoother handoffs. Because your code should never depend on just one person!",
+    "url": "https://dev.to/komal_deep_355/what-breaks-when-your-best-engineer-leaves-handoffgraph-uses-ai-and-knowledge-graphs-to-uncover-1ggc",
+    "url_hash": "54eea517d01ba737377974d46f80f89d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "The Death of Freelance Platforms: Why Upwork & Fiverr Stocks Are Collapsing in the AI Era",
+    "url": "https://dev.to/naveedkumbhar/the-death-of-freelance-platforms-why-upwork-fiverr-stocks-are-collapsing-in-the-ai-era-5ca6",
+    "url_hash": "9358b0651dc2bdea84a2e2e2ffad0e30",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "Three stories, every interview",
+    "url": "https://dev.to/simali_dud_b97add4154d7a6/three-stories-every-interview-2jc7",
+    "url_hash": "1c0d9620b2380eb61bb1fdbd18ecf4cb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "How to Detect Operational Drift Before It Becomes an Incident",
+    "url": "https://www.freecodecamp.org/news/detect-operational-drift-before-incident/",
+    "url_hash": "0d70664932f2b1ddead246c1a34353a9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "Someone behind the software",
+    "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+    "url_hash": "f83225de960648456ad5efc15fec0806",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-19T15:40:37.523889+00:00",
+    "title": "Timestral: Mistral release time-series foundation models",
+    "url": "https://mistral.ai/news/timestral/",
+    "url_hash": "0df2b2f615d43cdacfa08b855e40f3fb",
+    "source_type": "hackernews"
   }
 ]
