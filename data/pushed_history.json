@@ -9854,5 +9854,148 @@
     "url": "https://mistral.ai/news/timestral/",
     "url_hash": "0df2b2f615d43cdacfa08b855e40f3fb",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "Anthropic's AI Agents Now Outwork Its Staff 6 to 1 — and Junior Remote Hiring Just Fell Off a Cliff",
+    "url": "https://dev.to/meer77/anthropics-ai-agents-now-outwork-its-staff-6-to-1-and-junior-remote-hiring-just-fell-off-a-cliff-456n",
+    "url_hash": "7c2658461c25f58d2357a797f4d1b497",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "How to Build an AI Agent Harness from Scratch in TypeScript",
+    "url": "https://www.freecodecamp.org/news/how-to-build-an-ai-agent-harness-from-scratch-in-typescript/",
+    "url_hash": "9a26d48f20340870e46760b66a0e1d12",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "How to Make Your Coding Agent Check Its Work in the Browser",
+    "url": "https://www.freecodecamp.org/news/how-to-make-your-coding-agent-check-its-work-in-the-browser/",
+    "url_hash": "fd06c68da3793293f66a16f77c18e813",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "Quiz: Building an AI Agent With LangGraph and Python",
+    "url": "https://realpython.com/quizzes/building-ai-agent-langgraph-python/",
+    "url_hash": "308995ffa38690f2509362deaae218fb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+    "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+    "url_hash": "ea9577625604d45f0f5bb3dc74cb21bc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "Advancing coding in low‑resource programming languages",
+    "url": "https://openai.com/index/low-resource-programming-languages",
+    "url_hash": "8dad8d5fd5f8d003dc330b73e1b83243",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "AI Engineer vs ML Engineer vs Forward-Deployed Engineer: What Does Each Role Actually Build?",
+    "url": "https://dev.to/unl_solutions/ai-engineer-vs-ml-engineer-vs-forward-deployed-engineer-what-does-each-role-actually-build-5a4j",
+    "url_hash": "388450cb61996eb478e968cf63e76abe",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+    "url": "https://huggingface.co/blog/hf-torchneuron",
+    "url_hash": "9fba733ce125d2bee41063b877451d7b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "Quiz: Tell Your Tech Career Story: Know Your Story",
+    "url": "https://realpython.com/quizzes/tell-your-tech-career-story-know-your-story/",
+    "url_hash": "371dca00519db46ac4480288402b7b50",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+    "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+    "url_hash": "69dc7167d781c8874ddbbd96adf34868",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "DeepSeek just open-sourced its inference engine",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "url_hash": "e793423216723e8dcdf680b998ee640e",
+    "source_type": "hackernews",
+    "repo": "deepseek-ai/deepinfer"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "How to Build and Publish a Native Android App in 2026: From Jetpack Compose to the Google Play Store",
+    "url": "https://www.freecodecamp.org/news/build-publish-native-android-app-from-jetpack-compose-to-google-play-store-handbook/",
+    "url_hash": "3939318b15617e90bcd165b03e94a7f5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "MPS in PyTorch 2.15",
+    "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+    "url_hash": "2e40320aeb5e29e969bbcf57d24ad552",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+    "url": "https://github.com/microg/GmsCore/wiki",
+    "url_hash": "c00e861559baae9c69c2c4d2797ade87",
+    "source_type": "hackernews",
+    "repo": "microg/gmscore"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "How to Round Numbers in Python",
+    "url": "https://realpython.com/python-rounding/",
+    "url_hash": "5b36bf20e7e573bddd0d4319ca876a19",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "Nordwand Mono – A monospace font for coders and adventurers",
+    "url": "https://github.com/tywr/Nordwand-Mono",
+    "url_hash": "2ca5ff97f5136f02bd18b4332d85e4ac",
+    "source_type": "hackernews",
+    "repo": "tywr/nordwand-mono"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "I shipped a system solo! Can I ship 5?",
+    "url": "https://dev.to/vanillapm/i-shipped-a-system-solo-can-i-ship-5-1pok",
+    "url_hash": "a6790228e3e3260a5ef5dc6da17d2195",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "How to download all Platsbanken job ads for a Swedish city to Excel",
+    "url": "https://dev.to/kadi_bence/how-to-download-all-platsbanken-job-ads-for-a-swedish-city-to-excel-1ded",
+    "url_hash": "db7949d3267e46d2e0ef9884a42db8ed",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "My obituary for programming",
+    "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+    "url_hash": "4e8c0dbb228c743141fe0db31339397b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-20T13:38:59.101667+00:00",
+    "title": "How I landed a dev job with no degree",
+    "url": "https://dev.to/infoinlet1/how-i-landed-a-dev-job-with-no-degree-4b74",
+    "url_hash": "19795d7432f05e25c92a17a1bb9d7edb",
+    "source_type": "rss"
   }
 ]
