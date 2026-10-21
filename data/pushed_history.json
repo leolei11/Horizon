@@ -9997,5 +9997,147 @@
     "url": "https://dev.to/infoinlet1/how-i-landed-a-dev-job-with-no-degree-4b74",
     "url_hash": "19795d7432f05e25c92a17a1bb9d7edb",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Voxtral 3",
+    "url": "https://mistral.ai/news/voxtral-3/",
+    "url_hash": "8b3184ad3546a6295e2fb56bb5762a4c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Building an AI Agent With LangGraph and Python",
+    "url": "https://realpython.com/courses/building-ai-agent-langgraph-python/",
+    "url_hash": "4c003cb7b24f4bf2f69103ab1800312e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+    "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+    "url_hash": "0ee3d2bcbaf7daaaf3956af46ad673b7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+    "url_hash": "8f295aae143e6d20a6b46894acc65951",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "OpenAI models are coming to Google Cloud",
+    "url": "https://openai.com/index/openai-models-google-cloud",
+    "url_hash": "707234813354f93d78c5cbc30e4601ee",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "The Ethics of AI in Hiring: Keeping Bias Out of Automated Interviews",
+    "url": "https://dev.to/ashkan/the-ethics-of-ai-in-hiring-keeping-bias-out-of-automated-interviews-5b4k",
+    "url_hash": "70851cfff36bfa738684a427c025ac17",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Advice for Young Pakistani Creators: What I'd Tell Anyone Starting at Zero",
+    "url": "https://dev.to/samiullah_official/advice-for-young-pakistani-creators-what-id-tell-anyone-starting-at-zero-4fi2",
+    "url_hash": "c32d6e5a6f211aa0a68770c4223b0c52",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Letter Moth vs Lavender: Cold Email Tools Compared",
+    "url": "https://dev.to/vishalmauryadev/letter-moth-vs-lavender-cold-email-tools-compared-4gg7",
+    "url_hash": "795efaf9e36cd5c641d9950b21f95c40",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Letter Moth vs ChatGPT for LinkedIn Messages: Which Fits?",
+    "url": "https://dev.to/vishalmauryadev/letter-moth-vs-chatgpt-for-linkedin-messages-which-fits-345d",
+    "url_hash": "33717d6238e581a2daf021e3e04f4254",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Muse exposes users' personal and business secrets when they share conversations",
+    "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "url_hash": "05e54c16dc300338045ccf8b3c8eea05",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "The Future of CSS",
+    "url": "https://www.joshwcomeau.com/css/interop-2027/",
+    "url_hash": "7e7b143a587f503a35f16f990fa7360a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+    "url": "https://github.com/google-pytorch/torch_tpu",
+    "url_hash": "d3ee06814378730b24f9ce0d9f48468e",
+    "source_type": "hackernews",
+    "repo": "google-pytorch/torch_tpu"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Why Shopify Migrated From React Native",
+    "url": "https://blog.bytebytego.com/p/why-shopify-migrated-from-react-native",
+    "url_hash": "bfce93db98f9d7eed9795baa4094ced3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Postgres 19 RC1 and what to test now",
+    "url": "https://postgresweekly.com/issues/670",
+    "url_hash": "eeca70f3a10a5746c76b430210141c66",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Build a Hybrid Search Engine in PostgreSQL: BM25 + Vector Retrieval",
+    "url": "https://www.freecodecamp.org/news/build-a-hybrid-search-engine-in-postgresql-bm25-vector-retrieval/",
+    "url_hash": "3fd4388a089337de2f0300cbfb40d57c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "From a Random Wheel to Reaction Time Tests: How I Ended Up Building Two Small Websites",
+    "url": "https://dev.to/myfunny/from-a-random-wheel-to-reaction-time-tests-how-i-ended-up-building-two-small-websites-ai9",
+    "url_hash": "d28ced4bad368da2df4f77ddb3513d52",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "C# now beats Rust on WASM size",
+    "url": "https://github.com/zion-sati/NetWasm",
+    "url_hash": "8786e221ab92075a33ec1dea0ab90bad",
+    "source_type": "hackernews",
+    "repo": "zion-sati/netwasm"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Quiz: Python Performance Optimization: A Practical Guide",
+    "url": "https://realpython.com/quizzes/python-performance-optimization-guide/",
+    "url_hash": "47896bb93c5633bca56b9da6a71ceae6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+    "url": "https://huggingface.co/blog/hf-torchtpu",
+    "url_hash": "7c77a58ac56bd9a6e5487be4f3aab78b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-21T13:53:45.258829+00:00",
+    "title": "Quiz: Tell Your Tech Career Story: Get Noticed",
+    "url": "https://realpython.com/quizzes/tell-your-tech-career-story-get-noticed/",
+    "url_hash": "82fe458b4c88eedc7f80caded89c11b2",
+    "source_type": "rss"
   }
 ]
