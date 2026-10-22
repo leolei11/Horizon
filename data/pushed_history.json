@@ -10139,5 +10139,146 @@
     "url": "https://realpython.com/quizzes/tell-your-tech-career-story-get-noticed/",
     "url_hash": "82fe458b4c88eedc7f80caded89c11b2",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+    "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+    "url_hash": "6a74e07ce625ffc9ae36c8d78461eb53",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "OpenAI CLI",
+    "url": "https://github.com/openai/openai-cli",
+    "url_hash": "8475100a63f3aef0e7b8c288d6e0330d",
+    "source_type": "hackernews",
+    "repo": "openai/openai-cli"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "What Is Model Distillation? A Guide for Developers",
+    "url": "https://www.freecodecamp.org/news/what-is-model-distillation-a-guide-for-developers/",
+    "url_hash": "7a1645ce461b675e3072a88fd23925f8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+    "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+    "url_hash": "47ba5de6cc8455014d0c0d80ea3d2acf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+    "url": "https://openai.com/index/cloudflare-cyber",
+    "url_hash": "fa5b0957b5228e28bf7d569fd1b57063",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+    "url": "https://openai.com/index/building-chatgpt-ad-stack",
+    "url_hash": "3dac179b5263050e9bcf5330f2b7fe73",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Tell Your Tech Career Story: Proof, Résumés, and Interviews",
+    "url": "https://realpython.com/courses/tell-your-tech-career-story/",
+    "url_hash": "c72561f0387d09ebf0ce92b39517b39e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Your AI-Built Portfolio Has a Problem: You Still Have to Explain It",
+    "url": "https://dev.to/__be2942592/your-ai-built-portfolio-has-a-problem-you-still-have-to-explain-it-5n",
+    "url_hash": "785bbbed058d0a6cd1112db5ffb69559",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Rust Style Guide",
+    "url": "https://google.github.io/styleguide/rustguide.html",
+    "url_hash": "e5e6476c84c300c65ad536099047bb3a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
+    "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
+    "url_hash": "06a0cbb569725f33ece3279b877fdf87",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Security Disclosure",
+    "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+    "url_hash": "94310e7629d639b66f9bc7c700069a6c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+    "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+    "url_hash": "85631b77f1cc830fd5f52b017d712b3a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "LLM Prompt Caching Versus Semantic Caching",
+    "url": "https://blog.bytebytego.com/p/llm-prompt-caching-versus-semantic",
+    "url_hash": "2918028022f17e01e3e5ebfd6dc224b4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Python Performance Optimization: A Practical Guide",
+    "url": "https://realpython.com/python-performance-optimization-guide/",
+    "url_hash": "5222fc060d5dce4d0a85fadbd9a21dd7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+    "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+    "url_hash": "4f7206ef9dba299e295c3ad3fbbde258",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Panache — RTS Belle Époque pour mobile",
+    "url": "https://simonwillison.net/2026/Oct/21/panache/",
+    "url_hash": "0784ab0dc11f29b6ed89bb69fb1cb2ef",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+    "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+    "url_hash": "dfa0dc4cfde26c41c5624ca4e26a87e3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "GitLab critical patch release",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+    "url_hash": "9cfa4dffa824ffddd0931178fbda5d6f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Using LLM for confidence scoring is a bad idea",
+    "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+    "url_hash": "5120371dac370a71558f0ef0452de75b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-22T14:04:47.921135+00:00",
+    "title": "Claude Duet",
+    "url": "https://claude.com/product/claude-duet",
+    "url_hash": "0fd02e34b95b1f25d10f7f86de629990",
+    "source_type": "hackernews"
   }
 ]
