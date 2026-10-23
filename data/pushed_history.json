@@ -10280,5 +10280,146 @@
     "url": "https://claude.com/product/claude-duet",
     "url_hash": "0fd02e34b95b1f25d10f7f86de629990",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Learn Model Context Protocol (MCP) Security",
+    "url": "https://www.freecodecamp.org/news/learn-model-context-protocol-mcp-security/",
+    "url_hash": "c61ad8684321600f2b6104d4ea3975d9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Donating Agent Skills to the Agentic AI Foundation",
+    "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+    "url_hash": "b256358df6b7562b5723974c4951f82b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+    "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+    "url_hash": "2ff716135a10f11153bb9ed3e275576b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+    "url_hash": "08a293d0b0e375dab40e67e544805efc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Build more responsive apps with the Decisions API",
+    "url": "https://openai.com/index/decisions-api",
+    "url_hash": "139683c4cb22904f5314a5e0312abd7d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Best AI Interviewer: Meet Tanu by Mindfries, the AI Technical Interview Platform",
+    "url": "https://dev.to/chandan_giri_8c348356211a/best-ai-interviewer-meet-tanu-by-mindfries-the-ai-technical-interview-platform-4k4p",
+    "url_hash": "6c3e1b35140e886e3531aebda01b58b7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "What Is a Forward Deployed Engineer (FDE)? Origins, Business Models, and How AI Labs and Japanese IT Firms Are Using It",
+    "url": "https://dev.to/moruku36/what-is-a-forward-deployed-engineer-fde-origins-business-models-and-how-ai-labs-and-japanese-eli",
+    "url_hash": "c709b0eb04b3178ce02826ce18deb30b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "url_hash": "992c39912e4db5a205b03f7f72baa413",
+    "source_type": "hackernews",
+    "repo": "nvidia/openshell"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Python and REST APIs: Interacting With Web Services",
+    "url": "https://realpython.com/api-integration-in-python/",
+    "url_hash": "bee89fedd050a7f8333270044a47ec5f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "DE STAAT - FREEDOM (Official Music Video)",
+    "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+    "url_hash": "001209e422e55452d8c623a33f657e9d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "The HTML-in-Canvas API origin trial",
+    "url": "https://developer.chrome.com/blog/html-in-canvas-origin-trial",
+    "url_hash": "285695f63f0ef8c57b5710ee31795f5d",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Quiz: Using Pydantic to Simplify Python Data Validation",
+    "url": "https://realpython.com/quizzes/python-pydantic-video/",
+    "url_hash": "44bb8601e2ab7d2fa36e98e72df17183",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Speed Up Your Python Program With Concurrency",
+    "url": "https://realpython.com/python-concurrency/",
+    "url_hash": "6f5479c66998d1f149ad8cd3d8287ae3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Supply Chain Security for the Age of AI-Speed Exploits",
+    "url": "https://realpython.com/python-supply-chain-security/",
+    "url_hash": "474cfdb216745c10bb7fed35fa81aef6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Python itertools By Example",
+    "url": "https://realpython.com/python-itertools/",
+    "url_hash": "aa526cf5f9acccfeb5fa5946e7d81747",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "How to Diagnose vite: not found After npm ci in a Container Build",
+    "url": "https://www.freecodecamp.org/news/diagnose-vite-not-found-npm-ci-container-build/",
+    "url_hash": "abfd83117bd8e9419a94f5c643f23e66",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Stop Building Full-Stack Projects Just for Your Resume in 2026",
+    "url": "https://dev.to/sam000/stop-building-full-stack-projects-just-for-your-resume-in-2026-18b4",
+    "url_hash": "a63a6c33c80f8db9e4b32e5a1d890904",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "The alien space of science: Coherent but cognitively unavailable directions",
+    "url": "https://arxiv.org/abs/2603.01092",
+    "url_hash": "bec22a380a44099afe2043b4b1922181",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "Why Distributed Systems Prefer Independence over Coordination",
+    "url": "https://blog.bytebytego.com/p/why-distributed-systems-prefer-independence",
+    "url_hash": "c527a23e1d7e7b06a424edead3458f9d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-23T13:32:52.068516+00:00",
+    "title": "What I Learned From Building Small Projects Instead of Waiting for the Perfect Idea",
+    "url": "https://dev.to/sam000/what-i-learned-from-building-small-projects-instead-of-waiting-for-the-perfect-idea-433n",
+    "url_hash": "445b05dc61e0a05524046b280a3464a9",
+    "source_type": "rss"
   }
 ]
