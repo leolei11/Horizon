@@ -10421,5 +10421,146 @@
     "url": "https://dev.to/sam000/what-i-learned-from-building-small-projects-instead-of-waiting-for-the-perfect-idea-433n",
     "url_hash": "445b05dc61e0a05524046b280a3464a9",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Dessa: Conversation Model trained only on speech",
+    "url": "https://block.xyz/dessa",
+    "url_hash": "c2ab07b998dc1bb4a006a0c972c95ac1",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Quick Study",
+    "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+    "url_hash": "a512267babbd67d31e19fd6e0ef3e747",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Introducing Kimi K3.1 Pro",
+    "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+    "url_hash": "117b1db4840e55f61e2489f404fe599b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "How to Track Job Applications: A Simple System That Works",
+    "url": "https://dev.to/muhammadalimughal/how-to-track-job-applications-a-simple-system-that-works-12oc",
+    "url_hash": "808f67081c9dfeb0b0d7f034a66527b9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Twelve years of distributed SQLite",
+    "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+    "url_hash": "0c55dd73ddac41079d77c2d9ca7e7692",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Get Started With Django: Build a Portfolio App",
+    "url": "https://realpython.com/get-started-with-django-1/",
+    "url_hash": "f7b186a509d52e7b48d4b3911a74d5bd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Building Serverless Python Apps Using AWS Chalice",
+    "url": "https://realpython.com/aws-chalice-serverless-python/",
+    "url_hash": "8fd91d963dada0a9c3b161be5581ea18",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Python's F-String for String Interpolation and Formatting",
+    "url": "https://realpython.com/python-f-strings/",
+    "url_hash": "480205662cfa9cf86276e752c89be512",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "What Is the Python Global Interpreter Lock (GIL)?",
+    "url": "https://realpython.com/python-gil/",
+    "url_hash": "f1659b3313be36f99c881b18901d9926",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Sending Emails With Python",
+    "url": "https://realpython.com/python-send-email/",
+    "url_hash": "30b57b3b4f1b8b18b7beb7ed71bbca51",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+    "url_hash": "5a60bcdb05ed68d5699d940f3c4df63c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "5 Copy-Paste Email Scripts to Stop Scope Creep Without Losing the Client",
+    "url": "https://dev.to/kovrastudio/5-copy-paste-email-scripts-to-stop-scope-creep-without-losing-the-client-3ico",
+    "url_hash": "b80cd7656be94aff1733141916e605fb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "OBS Studio 33",
+    "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+    "url_hash": "ad5fba539c6396eca0107104cc2bdc3a",
+    "source_type": "hackernews",
+    "repo": "obsproject/obs-studio"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Laravel Interview Questions With Answers From Real Projects",
+    "url": "https://dev.to/muhammadalimughal/laravel-interview-questions-with-answers-from-real-projects-5f7d",
+    "url_hash": "62a81a569570b9acd12a06363e636bb6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Python's property(): Add Managed Attributes to Your Classes",
+    "url": "https://realpython.com/python-property/",
+    "url_hash": "ffccfa3dcb5a37a01cee4eaf5753ad2d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Python Metaclasses",
+    "url": "https://realpython.com/python-metaclasses/",
+    "url_hash": "37796fc3398a6f48c201418acad7dd7a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "The Real Python Podcast – Episode #316: The Future of Python Security: Trends, Challenges, and Solutions",
+    "url": "https://realpython.com/podcasts/rpp/316/",
+    "url_hash": "7afe8d091e9b10b6221d6a92c31d9316",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "A Python AI Tool Was Just Booby-Trapped With Key-Stealing Malware",
+    "url": "https://realpython.com/ai-news-weekly-2026-10-23/",
+    "url_hash": "f2457a1e425835199716c77608b47203",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Today, we hacked what we'd set out to hack: the iPhone",
+    "url": "https://blog.calif.io/p/iphone",
+    "url_hash": "dbdbac025e7af74d10950f8e253c848c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-24T12:45:32.215586+00:00",
+    "title": "Top 13 Platforms for Buying Aged Gmail Accounts Safely",
+    "url": "https://dev.to/usasvcit54ref/top-13-platforms-for-buying-aged-gmail-accounts-safely-4m4o",
+    "url_hash": "b047634fd036644b12d246ea1f010a9c",
+    "source_type": "rss"
   }
 ]
