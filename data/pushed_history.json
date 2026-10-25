@@ -10562,5 +10562,146 @@
     "url": "https://dev.to/usasvcit54ref/top-13-platforms-for-buying-aged-gmail-accounts-safely-4m4o",
     "url_hash": "b047634fd036644b12d246ea1f010a9c",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "EP230: RAG vs Agentic RAG",
+    "url": "https://blog.bytebytego.com/p/ep230-rag-vs-agentic-rag",
+    "url_hash": "512cadc02d2831e819b5f9e133a6624a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "Devs Learning With AI Scored 17 Points Lower in Anthropic's Trial. Juniors Code Solo First",
+    "url": "https://dev.to/gabrielanhaia/devs-learning-with-ai-scored-17-points-lower-in-anthropics-trial-juniors-code-solo-first-o66",
+    "url_hash": "55aaccc9b57d5bb79ee7c2414a5680ff",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "You cannot review what you never struggled with",
+    "url": "https://dev.to/kayashaolu/you-cannot-review-what-you-never-struggled-with-4gh2",
+    "url_hash": "77da8309eec2c82aa92c5866b4456fbd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "How old are open job postings? A third of tech jobs were first posted 90+ days ago (one in 2019)",
+    "url": "https://dev.to/fast_data_asap/how-old-are-open-job-postings-a-third-of-tech-jobs-were-first-posted-90-days-ago-one-in-2019-4pmc",
+    "url_hash": "2bf7bafa92498c2ba39077390736a2ab",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "The Goose Programming Language",
+    "url": "https://aardappel.github.io/goose/",
+    "url_hash": "85e58fd636ddf1f0319ab7aa36aa90f0",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+    "url": "https://github.com/Zagitta/gpu-unlock",
+    "url_hash": "b48c7aa3dc7476de7c11ff49bf2e3a43",
+    "source_type": "hackernews",
+    "repo": "zagitta/gpu-unlock"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "Quiz: Build a URL Shortener With FastAPI and Python",
+    "url": "https://realpython.com/quizzes/build-a-python-url-shortener-with-fastapi/",
+    "url_hash": "b446c8bfd43175fcbae4adfe9723a76c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "Three Ways of Storing and Accessing Lots of Images in Python",
+    "url": "https://realpython.com/storing-images-in-python/",
+    "url_hash": "4cb615744ddd6b6e89c9d987bf6eb8b3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "Python's asyncio: A Hands-On Walkthrough",
+    "url": "https://realpython.com/async-io-python/",
+    "url_hash": "b0ccf106e044db69c0d55f3c2a255d40",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "battledrones v14: Compass Rose, a four player map",
+    "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+    "url_hash": "23a346bd75b741cb6c2df63fba4caebc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "How I stopped doing 45-minute \"pick your brain\" Zoom calls and switched to 3-tier async proposals (Free Generator)",
+    "url": "https://dev.to/kovrastudio/how-i-stopped-doing-45-minute-pick-your-brain-zoom-calls-and-switched-to-3-tier-async-proposals-236",
+    "url_hash": "d362fb1481c4aa6e30d0663cfaaefc10",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "An Intro to Threading in Python",
+    "url": "https://realpython.com/intro-to-python-threading/",
+    "url_hash": "f181bf363e03c2db6cd43e6b4282b682",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "A Guide to Modern Python String Formatting Tools",
+    "url": "https://realpython.com/python-formatted-output/",
+    "url_hash": "ab267f079cd96c49c3a9a0ad02fe6436",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "Working With JSON Data in Python",
+    "url": "https://realpython.com/python-json/",
+    "url_hash": "baf8223aa71f5456a9f2f83f5400064a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "Quiz: Python Threading",
+    "url": "https://realpython.com/quizzes/python-threading/",
+    "url_hash": "c83e7a58423bfa5933e71ee31f6c7b10",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+    "url": "https://huggingface.co/blog/allenai/litpivot",
+    "url_hash": "c8f212640f722e479863ee42b2c18525",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "What 3Blue1Brown’s case for math teaches software engineers in the age of AI",
+    "url": "https://dev.to/dks/what-3blue1browns-case-for-math-teaches-software-engineers-in-the-age-of-ai-3gn2",
+    "url_hash": "432b3495afb86934d740c9096e3f9187",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "18 Lessons on Entrepreneurship I Learned Before Turning 18",
+    "url": "https://dev.to/sagarithm/18-lessons-on-entrepreneurship-i-learned-before-turning-18-40d6",
+    "url_hash": "a939ad749f9e3e55b387d7c4b6195328",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "Python String Formatting: Available Tools and Their Features",
+    "url": "https://realpython.com/python-string-formatting/",
+    "url_hash": "979d70b3648f4d79f3d4a9cefc947fef",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-25T13:15:46.285300+00:00",
+    "title": "Quiz: Python Debugging With Pdb",
+    "url": "https://realpython.com/quizzes/python-debugging-pdb/",
+    "url_hash": "8a8c88164066303377a33965e240b9fb",
+    "source_type": "rss"
   }
 ]
