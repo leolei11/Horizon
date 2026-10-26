@@ -10703,5 +10703,146 @@
     "url": "https://realpython.com/quizzes/python-debugging-pdb/",
     "url_hash": "8a8c88164066303377a33965e240b9fb",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Fixing Tool-Call Accuracy in vLLM",
+    "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+    "url_hash": "5e9bf117042d08aa5cea10ad11356c02",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Senior Remote SWE Roles Hiring Now - 6 Pay $150k+ (Oct 26)",
+    "url": "https://dev.to/crackr/senior-remote-swe-roles-hiring-now-6-pay-150k-oct-26-cbn",
+    "url_hash": "cd1ea0e2a29972114ef545fe49bbcedc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Video Object Schema in 10 Minutes (Copy-Paste Included)",
+    "url": "https://dev.to/title-productions/video-object-schema-in-10-minutes-copy-paste-included-h5o",
+    "url_hash": "a0aa580375e118ca15efdc5463f33c5a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Rejected again? How to get a real reason and fix the resume",
+    "url": "https://dev.to/mitulgelani/rejected-again-how-to-get-a-real-reason-and-fix-the-resume-2d58",
+    "url_hash": "ff458f6674afa52385c2718818656847",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "7 EDGE CASES NÊN KIỂM TRA TRƯỚC KHI KẾT THÚC CODING INTERVIEW",
+    "url": "https://dev.to/thinnguyenqb/7-edge-cases-nen-kiem-tra-truoc-khi-ket-thuc-coding-interview-4kfg",
+    "url_hash": "65699eecc7fa486df43c1b95ea782b88",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Who's hiring this week: one company posted the same AI job 245 times, and only 1 in 21 tech jobs is junior (Oct 19-25, 2026)",
+    "url": "https://dev.to/siftwright_data/whos-hiring-this-week-one-company-posted-the-same-ai-job-245-times-and-only-1-in-21-tech-jobs-is-27m0",
+    "url_hash": "dd95ab8fdb42fa43234191c7c5af9007",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Show HN: TitleArt – Make text like it's 1997",
+    "url": "https://titleart.dvy.io/",
+    "url_hash": "ef704f8a702e87f30236601daf42191f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Create a Flask Application With Google Login",
+    "url": "https://realpython.com/flask-google-login/",
+    "url_hash": "c3498808d4e0f38a52864b670a824c3d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+    "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+    "url_hash": "1a4ef7905b099ee1daeb4832c4e778b5",
+    "source_type": "hackernews",
+    "repo": "krushnavardhanreddy/paperpilot"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Python Protocols: Leveraging Structural Subtyping",
+    "url": "https://realpython.com/python-protocol/",
+    "url_hash": "0081524220cec14c1f8c6d60fe3e6004",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "ChromaDB: Embeddings and Vector Databases in Python",
+    "url": "https://realpython.com/chromadb-vector-database/",
+    "url_hash": "51a5d5950fdb06b08475d8e53cfc962a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Managing Python Projects With uv: An All-in-One Solution",
+    "url": "https://realpython.com/python-uv/",
+    "url_hash": "cfd9c0c27f539afec2d9ed3c67b279fc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Python REST APIs With Flask, Connexion, and SQLAlchemy – Part 1",
+    "url": "https://realpython.com/flask-connexion-rest-api/",
+    "url_hash": "d5db4c2d230faa9f819b4c0c7b12f230",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Seam Cutter",
+    "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+    "url_hash": "f439142049b9e730bcf6535beb177310",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "How I ranked GitHub developers with one score (and what the math taught me)",
+    "url": "https://dev.to/automatethebs/how-i-ranked-github-developers-with-one-score-and-what-the-math-taught-me-329h",
+    "url_hash": "ffb535a27bfcf236d25a869d471a1ec5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Git hooks in a zip: the attack that never touches npm install",
+    "url": "https://dev.to/cryptostrapon/your-take-home-repo-can-attack-you-without-npm-install-2495",
+    "url_hash": "5d652df1ff1e7633119b06501a18a542",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "The Client Project Handover Checklist: 9 Things to Set Up on Day One",
+    "url": "https://dev.to/siddhantwebshark/the-client-project-handover-checklist-9-things-to-set-up-on-day-one-npm",
+    "url_hash": "c14efe8d7a1033cb3ae0672c8d3e1623",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "A Practical Introduction to Web Scraping in Python",
+    "url": "https://realpython.com/python-web-scraping-practical-introduction/",
+    "url_hash": "715bfad3f4c12aedacaf94844fb1fd50",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Where to Find Tech Internships This Summer (Oct 26)",
+    "url": "https://dev.to/crackr/where-to-find-tech-internships-this-summer-oct-26-33e6",
+    "url_hash": "c1d13a2f919835e0fc0617bfa2797ca4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-26T15:22:27.987880+00:00",
+    "title": "Single and Double Underscores in Python Names",
+    "url": "https://realpython.com/python-double-underscore/",
+    "url_hash": "830832184123c7b18bf1679c891eaaba",
+    "source_type": "rss"
   }
 ]
