@@ -10844,5 +10844,146 @@
     "url": "https://realpython.com/python-double-underscore/",
     "url_hash": "830832184123c7b18bf1679c891eaaba",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+    "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+    "url_hash": "e68297856eabe218b9e8fe4150985802",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "A Deep Dive into Salesforce’s Agent Tech Stack",
+    "url": "https://blog.bytebytego.com/p/a-deep-dive-into-salesforces-agent",
+    "url_hash": "1eddd39aee827e514a10244470f2bcd8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "MCP vs API Calls: Which Should You Use for Python LLM Apps?",
+    "url": "https://realpython.com/mcp-vs-api/",
+    "url_hash": "eb7056d22c70189c4f94872d3144e37a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "Quiz: Exploring AI Coding Agent Workflows",
+    "url": "https://realpython.com/quizzes/exploring-ai-coding-agent-workflows/",
+    "url_hash": "d79182f052df74be11f4d6acb84979d2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "AI for Beginners: Use Agents With Confidence",
+    "url": "https://realpython.com/courses/ai-agents-101/",
+    "url_hash": "9b33583b98d92b2e478a10f170f69a4f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "GPT-6.1 Terra",
+    "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+    "url_hash": "090215672e0d52bb52354d98f1b4b70e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+    "url": "https://openai.com/index/openai-cut-incident-investigation",
+    "url_hash": "25e1b98740f4cadb1fb7c024f6f492ac",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "How ATS Search Matches Your Resume Job Titles",
+    "url": "https://dev.to/muhammadalimughal/how-ats-search-matches-your-resume-job-titles-32ae",
+    "url_hash": "ed612a73c92b1996afe94df396fbd828",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "Type Server Protocol",
+    "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+    "url_hash": "d23b91ea5205b2148bc02f3ac5fce7e3",
+    "source_type": "hackernews",
+    "repo": "microsoft/pylance-release"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "Writing about pratt parsing so I remember it",
+    "url": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
+    "url_hash": "c116a6cd58fe33ec40347dedc5e334d6",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "Python Circular Imports: Why They Happen and How to Fix Them",
+    "url": "https://realpython.com/python-circular-imports/",
+    "url_hash": "cd73d4db6ee67244d415537686f2f5ef",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "Pyrefly: A Fast Static Type Checker for Python Projects",
+    "url": "https://realpython.com/pyrefly-python/",
+    "url_hash": "30e1b6b043ccc004ab51e7690676c198",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "webframe: evaluated as a scraper and a sandbox",
+    "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+    "url_hash": "f73c60089ed55d3d7140217f07723900",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "The Ledger Take-Home: An Interview Task That Grades Token Accounting, Not the Chatbot",
+    "url": "https://dev.to/appjs_3979/the-ledger-take-home-an-interview-task-that-grades-token-accounting-not-the-chatbot-56cp",
+    "url_hash": "889f2fa252a573b9ee6c2df6d74a5598",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "What I learned getting 46 pull requests merged in six weeks",
+    "url": "https://dev.to/gabesilvadev/what-i-learned-getting-46-pull-requests-merged-in-six-weeks-284j",
+    "url_hash": "bb7258bfeed057fbec9fb12992c8919a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "Quiz: Managing Python Projects With uv: An All-in-One Solution",
+    "url": "https://realpython.com/quizzes/python-uv/",
+    "url_hash": "f8ed280fc7337f23debe366c184b2435",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "Quiz: Working With APIs in Python: Reading Public Data",
+    "url": "https://realpython.com/quizzes/working-apis-reading-public-data/",
+    "url_hash": "50adc218e907a8924bcada9fd4578808",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+    "url": "https://openai.com/index/greptile-code-review-codex-astra",
+    "url_hash": "011555b6960ee180096c30c7e74f7731",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "One line of proof per bullet",
+    "url": "https://dev.to/simali_dud_b97add4154d7a6/one-line-of-proof-per-bullet-30p6",
+    "url_hash": "dc88193f04d215ac522ad32fce448c67",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-27T14:37:15.885178+00:00",
+    "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+    "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+    "url_hash": "12c7a1020fa4d8a13bd3852297cf3639",
+    "source_type": "rss"
   }
 ]
