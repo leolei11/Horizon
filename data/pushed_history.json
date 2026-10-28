@@ -10985,5 +10985,145 @@
     "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
     "url_hash": "12c7a1020fa4d8a13bd3852297cf3639",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+    "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+    "url_hash": "039b50831d922e4098701e60b9c2dc3f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Git for the US Code",
+    "url": "https://lexifina.com/blog/git-for-the-us-code",
+    "url_hash": "7fe08347b6be63e29a537447281d5313",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+    "url": "https://www.brangus.io/survival-llm",
+    "url_hash": "4fe0e5b4771f46672ae43be438227999",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "What’s !important #19: CSS Refraction Effects, Scroll State Queries, @custom-media, and More",
+    "url": "https://css-tricks.com/whats-important-19/",
+    "url_hash": "b7bb1679234307310d54f5b85e68c011",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "How Apple Fits an LLM on Your iPhone",
+    "url": "https://blog.bytebytego.com/p/how-apple-fits-an-llm-on-your-iphone",
+    "url_hash": "027bb0fa85fd20bb72f889e559e19863",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "The October inflection point for vibe game development",
+    "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+    "url_hash": "60ee9cdd696259423a3d44f6aaec6542",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Game Boy Color on My Conference Badge",
+    "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+    "url_hash": "81ad41f2875afe7250c903c92b2dddd8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+    "url_hash": "1a2fcc5f3d88c376d38561042d54a373",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Legora is building the agentic operating system for legal work",
+    "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+    "url_hash": "87c30b1210a8d91b7e70ae2d0f097dcb",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Retell uses OpenAI models to help power 100M monthly calls",
+    "url": "https://openai.com/index/retell-ai",
+    "url_hash": "8c368ae02674f286ab2127a2928bf6b1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Ghostty 1.4",
+    "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+    "url_hash": "6808aa957d92f6bc10447f2550ce97c7",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Tailscale SSH: Investigation and remediation update",
+    "url": "https://tailscale.com/ssh-investigation-update",
+    "url_hash": "fb3ff1b53a57e297f351022a6824fbf2",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Build a Python MCP Client to Test Servers From Your Terminal",
+    "url": "https://realpython.com/python-mcp-client/",
+    "url_hash": "e13afa5d5b6269530b42d95c5e528f7c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Quiz: Creating a Scalable Flask Web Application From Scratch",
+    "url": "https://realpython.com/quizzes/create-scalable-flask-web-app/",
+    "url_hash": "cd380aa707503c3225a988e94a1a79cf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Quiz: Pyrefly: A Fast Static Type Checker for Python Projects",
+    "url": "https://realpython.com/quizzes/pyrefly-python/",
+    "url_hash": "c8c76940404ac2ad44ed97adb012f0b5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "How to Build Passkey Authentication with WebAuthn, Next.js and NestJS",
+    "url": "https://www.freecodecamp.org/news/how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs/",
+    "url_hash": "7a0073f83a58d3ffe97c74aba41a0494",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Lessons from: Indie Hackers: Learn how developers are makin",
+    "url": "https://dev.to/qingluan/lessons-from-indie-hackers-learn-how-developers-are-makin-1nh7",
+    "url_hash": "56a10a39896322aace653897cfb36c94",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "8 Remote SWE Jobs You Can Apply to From Anywhere (Oct 28)",
+    "url": "https://dev.to/crackr/8-remote-swe-jobs-you-can-apply-to-from-anywhere-oct-28-924",
+    "url_hash": "2e23287a86a6c03a40809036698c7869",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "I parsed the three most popular LaTeX resume templates. One lost the candidate's name.",
+    "url": "https://dev.to/muneeb_nawaz/i-parsed-the-three-most-popular-latex-resume-templates-one-lost-the-candidates-name-5d18",
+    "url_hash": "d7199be5c3686352b1e9fa20ed1b2b4a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-28T15:20:04.142552+00:00",
+    "title": "Dollar General, AutoZone and Macy's jobs API: Oracle job requisitions and the pay in their own questions",
+    "url": "https://dev.to/glitchbound/dollar-general-autozone-and-macys-jobs-api-oracle-job-requisitions-and-the-pay-in-their-own-2d54",
+    "url_hash": "3a848acdf46366fca49dfebc8bdadeaa",
+    "source_type": "rss"
   }
 ]
