@@ -11125,5 +11125,145 @@
     "url": "https://dev.to/glitchbound/dollar-general-autozone-and-macys-jobs-api-oracle-job-requisitions-and-the-pay-in-their-own-2d54",
     "url_hash": "3a848acdf46366fca49dfebc8bdadeaa",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "Mistral Large 4 (Le Chonk) is now Open Weight",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "url_hash": "fea1ce1fe72aac12ddbf625c8ee0f29e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+    "url": "https://divagr.com/blog/qwenputer",
+    "url_hash": "012821cdaf2eaff130781af443b579f7",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "Quoting Ben Hylak",
+    "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+    "url_hash": "f86e691d5382c5049b23f966ff5e0aec",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+    "url": "https://huggingface.co/blog/anydecisionmodel",
+    "url_hash": "92a7f09725727ae852bf78bb677db641",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+    "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "url_hash": "fbd38a03737261a6434ee1ee7060a088",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "Legora is building the agentic operating system for legal work",
+    "url": "https://openai.com/index/legora",
+    "url_hash": "43a392c7fc8cfc9609fb851dcb8ec99e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "\"How to Negotiate Salary: A Word-for-Word Script\"",
+    "url": "https://dev.to/rushdi_hameed_7996818a2be/how-to-negotiate-salary-a-word-for-word-script-7jn",
+    "url_hash": "2b9a016dbd62ef7077b3942d9efc4d70",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "\"How to Benchmark Your Salary Before Negotiating\"",
+    "url": "https://dev.to/rushdi_hameed_7996818a2be/how-to-benchmark-your-salary-before-negotiating-3b1m",
+    "url_hash": "5cf87416e5ec0fbe86d9e95ce55ed942",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "\"How to Review a Job Offer Letter Before You Sign\"",
+    "url": "https://dev.to/rushdi_hameed_7996818a2be/how-to-review-a-job-offer-letter-before-you-sign-47h9",
+    "url_hash": "1976b161186ad440e38dd9a8eeff2919",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "The Frankenstein Table",
+    "url": "https://css-tricks.com/the-frankenstein-table/",
+    "url_hash": "60b906be14f76ed1e2dbb89de8482190",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "How Uber Built A Gateway For AI Agents To Access Tools",
+    "url": "https://blog.bytebytego.com/p/how-uber-built-a-gateway-for-ai-agents",
+    "url_hash": "db6852178f081cf1fbcf352ac48e22c3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "Quiz: Learn With Mentor AI: A Guided Journey Through Async Python",
+    "url": "https://realpython.com/quizzes/learn-with-mentor-ai-async-python/",
+    "url_hash": "67fab156ae08b3fae02726ad39be4e36",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "Why a DBA said no to one column",
+    "url": "https://postgresweekly.com/issues/671",
+    "url_hash": "bc046fee52071f1979e837b7751b62e3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "GitHub Octoverse 2026",
+    "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+    "url_hash": "dd5b3daf4aac6b699e5ed8fc0a71938e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "Granite Switch 4.1.1 — Update models like you update software",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+    "url_hash": "d5731ad2520e33c8b22aae3159302542",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "How to say \"that's out of scope\" without losing the client (a change-order script freelancers can copy)",
+    "url": "https://dev.to/opspack/how-to-say-thats-out-of-scope-without-losing-the-client-a-change-order-script-freelancers-can-2e0p",
+    "url_hash": "d8de075f8a157c32aa09cf5853e7ebe9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "I built a planning app for my own final exam. Now it is free for everyone",
+    "url": "https://dev.to/planomatti/i-built-a-planning-app-for-my-own-final-exam-now-it-is-free-for-everyone-2p3l",
+    "url_hash": "4bbdc26c70b08811058f721df8dc4b16",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "\"How to Ask for Clarification in an Interview Without Losing Points\"",
+    "url": "https://dev.to/rushdi_hameed_7996818a2be/how-to-ask-for-clarification-in-an-interview-without-losing-points-3gfo",
+    "url_hash": "97f01fe7f45cc68bc70e90aa2886653d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "\"Virtual Interview Setup: Camera, Audio, Lighting and Background\"",
+    "url": "https://dev.to/rushdi_hameed_7996818a2be/virtual-interview-setup-camera-audio-lighting-and-background-3d68",
+    "url_hash": "f6705899e1323732d9484d04e328afc1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-29T15:25:33.109836+00:00",
+    "title": "\"How to Research Company Culture Before Your Interview\"",
+    "url": "https://dev.to/rushdi_hameed_7996818a2be/how-to-research-company-culture-before-your-interview-2od2",
+    "url_hash": "c394f072c0025f8ff88e76df4f9ed711",
+    "source_type": "rss"
   }
 ]
