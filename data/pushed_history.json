@@ -11265,5 +11265,146 @@
     "url": "https://dev.to/rushdi_hameed_7996818a2be/how-to-research-company-culture-before-your-interview-2od2",
     "url_hash": "c394f072c0025f8ff88e76df4f9ed711",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "elect.horse",
+    "url": "https://elect.horse/",
+    "url_hash": "c7b27c07a5d08c4d72f50965382f1dee",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
+    "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+    "url_hash": "2a6d2ea92b32368b7d9db9e1e1cbfcdd",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "We ran AI agent swarms in Minecraft and Mindustry",
+    "url": "https://labs.ycombinator.com/projects/games/index.html",
+    "url_hash": "2fcdf3e17e01597353cb514d476eec39",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "GPT-6.1 Terra Draws a Python Reading a Book",
+    "url": "https://realpython.com/ai-benchmark-gpt-6-1-terra/",
+    "url_hash": "546c805cd8a3cde0bc1f243018e916e1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "Quiz: Inheritance and Composition: A Python OOP Guide",
+    "url": "https://realpython.com/quizzes/inheritance-composition-python/",
+    "url_hash": "054a152b9822d7e84c10c1daa2c10d1e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "How AI-Powered Search Works: A Guide for Devs on AI Visibility",
+    "url": "https://www.freecodecamp.org/news/ai-search-visibility/",
+    "url_hash": "5c289e29d2c973d19b8152f906094e72",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "Learn Real-World Penetration Testing: Hands-On Ethical Hacking Crash Course",
+    "url": "https://www.freecodecamp.org/news/learn-real-world-penetration-testing-hands-on-ethical-hacking-crash-course/",
+    "url_hash": "7e59b4a617d472d01b522014a5d28bd1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "High-Speed Decision Pipelines: Jev and Prefill-Only Inference from Scratch",
+    "url": "https://www.freecodecamp.org/news/high-speed-decision-pipelines-jev-and-prefill-only-inference-from-scratch/",
+    "url_hash": "e2a8529907baba673b74f561fc2d27be",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "Build with Gemini 4 Argon – Fast-Track API Crash Course",
+    "url": "https://www.freecodecamp.org/news/build-with-gemini-4-argon-fast-track-api-crash-course/",
+    "url_hash": "c3dee8b7a55acbf8a3b96ca22e91ab20",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "Secure Your AI Agents – Free Model Context Protocol (MCP) Security Course",
+    "url": "https://www.freecodecamp.org/news/secure-your-ai-agents-free-model-context-protocol-mcp-security-course/",
+    "url_hash": "8190faec2b8cd67cb5fa595eb7779018",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+    "url": "https://github.com/SheepSeb/tinyworldformer",
+    "url_hash": "69b74bd69c4ba10d9fcffd86b0a04a35",
+    "source_type": "hackernews",
+    "repo": "sheepseb/tinyworldformer"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "Data Movement Strategies In System Design",
+    "url": "https://blog.bytebytego.com/p/data-movement-strategies-in-system",
+    "url_hash": "3d0101b19eedddf976a739b2a31d38df",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "Learn With Mentor AI: A Guided Journey Through Async Python",
+    "url": "https://realpython.com/learn-with-mentor-ai-async-python/",
+    "url_hash": "fb09d70a9410aa047e827eea16f47886",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "Cloud Service Models Explained: IaaS vs PaaS vs SaaS",
+    "url": "https://www.freecodecamp.org/news/cloud-service-models-explained-iaas-vs-paas-vs-saas/",
+    "url_hash": "e5b82d6e96e6984d03e00961c81f725d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "API credits benefit for eligible ChatGPT subscriptions",
+    "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+    "url_hash": "a3c97c46040004b75c9ba02aea2daaed",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "Infosys Grew AI Revenue 29% in a Quarter. Its Clients Want the Savings Back.",
+    "url": "https://dev.to/ashkan/infosys-grew-ai-revenue-29-in-a-quarter-its-clients-want-the-savings-back-3jhe",
+    "url_hash": "eaa1c316c8ff8e0f5a8d72a3a47a0dfc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "Comcast Files 159-Worker Washington WARN Notice for December 31",
+    "url": "https://dev.to/layoffatlas/comcast-files-159-worker-washington-warn-notice-for-december-31-3bkh",
+    "url_hash": "9fe748cd1dd328df610fce521296d36c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "Lessons from: Launch HN: Substack (YC W18): Paid email news",
+    "url": "https://dev.to/qingluan/lessons-from-launch-hn-substack-yc-w18-paid-email-news-33he",
+    "url_hash": "c8237abc95cdb7ac0acdad14c85b7b42",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "Building a multiplayer game world with autonomous Fable-class models",
+    "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+    "url_hash": "47c707b1cb452ba28670a573335e8794",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-10-30T15:10:26.670629+00:00",
+    "title": "The Real Python Podcast – Episode #317: Demystifying Python Memory Management & Choosing a Project Layout",
+    "url": "https://realpython.com/podcasts/rpp/317/",
+    "url_hash": "2c19f9651daab72d41a2f618c8adfcb2",
+    "source_type": "rss"
   }
 ]
