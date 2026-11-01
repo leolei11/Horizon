@@ -11546,5 +11546,146 @@
     "url": "https://openai.com/index/updated-model-spec",
     "url_hash": "aaf5e6791aaf44c501e6aa77743478b0",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+    "url_hash": "ace8a6b3d58e6b5e89fc60661c5d0584",
+    "source_type": "hackernews",
+    "repo": "guregodevo/memdoor"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Resume Section Headings: What ATS Parsers Recognize",
+    "url": "https://dev.to/muhammadalimughal/resume-section-headings-what-ats-parsers-recognize-4jgn",
+    "url_hash": "7f34b5774b277f92a80c1dbc2b0ec52a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Can you explain what you shipped?",
+    "url": "https://dev.to/kayashaolu/can-you-explain-what-you-shipped-mfc",
+    "url_hash": "840e0095e6ee7dade1aafaab3f7e695d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "HackerTube: YouTube built from videos recommended by HN",
+    "url": "https://karpathy.bearblog.dev/hacker-tube/",
+    "url_hash": "5e5bbde4ea12fd957eb24499c6367439",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "The AI cost of JavaScript frameworks",
+    "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+    "url_hash": "41060ed57e94f4dbe37eaf49a6cf8190",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Operator and Function Overloading in Custom Python Classes",
+    "url": "https://realpython.com/operator-function-overloading/",
+    "url_hash": "7df1f2147b91f1a44291d986f9f3944e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "How We Took Over ChatGPT Accounts",
+    "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+    "url_hash": "0c564788cac6ac55b1310472e8353688",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "datasette-llm 0.1a9",
+    "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+    "url_hash": "d9bdb4d0b7fffea028f3791c764e6e62",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "From $6M to $60M: 7 Lessons from Scaling a Software Consulting Firm",
+    "url": "https://dev.to/ashkan/from-6m-to-60m-7-lessons-from-scaling-a-software-consulting-firm-2iai",
+    "url_hash": "1fd5381da0bd6144e9aa356b92ae31f6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Senior Remote SWE Roles Hiring Now - 4 Pay $150k+ (Nov 1)",
+    "url": "https://dev.to/crackr/senior-remote-swe-roles-hiring-now-4-pay-150k-nov-1-3hf4",
+    "url_hash": "bded8328ac81c7b915adba03dcd84369",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+    "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+    "url_hash": "e4b01e5dfe07d214ea4b87a6d81b7fc5",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Socket Programming in Python (Guide)",
+    "url": "https://realpython.com/python-sockets/",
+    "url_hash": "eced09d43984a30920cab1ed02c1339f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Freelance Taxes Feel Random Until You Do This One Calculation Every Quarter",
+    "url": "https://dev.to/jartan/freelance-taxes-feel-random-until-you-do-this-one-calculation-every-quarter-3hkb",
+    "url_hash": "266922bc43de9ddbafa070248ca717e4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "How to Get Your First Opportunity Without Work Experience",
+    "url": "https://dev.to/ladipo_samuel_7cfaa827bf5/how-to-get-your-first-opportunity-without-work-experience-2aip",
+    "url_hash": "a69cdfc0d6b592ea5e4ca9e543cea9dc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Only 12% of executives expect AI to raise wages. That number is a choice.",
+    "url": "https://dev.to/ganesh_sivakumar_359edfcd/only-12-of-executives-expect-ai-to-raise-wages-that-number-is-a-choice-3a02",
+    "url_hash": "44a7f672b3f89ad123658aed9b2939de",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "How to Build a Python GUI Application With wxPython",
+    "url": "https://realpython.com/python-gui-with-wxpython/",
+    "url_hash": "8bd933640f4c60d388b155b677214471",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Using the Python zip() Function for Parallel Iteration",
+    "url": "https://realpython.com/python-zip-function/",
+    "url_hash": "65bb436e09d2d041f801cb4283ab27cf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Generating Random Data in Python (Guide)",
+    "url": "https://realpython.com/python-random/",
+    "url_hash": "d56cbf588f038b343ccf5f37a8c38e3f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Documenting Python Code: A Complete Guide",
+    "url": "https://realpython.com/documenting-python-code/",
+    "url_hash": "d773726670a2a88cdf082f5a9a8e9683",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-01T15:15:15.117108+00:00",
+    "title": "Recursion in Python: An Introduction",
+    "url": "https://realpython.com/python-recursion/",
+    "url_hash": "02871a6194784638836045cca732da96",
+    "source_type": "rss"
   }
 ]
