@@ -11687,5 +11687,145 @@
     "url": "https://realpython.com/python-recursion/",
     "url_hash": "02871a6194784638836045cca732da96",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Show HN: Subvocal – Talk to your computer without making noise",
+    "url": "https://subvocal.company/",
+    "url_hash": "42dfcdc7d6c2dfff845244da8f0b4e64",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+    "url": "https://momentic.ai/",
+    "url_hash": "d66540c1469982cd8103c5e82ba3e786",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Ask HN: Who is hiring? (November 2026)",
+    "url": "https://news.ycombinator.com/item?id=50338728",
+    "url_hash": "f47dac842b868264d6bcec4582ff6d3f",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "What a forward deployed AI engineer actually does",
+    "url": "https://dev.to/dhrubojyoti/what-a-forward-deployed-ai-engineer-actually-does-4ioe",
+    "url_hash": "2e5402ad874761c393d4d91d574531fc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Can You Use AI in Coding Interviews? What Changed in 2026",
+    "url": "https://dev.to/stackchief/can-you-use-ai-in-coding-interviews-what-changed-in-2026-5cen",
+    "url_hash": "45a552af8bd7c6c02aee4ae2bf7699be",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "The One-Story Resume Test: Building a Flagship Project Section That Still Passes ATS",
+    "url": "https://dev.to/muhammadalimughal/the-one-story-resume-test-building-a-flagship-project-section-that-still-passes-ats-28co",
+    "url_hash": "a0680ab1b98ff2677114d64c0c897be6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Show HN: Warsaw in voxels – an interactive 3D map of the city centre",
+    "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+    "url_hash": "8d1b26f2f1deb018faaf1b336da6d2c8",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Moving our warehouse off DuckDB",
+    "url": "https://posthog.com/blog/moving-off-duckdb",
+    "url_hash": "153931570ffcac45b23dfcb3c173fd79",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "We halved DNS build delay and cut memory use by 85%",
+    "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+    "url_hash": "23c32fa0eff5d96d725ce268358608aa",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Show HN: I've updated my Linux System Call website and API",
+    "url": "https://syscall.sh/",
+    "url_hash": "09cb51c4a9a60fc1a2af5a04f6d89432",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Python 3.15 Ships and Other Python News for November 2026",
+    "url": "https://realpython.com/python-news-november-2026/",
+    "url_hash": "1131e1efe3e04ef4e068ea960ad584b3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Quiz: Advanced Git Tips for Python Developers",
+    "url": "https://realpython.com/quizzes/advanced-git-for-pythonistas/",
+    "url_hash": "46a58070348f183a377a45752ed94901",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "If in doubt, delete the uv.lock file",
+    "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+    "url_hash": "d1b8b52dd727496a359b5f6ee4aa6f4b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Treat Your Payment Details Like a Public API: An IBAN in Your Own Name for Developers Paid From Abroad",
+    "url": "https://dev.to/marcolopeznovoex/treat-your-payment-details-like-a-public-api-an-iban-in-your-own-name-for-developers-paid-from-2age",
+    "url_hash": "05b181b52c7b50c99a55c15b03453c07",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Amazon Interview Prep: What Happened After You Lost the Argument?",
+    "url": "https://dev.to/emilywoodsnyc/amazon-interview-prep-what-happened-after-you-lost-the-argument-3mfm",
+    "url_hash": "f51c264443e7298a4b25cd314211b381",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "UAE Gratuity, Explained for Builders: The 2022 Rule Change Most Calculators Still Get Wrong",
+    "url": "https://dev.to/loonaautomation/uae-gratuity-explained-for-builders-the-2022-rule-change-most-calculators-still-get-wrong-4ak4",
+    "url_hash": "525a7e435019ced0fec167bd92654e87",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Quiz: Documenting Python Code: A Complete Guide",
+    "url": "https://realpython.com/quizzes/documenting-python-code/",
+    "url_hash": "993209ad8a718a130f2e03356e0785ba",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Is a Salesforce certification enough to hire someone? Five signals I look for instead",
+    "url": "https://dev.to/juanma_garrido_1974/is-a-salesforce-certification-enough-to-hire-someone-five-signals-i-look-for-instead-3n5n",
+    "url_hash": "38ea518da01a193821ac848a25d81ee8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "LifeVal",
+    "url": "https://openai.com/index/lifeval",
+    "url_hash": "1468543483a0cb43fba47cdcf59ebb03",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-02T18:26:59.689582+00:00",
+    "title": "Quoting Kyle Kingsbury",
+    "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+    "url_hash": "406bb6b49fcf652c37954c9587df3110",
+    "source_type": "rss"
   }
 ]
