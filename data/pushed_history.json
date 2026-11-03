@@ -11827,5 +11827,146 @@
     "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
     "url_hash": "406bb6b49fcf652c37954c9587df3110",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "Converting Documents to Markdown With MarkItDown",
+    "url": "https://realpython.com/courses/converting-documents-markdown-markitdown/",
+    "url_hash": "a1bf6203f4b12dfbbd153c7dcf25e16f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+    "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+    "url_hash": "f19d7b343f389e9e2dea17d020ad052e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "llm 0.37",
+    "url": "https://simonwillison.net/2026/Nov/2/llm/",
+    "url_hash": "5e456c1c8e5a1b2c14e533d2ba554519",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "Same Model, Different Harness: CUGA, Hermes, and Deep Agents — When to Pick CUGA?",
+    "url": "https://huggingface.co/blog/ibm-research/cuga-harness",
+    "url_hash": "065b83f5726a5993848c70bd7fb5cf77",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "Qodo builds context into AI code review with Codex",
+    "url": "https://openai.com/index/qodo-codex-plugin",
+    "url_hash": "bc0ed259e6eb5d0e4cfb8308e95ea8fc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "AI-Drafted Resumes and Recruiter Skepticism: Making LLM Bullets Sound Like You",
+    "url": "https://dev.to/muhammadalimughal/ai-drafted-resumes-and-recruiter-skepticism-making-llm-bullets-sound-like-you-4me3",
+    "url_hash": "75131e74d9f95a59c4ad0e60301243bf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "Turn HN's \"Who is hiring?\" Thread Into a Spreadsheet With the Algolia API",
+    "url": "https://dev.to/dedicated_crest/turn-hns-who-is-hiring-thread-into-a-spreadsheet-with-the-algolia-api-3kpd",
+    "url_hash": "5630142c56232c3168a5195782a38b2e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "8 Remote SWE Jobs You Can Apply to From Anywhere (Nov 3)",
+    "url": "https://dev.to/crackr/8-remote-swe-jobs-you-can-apply-to-from-anywhere-nov-3-6b1",
+    "url_hash": "dc016b962e6817fd8de9ffcba9c04736",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "Nvidia – open-source auto-ontology",
+    "url": "https://github.com/NVIDIA/auto-ontology",
+    "url_hash": "5fb2a08103b07f65e0777f836292702f",
+    "source_type": "hackernews",
+    "repo": "nvidia/auto-ontology"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "Re-Implementing :nth-child() With Modern CSS",
+    "url": "https://css-tricks.com/re-implementing-nth-child-with-modern-css/",
+    "url_hash": "0e84d6b80e0896bc5274833de1ad79c1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "What’s !important #20: GTA 6 Scroll Effects, Scrollspies, random()",
+    "url": "https://css-tricks.com/whats-important-20/",
+    "url_hash": "22d52173bd77202715c25f42996765d7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "Scaling Git at OpenAI",
+    "url": "https://openai.com/index/scaling-git-at-openai",
+    "url_hash": "64b539777c9b52d3f1618a43239fce43",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "Why Developers Should Treat Their Personal Productivity Like a Microservice",
+    "url": "https://dev.to/alexcodebytes/why-developers-should-treat-their-personal-productivity-like-a-microservice-1pd2",
+    "url_hash": "e211db7960601d21ce1caea8140a4440",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "Quiz: How to Use Claude Code Skills for Better Python Docstrings",
+    "url": "https://realpython.com/quizzes/claude-code-skills/",
+    "url_hash": "c3e78ef4672093aa009bf41f66fdb9f5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "Preparing our next security sprint to harden OpenAI",
+    "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+    "url_hash": "8e75a62f19b343055fac584f752343bf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "SimPy: Simulating Real-World Processes With Python",
+    "url": "https://realpython.com/simpy-simulating-with-python/",
+    "url_hash": "c9cdffb2c8626082e52ef2326177e6a3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "Heimstaden is changing residential real estate management with AI",
+    "url": "https://openai.com/index/heimstaden",
+    "url_hash": "250b236eb5899531fffd158eec4be784",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "How Nvidia's New Nemotron Model Works",
+    "url": "https://blog.bytebytego.com/p/how-nvidias-new-nemotron-model-works",
+    "url_hash": "9bcd693ba3ba463e56977239f207eed5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "A scope of work template for designers: 5 deliverables + 5 exclusions to write down",
+    "url": "https://dev.to/opspack/a-scope-of-work-template-for-designers-5-deliverables-5-exclusions-to-write-down-7k5",
+    "url_hash": "061c8328897a89352527ddd72074fcb3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-03T16:19:05.993299+00:00",
+    "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+    "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+    "url_hash": "6a5b7e099adb321a406574702bb7a193",
+    "source_type": "hackernews"
   }
 ]
