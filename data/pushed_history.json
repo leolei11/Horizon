@@ -11968,5 +11968,145 @@
     "url": "https://honnibal.dev/blog/astra-read-write-misleading",
     "url_hash": "6a5b7e099adb321a406574702bb7a193",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+    "url": "https://news.ycombinator.com/item?id=50363461",
+    "url_hash": "318001692467e7ef33eaa2c9de941e57",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "How Netflix Uses AI Agents for Performance Engineering",
+    "url": "https://blog.bytebytego.com/p/how-netflix-uses-ai-agents-for-performance",
+    "url_hash": "87135767592e2479842e8673a8ae1c39",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Positron IDE: A Hands-on Python Tutorial",
+    "url": "https://realpython.com/positron-ide/",
+    "url_hash": "d23cae09d389ab6fc15774a4f5262eda",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "url_hash": "1a0760fda50cb7bbafa1ea3b02562ea2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Palette: teaching a small model to build decks in your design language",
+    "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+    "url_hash": "c501698baa947693a9801dc3c1033a10",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+    "url": "https://openai.com/index/openai-to-acquire-pierre",
+    "url_hash": "8ccb12fff18af596767d01f51064d8e1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Accelerating engineering for the physical world",
+    "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "url_hash": "f98ffa6f91b408c796b4d5fe1faaa800",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Developer portfolio examples that prove you can ship (not just code)",
+    "url": "https://dev.to/thong_nguyen_83f79b7c77db/developer-portfolio-examples-that-prove-you-can-ship-not-just-code-1pnk",
+    "url_hash": "9ab22d7e169afca1ddeb1736546acbfa",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "How to find remote jobs you can actually apply to from your country (Python)",
+    "url": "https://dev.to/steadyscrape/how-to-find-remote-jobs-you-can-actually-apply-to-from-your-country-python-58m6",
+    "url_hash": "6293219f66a0a44cfdd0d4338cfcd338",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Como um filtro ATS lê o seu currículo (e como a gente mede isso)",
+    "url": "https://dev.to/curriculoautomatico/como-um-filtro-ats-le-o-seu-curriculo-e-como-a-gente-mede-isso-3jkj",
+    "url_hash": "8c2459615e10ce728e24388b483aef7f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Kitty 0.50",
+    "url": "https://sw.kovidgoyal.net/kitty/changelog/#",
+    "url_hash": "f237853eb1a733006740d49fadbfb900",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "The Internals of PostgreSQL",
+    "url": "https://www.interdb.jp/pg/index.html",
+    "url_hash": "040045da2a7e4cc1672650067f481248",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Quiz: Converting Documents to Markdown With MarkItDown",
+    "url": "https://realpython.com/quizzes/converting-documents-markdown-markitdown/",
+    "url_hash": "c082424bc1dafc318ff3cee3232f049c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Postgres 19's built-in bloat cleanup",
+    "url": "https://postgresweekly.com/issues/672",
+    "url_hash": "a481b6750acd296db7790d30b8b7c410",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "How to Automate Docker Image Creation for Postgres Using Shell Commands",
+    "url": "https://www.freecodecamp.org/news/how-to-automate-docker-image-creation-for-postgres-using-shell/",
+    "url_hash": "72a67dd078b2ae0cde0d26f30a69430b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "How to Partner with Design Studios on Client Builds: A Freelance Developer's Guide",
+    "url": "https://www.freecodecamp.org/news/freelance-developer-design-studios/",
+    "url_hash": "5ca8024b9d2d01939bafc4fbfe67fe6c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Learn Vector Databases for Beginners – Embeddings, Similarity Search & ChromaDB",
+    "url": "https://www.freecodecamp.org/news/learn-vector-databases-for-beginners-embeddings-similarity-search-chromadb/",
+    "url_hash": "d6d32eec3090e14b777708779cbc9963",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "Bug or change request? A simple rule for freelance developers (with an acceptance-criteria clause)",
+    "url": "https://dev.to/opspack/bug-or-change-request-a-simple-rule-for-freelance-developers-with-an-acceptance-criteria-clause-30ba",
+    "url_hash": "25e1aea7357dc8fce0388dfbb0cba930",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "TestLancer vs Freelancer: Which Is Better for App Testing and Google Play Closed Testing?",
+    "url": "https://dev.to/testlancer/testlancer-vs-freelancer-which-is-better-for-app-testing-and-google-play-closed-testing-fih",
+    "url_hash": "2f08b5b861eb50ad055620e6aaa95382",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-04T16:36:02.074393+00:00",
+    "title": "A freelancer's buffer is not savings, it is next month's salary",
+    "url": "https://dev.to/muhammad_naveed_61dc33722/a-freelancers-buffer-is-not-savings-it-is-next-months-salary-4bcc",
+    "url_hash": "8060c9fc59f964bc5ad3a95498beca58",
+    "source_type": "rss"
   }
 ]
