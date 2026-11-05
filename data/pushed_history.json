@@ -12108,5 +12108,145 @@
     "url": "https://dev.to/muhammad_naveed_61dc33722/a-freelancers-buffer-is-not-savings-it-is-next-months-salary-4bcc",
     "url_hash": "8060c9fc59f964bc5ad3a95498beca58",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "How Freelancers Can Use AI for Quotes, Invoices and Contracts",
+    "url": "https://dev.to/bestaitool/how-freelancers-can-use-ai-for-quotes-invoices-and-contracts-4k90",
+    "url_hash": "70231eb4c0dedcd0c0463a5b5588e363",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "So my ISP was hijacking my DNS",
+    "url": "https://www.karthihegde.dev/posts/dns_tampering",
+    "url_hash": "525c1514575ea5e54feb473273737928",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "Kimi K3.1 Pro model weights are out",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "url_hash": "668e659f8e833fc08d29ec2d6931a5d7",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "A thousand fewer paths to root",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+    "url_hash": "30ad2e480e6f94c307a0f6ca50dcdf9d",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "Lemmings CSS Animation",
+    "url": "https://markblah.github.io/lemmings/",
+    "url_hash": "2c32b8ad407c51bafd584d701d2f0c83",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "GPT-6 Astra covertly underperforms on safety research",
+    "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+    "url_hash": "5e784ad7f34e44080d3c52f653466d26",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "Baidu released ERNIE 5.5 Flash Base",
+    "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+    "url_hash": "8cb7adb903356a8e66fdc329d3f1ab85",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "Awesome repositories are no longer awesome",
+    "url": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
+    "url_hash": "e75198369bff896c647d8bffc69641dc",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "OpenSSH 10.6p2 Critical workaround for alpine without PAM",
+    "url": "https://www.openssh.org/releasenotes.html#10.6p2",
+    "url_hash": "ea40543799b06d6645d5d1e3f606680e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "Sshole",
+    "url": "https://sshhole.com/",
+    "url_hash": "de4a86af4af11b2ca2f2aa49f428c862",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "Obscure audio codec is a perfect fit for the N64",
+    "url": "https://phoboslab.org/log/2026/11/n64-ulc-codec",
+    "url_hash": "f6a4d4028e5afb9f092e3b8e7cbd3a0d",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "Download your favourite YouTube videos",
+    "url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
+    "url_hash": "6097274db77a87e3941a663ce876361e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "MCP Explained",
+    "url": "https://mcp-explained.com/",
+    "url_hash": "14e46b0d58e01e0294553b3e645f8c9a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "Alpine Linux Security advisory: OpenSSH-server password authentication bypass",
+    "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+    "url_hash": "52873985d07f9aba052205f4dfe270f8",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "Image of Our Satellite-Choked Night Skies",
+    "url": "https://kottke.org/26/11/stunning-image-of-our-satellite-choked-night-skies",
+    "url_hash": "33250ad86d34af0b8146a1b5c2cb93a0",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "How Anthropic Redesigned Source Control",
+    "url": "https://blog.bytebytego.com/p/how-anthropic-redesigned-source-control",
+    "url_hash": "b52769687e3fea2f776f85216150fb75",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "Taming Typography: Building a Modern CSS Reset",
+    "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+    "url_hash": "a98bb88150b0efb1c887a40520d9777a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "Smashing AI Conference",
+    "url": "https://css-tricks.com/smashing-ai-conference/",
+    "url_hash": "58f96c1ea3c114ba453daf13227b52a1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "What the new Security+ (SY0-801) exam actually is, and what it doesn't prove",
+    "url": "https://dev.to/learnsome-tech/what-the-new-security-sy0-801-exam-actually-is-and-what-it-doesnt-prove-3bce",
+    "url_hash": "4b560c4b290ae3fb04801ac6724dc54a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-05T16:36:19.529354+00:00",
+    "title": "New Jersey's Mini-WARN Act — 90 Days' Notice and Mandatory Severance, Explained",
+    "url": "https://dev.to/layoffatlas/new-jerseys-mini-warn-act-90-days-notice-and-mandatory-severance-explained-4eak",
+    "url_hash": "879f28b0772d4d8b2b5f5eaa43ae900c",
+    "source_type": "rss"
   }
 ]
