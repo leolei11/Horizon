@@ -12390,5 +12390,146 @@
     "url": "https://dev.to/crackr/these-companies-want-interns-this-summer-nov-6-fd2",
     "url_hash": "ef30544b0cf45c00e18851e5ae09f447",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "Every Mac comes with an (undocumented) family member classifier",
+    "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+    "url_hash": "e9e8226e1b6aa0ab4e53557b58dda1bd",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+    "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+    "url_hash": "73de156b3c59e8ca5ea2c2b803cd1088",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "The Components of Agent Memory",
+    "url": "https://www.anthropic.com/research/components-of-agent-memory",
+    "url_hash": "90b9a34769f8c63e341c256aa8134663",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "Thonny: The Beginner-Friendly Python Editor",
+    "url": "https://realpython.com/python-thonny/",
+    "url_hash": "162a278f92bec8bdfe243cde303f23f7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+    "url": "https://huggingface.co/blog/allenai/toyblocks",
+    "url_hash": "27984b16f9bcc04a3d6e5e0545da4ba2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "What Cisco's unlimited-tokens rewrite is missing",
+    "url": "https://dev.to/kayashaolu/what-ciscos-unlimited-tokens-rewrite-is-missing-5dbg",
+    "url_hash": "8f0c56df22bd18fd1d23978d6ec5391e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "8 AI Skills Worth Learning in 2026 — Ranked by Real Usefulness",
+    "url": "https://dev.to/paragonaimag/8-ai-skills-worth-learning-in-2026-ranked-by-real-usefulness-a87",
+    "url_hash": "46bcb2dabc2b4753597562646ad72860",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "Building RoundReady: Persistent Interview Memory That Turns Feedback Into a Plan",
+    "url": "https://dev.to/tejas_n/building-roundready-persistent-interview-memory-that-turns-feedback-into-a-plan-dnf",
+    "url_hash": "0256447817da783d321e07f4f494c28e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "The Most Underrated Dev Job of 2026 Is Reading Code an AI Wrote",
+    "url": "https://dev.to/escape9to5/the-most-underrated-dev-job-of-2026-is-reading-code-an-ai-wrote-27dc",
+    "url_hash": "2b84bf7d5540f630734998a66a811d92",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "Libghostty 1.0",
+    "url": "https://mitchellh.com/writing/libghostty-1-0",
+    "url_hash": "fbc1c235706b5216c5485d5e6b2acfc9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "GitHub's new Git storage architecture",
+    "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+    "url_hash": "1994136bc9c8a51ffda3af6a44aa91f0",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "RSS Club: CSS-Tricks Redesign Preview",
+    "url": "https://css-tricks.com/css-tricks-redesign-preview/",
+    "url_hash": "69072e4393ff3a03a50a2c02295c0e1e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "Absolute vs Relative Imports in Python",
+    "url": "https://realpython.com/absolute-vs-relative-python-imports/",
+    "url_hash": "f7d942f45e589e4003c01b54a1a6fdb6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "Introduction to Python SQL Libraries",
+    "url": "https://realpython.com/python-sql-libraries/",
+    "url_hash": "6064fd530311c7ecc2b12afb961c9982",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "How to Build a PDF Storyboard Generator Using JavaScript",
+    "url": "https://www.freecodecamp.org/news/build-pdf-storyboard-generator-javascript/",
+    "url_hash": "312ae2d0d226cebfbdd065b26fbb7200",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+    "url": "https://openai.com/index/partnering-with-hacktron",
+    "url_hash": "4650983e6e647dcd0fd49126ce29e071",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "Managing Multiple Python Versions With pyenv",
+    "url": "https://realpython.com/intro-to-pyenv/",
+    "url_hash": "0d3c891a8f73430b88990fefe0afa582",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "GitHub Trending: ossu/computer-science (⭐️ 210926)",
+    "url": "https://github.com/ossu/computer-science",
+    "url_hash": "24aa9fa1eef855427a535189139cd791",
+    "source_type": "github",
+    "repo": "ossu/computer-science"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "Regular Expressions: Regexes in Python (Part 1)",
+    "url": "https://realpython.com/regex-python/",
+    "url_hash": "cd7d8db32d81e93714f26fae4bf2aea4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-07T14:57:31.661535+00:00",
+    "title": "VA retainers: how to stop 'quick favours' eating your hours (hours-cap clause)",
+    "url": "https://dev.to/opspack/va-retainers-how-to-stop-quick-favours-eating-your-hours-hours-cap-clause-5ckc",
+    "url_hash": "b4089ccde47d9a1e22f649bd6b65194e",
+    "source_type": "rss"
   }
 ]
