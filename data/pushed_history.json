@@ -12531,5 +12531,147 @@
     "url": "https://dev.to/opspack/va-retainers-how-to-stop-quick-favours-eating-your-hours-hours-cap-clause-5ckc",
     "url_hash": "b4089ccde47d9a1e22f649bd6b65194e",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+    "url": "https://github.com/synchopate/llama-modchip",
+    "url_hash": "d86624c8bda24fcc3cf320ab22a5cff2",
+    "source_type": "hackernews",
+    "repo": "synchopate/llama-modchip"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Agent memory needs its OpenTelemetry moment",
+    "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+    "url_hash": "d2ac7c707cf16248b04bc81b666b250b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "EP232: 6 Frequently Used Orchestration Frameworks in an AI system",
+    "url": "https://blog.bytebytego.com/p/ep232-6-frequently-used-orchestration",
+    "url_hash": "209f90977aa45c8066cca5a2da300fd5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Remote SWE Jobs Paying Up to $215k (Nov 8)",
+    "url": "https://dev.to/crackr/remote-swe-jobs-paying-up-to-215k-nov-8-2ji5",
+    "url_hash": "e7edb089a30d5e5e15b936d7ee960612",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "SUSE and NICE Are Cutting Jobs and Flattening Teams Because of AI. Cut Layers, Not Judgment.",
+    "url": "https://dev.to/ashkan/suse-and-nice-are-cutting-jobs-and-flattening-teams-because-of-ai-cut-layers-not-judgment-470e",
+    "url_hash": "6adab48222307c415d4fb4a166f6fe7a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "How do you track your wins at work before reviews?",
+    "url": "https://dev.to/madieh_syed_a14b2df82fe4b/how-do-you-track-your-wins-at-work-before-reviews-198o",
+    "url_hash": "acbdf09d35895d3ea3779c66039b15b8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Tech job market this week: salaries and hiring in 4 markets (2026-W45)",
+    "url": "https://dev.to/mftira/tech-job-market-this-week-salaries-and-hiring-in-4-markets-2026-w45-48p7",
+    "url_hash": "16ed26b202ef158bdf454b5de6afadf0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Stop Applying to Ghost Jobs: Read Openings Straight From the Source",
+    "url": "https://dev.to/h_abds/stop-applying-to-ghost-jobs-read-openings-straight-from-the-source-2a83",
+    "url_hash": "ac0a1dbbdac38ef9c9460d2773e576c8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+    "url": "https://github.com/dmunozv04/isponsorblocktv",
+    "url_hash": "eb3b76eea930b2df1ebe8387bf89b119",
+    "source_type": "hackernews",
+    "repo": "dmunozv04/isponsorblocktv"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Memory Management in Python",
+    "url": "https://realpython.com/python-memory-management/",
+    "url_hash": "e6b89a7c6458084e3ea487bbe255b0d1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+    "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+    "url_hash": "7a3ed2021dcdefc79c5082ac46625223",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Godot 4 Roguelike Course – Build a Complete Top-Down Action Game",
+    "url": "https://www.freecodecamp.org/news/godot-4-roguelike-course-build-a-complete-top-down-action-game/",
+    "url_hash": "dd26497f1a3d39447b5d76bc4ad0594f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+    "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
+    "url_hash": "053ba88dc3d72931acc61606cc794d20",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "What I run on my $10 USD OpenStick homelab",
+    "url": "https://blog.bosscher.ch/posts/openstick/",
+    "url_hash": "3c33d4ef82d2398cc96357cb9f036095",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Need for Speed Underground 2 online in the browser",
+    "url": "https://nfsu2.xyz/",
+    "url_hash": "584c38525efda7d78af7da88e58bbbeb",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "JIT bitmap text rendering for microcontrollers",
+    "url": "https://linebender.org/blog/jit-bitmap-text/",
+    "url_hash": "2404492a5d8ab4e829b3b13efa15c394",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+    "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+    "url_hash": "e7bda9369543e2ddb6f148788e559dc7",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Using Python's pip to Manage Your Projects' Dependencies",
+    "url": "https://realpython.com/what-is-pip/",
+    "url_hash": "74a8c07c7c411216a18a0494d1bfb37a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Understand the systems you work on",
+    "url": "https://dev.to/kayashaolu/understand-the-systems-you-work-on-g38",
+    "url_hash": "0a20d029c90c58ad0a73084a81da3530",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-08T15:16:53.425858+00:00",
+    "title": "Summer 2026 Internships: 8 New Openings This Week (Nov 8)",
+    "url": "https://dev.to/crackr/summer-2026-internships-8-new-openings-this-week-nov-8-3nab",
+    "url_hash": "a5180fb254978f429853dcd3a73b3bba",
+    "source_type": "rss"
   }
 ]
