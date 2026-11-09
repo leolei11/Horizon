@@ -12673,5 +12673,147 @@
     "url": "https://dev.to/crackr/summer-2026-internships-8-new-openings-this-week-nov-8-3nab",
     "url_hash": "a5180fb254978f429853dcd3a73b3bba",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
+    "url": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
+    "url_hash": "0c58d21fba3a33c27cb8cbe66defac4f",
+    "source_type": "hackernews",
+    "repo": "datareceipts/data-receipts"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "How LinkedIn Uses AI to Review 40,000 Pull Requests a Week",
+    "url": "https://blog.bytebytego.com/p/how-linkedin-uses-ai-to-review-40000",
+    "url_hash": "1f474d58563c868710966840ff062b1d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "TDD With AI Agents: Design the Tests First, Let the Agent Implement",
+    "url": "https://realpython.com/tdd-ai-agents/",
+    "url_hash": "d775499bc2a706d491cc8e4e117817ba",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "The Web Is More Than Enough, by Paul Ford",
+    "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+    "url_hash": "a20555425649d1789954756195ff18a0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "Hide your slop PR descriptions behind <details><summary>",
+    "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+    "url_hash": "4f07ab72c46e507c42779c5ff8f6c536",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "Entry level tech jobs in the US: only 6% of open jobs are for beginners",
+    "url": "https://dev.to/sudogetjob/entry-level-tech-jobs-in-the-us-only-6-of-open-jobs-are-for-beginners-3glg",
+    "url_hash": "ad13f455b071f7d3cdc3d8d8370be547",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "AI engineer salary in the US: what 775 job posts pay",
+    "url": "https://dev.to/sudogetjob/ai-engineer-salary-in-the-us-what-775-job-posts-pay-3i54",
+    "url_hash": "c1c3a5f429a5075d7ca53ecee4f6d591",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "I Built an ICU Shift-Handoff Agent with Hindsight That Caught a Fatal Dose.",
+    "url": "https://dev.to/sarvesh_73682e39c9a8dcdbb/i-built-an-icu-shift-handoff-agent-with-hindsight-that-caught-a-fatal-dose-c8m",
+    "url_hash": "b47411bc205338aa7df681171a7eedee",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "How ATS Parses Employment Dates and Gaps",
+    "url": "https://dev.to/muhammadalimughal/how-ats-parses-employment-dates-and-gaps-5hfa",
+    "url_hash": "f2f28d4f3dbe3a860f6c714fbfc46ca6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "Try Gleam",
+    "url": "https://nchagnet.eu/blog/you-should-try-gleam",
+    "url_hash": "f6b2905c6e2050fe644eac64d52ed315",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "CSS-Tricks, Version 20",
+    "url": "https://css-tricks.com/css-tricks-version-20/",
+    "url_hash": "d5e34e3e5e8408d7de2c15ae7ddcdf0a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "parse_number() as a SQLite extension: C vs Rust",
+    "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+    "url_hash": "5f1a44445a782de91e59567691888af1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "Code review as dialogue: what Paulo Freire taught me about mentoring developers",
+    "url": "https://dev.to/voidrizoma/code-review-as-dialogue-what-paulo-freire-taught-me-about-mentoring-developers-4h4l",
+    "url_hash": "f85b87c0d490c1382b684f4f8255f2f4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "Why \"Boring\" Tech Is the Biggest Career Arbitrage in 2026 (And Why Web Devs Are Flocking to SAP)",
+    "url": "https://dev.to/andrea_antonioperrelli_7/why-boring-tech-is-the-biggest-career-arbitrage-in-2026-and-why-web-devs-are-flocking-to-sap-c06",
+    "url_hash": "8d0c57c3c9a4e2d53f542015c47df949",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "Zebkit – Chromium as an embeddable library",
+    "url": "https://github.com/ikey4u/zebkit",
+    "url_hash": "043c1990fe1c0339eae27345c085f6c8",
+    "source_type": "hackernews",
+    "repo": "ikey4u/zebkit"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "The 10-Minute Pre-Submission Checklist: Review Your Income Proof Package Before Anyone Else Does",
+    "url": "https://dev.to/blusguo/the-10-minute-pre-submission-checklist-review-your-income-proof-package-before-anyone-else-does-bl7",
+    "url_hash": "2c9e39e5812969d31e32448da4e4a63f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "Application engineer interview questions, and what each one tests",
+    "url": "https://dev.to/fourleaf/application-engineer-interview-questions-and-what-each-one-tests-j11",
+    "url_hash": "1c5bbd6f16ddd2669a2f4be38c9ea22f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+    "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+    "url_hash": "885842594d3710d77c1394ce1fe390d2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+    "url_hash": "c91b630715741680c48f1804db684a49",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-09T18:53:46.823201+00:00",
+    "title": "Inside the Verifier Head: How Property Managers Actually Evaluate Freelancer Applications",
+    "url": "https://dev.to/blusguo/inside-the-verifier-head-how-property-managers-actually-evaluate-freelancer-applications-3ofl",
+    "url_hash": "051befa0df00b1b0abbab0eaecf82c9b",
+    "source_type": "rss"
   }
 ]
