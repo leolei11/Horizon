@@ -13096,5 +13096,146 @@
     "url": "https://dev.to/layoffatlas/west-virginia-layoffs-november-2026-warn-numbers-explained-4d9l",
     "url_hash": "28702660c3aeb35896ad8a65d89cc27d",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "编码面试能不能用 AI？先分清禁止、允许和规则不明",
+    "url": "https://dev.to/jamieleegrowth/bian-ma-mian-shi-neng-bu-neng-yong-aixian-fen-qing-jin-zhi-yun-xu-he-gui-ze-bu-ming-205e",
+    "url_hash": "f9bb881c57656e5322bb728550266c94",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "Gemini Decisions API",
+    "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+    "url_hash": "529d60b900d3832738cd8789d1c3240a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "llm 0.37.2",
+    "url": "https://simonwillison.net/2026/Nov/11/llm/",
+    "url_hash": "f9b338e3c5a4119257d29b2a5a8c73c1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+    "url": "https://huggingface.co/blog/3d-lora-finetuning",
+    "url_hash": "d3916f44cf9cff3eb88712493ecac158",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "Tim Peters has died",
+    "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+    "url_hash": "d2326d2e7198d94165d15d00c3a4f4eb",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "AWS emulator",
+    "url": "https://github.com/aws/aws-emulator",
+    "url_hash": "73a4a1dba762aa0dd490d811cdad6917",
+    "source_type": "hackernews",
+    "repo": "aws/aws-emulator"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "93% of paint splatters are valid Perl programs (2019)",
+    "url": "https://www.mcmillen.dev/sigbovik/",
+    "url_hash": "8603b1cd1d2e766af5f18a91e8d07c40",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "Why Writing Correct Software Is Hard",
+    "url": "https://pron.github.io/posts/correctness-and-complexity",
+    "url_hash": "9ab5bdd7216d50ed001035948b292575",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "Anthropic IPO",
+    "url": "https://ipo.anthropic.com/us/",
+    "url_hash": "fe6ab28534d57e7c7e250dc05bc53c73",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "Libreagi – Save OSS Models",
+    "url": "https://libreagi.com/",
+    "url_hash": "a6b44590a0c24b4b539e5405331b4926",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "Quiz: Python HTTPX: Making HTTP Requests With HTTPX2",
+    "url": "https://realpython.com/quizzes/python-httpx/",
+    "url_hash": "4001a74b5f74ee6c06b94762e20160d6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "Beyond 12 Columns: Designing Layouts With Personality",
+    "url": "https://css-tricks.com/beyond-12-columns/",
+    "url_hash": "493a4314cfbfde74401508e2132f013b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
+    "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
+    "url_hash": "101841cc49c610ca69bfdc109a4c64a3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+    "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+    "url_hash": "a9bce8e547c5109d2ea412b83bda18f3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "Top Types of Hidden Coupling and How to Deal With Them",
+    "url": "https://blog.bytebytego.com/p/top-types-of-hidden-coupling-and",
+    "url_hash": "67a9b5c0a957e4d286e53bf893be3b49",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "The Roundup by ByteByteGo",
+    "url": "https://blog.bytebytego.com/p/the-roundup-by-bytebytego",
+    "url_hash": "1de8cbc7619cf0e5d56bab04e7f09715",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "LAST CALL FOR ENROLLMENT: Build Production Grade AI Systems",
+    "url": "https://blog.bytebytego.com/p/last-call-for-enrollment-build-production",
+    "url_hash": "cfe0a83d1fe9c83881e643be57ed3b19",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "Cybersecurity jobs in the US: what 2,330 open roles ask for and pay",
+    "url": "https://dev.to/sudogetjob/cybersecurity-jobs-in-the-us-what-2330-open-roles-ask-for-and-pay-325i",
+    "url_hash": "c729eb232e495f328ddb4496f5ab390b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "WARN Act and Class Action Lawsuits: How Workers Enforce the 60-Day Notice Rule",
+    "url": "https://dev.to/layoffatlas/warn-act-and-class-action-lawsuits-how-workers-enforce-the-60-day-notice-rule-1lam",
+    "url_hash": "c24feec77d03310cfcb9ba9dfbdde9d3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-12T16:58:41.543990+00:00",
+    "title": "These Companies Want Interns This Summer (Nov 12)",
+    "url": "https://dev.to/crackr/these-companies-want-interns-this-summer-nov-12-26en",
+    "url_hash": "05f91987de6e0e7f87caf50959358114",
+    "source_type": "rss"
   }
 ]
