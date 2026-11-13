@@ -13237,5 +13237,146 @@
     "url": "https://dev.to/crackr/these-companies-want-interns-this-summer-nov-12-26en",
     "url_hash": "05f91987de6e0e7f87caf50959358114",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+    "url": "https://brave.com/blog/search-api-agentic-payments/",
+    "url_hash": "011068ac2029ada9f2bf1f660d84eaf6",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Gemini 4 Hydrogen and Orchestrator",
+    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+    "url_hash": "138841aa1b3c8b6a64716687cc903817",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Learn With Mentor AI: Working Through a Coding Exercise",
+    "url": "https://realpython.com/mentor-ai-coding-exercise/",
+    "url_hash": "6ab6ab53c688f3b0649243e9a71a7e30",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "llm-gemini 0.37",
+    "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+    "url_hash": "622d7c6ea650079f820739114db037a3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Introducing ChatGPT Wallet",
+    "url": "https://openai.com/index/introducing-chatgpt-wallet",
+    "url_hash": "79d13e040f6ebd30a578bf9ebf7223ef",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+    "url": "https://openai.com/business/customer-stories/amplitude",
+    "url_hash": "bff67df79e98a4a294ba7cd7dab505b8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Gondola doubles revenue as its team builds more with Codex",
+    "url": "https://openai.com/business/customer-stories/gondola",
+    "url_hash": "0e0766ec9c770c31dcdc8634a3cd8507",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "How to Stand Out When Every Application Looks the Same",
+    "url": "https://dev.to/muhammadalimughal/how-to-stand-out-when-every-application-looks-the-same-2a8p",
+    "url_hash": "d3cf9ca818ed73d4e1e1da7461f1266b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Digital Footprint Check: Hidden Gem or Hard to Ignore?",
+    "url": "https://dev.to/mariankamenistak/digital-footprint-check-hidden-gem-or-hard-to-ignore-169g",
+    "url_hash": "2d2addd796e0282eff12599c74814476",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "STAR story bank: prep 8 interview stories once, reuse them everywhere",
+    "url": "https://dev.to/opspack/star-story-bank-prep-8-interview-stories-once-reuse-them-everywhere-4omc",
+    "url_hash": "17ae4ecc12bdffedbb40f30db5a58e22",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Reverse Engineering My Coway Air Purifier to Ditch the Cloud",
+    "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+    "url_hash": "b2b712e7f08e1a9419c4615b05499125",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+    "url": "https://github.com/simpsoka/zigzag",
+    "url_hash": "52716148917ed7a1045f78f96d04ff85",
+    "source_type": "hackernews",
+    "repo": "simpsoka/zigzag"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Get Started With Meta Muse in Python: Spark and Glimmer",
+    "url": "https://realpython.com/meta-muse-python/",
+    "url_hash": "fe17188829c8e8b13aa15ebaf0fd2863",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Schema Drift vs. Semantic Drift in Data Pipelines",
+    "url": "https://www.freecodecamp.org/news/schema-drift-vs-semantic-drift-in-data-pipelines/",
+    "url_hash": "9dca3ef6b75c13a15acaa48ffd8a4640",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "aws-emulator",
+    "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+    "url_hash": "467ef51719e28a09c1395ef27d67d377",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "url_hash": "1f76189be1eacadc04ed519961f68f73",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Why Zig over C for Systems Programming",
+    "url": "https://www.mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming/",
+    "url_hash": "42a9e4e8910d86c5704de8f79646c2cb",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Holiday Extras is rethinking what it can build with Codex",
+    "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+    "url_hash": "d8a1aef3d91b9a9208c587b8676fe974",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Browse tools.simonwillison.net by tag",
+    "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+    "url_hash": "18822a96792aa5da4ca04d6188e66a2c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-13T16:29:56.879084+00:00",
+    "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+    "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+    "url_hash": "5e66cc39373255318faead8a10323c16",
+    "source_type": "hackernews"
   }
 ]
