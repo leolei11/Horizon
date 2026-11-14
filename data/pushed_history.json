@@ -13378,5 +13378,146 @@
     "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
     "url_hash": "5e66cc39373255318faead8a10323c16",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "Monkey Island: all 13 versions side by side",
+    "url": "https://monkeyisland.pages.dev/",
+    "url_hash": "b2a65ebaa6206f760d9f839fcd707d08",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+    "url": "https://unsloth.ai/docs/models/qwen3.8",
+    "url_hash": "c0513a3e99e04f3b0999867a78c6575a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+    "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+    "url_hash": "1abe764f6860bf280eff199f795457f8",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "Free Live Masterclass: Building AI Agents That Work in the Real World",
+    "url": "https://blog.bytebytego.com/p/free-live-masterclass-building-ai",
+    "url_hash": "03c3bf18cf724a419ad394b91e8707be",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "datasette-cluster-map 0.19",
+    "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+    "url_hash": "d138dfaf63d43b335b64a40346e8854a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+    "url_hash": "9c47793813e07906377654923fbb430e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+    "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+    "url_hash": "f052c6845a6ebe45bacfbb83dcf15777",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+    "url": "https://openai.com/business/customer-stories/shield",
+    "url_hash": "db3076ba786e3f1f23f12292a5ca6d03",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "Build a Daily Remote Job Alert in Python from Remote OK, We Work Remotely, Jobicy and Working Nomads",
+    "url": "https://dev.to/frank0306_2838afa1791aac9/build-a-daily-remote-job-alert-in-python-from-remote-ok-we-work-remotely-jobicy-and-working-nomads-5dfb",
+    "url_hash": "043946a4cdd4a516ba56c58e8d4d6e63",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "I kept forgetting what I actually told companies… so I built this",
+    "url": "https://dev.to/saikatharryc/i-kept-forgetting-what-i-actually-told-companies-so-i-built-this-34c8",
+    "url_hash": "1f03be7b62bf619a8d0bc9e180e8154e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "Ggml v1.0.0",
+    "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+    "url_hash": "41d0464371e9ffcd7f238b718608cabf",
+    "source_type": "hackernews",
+    "repo": "ggml-org/ggml"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "Terminal borders that don't cost a cell",
+    "url": "https://www.joshka.net/cell-borders/",
+    "url_hash": "97420fbda516f339fc3fe4c8e5209e75",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "How to Speed Up CI in the Age of AI-Written Code",
+    "url": "https://www.freecodecamp.org/news/speed-up-ci-in-the-age-of-ai-written-code/",
+    "url_hash": "020616a58b61ffa10fa47e2ee4c3cdd1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "How to Build a Browser-Based Image Storyboard to PDF Tool Using JavaScript",
+    "url": "https://www.freecodecamp.org/news/build-image-storyboard-to-pdf-tool-javascript/",
+    "url_hash": "e7b95f4faf11185d3b260b3c90a9b3d4",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "datasette-leaflet 0.3",
+    "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+    "url_hash": "08920d408ac62f22b3c09d5ed7622e99",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "Owning a system you did not type",
+    "url": "https://dev.to/kayashaolu/owning-a-system-you-did-not-type-2k7h",
+    "url_hash": "22f6adbfc0590667a1cbdbcbf1a47fa6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "What Worked and What Didn't Building a Design Engineering Function",
+    "url": "https://dev.to/james-coombs/what-worked-and-what-didnt-building-a-design-engineering-function-1mn8",
+    "url_hash": "fa593a3301b6af1a4ea0dac9acaa4e13",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "What 13,721 live remote jobs tell us about hiring right now",
+    "url": "https://dev.to/rockysingh0177ux/what-13721-live-remote-jobs-tell-us-about-hiring-right-now-2pbg",
+    "url_hash": "feb4333b68ed2b23f162fb345a0f7b9a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "50 Docker Interview Questions: DevOps & SRE Guide 2026",
+    "url": "https://dev.to/naveedkumbhar/50-docker-interview-questions-devops-sre-guide-2026-388n",
+    "url_hash": "cefd644cdc6edda451c07a400b848e87",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-14T15:11:11.649631+00:00",
+    "title": "AI Engineer Course: What a Practical Curriculum Should Include",
+    "url": "https://dev.to/bcncodeschool/ai-engineer-course-what-a-practical-curriculum-should-include-1k6f",
+    "url_hash": "132bb72502016cbc051faba4eb798cc4",
+    "source_type": "rss"
   }
 ]
