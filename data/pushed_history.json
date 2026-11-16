@@ -13659,5 +13659,145 @@
     "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
     "url_hash": "bad262ace09e4bdd6a6356e2291b3720",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+    "url": "https://huggingface.co/blog/openrouter",
+    "url_hash": "6d3f3bd6ff12f5c55695bd74fe06ba09",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "How to Set Up a Python Project for Agentic Coding",
+    "url": "https://realpython.com/python-project-for-agentic-coding/",
+    "url_hash": "e4d9b39b3ce6a442332b79d8604601fc",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "datasette-agent 0.6a0",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+    "url_hash": "c5504dbb6eb3305a4f71798c293af795",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "Rewriting Your Resume in the Week After a Layoff",
+    "url": "https://dev.to/muhammadalimughal/rewriting-your-resume-in-the-week-after-a-layoff-4760",
+    "url_hash": "266eb726ff48f46ece86f26bd653ed2a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "Qwen4-Max",
+    "url": "https://qwen.ai/blog?id=qwen4-max",
+    "url_hash": "9a66e5d8e0acdafc8773188c88a92f82",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "How to make almost anything",
+    "url": "https://pub.cba.mit.edu/863.26/site/",
+    "url_hash": "912cbb5abb9fc86c40b8bc0b0a0a1977",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+    "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+    "url_hash": "1d371521480aa56c8015dfc095fcfb10",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "The Active Directory Era Is Finally Over",
+    "url": "https://infisical.com/blog/active-directory-machine-identity",
+    "url_hash": "e0d45291b569f935775df2ef3e4f080c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "Jiff 1.0: A datetime library for Rust",
+    "url": "https://burntsushi.net/jiff/",
+    "url_hash": "a381a079fe7d61d8ad65dabb37d460b3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "Grazing sheep in fields with solar arrays",
+    "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+    "url_hash": "2e7ee656e324cda97557ef06a3606fa9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "Your First Production Incident, on Localhost: an Open-Source Lab",
+    "url": "https://dev.to/soaresdiogo/your-first-production-incident-on-localhost-an-open-source-lab-1l1n",
+    "url_hash": "363ab057d125e4f5055193d5c78f64a5",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "datasette-apps 0.4a0",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+    "url_hash": "ffaae58576b06c2603dfce8260b57cd3",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "datasette 1.0a43",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+    "url_hash": "b1d473e02458321b4773452af981df7c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "datasette-maplibre 0.1a0",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+    "url_hash": "17dc0c78b9f63cb5cceac76ce453630c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "Offboarding a teammate without touching anyone's personal phone: our 6-step checklist",
+    "url": "https://dev.to/growthmktg/offboarding-a-teammate-without-touching-anyones-personal-phone-our-6-step-checklist-d2e",
+    "url_hash": "93fd341b5b1eed1080717d7f10530916",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "Universal XSS in uBlock Origin from website-driven element picker",
+    "url": "https://iter.ca/post/ubo-uxss/",
+    "url_hash": "9d47441fbfc99d388690f5a1cfd72420",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "How Instacart Uses LLMs to Make People Buy More",
+    "url": "https://blog.bytebytego.com/p/how-instacart-uses-llms-to-make-people",
+    "url_hash": "7995453dd001a22a6b24dd2485fba3f7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "LAST CALL FOR ENROLLMENT: AI Engineering Fundamentals",
+    "url": "https://blog.bytebytego.com/p/last-call-for-enrollment-ai-engineering",
+    "url_hash": "bba5d30cce4c115699d0d17219741912",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "Staggering Scroll-Driven Animations with animation-range-start",
+    "url": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
+    "url_hash": "92ac94014fa8eafb97e621f075d71df6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-16T18:40:44.509039+00:00",
+    "title": "7 Best Free Client-Side PDF Tools in 2026: Compare PDF, Remove Pages, Redact PDF & Build ATS Resumes Without Server Uploads",
+    "url": "https://dev.to/harsh_kushwah_bbab05ec3b8/7-best-free-client-side-pdf-tools-in-2026-compare-pdf-remove-pages-redact-pdf-build-ats-22cc",
+    "url_hash": "6ad6c52a7a5965c0e932439d9f076aac",
+    "source_type": "rss"
   }
 ]
