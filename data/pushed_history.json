@@ -13939,5 +13939,145 @@
     "url": "https://blog.bytebytego.com/p/why-thinking-more-can-make-an-llm",
     "url_hash": "a010b42c5a7fcbe28deb170de3738dec",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "External sandboxes for coding agents",
+    "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+    "url_hash": "82d7263aa78c32c58887714ecaf49d88",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "How to Build a Translator with Chrome’s Built-In AI",
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-translator-with-chrome-s-built-in-ai/",
+    "url_hash": "7e9dc041edd43a9878d4ddb96495a143",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+    "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+    "url_hash": "d70ac167beb53874483f20ca24f642c1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+    "url": "https://huggingface.co/blog/moe-expert-streaming",
+    "url_hash": "2a8e5c49de3f8f2be06d31acc9974b0a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "8 Remote SWE Jobs You Can Apply to From Anywhere (Nov 18)",
+    "url": "https://dev.to/crackr/8-remote-swe-jobs-you-can-apply-to-from-anywhere-nov-18-511j",
+    "url_hash": "030002d16cd99ba22fe510581eac6b75",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
+    "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+    "url_hash": "93bb115c2bb54a89bba3aae8887895d7",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "Evals for AI Engineers",
+    "url": "https://blog.bytebytego.com/p/evals-for-ai-engineers",
+    "url_hash": "05dd771c5fc87103ff9fd64019edde58",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "Why is Gemini 4 Carbon taking so long?",
+    "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+    "url_hash": "bb125cb46c2ab046ab8110b91c521fc3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "Energy-Based Reasoners: 385x more efficient inference",
+    "url": "https://energy-based-reasoners.github.io/",
+    "url_hash": "e3cc75296c898a654cc126fb7536a35b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "llm 0.37.3",
+    "url": "https://simonwillison.net/2026/Nov/16/llm/",
+    "url_hash": "6261d41c4a14ecf2bd824e8666bc07b6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "Quiz: Nuitka: Compile Python Into a Standalone Executable",
+    "url": "https://realpython.com/quizzes/nuitka/",
+    "url_hash": "60603321e3c969948146e75fd554b9fa",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+    "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+    "url_hash": "4d78af90339242a1c534554279b3dbda",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+    "url": "https://huggingface.co/blog/rumble-2-flash",
+    "url_hash": "f21a02eb186bc1fb5f61f479e3db7f16",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "How to Build an NLP Pipeline in Python to Analyze Therapy Progress Notes",
+    "url": "https://www.freecodecamp.org/news/build-nlp-pipeline-python-therapy-notes/",
+    "url_hash": "04a67d33610931661584a2544f121f43",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "34 PRs abiertos con diálogo activo: el manual de comunicación con mantainers",
+    "url": "https://dev.to/edison_flores_6d2cd381b13/34-prs-abiertos-con-dialogo-activo-el-manual-de-comunicacion-con-mantainers-1k17",
+    "url_hash": "d3879b49411b5634d271ba3966630591",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "Poland says it thwarted false flag operation near border with Kaliningrad",
+    "url": "https://www.yahoo.com/news/world/articles/russia-reportedly-planned-mass-casualty-090500574.html",
+    "url_hash": "450ba34d9328aff65354aeb039cd3449",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "How to write a freelance proposal that gets a yes: 6 sections",
+    "url": "https://dev.to/opspack/how-to-write-a-freelance-proposal-that-gets-a-yes-6-sections-2dcp",
+    "url_hash": "549b9d128ea60e64215c84ebf7188b25",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "How to find paid internships",
+    "url": "https://dev.to/datafordresearch/how-to-find-paid-internships-1c0g",
+    "url_hash": "3d7f6f96d4cb67b297d28601b13ab409",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "Pasarela FP Superior a Ingeniería Informática en España (2026/27): convalidaciones ECTS, notas de corte y modelo PAU",
+    "url": "https://dev.to/pablo_cirre_2892fc45f3d5f/pasarela-fp-superior-a-ingenieria-informatica-en-espana-202627-convalidaciones-ects-notas-de-3e8f",
+    "url_hash": "f2784d85806b24e7b51c99c6f9cd7a4b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-18T17:22:28.862013+00:00",
+    "title": "Strengthening NATO and allied cyber defenses with AI",
+    "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+    "url_hash": "3dacc3cb13a76ed0ab614b114d69a15f",
+    "source_type": "rss"
   }
 ]
