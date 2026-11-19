@@ -14079,5 +14079,146 @@
     "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
     "url_hash": "3dacc3cb13a76ed0ab614b114d69a15f",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Build an AI Agent From Scratch in Python: The Agentic Loop",
+    "url": "https://realpython.com/agentic-loop/",
+    "url_hash": "2c3ae56e21966d2a1a9fe0c8d8e918e2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Introducing GPT-6.2 Astra and Sol",
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "url_hash": "b02ac3a3fe5a475669b50943d3a2a72a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Quoting Daniel Stenberg",
+    "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+    "url_hash": "087208186aea072f1a3d01898c4501ff",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "OpenAI still has a WebRTC Problem",
+    "url": "https://moq.dev/blog/webrtc-is-still-the-problem/",
+    "url_hash": "e1a1ee265db95786d7196cdbff8b004c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Research acceleration: The jagged frontier",
+    "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+    "url_hash": "32f46a407aa3905b4ffdceef905299c9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Inside the Codex sandbox",
+    "url": "https://openai.com/index/inside-the-codex-sandbox",
+    "url_hash": "271c8d9c47fbf7cbbc896f87febf9045",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Everything you need to survive and rebuild society",
+    "url": "https://lastbook.org/",
+    "url_hash": "f2260d5cbb55ec2ba96420df0facab81",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Cooling buildings is overtaking heating them as an energy need, IEA says",
+    "url": "https://maccus.fr/en/cooling-overtaking-heating/",
+    "url_hash": "4fa511c4ec31e6f16735de009b8c0900",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
+    "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+    "url_hash": "82f96c59b9bfff07b3daf8119c6a6e95",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Someone reported java4shell bug in September 2026",
+    "url": "https://github.com/openjdk/jdk/pull/32781",
+    "url_hash": "5fb8f830592fe6441de7d38fb0997436",
+    "source_type": "hackernews",
+    "repo": "openjdk/jdk"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "datasette-arrows 0.1a0",
+    "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+    "url_hash": "55da6b821d9c71780db6f16837798d7b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Handling async interview deadlines across time zones",
+    "url": "https://dev.to/jackmally/handling-async-interview-deadlines-across-time-zones-2gcn",
+    "url_hash": "cf64b1960fba16e4548f1803971d0ce1",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Distributed, high-performance blob storage on SQLite",
+    "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+    "url_hash": "b75e32b987d67c4e42cd28904f333bce",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "scroll-state()",
+    "url": "https://css-tricks.com/almanac/functions/s/scroll-state/",
+    "url_hash": "eeb3d7259a6b72eeb632009d37b3a524",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Data Management With Python, SQLite, and SQLAlchemy",
+    "url": "https://realpython.com/python-sqlite-sqlalchemy/",
+    "url_hash": "6c5f332d530d252d41565e8f64477cda",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "What's New in PHP 8.6",
+    "url": "https://www.php.net/releases/8.6/en.php",
+    "url_hash": "9e41a8e7e78701f2775528df498b76b8",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Postgres 19 is here (GTA VI can wait)",
+    "url": "https://postgresweekly.com/issues/674",
+    "url_hash": "0329027326ff42861e76bf909544b539",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Nuitka: Compile Python Into a Standalone Executable",
+    "url": "https://realpython.com/nuitka/",
+    "url_hash": "5a84f888199ca0bbbeae31e9bbd467e0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Combining Data in pandas With merge(), .join(), and concat()",
+    "url": "https://realpython.com/pandas-merge-join-and-concat/",
+    "url_hash": "d149f70738906c76b1293a7c073e848a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-19T17:30:14.263323+00:00",
+    "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+    "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+    "url_hash": "f99b49e5fcc59476bba6d2a0fe4972a0",
+    "source_type": "rss"
   }
 ]
