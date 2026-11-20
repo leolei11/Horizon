@@ -14220,5 +14220,146 @@
     "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
     "url_hash": "f99b49e5fcc59476bba6d2a0fe4972a0",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+    "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+    "url_hash": "6ea811258a4650083c1e6d3a282162e2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "llm-gemini 0.38",
+    "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+    "url_hash": "54258b5fb3eb437a0047a3883629a942",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "The \"fi\" in \"first\": what Python reads from a Google Docs resume PDF",
+    "url": "https://dev.to/michaelwilsonn/the-fi-in-first-what-python-reads-from-a-google-docs-resume-pdf-30g6",
+    "url_hash": "0189804e873d160cfeddc685d8bf301f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "I Hired Five Agents. Now I Work for Them.",
+    "url": "https://dev.to/hfloresgu/i-hired-five-agents-now-i-work-for-them-4b94",
+    "url_hash": "2b037e0ae94db2a8d862d8a0f850dc6c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+    "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+    "url_hash": "36fc2aa6ea1098d267ddb18067a0924b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "Claude solves two open problems in the physics of black holes",
+    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+    "url_hash": "152a51b24f6c74105571cd294e820bbc",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "FFmpeg 9.1 'Gauss'",
+    "url": "https://ffmpeg.org/download.html#release_9.1",
+    "url_hash": "56eb8ec05c7079e98030dcf4ded2f2f4",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars (2019)",
+    "url": "https://ecohustler.com/article/one-corporation-to-pollute-them-all/",
+    "url_hash": "840dfeb7c96152bf843cb8fd3994a032",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "Signal Is Serious About Protecting Your Privacy",
+    "url": "https://signal.org/blog/protecting-your-privacy/",
+    "url_hash": "ffbabc210ebfdee55d2337d371491028",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "The Making of Oxygene",
+    "url": "https://jeanmicheljarre.com/aaa/the-making-of-oxygene",
+    "url_hash": "96c3844d968b90dcdf002dd09daf715a",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "PostgreSQL 19 Released",
+    "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+    "url_hash": "5c43a13332be94277f6fceda24a1ed13",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "How to Build a Browser-Based PDF Password Protector Using JavaScript",
+    "url": "https://www.freecodecamp.org/news/build-pdf-password-protector-javascript/",
+    "url_hash": "35980f75c45cb0ff2e06da4ea1f3b03d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
+    "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+    "url_hash": "d1f2aa243cda805ea12ac5cd48d2ef1b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+    "url": "https://github.com/openssl/openssl/pull/33652",
+    "url_hash": "083c1eec1622d08c08cc594e5b16d674",
+    "source_type": "hackernews",
+    "repo": "openssl/openssl"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "What people are building, discovered through new domains",
+    "url": "https://startups.novumsignals.com/",
+    "url_hash": "2721771f814fee029e5e1692017de814",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "If you stop writing code, you also get worse at reviewing it",
+    "url": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
+    "url_hash": "62260848cc34dd3fe4baa5eb5e3d0478",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+    "url": "https://alpo.ge/remark.pdf",
+    "url_hash": "9d1da816f058180505626b6d961eacee",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "I'll never buy Framework hardware again",
+    "url": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+    "url_hash": "51eea42f33624e3433cf1c98fb9441a2",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "Returning to Tech After a Long Break: A Resume That Earns the Interview",
+    "url": "https://dev.to/muhammadalimughal/returning-to-tech-after-a-long-break-a-resume-that-earns-the-interview-5fai",
+    "url_hash": "20d4ccd87e502b9d6de2d9b0c8a27540",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-20T17:06:50.686885+00:00",
+    "title": "How to Revise for an EM Interview with Flashcards (Without Memorising Scripts)",
+    "url": "https://dev.to/rainbowroadprep/how-to-revise-for-an-em-interview-with-flashcards-without-memorising-scripts-2l22",
+    "url_hash": "cd384b5f1564ad4416c8034808ba994b",
+    "source_type": "rss"
   }
 ]
