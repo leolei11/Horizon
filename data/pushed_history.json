@@ -14787,5 +14787,146 @@
     "url": "https://blog.bytebytego.com/p/doordash-dispatch-building-a-lightning",
     "url_hash": "1cf4d0922d12ec0c116b0137e2a6e94c",
     "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "Build an AI Agent From Scratch in Python",
+    "url": "https://realpython.com/courses/build-ai-agent-scratch-python/",
+    "url_hash": "dcc5761a3056b46acf0e6f1374a4d5fd",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "AI is hiring. Your demo isn't enough.",
+    "url": "https://dev.to/deployedlabs/ai-is-hiring-your-demo-isnt-enough-3c7i",
+    "url_hash": "708ba9157bc4e46c19f63a31251bf20a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "How iFood scales coding agents across 15,000 repositories",
+    "url": "https://openai.com/business/customer-stories/ifood",
+    "url_hash": "b13885c65c3dcbb93ee16ad8b2823688",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+    "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+    "url_hash": "8a1cabb87fa1228d3b997eb4bf5b1160",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "GPT 6.2 Astra Solves a Historical Mystery",
+    "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+    "url_hash": "28bea6c51eafe149d072f0585a63edb2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "Data engineer cover letter, with an example you can adapt",
+    "url": "https://dev.to/fourleaf/data-engineer-cover-letter-with-an-example-you-can-adapt-532j",
+    "url_hash": "76fa7f60f7506b0e2af0fe1ad399249c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "The new set of problems for engineers to solve",
+    "url": "https://www.katelynlesse.com/blog/new-problems-for-engineers-to-solve",
+    "url_hash": "598e78c7061f4b10078b339831f244b5",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "The search for a top dark matter candidate",
+    "url": "https://www.smithsonianmag.com/science-nature/the-search-for-a-top-dark-matter-candidate-was-losing-hope-then-came-a-potential-signal-will-it-be-enough-to-energize-the-struggling-field-180989923/",
+    "url_hash": "da6bdad787e9cab98b5904991618aa2e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "Worshipping at the altar of Brendan Gregg",
+    "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
+    "url_hash": "295798a5f08af93eadae226574d55a66",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "LLM agents work for their parent companies, not for you",
+    "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+    "url_hash": "5b976b0c98e3f0d5b46bf6484b2baa9e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "datasette-charts 0.1a0",
+    "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+    "url_hash": "2d3cae1b23a0b708b0da3eb302000d52",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "OpenAI and Cisco introduce Shirudo",
+    "url": "https://openai.com/index/introducing-shirudo",
+    "url_hash": "4dc6c6490d75196c0fb0cbd5ec63e5da",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "Using Fallbacks for a Robust Front-End",
+    "url": "https://css-tricks.com/using-frontend-fallbacks/",
+    "url_hash": "7096a1dec2d06a4932694a4ac7493509",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "2035 came early",
+    "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+    "url_hash": "79e836ced805a95559060c6908b7e469",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "GTA 6 Running on Windows",
+    "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
+    "url_hash": "d99f519d7004f2317081f3107ea46fce",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "A training engine for your local model, using your idle compute",
+    "url": "https://github.com/sous-labs/songe",
+    "url_hash": "ca9d8546152ee5ba51f671e530296b31",
+    "source_type": "hackernews",
+    "repo": "sous-labs/songe"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "Camillo Sitte made the blueprint for beautiful cities",
+    "url": "https://www.worksinprogress.news/p/how-to-make-a-lovable-city",
+    "url_hash": "7adc342db36bc35bf44e4ccca3180281",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "Jetty Pro",
+    "url": "http://hypercritical.co/2026/11/23/jetty-pro",
+    "url_hash": "70a9b23303d3cc34acb4c0981d7195b3",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "Active Intrusion Campaign Against Check Point Security Management Servers",
+    "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+    "url_hash": "20d0d697a21e8f250ef712279f0d662b",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-24T19:37:44.491040+00:00",
+    "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+    "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+    "url_hash": "c1fddab26187431373e0b2242260a89b",
+    "source_type": "hackernews"
   }
 ]
