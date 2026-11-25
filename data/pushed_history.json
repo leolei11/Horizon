@@ -14928,5 +14928,148 @@
     "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
     "url_hash": "c1fddab26187431373e0b2242260a89b",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Clay helps sales teams win with Codex and ChatGPT",
+    "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+    "url_hash": "57c260d39b61c4599d492dd057d57378",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Ternary Bonsai 2.5 27B",
+    "url": "https://prismml.com/news/bonsai-2-5-27b",
+    "url_hash": "90cede4cba6a901415bd07ea1e60c0df",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "LLM Evaluation in Python: Build an Eval Harness From Scratch",
+    "url": "https://realpython.com/llm-evaluation/",
+    "url_hash": "f40898d3ec625605e8729dc6f70c731b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Meta Interview Process: Stages, AI Rounds and How to Prepare",
+    "url": "https://dev.to/undernogabriel/meta-interview-process-stages-ai-rounds-and-how-to-prepare-gp6",
+    "url_hash": "fab6c6834966023d0a625d5468fe7d9b",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Porting Rockbox to an Undocumented $9 Aliexpress 'YP3' MP3 Player with LLMs",
+    "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+    "url_hash": "410a7866fd01b974078461ebb0970228",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "The matrix multiplication exponent is nine fourths [pdf]",
+    "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+    "url_hash": "03061f7a974feac94d48c71578cc01d5",
+    "source_type": "hackernews",
+    "repo": "openai/math"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+    "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+    "url_hash": "e9cbb368eaea8414ba7195c467d6e909",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+    "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+    "url_hash": "361a95afbb6bdcde2c43b66834339a2c",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+    "url": "https://buttons.joshwcomeau.com/",
+    "url_hash": "4855e4735ff24ba84e6752f2502af2ac",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Smart people who give a shit use tools",
+    "url": "https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools",
+    "url_hash": "29578c6ad06194cd6e6c05fdb0308fb9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "How to Set Up and Customize Light and Dark Mode in shadcn with Next.js",
+    "url": "https://www.freecodecamp.org/news/how-to-set-up-and-customize-light-and-dark-mode-in-shadcn-with-next-js/",
+    "url_hash": "dc6f81413848841ef61e892b32294d3f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Ladybird's first alpha release",
+    "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+    "url_hash": "9eac61221b0acf8be29b606ed70524ab",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "datasette-agent 0.7a1",
+    "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+    "url_hash": "a780eaeb3f195a3a443aa6cb3d6543ef",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "A free proposal template for web projects (copy it, it is yours)",
+    "url": "https://dev.to/harborstudio/a-free-proposal-template-for-web-projects-copy-it-it-is-yours-1mha",
+    "url_hash": "78414e3309f07750b16dd6d7d1be3f25",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Seven questions to ask before you hire anyone to build your website",
+    "url": "https://dev.to/harborstudio/seven-questions-to-ask-before-you-hire-anyone-to-build-your-website-1ela",
+    "url_hash": "4033ce80ff8e4497669b85f004623348",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "How I'm Systematising My UK Global Talent Visa Application as a Developer",
+    "url": "https://dev.to/ghagsagar23/how-im-systematising-my-uk-global-talent-visa-application-as-a-developer-39e4",
+    "url_hash": "b0ddf7e47dde5ae5fc96d155c6ed4c03",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "RSS Club: Preview Art-Directed Scrollytelling Article",
+    "url": "https://css-tricks.com/rss-club-preview-art-directed-scrollytelling-article/",
+    "url_hash": "6c19721504bc404fe8699218e22e8327",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+    "url": "https://github.com/xoxorwr/pw-loudness-eq",
+    "url_hash": "c840cde9de6cc57ebfe3b1fdea31be92",
+    "source_type": "hackernews",
+    "repo": "xoxorwr/pw-loudness-eq"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+    "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+    "url_hash": "39f894ba456011038b4566f2f4b41116",
+    "source_type": "hackernews",
+    "repo": "google-research/google-research"
+  },
+  {
+    "pushed_at": "2026-11-25T18:46:19.058462+00:00",
+    "title": "In C++, = default and {} are not the same constructor",
+    "url": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
+    "url_hash": "6fa9a6ae8ab7a2ae86d59039a7024f5b",
+    "source_type": "hackernews"
   }
 ]
