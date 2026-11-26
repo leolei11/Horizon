@@ -15071,5 +15071,146 @@
     "url": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
     "url_hash": "6fa9a6ae8ab7a2ae86d59039a7024f5b",
     "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+    "url": "https://huggingface.co/blog/training-swarms",
+    "url_hash": "b2b31d3adae10c7d4d6f0a2509202eb9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Nineteen days, zero dollars: notes from an AI agent trying to earn its first payment",
+    "url": "https://dev.to/mollie_ilands/nineteen-days-zero-dollars-notes-from-an-ai-agent-trying-to-earn-its-first-payment-3c37",
+    "url_hash": "8c3fb06b7e79402fe03026e730e620ec",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "An Indic Voice Agent with CUGA",
+    "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+    "url_hash": "7b1bdc5dda43a42c22c71cad8e72123f",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "55 Chapters Free. The Rest Is $5 a Month.",
+    "url": "https://dev.to/deployedlabs/55-chapters-free-the-rest-is-5-a-month-4ihc",
+    "url_hash": "de1011200db9d5fcf6dfaf90dd530b1e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "When Interview Prep Meets the Unexpected",
+    "url": "https://dev.to/aipluslabs/when-interview-prep-meets-the-unexpected-53ai",
+    "url_hash": "942f0aa3b7f5008ede9d7d8aa4bb52ee",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Moat: Your OpenRouter Replacement",
+    "url": "https://commandcode.ai/moat",
+    "url_hash": "1992275f47c54ac0951b40f669e51b4e",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "1Password Security Incident",
+    "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+    "url_hash": "659c73568a907ee41b211184b7667e09",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Nextcloud Office Desktop app",
+    "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+    "url_hash": "ddb3a8c1bb1d1339f64338806c458631",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+    "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "url_hash": "bacf1389cf533ea12ce5bafe67e044a6",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+    "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+    "url_hash": "1f79108f5e27fa503e43d941b8a054db",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Postgres 19 lands on your Mac (and in WASM)",
+    "url": "https://postgresweekly.com/issues/675",
+    "url_hash": "18de72435882d509215cf5764d036335",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "How to Deploy to Amazon S3 Using GitLab CI/CD and AWS OIDC Without AWS Access Keys",
+    "url": "https://www.freecodecamp.org/news/how-to-deploy-to-amazon-s3-using-gitlab-ci-cd-and-aws-oidc-without-aws-access-keys/",
+    "url_hash": "f75086c46a9dd38b1fef4ad51b3ef85e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Style Queries as Conditional Modifiers",
+    "url": "https://css-tricks.com/css-style-queries-as-conditional-modifiers/",
+    "url_hash": "b08eb8affaaa7b7a75a8a0d8886a8713",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "datasette-charts 0.3a0",
+    "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+    "url_hash": "147c7594963ebb0a86d9fa7ecf5c00e7",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Minipg: PostgreSQL as a Single Executable",
+    "url": "https://progrium.github.io/minipg/",
+    "url_hash": "7e74d2179bdda910826bb5179eeb15a2",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+    "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+    "url_hash": "1fcdbabd38e1fabd3196d3fd61244f2d",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Quiz: LLM Evaluation in Python: Build an Eval Harness From Scratch",
+    "url": "https://realpython.com/quizzes/llm-evaluation/",
+    "url_hash": "c41655239ddd0c305a0cddbbfe40e0f8",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+    "url": "https://michidk.github.io/sidebyside/",
+    "url_hash": "392e55ab7e56d625a834f177ba436bb2",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "The No AI Slop Manifesto: A Pledge to Own What Agents Ship",
+    "url": "https://realpython.com/no-ai-slop-manifesto/",
+    "url_hash": "f7914b72ba9904dd0a61f79829ac07d0",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-26T18:29:00.176282+00:00",
+    "title": "Intel One Mono font",
+    "url": "https://github.com/intel/intel-one-mono",
+    "url_hash": "b4057b88094f23f0aaf4210ce1743457",
+    "source_type": "hackernews",
+    "repo": "intel/intel-one-mono"
   }
 ]
