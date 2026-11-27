@@ -15212,5 +15212,146 @@
     "url_hash": "b4057b88094f23f0aaf4210ce1743457",
     "source_type": "hackernews",
     "repo": "intel/intel-one-mono"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+    "url": "https://bouncemarket.minhanhday.com/",
+    "url_hash": "e780a7454b17b9c2c54d260b853d4b34",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "Group chat where your AI talks behind your back",
+    "url": "https://construct22.com/",
+    "url_hash": "a1e4246bbba40461bcd2b25ab361dcb1",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "\"What's Claude's fursona?\" and other questions",
+    "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+    "url_hash": "adb10c0f94ea8cec6f7f09916ffbe6b9",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "Google Sets a Deadline for AI Agents Working in Gmail",
+    "url": "https://realpython.com/ai-news-weekly-2026-11-27/",
+    "url_hash": "bf0ad4fd4a2f0f36c7842feb04251979",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "url": "https://huggingface.co/blog/video-trainium3",
+    "url_hash": "0f9e4500bae518dd5a317f25cacdda04",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "The Italy house-help job: what it pays before you go",
+    "url": "https://dev.to/alessandroilands/the-italy-house-help-job-what-it-pays-before-you-go-25bf",
+    "url_hash": "14fb5e8070074b57a2239ce9a89dc751",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "Frontend resume keywords belong in your bullets, not a tag cloud",
+    "url": "https://dev.to/sarah_m/frontend-resume-keywords-belong-in-your-bullets-not-a-tag-cloud-3iap",
+    "url_hash": "cc059295a7ba474797a95b20eb0c32bf",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "How to Scrape LinkedIn Jobs Without Logging In (Python, 2026)",
+    "url": "https://dev.to/yaroslavdidkiviskiy/how-to-scrape-linkedin-jobs-without-logging-in-python-2026-65l",
+    "url_hash": "df706544f307edc9e495ca9507bd524a",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "八家大公司一个晚上加入招聘板，其中六家公开了薪资",
+    "url": "https://dev.to/bill_zuo_921a4a2d393c9d32/ba-jia-da-gong-si-ge-wan-shang-jia-ru-zhao-pin-ban-qi-zhong-liu-jia-gong-kai-liao-xin-zi-3ilh",
+    "url_hash": "7cb4f440077ed87886c83a7930e06c3e",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "AI made self-hosting fun again",
+    "url": "https://janlukas.blog/posts/ai-self-hosting",
+    "url_hash": "db346c81e0555ae4806402ee967d98c5",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "AMD-specific fork of llama.cpp",
+    "url": "https://devnull.land/amd-specific-llama-cpp",
+    "url_hash": "67f71f74cf6f411be118abdbc5e8ec95",
+    "source_type": "hackernews"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "A Year, One Sphere, Many Shapes: Houmahani Kane’s Portfolio",
+    "url": "https://tympanus.net/codrops/2026/11/26/houmahani-kane-portfolio/",
+    "url_hash": "1297e3e87581760b34f878a6d97539c9",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "Using light-dark() without getting caught out",
+    "url": "https://css-tricks.com/using-light-dark-without-getting-caught-out/",
+    "url_hash": "65e0f262b1fdbb6d099c9e4e88ad4a17",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "The Life of a Database Row: What Really Happens Behind the Scenes",
+    "url": "https://blog.bytebytego.com/p/the-life-of-a-database-row-what-really",
+    "url_hash": "a573979a005a70b61c74a647a21a6e33",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "The Real Python Podcast – Episode #320: Optimizing Python Performance & Building a Django Static Site",
+    "url": "https://realpython.com/podcasts/rpp/320/",
+    "url_hash": "95cf9b1fcbd350d81823d61bfce53251",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "How to Chase a Late Invoice Without Feeling Awkward",
+    "url": "https://dev.to/andriano_wijaya_15a527472/how-to-chase-a-late-invoice-without-feeling-awkward-7p3",
+    "url_hash": "dd5fd942915b256994f6d32480bfb3c2",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "Tech debt as a portfolio: how to get it paid down",
+    "url": "https://dev.to/ayushwing/tech-debt-as-a-portfolio-how-to-get-it-paid-down-15p8",
+    "url_hash": "44d3fc98309aeea2313d7c1738370912",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "FR-FCFS Explained: How Memory Controllers Pick the Next Command (and Why It Starves)",
+    "url": "https://dev.to/open_row_3ba1a2dd6799f1c9/fr-fcfs-explained-how-memory-controllers-pick-the-next-command-and-why-it-starves-4cf9",
+    "url_hash": "6df246247c39e506281002bcd9d7ef5c",
+    "source_type": "rss"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+    "url": "https://github.com/antonpictures/youtube-punisher",
+    "url_hash": "82596407757c2836ff14fafe67a1e2a0",
+    "source_type": "hackernews",
+    "repo": "antonpictures/youtube-punisher"
+  },
+  {
+    "pushed_at": "2026-11-27T18:15:23.838462+00:00",
+    "title": "How we estimate the employer cost of a first W-2 hire (2026 federal rates, state tax as inputs)",
+    "url": "https://dev.to/costofanemployee/how-we-estimate-the-employer-cost-of-a-first-w-2-hire-2026-federal-rates-state-tax-as-inputs-gie",
+    "url_hash": "242c07172e0ed0e680899aa3beac3675",
+    "source_type": "rss"
   }
 ]
